@@ -1,0 +1,515 @@
+language=en probability=1.000
+
+[00:00:00 - 00:00:03] So, I want you to picture this.
+[00:00:03 - 00:00:05] You've studied for weeks.
+[00:00:05 - 00:00:06] Oh yeah.
+[00:00:06 - 00:00:07] You know the material backward and forward,
+[00:00:07 - 00:00:10] you completely nailed the practice test, right?
+[00:00:10 - 00:00:13] But the second you sit down in that quiet room,
+[00:00:13 - 00:00:15] the fluorescent lights are buzzing,
+[00:00:15 - 00:00:16] you flip the exam paper over,
+[00:00:16 - 00:00:18] and you just completely freeze.
+[00:00:18 - 00:00:20] Like your mind goes entirely blank.
+[00:00:20 - 00:00:22] Completely blank, why does that happen?
+[00:00:22 - 00:00:24] Well, if you ask a psychologist,
+[00:00:24 - 00:00:25] they're gonna tell you one thing.
+[00:00:25 - 00:00:27] But if you ask a neurobiologist,
+[00:00:27 - 00:00:29] they will give you a completely different answer.
+[00:00:29 - 00:00:31] And, you know, the neither of them is wrong.
+[00:00:31 - 00:00:32] Right.
+[00:00:32 - 00:00:34] So today, we're doing a deep dive
+[00:00:34 - 00:00:36] into the dynamic relationship
+[00:00:36 - 00:00:39] between neuroscience and psychology.
+[00:00:39 - 00:00:41] We're unpacking how these two fields
+[00:00:41 - 00:00:43] don't actually compete.
+[00:00:43 - 00:00:45] Our mission today is to show how they come together
+[00:00:45 - 00:00:49] to fully explain like the entire human experience.
+[00:00:49 - 00:00:50] Yeah, because freezing up on a test
+[00:00:50 - 00:00:53] is this universally frustrating human experience.
+[00:00:53 - 00:00:55] And it perfectly illustrates
+[00:00:55 - 00:00:57] this massive misconception that people have.
+[00:00:57 - 00:00:58] Okay, let's unpack this.
+[00:00:58 - 00:00:59] What misconception?
+[00:00:59 - 00:01:03] Well, people tend to think that psychology
+[00:01:03 - 00:01:08] and neuroscience are sort of fighting
+[00:01:08 - 00:01:10] to be the right way to view human behavior.
+[00:01:10 - 00:01:12] Like it has to be one or the other.
+[00:01:12 - 00:01:13] But they're not.
+[00:01:13 - 00:01:14] No, not at all.
+[00:01:14 - 00:01:16] They're actually looking at the exact same event
+[00:01:16 - 00:01:18] and the exact same student.
+[00:01:18 - 00:01:20] But they're just asking fundamentally different questions
+[00:01:20 - 00:01:22] to gather entirely different data.
+[00:01:22 - 00:01:24] Right, because to the untrained eye,
+[00:01:24 - 00:01:26] a freeze is just a freeze.
+[00:01:26 - 00:01:27] But if we view this behavior
+[00:01:27 - 00:01:29] through the psychological lens,
+[00:01:29 - 00:01:32] we are really looking at meaning and context.
+[00:01:32 - 00:01:35] Exactly, the psychology lens focuses on the mind.
+[00:01:35 - 00:01:38] Right, a psychologist is looking at that student at the desk
+[00:01:38 - 00:01:43] and asking about their internal and external reality.
+[00:01:43 - 00:01:45] Like what did that person perceive in that moment?
+[00:01:45 - 00:01:47] What did they expect was gonna happen?
+[00:01:47 - 00:01:48] Yeah, they're examining the thoughts,
+[00:01:48 - 00:01:51] the emotions, maybe the ingrained habits
+[00:01:51 - 00:01:52] that shape that freezing behavior.
+[00:01:52 - 00:01:54] Like is there some deep-seated fear or failure?
+[00:01:54 - 00:01:58] Or maybe the specific phrasing of that very first question
+[00:01:58 - 00:02:01] triggered a memory of a past academic disaster or something?
+[00:02:01 - 00:02:03] Precisely.
+[00:02:03 - 00:02:05] The psychological lens is deeply concerned
+[00:02:05 - 00:02:07] with the subjective experience.
+[00:02:07 - 00:02:10] It's looking at the threat appraisal happening
+[00:02:10 - 00:02:11] in that student's mind.
+[00:02:11 - 00:02:12] But then you swap lenses, right?
+[00:02:12 - 00:02:14] You look through the neuroscience lens
+[00:02:14 - 00:02:17] and the focus shifts entirely to the physical mechanisms
+[00:02:17 - 00:02:20] like operating inside the actual nervous system.
+[00:02:20 - 00:02:22] Yeah, the physical hardware.
+[00:02:22 - 00:02:23] Yeah.
+[00:02:23 - 00:02:25] The scientists isn't asking about the student's fear
+[00:02:25 - 00:02:29] of failure or their past trauma.
+[00:02:29 - 00:02:31] They don't care about the bad test and third grade.
+[00:02:31 - 00:02:35] Right, they are asking which specific brain circuits,
+[00:02:35 - 00:02:39] which stress hormones, which autonomic responses were firing,
+[00:02:39 - 00:02:42] what exact neurotransmitters were active,
+[00:02:42 - 00:02:45] the literal millisecond that student froze.
+[00:02:45 - 00:02:47] And what's fascinating here is that this is where that
+[00:02:47 - 00:02:49] misconception usually crops up, right?
+[00:02:49 - 00:02:51] People often think, well, one of these explanations
+[00:02:51 - 00:02:53] has to be the real root cause.
+[00:02:53 - 00:02:55] Yes, but neither level replaces the other.
+[00:02:55 - 00:02:58] That is so critical to understand.
+[00:02:58 - 00:03:00] Psychology describes the mind and behavior.
+[00:03:00 - 00:03:01] It's what a person does,
+[00:03:01 - 00:03:03] what they feel, think, learn and report.
+[00:03:03 - 00:03:05] While neuroscience is just explaining
+[00:03:05 - 00:03:08] the biological implementation of those things.
+[00:03:08 - 00:03:09] Exactly.
+[00:03:09 - 00:03:11] Both explanations for our frozen student
+[00:03:11 - 00:03:14] are 100% true at the exact same time.
+[00:03:14 - 00:03:16] Okay, let me try an analogy here.
+[00:03:16 - 00:03:18] I like to think of this like a computer.
+[00:03:18 - 00:03:20] Okay, I like what this is going.
+[00:03:20 - 00:03:23] So psychology is sort of like analyzing
+[00:03:23 - 00:03:25] a software program's user interface, right?
+[00:03:25 - 00:03:27] You're looking at the menus, the butters,
+[00:03:27 - 00:03:30] what the user actually experiences on the screen.
+[00:03:30 - 00:03:31] Yeah, output in the interaction, yeah.
+[00:03:31 - 00:03:34] But neuroscience is like opening up the computer case
+[00:03:34 - 00:03:35] and looking at the hardware.
+[00:03:35 - 00:03:38] You're measuring the electrical currents on the motherboard,
+[00:03:38 - 00:03:41] the physical memory chips, the fan speed.
+[00:03:41 - 00:03:43] That is a perfect way to look at it.
+[00:03:43 - 00:03:44] You have a software experience
+[00:03:44 - 00:03:46] and the physical hardware mechanism.
+[00:03:46 - 00:03:48] Oh, wait, let me push back on that for a second.
+[00:03:48 - 00:03:52] Because if our neuroscience tools get so incredibly advanced
+[00:03:52 - 00:03:55] that we can eventually map out the physical hardware
+[00:03:55 - 00:03:57] perfectly, like down the every single
+[00:03:57 - 00:03:59] atom and electrical current,
+[00:03:59 - 00:04:02] do we even need to study the software anymore?
+[00:04:02 - 00:04:03] Right.
+[00:04:03 - 00:04:05] If we know the hardware, why bother with the psychology?
+[00:04:05 - 00:04:07] Yeah, why talk about abstract feelings
+[00:04:07 - 00:04:11] if I can just mathematically measure your exact dopamine
+[00:04:11 - 00:04:12] and cortisol levels?
+[00:04:12 - 00:04:14] It's a really common debate.
+[00:04:14 - 00:04:16] But abandoning the psychological context
+[00:04:16 - 00:04:17] is a total dead end.
+[00:04:17 - 00:04:18] Why?
+[00:04:18 - 00:04:20] Because knowing the physical hardware
+[00:04:20 - 00:04:22] doesn't tell you anything about the intent of the system.
+[00:04:22 - 00:04:23] Yeah.
+[00:04:23 - 00:04:26] Even if you map every single electrical impulse,
+[00:04:26 - 00:04:30] each lens is answering a completely different kind of question.
+[00:04:30 - 00:04:30] Oh, I see.
+[00:04:30 - 00:04:32] You absolutely need the psychological context
+[00:04:32 - 00:04:36] to understand why that biological mechanism matters
+[00:04:36 - 00:04:38] in the real world, like what actually triggered
+[00:04:38 - 00:04:40] those electrical currents in the first place?
+[00:04:40 - 00:04:44] So to really grasp how deeply these lenses rely on each other,
+[00:04:44 - 00:04:46] we have to look at the scale of human behavior.
+[00:04:46 - 00:04:49] Because a single action like our student freezing
+[00:04:49 - 00:04:51] is actually the result of processes happening
+[00:04:51 - 00:04:53] across a mass spectrum.
+[00:04:53 - 00:04:54] Right, the levels of analysis.
+[00:04:54 - 00:04:55] Exactly.
+[00:04:55 - 00:04:57] At the very foundation, you have this microscopic level.
+[00:04:57 - 00:04:58] We're talking molecules.
+[00:04:58 - 00:05:01] This is where neurotransmitters and hormones operate.
+[00:05:01 - 00:05:04] And then as you zoom out, you hit the cellular level.
+[00:05:04 - 00:05:06] So now you're looking at networks of individual neurons
+[00:05:06 - 00:05:07] or glia cells.
+[00:05:07 - 00:05:09] Right, zoom out again.
+[00:05:09 - 00:05:11] And you're looking at entire brain circuits
+[00:05:11 - 00:05:12] communicating with each other.
+[00:05:12 - 00:05:15] Further still, you're observing the whole brain.
+[00:05:15 - 00:05:17] And then the individual's outward behavior, right?
+[00:05:17 - 00:05:18] Yes.
+[00:05:18 - 00:05:21] And eventually, you zoom all the way out
+[00:05:21 - 00:05:23] to see how that specific behavior interacts
+[00:05:23 - 00:05:26] with an impact broader society.
+[00:05:26 - 00:05:27] Wow.
+[00:05:27 - 00:05:29] So if you look at the diagram on this slide
+[00:05:29 - 00:05:31] from our source nodes, visually, you
+[00:05:31 - 00:05:33] can see how researchers try to map this out.
+[00:05:33 - 00:05:35] They try to link the brain activity
+[00:05:35 - 00:05:38] at those lower levels to the complex behaviors
+[00:05:38 - 00:05:39] at the higher levels.
+[00:05:39 - 00:05:42] It is a massive puzzle of causality.
+[00:05:42 - 00:05:44] Yeah, and visually mapping the link
+[00:05:44 - 00:05:46] between the brain and behavior is wild.
+[00:05:46 - 00:05:48] If you look at model A in the nodes,
+[00:05:48 - 00:05:51] it shows that a subset of neural activity patterns
+[00:05:51 - 00:05:55] in our brain is linked to all natural behaviors.
+[00:05:55 - 00:05:55] That makes sense.
+[00:05:55 - 00:05:56] It does.
+[00:05:56 - 00:05:57] It's the baseline assumption.
+[00:05:57 - 00:05:59] But then you look at models B and C.
+[00:05:59 - 00:06:01] And visually, you can see that sometimes
+[00:06:01 - 00:06:04] a really small subset of activity patterns
+[00:06:04 - 00:06:07] links to a specific small subset of behaviors.
+[00:06:07 - 00:06:07] Right.
+[00:06:07 - 00:06:09] But crucially, not all brain activity
+[00:06:09 - 00:06:12] results in a behavioral output.
+[00:06:12 - 00:06:13] Wait, really?
+[00:06:13 - 00:06:14] So my brain is doing things that don't
+[00:06:14 - 00:06:16] results in any action.
+[00:06:16 - 00:06:17] Oh, constantly.
+[00:06:17 - 00:06:19] Your brain is doing an enormous amount
+[00:06:19 - 00:06:22] of background processing that never translates
+[00:06:22 - 00:06:23] into any behavior at all.
+[00:06:23 - 00:06:25] It's like going back to your analogy,
+[00:06:25 - 00:06:27] a computer running a huge background update
+[00:06:27 - 00:06:29] while you're just reading a web page.
+[00:06:29 - 00:06:31] The neural activity is furious,
+[00:06:31 - 00:06:33] but your hands aren't moving any differently.
+[00:06:33 - 00:06:35] That is so wild to think about.
+[00:06:35 - 00:06:39] But then visually, models D and E show something
+[00:06:39 - 00:06:40] even more confusing.
+[00:06:40 - 00:06:42] It's the many to one problem.
+[00:06:42 - 00:06:46] You can have multiple completely different neural patterns
+[00:06:46 - 00:06:48] underlying just one single behavior.
+[00:06:48 - 00:06:49] Yes.
+[00:06:49 - 00:06:51] The exact same physical movement
+[00:06:51 - 00:06:53] can be driven by entirely different circuits.
+[00:06:53 - 00:06:53] Right.
+[00:06:53 - 00:06:55] Like throwing your hands up in the air.
+[00:06:55 - 00:06:56] You could be doing that because you're
+[00:06:56 - 00:06:58] cheering for your favorite team.
+[00:06:58 - 00:07:00] Or you could be defensively bracing
+[00:07:00 - 00:07:02] because something is falling on you.
+[00:07:02 - 00:07:05] To the naked eye, the behavior is identical.
+[00:07:05 - 00:07:06] But the neural patterns are totally different.
+[00:07:06 - 00:07:09] And you know, the brain does the exact reverse, too.
+[00:07:09 - 00:07:10] No one did any problem.
+[00:07:10 - 00:07:11] Exactly.
+[00:07:11 - 00:07:13] One single neural firing pattern
+[00:07:13 - 00:07:16] might be involved in multiple wildly different behaviors.
+[00:07:16 - 00:07:19] Like a specific circuit involving the amygdala
+[00:07:19 - 00:07:22] might be recruited when you are terrified of a snake.
+[00:07:22 - 00:07:24] But that same underlying circuitry
+[00:07:24 - 00:07:26] might also be heavily engaged
+[00:07:26 - 00:07:28] when you were intensely excited,
+[00:07:28 - 00:07:30] like riding a massive roller coaster.
+[00:07:30 - 00:07:31] Oh, wow.
+[00:07:31 - 00:07:33] So the context completely changes the output.
+[00:07:33 - 00:07:35] But that raises a huge question.
+[00:07:35 - 00:07:38] If one behavior can have multiple different neural patterns
+[00:07:38 - 00:07:41] behind it and one neural pattern
+[00:07:41 - 00:07:45] can drive multiple behaviors, how do researchers ever figure
+[00:07:45 - 00:07:47] out what's causing what?
+[00:07:47 - 00:07:50] Honestly, that is the defining struggle
+[00:07:50 - 00:07:53] of the entire field, untangling that web
+[00:07:53 - 00:07:55] requires highly sophisticated data gathering
+[00:07:55 - 00:07:59] from both the psychological side and the neurobiological side.
+[00:07:59 - 00:08:01] And we really have to understand
+[00:08:01 - 00:08:02] Let's break down that data gathering.
+[00:08:02 - 00:08:03] Because I think we need to clear up
+[00:08:03 - 00:08:05] how empirical psychology actually is.
+[00:08:05 - 00:08:07] Psychology doesn't just talk about feelings.
+[00:08:07 - 00:08:10] It turns the messy, subjective human experience
+[00:08:10 - 00:08:12] into hard, quantifiable data.
+[00:08:12 - 00:08:13] Oh, absolutely.
+[00:08:13 - 00:08:15] They aren't just observing behavior and guessing.
+[00:08:15 - 00:08:17] They are putting actual numbers to it.
+[00:08:17 - 00:08:18] Right.
+[00:08:18 - 00:08:19] Through highly controlled tasks,
+[00:08:19 - 00:08:23] psychologists measure reaction times down to the millisecond.
+[00:08:23 - 00:08:26] They track accuracy rates, analyze specific choices,
+[00:08:26 - 00:08:30] and map out the exact errors someone makes under pressure.
+[00:08:30 - 00:08:34] And they also use very validated self-reporting structures.
+[00:08:34 - 00:08:36] Patients systematically categorize their thoughts,
+[00:08:36 - 00:08:38] their symptoms, their beliefs.
+[00:08:38 - 00:08:41] It's a rigorous quantification of the mind.
+[00:08:41 - 00:08:43] Meanwhile, neuroscience is trying
+[00:08:43 - 00:08:46] to turn the physical nervous system into data, right?
+[00:08:46 - 00:08:47] Yes.
+[00:08:47 - 00:08:49] They use functional measurements, advanced imaging,
+[00:08:49 - 00:08:51] animal research, and pharmacology.
+[00:08:51 - 00:08:53] But every single one of those neuroscience
+[00:08:53 - 00:08:55] cools comes with a heavy trade-off, doesn't it?
+[00:08:55 - 00:08:57] It really is a constant balancing act.
+[00:08:57 - 00:09:00] Researchers basically have to navigate four main constraints.
+[00:09:00 - 00:09:02] You have spatial detail, which is where it happens.
+[00:09:02 - 00:09:03] OK.
+[00:09:03 - 00:09:05] Timing, which is when it happens, invasiveness,
+[00:09:05 - 00:09:08] how much you have to disrupt the body and causal power.
+[00:09:08 - 00:09:10] Causal power just meaning proving
+[00:09:10 - 00:09:13] that manipulating circuit x directly causes behavior y.
+[00:09:13 - 00:09:14] Exactly.
+[00:09:14 - 00:09:16] Proving true cause and effect.
+[00:09:16 - 00:09:19] So take functional MRI, or FMRI, for example.
+[00:09:19 - 00:09:21] It provides breathtaking spatial detail.
+[00:09:21 - 00:09:24] You can see exactly where activity is happening deep inside
+[00:09:24 - 00:09:25] the brain down to the millimeter.
+[00:09:25 - 00:09:28] But its timing is inherently flawed, right?
+[00:09:28 - 00:09:28] Yes.
+[00:09:28 - 00:09:32] Because FMRI doesn't measure electricity directly,
+[00:09:32 - 00:09:33] it measures blood flow.
+[00:09:33 - 00:09:33] Right.
+[00:09:33 - 00:09:36] The blood oxygen level of dependent signal.
+[00:09:36 - 00:09:37] And blood takes a few seconds
+[00:09:37 - 00:09:39] to rush into an active brain region.
+[00:09:39 - 00:09:40] Exactly.
+[00:09:40 - 00:09:43] Neurofiring happens in milliseconds.
+[00:09:43 - 00:09:45] But the blood flow takes seconds.
+[00:09:45 - 00:09:48] So by the time the FMRI registers the activity,
+[00:09:48 - 00:09:51] the actual thought or impulse is already passed.
+[00:09:51 - 00:09:54] It's like seeing the smoke, but missing the actual explosion.
+[00:09:54 - 00:09:57] You know where it happened, but you completely
+[00:09:57 - 00:10:00] missed the exact millisecond the spark ignited.
+[00:10:00 - 00:10:01] That's a great way to put it.
+[00:10:01 - 00:10:03] Now if you want that millisecond precision,
+[00:10:03 - 00:10:05] you use something like an EEG, measuring
+[00:10:05 - 00:10:07] the electrical signals right on the scalp.
+[00:10:07 - 00:10:08] But then you lose the spatial detail, right?
+[00:10:08 - 00:10:09] Yes.
+[00:10:09 - 00:10:11] You know exactly when it happened.
+[00:10:11 - 00:10:13] But you can't tell exactly where deep inside the brain
+[00:10:13 - 00:10:15] tissue, the signal originated from.
+[00:10:15 - 00:10:17] And then there's the hurdle of causal power.
+[00:10:17 - 00:10:19] Because if you want high causal power,
+[00:10:19 - 00:10:20] you have to physically intervene.
+[00:10:20 - 00:10:22] You have to turn circuits on and off.
+[00:10:22 - 00:10:23] Which is obviously highly invasive.
+[00:10:23 - 00:10:26] You can't just open up a human volunteer's skull
+[00:10:26 - 00:10:28] and start temporarily disabling brain regions
+[00:10:28 - 00:10:29] with pharmacology.
+[00:10:29 - 00:10:30] Right.
+[00:10:30 - 00:10:32] Which is exactly why animal models are so crucial
+[00:10:32 - 00:10:35] for causal research, while non-invasive imaging
+[00:10:35 - 00:10:37] is what we have to rely on for humans.
+[00:10:37 - 00:10:39] And actually visually representing
+[00:10:39 - 00:10:41] what those non-invasive scans capture
+[00:10:41 - 00:10:43] is just incredible.
+[00:10:43 - 00:10:46] GIF showing dynamic neural activity
+[00:10:46 - 00:10:49] with interconnected regions and network fibers.
+[00:10:49 - 00:10:51] OK, visually the animation is showing
+[00:10:51 - 00:10:53] these glowing network fibers firing
+[00:10:53 - 00:10:55] and rapid succession across totally different regions
+[00:10:55 - 00:10:57] of the brain, like all simultaneously.
+[00:10:57 - 00:10:58] It's mesmerizing.
+[00:10:58 - 00:10:59] It really is.
+[00:10:59 - 00:11:01] What strikes you is the sheer speed
+[00:11:01 - 00:11:02] and the interconnectedness of it all.
+[00:11:02 - 00:11:05] It visually proves that the brain is this continuous,
+[00:11:05 - 00:11:07] wildly dynamic web.
+[00:11:07 - 00:11:09] Yeah, completely shatters that old myth
+[00:11:09 - 00:11:11] that the brain works in isolated buckets.
+[00:11:11 - 00:11:14] Right, like the idea that vision happens
+[00:11:14 - 00:11:16] in one quiet little corner and emotion
+[00:11:16 - 00:11:20] happens in a completely separate, disconnected room.
+[00:11:20 - 00:11:21] That's just not true.
+[00:11:21 - 00:11:22] Not at all.
+[00:11:22 - 00:11:25] It is a relentless rapid fire symphony.
+[00:11:25 - 00:11:28] Everything is talking to everything else all the time.
+[00:11:28 - 00:11:32] And building on that dynamic GIF we just saw,
+[00:11:32 - 00:11:34] we really have to factor in neural variability.
+[00:11:34 - 00:11:35] What do you mean my variability?
+[00:11:35 - 00:11:38] Well, just as humans express behaviors differently
+[00:11:38 - 00:11:40] on the outside, we have massive structural
+[00:11:40 - 00:11:43] and functional variability in our physical neural makeup
+[00:11:43 - 00:11:44] on the inside.
+[00:11:44 - 00:11:46] Wait, meaning my brain's physical wiring
+[00:11:46 - 00:11:48] literally looks different than yours.
+[00:11:48 - 00:11:50] Unquestionably, that variability exists
+[00:11:50 - 00:11:51] between different individuals,
+[00:11:51 - 00:11:53] between different groups of people.
+[00:11:53 - 00:11:54] And this is the crazy part,
+[00:11:54 - 00:11:57] even within the exact same person over time.
+[00:11:57 - 00:11:59] So my brain is physically different today
+[00:11:59 - 00:11:59] than it was yesterday.
+[00:11:59 - 00:12:01] Yes, the physical neural pathways
+[00:12:01 - 00:12:03] in your brain today are structurally different
+[00:12:03 - 00:12:05] than they were five years ago.
+[00:12:05 - 00:12:08] Your experiences, your learning, your environment,
+[00:12:08 - 00:12:11] they have literally rewired the physical connections.
+[00:12:12 - 00:12:14] Okay, here's where it gets really interesting.
+[00:12:14 - 00:12:17] When you take everything we've just discussed,
+[00:12:17 - 00:12:21] the psychological meaning, the neurobiological mechanisms,
+[00:12:21 - 00:12:24] the data trade-offs, the physical rewiring over time,
+[00:12:24 - 00:12:27] and you apply it to major human struggles,
+[00:12:27 - 00:12:29] it totally changes how we approach things.
+[00:12:29 - 00:12:32] It changes everything about treatment and understanding.
+[00:12:32 - 00:12:33] Yeah.
+[00:12:33 - 00:12:36] Let's look at fear and severe anxiety as an example.
+[00:12:36 - 00:12:37] Fear is a brilliant example
+[00:12:37 - 00:12:40] of why both lenses are mandatory.
+[00:12:40 - 00:12:41] Through the psychology lens,
+[00:12:41 - 00:12:43] we evaluate threat appraisal.
+[00:12:43 - 00:12:46] Like how is this person mentally evaluating
+[00:12:46 - 00:12:47] the danger in their environment?
+[00:12:47 - 00:12:48] Exactly.
+[00:12:48 - 00:12:51] We look at their history of avoidance learning.
+[00:12:51 - 00:12:53] How have they been conditioned over time
+[00:12:53 - 00:12:55] to avoid specific triggers?
+[00:12:55 - 00:12:57] What are their cognitive expectations?
+[00:12:57 - 00:13:00] But if we switch to the neuroscience lens,
+[00:13:00 - 00:13:02] we're looking at the specific biological threat circuits.
+[00:13:02 - 00:13:05] We are measuring the autonomic nervous system
+[00:13:05 - 00:13:06] going into overdrive.
+[00:13:06 - 00:13:07] Right, the heart rate spikes.
+[00:13:07 - 00:13:09] The immediate activation of the amygdala
+[00:13:09 - 00:13:12] before the conscious brain even realizes what's happening.
+[00:13:12 - 00:13:16] And to treat a severe phobia, you absolutely need both.
+[00:13:16 - 00:13:17] I mean, you can give someone a medication
+[00:13:17 - 00:13:20] like a beta blocker to stop their heart from racing.
+[00:13:20 - 00:13:22] But if their psychological threat appraisal
+[00:13:22 - 00:13:25] is still screaming that they are in mortal danger,
+[00:13:25 - 00:13:27] the phobia is still there.
+[00:13:27 - 00:13:28] That's spot on.
+[00:13:28 - 00:13:31] Let's apply it to another really complex issue.
+[00:13:31 - 00:13:33] Addiction and reward.
+[00:13:33 - 00:13:35] Take a single action, right?
+[00:13:35 - 00:13:37] Like a person reaching for a cigarette.
+[00:13:37 - 00:13:39] Psychology might view that reach
+[00:13:39 - 00:13:41] as a deeply ingrained habit
+[00:13:41 - 00:13:43] or maybe a lapse in decision-making.
+[00:13:43 - 00:13:46] It focuses on concepts like reinforcement learning.
+[00:13:46 - 00:13:48] The subjective feeling of craving.
+[00:13:48 - 00:13:50] Yes, that agonizing craving.
+[00:13:50 - 00:13:52] And the internal psychological battle
+[00:13:52 - 00:13:55] for self-control against long-term goals.
+[00:13:55 - 00:13:57] But neuroscience views the exact same reach
+[00:13:57 - 00:14:00] for a cigarette as a circuit level adaptation.
+[00:14:00 - 00:14:02] It's looking at the immediate reward pathways.
+[00:14:02 - 00:14:05] Exactly, it's tracking this specific dopamine signaling
+[00:14:05 - 00:14:07] that creates a prediction error in the brain.
+[00:14:07 - 00:14:09] That dopamine floods the system
+[00:14:09 - 00:14:12] and structurally hijacks the prefrontal cortex's ability
+[00:14:12 - 00:14:14] to exert top-down control.
+[00:14:14 - 00:14:16] Wow, so you literally can't separate the biology
+[00:14:16 - 00:14:19] from the experience, which is why modern research
+[00:14:19 - 00:14:21] doesn't silo these fields anymore.
+[00:14:21 - 00:14:22] No, they don't.
+[00:14:22 - 00:14:24] Disciplines like cognitive neuroscience
+[00:14:24 - 00:14:26] intentionally fuse these lenses together.
+[00:14:26 - 00:14:29] And there is a really powerful applied model
+[00:14:29 - 00:14:30] for this overlap in our notes.
+[00:14:30 - 00:14:33] Chronic stress and its effect on learning.
+[00:14:33 - 00:14:34] Oh, this is a profound one.
+[00:14:34 - 00:14:36] Yeah, let's go back to our student.
+[00:14:36 - 00:14:38] But this time, it's a student whose grades
+[00:14:38 - 00:14:40] are slowly slipping over a whole semester.
+[00:14:40 - 00:14:44] The psychology side, the context, provides the why.
+[00:14:44 - 00:14:44] Right.
+[00:14:44 - 00:14:47] Perhaps there is intense financial pressure at home.
+[00:14:47 - 00:14:49] Or a heavy family caretaking demands.
+[00:14:49 - 00:14:52] That environment creates a persistent, subjective mental
+[00:14:52 - 00:14:54] state of worry and pressure.
+[00:14:54 - 00:14:57] And then the neuroscience side provides the how.
+[00:14:57 - 00:15:00] It explains how that persistent psychological worry
+[00:15:00 - 00:15:02] physically translates into sustained releases
+[00:15:02 - 00:15:04] of stress hormones, like cortisol.
+[00:15:04 - 00:15:07] Right, and over time, that chronic biological stress
+[00:15:07 - 00:15:10] structurally impairs the brain's learning circuits.
+[00:15:10 - 00:15:13] Sustained cortisol exposure can literally inhibit
+[00:15:13 - 00:15:15] long-term potentiation in the hippocampus.
+[00:15:15 - 00:15:18] Long-term potentiation, that's the strengthening
+[00:15:18 - 00:15:20] of synapses needed to form memories, right?
+[00:15:20 - 00:15:20] Exactly.
+[00:15:20 - 00:15:24] So the stress chemically prevents
+[00:15:24 - 00:15:25] the strengthening of those synapses.
+[00:15:25 - 00:15:26] Yeah.
+[00:15:26 - 00:15:28] The psychological worry physically damages
+[00:15:28 - 00:15:31] the hardware's ability to learn.
+[00:15:31 - 00:15:32] OK, but if that's true, then we're back
+[00:15:32 - 00:15:33] in that obvious trap again.
+[00:15:33 - 00:15:34] How so?
+[00:15:34 - 00:15:37] Well, if we know the exact chemical mechanism
+[00:15:37 - 00:15:40] like if we know that cortisol is blocking long-term
+[00:15:40 - 00:15:42] potentiation in the hippocampus, why do we even
+[00:15:42 - 00:15:45] care about the family dynamics causing the stress?
+[00:15:45 - 00:15:46] I see.
+[00:15:46 - 00:15:49] Why not just give that student a pharmacological intervention
+[00:15:49 - 00:15:51] that blocks the cortisol receptors
+[00:15:51 - 00:15:55] and completely ignore the messy psychological environment?
+[00:15:55 - 00:15:58] Because if we connect this to the bigger picture,
+[00:15:58 - 00:16:01] the environment is continuously programming the biology.
+[00:16:01 - 00:16:04] You cannot separate the brain from the world it exists in.
+[00:16:04 - 00:16:05] Right.
+[00:16:05 - 00:16:06] But you can give that student a pill
+[00:16:06 - 00:16:10] to artificially block their biological stress response today.
+[00:16:10 - 00:16:12] But if they go right back into a home
+[00:16:12 - 00:16:14] with severe financial pressure tomorrow,
+[00:16:14 - 00:16:16] their psychological threat appraisal
+[00:16:16 - 00:16:18] will still recognize the danger.
+[00:16:18 - 00:16:20] The software still knows there's a problem.
+[00:16:20 - 00:16:21] Exactly.
+[00:16:21 - 00:16:23] And the brain will continuously try to adapt.
+[00:16:23 - 00:16:25] It might override the medication, increase
+[00:16:25 - 00:16:28] receptor density, or find a completely different biological
+[00:16:28 - 00:16:30] pathway to signal that stress.
+[00:16:30 - 00:16:32] Because the hardware is always reacting
+[00:16:32 - 00:16:34] to the software's interpretation of the world.
+[00:16:34 - 00:16:37] Yes, if you only treat the hardware
+[00:16:37 - 00:16:40] and completely ignore the environmental context
+[00:16:40 - 00:16:41] that is programming the software,
+[00:16:41 - 00:16:44] the system will just keep crashing.
+[00:16:44 - 00:16:47] The biological intervention might buy you some time, sure.
+[00:16:47 - 00:16:49] But the psychological reality will eventually
+[00:16:49 - 00:16:51] So what does this all mean for us?
+[00:16:51 - 00:16:55] For you, listening right now, going about your daily life.
+[00:16:55 - 00:16:57] It really brings us to the ultimate takeaway
+[00:16:57 - 00:16:59] from these two fields.
+[00:16:59 - 00:17:01] Psychology gives our behavior meaning.
+[00:17:01 - 00:17:03] And neuroscience gives our behavior mechanism.
+[00:17:03 - 00:17:06] Yes, together and only together.
+[00:17:06 - 00:17:08] They explain the mind, the brain, our behavior,
+[00:17:08 - 00:17:11] and our environment as one single beautifully connected
+[00:17:11 - 00:17:13] constantly adapting system.
+[00:17:13 - 00:17:17] It's a total paradigm shift for how you view your own life.
+[00:17:17 - 00:17:20] The next time you find yourself freezing up under pressure
+[00:17:20 - 00:17:22] or maybe defaulting to a bad habit
+[00:17:22 - 00:17:25] or just feeling overwhelmed by stress,
+[00:17:25 - 00:17:27] you don't have to just sit there and frustration.
+[00:17:27 - 00:17:28] No, but you can step back.
+[00:17:28 - 00:17:31] You can analyze your own hardware and your own software.
+[00:17:31 - 00:17:33] You can ask what your biology is doing,
+[00:17:33 - 00:17:34] what your environment is telling it to do.
+[00:17:34 - 00:17:37] It does leave us with one very provocative thought, though,
+[00:17:37 - 00:17:39] from everything we just talked about.
+[00:17:39 - 00:17:39] What's that?
+[00:17:39 - 00:17:44] Well, if our physical neural makeup is highly variable
+[00:17:44 - 00:17:48] and it is constantly physically rewiring itself over time
+[00:17:48 - 00:17:51] based on our experiences and our psychological context,
+[00:17:51 - 00:17:55] like our moods, our environment, our beliefs is always shifting.
+[00:17:55 - 00:17:59] Is any behavior you do today truly the exact same behavior
+[00:17:59 - 00:17:59] you did yesterday?
+[00:18:00 - 00:18:02] Oh, wow, that is a deep question.
+[00:18:02 - 00:18:05] Right, if your physical hardware changed overnight
+[00:18:05 - 00:18:08] through neuroplasticity and your psychological software
+[00:18:08 - 00:18:11] updated this morning based on new context,
+[00:18:11 - 00:18:13] are you ever really repeating an action?
+[00:18:13 - 00:18:17] Or is every single thing you do, a brand new event generated
+[00:18:17 - 00:18:20] by a brain that has literally never existed
+[00:18:20 - 00:18:21] in this exact state before?
+[00:18:21 - 00:18:23] That is a fascinating mystery to sit with.
+[00:18:23 - 00:18:26] So for the next behavior, you observe in yourself
+[00:18:26 - 00:18:28] for our friend today, whether it's freezing on a test,
+[00:18:28 - 00:18:31] reaching for a cup of coffee or just laughing at a joke.
+[00:18:31 - 00:18:34] Ask yourself, what would the psychological lens show you?
+[00:18:34 - 00:18:36] And what secret mechanisms is the neuroscience lens
+[00:18:36 - 00:18:37] hiding just beneath the surface?

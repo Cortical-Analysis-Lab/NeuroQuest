@@ -1,0 +1,1878 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.000
+So, we usually think of aging as this really slow,
+
+2
+00:00:06.000 --> 00:00:07.000
+inevitable mechanical breakdown.
+
+3
+00:00:07.000 --> 00:00:09.000
+Right, yeah, like an old truck
+
+4
+00:00:09.000 --> 00:00:10.000
+just kind of rusting in the driveway.
+
+5
+00:00:10.000 --> 00:00:14.000
+Exactly, but what if I told you that the struggle
+
+6
+00:00:14.000 --> 00:00:17.000
+to just stand up straight in your 70s
+
+7
+00:00:17.000 --> 00:00:19.000
+isn't actually about weak muscles at all?
+
+8
+00:00:19.000 --> 00:00:22.000
+Oh man, yeah, this is where it gets wild.
+
+9
+00:00:22.000 --> 00:00:25.000
+Right, like what if it's actually a glitch
+
+10
+00:00:25.000 --> 00:00:27.000
+in your brain's massive,
+
+11
+00:00:27.000 --> 00:00:30.000
+real-time gravitational prediction software?
+
+12
+00:00:30.000 --> 00:00:33.000
+Which completely reframes how we even view getting older.
+
+13
+00:00:33.000 --> 00:00:36.000
+I mean, we have to stop looking at just the physical wear
+
+14
+00:00:36.000 --> 00:00:37.000
+and tear on the body and start looking
+
+15
+00:00:37.000 --> 00:00:40.000
+at the sheer computational power required
+
+16
+00:00:40.000 --> 00:00:41.000
+to just navigate the world.
+
+17
+00:00:41.000 --> 00:00:44.000
+Exactly, so welcome to today's deep dive.
+
+18
+00:00:44.000 --> 00:00:47.000
+If you're an undergrad sitting there with your lecture
+
+19
+00:00:47.000 --> 00:00:50.000
+slides trying to wrap your head around the neuroscience
+
+20
+00:00:50.000 --> 00:00:53.000
+of aging, you are in the exact right place.
+
+21
+00:00:53.000 --> 00:00:53.000
+Absolutely.
+
+22
+00:00:53.000 --> 00:00:56.000
+But we have a very specific mission today.
+
+23
+00:00:56.000 --> 00:00:57.000
+We are not just here to memorize pathways
+
+24
+00:00:57.000 --> 00:00:59.000
+for you to regurgitate.
+
+25
+00:00:59.000 --> 00:01:00.000
+No, definitely not.
+
+26
+00:01:00.000 --> 00:01:02.000
+We are going to unpack the hidden wiring
+
+27
+00:01:02.000 --> 00:01:05.000
+of the human brain to understand exactly
+
+28
+00:01:05.000 --> 00:01:07.000
+why it changes over time.
+
+29
+00:01:07.000 --> 00:01:11.000
+And like how those microscopic alterations ripple outward
+
+30
+00:01:11.000 --> 00:01:13.000
+to dictate our behavior, our memory,
+
+31
+00:01:13.000 --> 00:01:14.000
+and our physical movement.
+
+32
+00:01:14.000 --> 00:01:16.000
+Yeah, and we really need to emphasize this
+
+33
+00:01:16.000 --> 00:01:17.000
+right out of the gate.
+
+34
+00:01:17.000 --> 00:01:20.000
+Aging is not a single catastrophic event.
+
+35
+00:01:20.000 --> 00:01:21.000
+Right.
+
+36
+00:01:21.000 --> 00:01:22.000
+It's not a switch that suddenly flips
+
+37
+00:01:22.000 --> 00:01:24.000
+on your 65th birthday.
+
+38
+00:01:24.000 --> 00:01:27.000
+It is this dynamic, lifelong biological mystery.
+
+39
+00:01:27.000 --> 00:01:29.000
+Which brings us to the first visual, right?
+
+40
+00:01:29.000 --> 00:01:32.000
+Slide one, you've got this prompt asking,
+
+41
+00:01:32.000 --> 00:01:34.000
+what does aging look like?
+
+42
+00:01:34.000 --> 00:01:39.000
+Alongside this really pervasive idea of aging gracefully.
+
+43
+00:01:39.000 --> 00:01:40.000
+Yeah, you see it on magazine covers everywhere.
+
+44
+00:01:40.000 --> 00:01:42.000
+Usually it's someone looking very confident,
+
+45
+00:01:42.000 --> 00:01:43.000
+silver hair, doing yoga.
+
+46
+00:01:43.000 --> 00:01:45.000
+Totally, and it's a nice sentiment,
+
+47
+00:01:45.000 --> 00:01:47.000
+but it's completely superficial.
+
+48
+00:01:47.000 --> 00:01:49.000
+If we actually want to know what aging gracefully means
+
+49
+00:01:49.000 --> 00:01:51.000
+biologically, we have to look past the wrinkles
+
+50
+00:01:51.000 --> 00:01:53.000
+and get into the actual mechanics.
+
+51
+00:01:54.000 --> 00:01:57.000
+Well, because it's never just one isolated system failing.
+
+52
+00:01:57.000 --> 00:01:59.000
+Far from it.
+
+53
+00:01:59.000 --> 00:02:01.000
+When you look at the flow charts on slide two,
+
+54
+00:02:01.000 --> 00:02:04.000
+it asks you to visualize how these different influences
+
+55
+00:02:04.000 --> 00:02:06.000
+all converge on what we call successful aging.
+
+56
+00:02:06.000 --> 00:02:08.000
+And it's basically three main buckets, right?
+
+57
+00:02:08.000 --> 00:02:10.000
+Right, first you have the biological baseline.
+
+58
+00:02:10.000 --> 00:02:15.000
+So your baseline nutrition, your metabolic health,
+
+59
+00:02:15.000 --> 00:02:16.000
+your genetic predispositions.
+
+60
+00:02:16.000 --> 00:02:18.000
+But then you have these psychological influences
+
+61
+00:02:18.000 --> 00:02:20.000
+that plug directly into that biology.
+
+62
+00:02:20.000 --> 00:02:23.000
+So maintaining an optimistic outlook
+
+63
+00:02:23.000 --> 00:02:27.000
+or having a high degree of cognitive engagement
+
+64
+00:02:27.000 --> 00:02:28.000
+throughout your entire life.
+
+65
+00:02:28.000 --> 00:02:30.000
+Yeah, and you cannot separate those
+
+66
+00:02:30.000 --> 00:02:31.000
+from the socio-cultural inputs.
+
+67
+00:02:31.000 --> 00:02:34.000
+Like are you living in a safe environment?
+
+68
+00:02:34.000 --> 00:02:37.000
+Do you have robust family support?
+
+69
+00:02:37.000 --> 00:02:39.000
+Does your culture actively respect
+
+70
+00:02:39.000 --> 00:02:42.000
+and integrate older adults or does it isolate them?
+
+71
+00:02:42.000 --> 00:02:44.000
+Which is fascinating because your brain health
+
+72
+00:02:44.000 --> 00:02:47.000
+isn't isolated from your zip code or your social circle.
+
+73
+00:02:47.000 --> 00:02:48.000
+No, not at all.
+
+74
+00:02:48.000 --> 00:02:50.000
+Like a lack of socio-cultural support
+
+75
+00:02:50.000 --> 00:02:53.000
+actually triggers physiological stress responses,
+
+76
+00:02:53.000 --> 00:02:56.000
+which directly accelerates biological decline.
+
+77
+00:02:56.000 --> 00:02:58.000
+The inputs are just, they're totally intertwined.
+
+78
+00:02:58.000 --> 00:02:59.000
+They really are.
+
+79
+00:02:59.000 --> 00:03:02.000
+So when we strip away the psychological and social layers
+
+80
+00:03:02.000 --> 00:03:05.000
+to look strictly at the biological mechanisms,
+
+81
+00:03:05.000 --> 00:03:07.000
+like the actual hardware,
+
+82
+00:03:07.000 --> 00:03:10.000
+it's this huge interconnected collapse.
+
+83
+00:03:10.000 --> 00:03:12.000
+Right, and researchers often call these
+
+84
+00:03:12.000 --> 00:03:14.000
+the biological hallmarks of aging,
+
+85
+00:03:14.000 --> 00:03:17.000
+which is visualized in that circular diagram
+
+86
+00:03:17.000 --> 00:03:18.000
+on slide three.
+
+87
+00:03:18.000 --> 00:03:20.000
+Yeah, it looks almost like a wheel of aging
+
+88
+00:03:20.000 --> 00:03:22.000
+with the human life cycle right in the center.
+
+89
+00:03:22.000 --> 00:03:24.000
+Exactly, and around it,
+
+90
+00:03:24.000 --> 00:03:27.000
+you've got these nine distinct biological factors.
+
+91
+00:03:27.000 --> 00:03:28.000
+It's like a car breaking down.
+
+92
+00:03:28.000 --> 00:03:30.000
+It's really just one part failing.
+
+93
+00:03:30.000 --> 00:03:32.000
+You have genomic instability
+
+94
+00:03:32.000 --> 00:03:34.000
+where the actual DNA instruction manual
+
+95
+00:03:34.000 --> 00:03:36.000
+starts getting smudged.
+
+96
+00:03:36.000 --> 00:03:37.000
+Right, and telemeritrician.
+
+97
+00:03:37.000 --> 00:03:39.000
+Yeah, and mitochondrial dysfunction,
+
+98
+00:03:39.000 --> 00:03:41.000
+which is basically the cell's engines
+
+99
+00:03:41.000 --> 00:03:43.000
+just losing their ability to process fuel,
+
+100
+00:03:43.000 --> 00:03:45.000
+plus stem cell exhaustion,
+
+101
+00:03:45.000 --> 00:03:47.000
+like literally running out of the spare parts
+
+102
+00:03:47.000 --> 00:03:48.000
+you need to regenerate tissue.
+
+103
+00:03:48.000 --> 00:03:51.000
+It is a phenomenal cascade of events,
+
+104
+00:03:51.000 --> 00:03:54.000
+but this raises a really important point,
+
+105
+00:03:54.000 --> 00:03:55.000
+and it's a critical misconception
+
+106
+00:03:55.000 --> 00:03:57.000
+I want to clear up for anyone studying this.
+
+107
+00:03:57.000 --> 00:03:58.000
+Oh, please do.
+
+108
+00:03:58.000 --> 00:04:01.000
+We have this tendency to view these biological hallmarks
+
+109
+00:04:01.000 --> 00:04:04.000
+as a strict, relentless, downward slope,
+
+110
+00:04:04.000 --> 00:04:07.000
+like just a slow, universal decay,
+
+111
+00:04:07.000 --> 00:04:08.000
+but it isn't always like that.
+
+112
+00:04:08.000 --> 00:04:09.000
+Wait, how so?
+
+113
+00:04:09.000 --> 00:04:10.000
+Because these changes,
+
+114
+00:04:10.000 --> 00:04:13.000
+they can be gradual or they can be rapid,
+
+115
+00:04:13.000 --> 00:04:14.000
+and more importantly,
+
+116
+00:04:14.000 --> 00:04:16.000
+they can actually reflect positive, negative,
+
+117
+00:04:16.000 --> 00:04:19.000
+or even no change from previous levels of functioning.
+
+118
+00:04:19.000 --> 00:04:20.000
+Oh, wow.
+
+119
+00:04:20.000 --> 00:04:22.000
+So it's not just a one-way street.
+
+120
+00:04:22.000 --> 00:04:22.000
+Exactly.
+
+121
+00:04:22.000 --> 00:04:25.000
+The biological system is incredibly plastic.
+
+122
+00:04:25.000 --> 00:04:28.000
+Aging is fundamentally a process of adaptation,
+
+123
+00:04:28.000 --> 00:04:31.000
+not just passive degradation.
+
+124
+00:04:31.000 --> 00:04:34.000
+The organism is constantly trying to balance itself
+
+125
+00:04:34.000 --> 00:04:35.000
+against the damage.
+
+126
+00:04:35.000 --> 00:04:35.000
+Okay, that makes sense.
+
+127
+00:04:35.000 --> 00:04:38.000
+So if we take those whole-body biological factors,
+
+128
+00:04:38.000 --> 00:04:40.000
+the smudged DNA, the failing mitochondria,
+
+129
+00:04:40.000 --> 00:04:43.000
+how do they specifically reshape
+
+130
+00:04:43.000 --> 00:04:44.000
+the physical architecture of the brain?
+
+131
+00:04:44.000 --> 00:04:47.000
+Well, this is where the structural MRI data is so incredible.
+
+132
+00:04:47.000 --> 00:04:49.000
+Yeah, so if you look at the brain maps
+
+133
+00:04:49.000 --> 00:04:51.000
+on slides four and six,
+
+134
+00:04:51.000 --> 00:04:54.000
+you'll see specific regions highlighted in yellow.
+
+135
+00:04:54.000 --> 00:04:55.000
+And these represent the areas
+
+136
+00:04:55.000 --> 00:04:57.000
+with the largest decline in cortical thickness
+
+137
+00:04:57.000 --> 00:05:00.000
+across a huge, I think it was an 883-person sample.
+
+138
+00:05:00.000 --> 00:05:03.000
+Yep, yep, massive sample size.
+
+139
+00:05:03.000 --> 00:05:06.000
+And the cortex is essentially physically thinning out,
+
+140
+00:05:06.000 --> 00:05:08.000
+but it isn't thinning out uniformly.
+
+141
+00:05:08.000 --> 00:05:10.000
+Right, you also see these red regions,
+
+142
+00:05:10.000 --> 00:05:12.000
+which make up the default network or the DN.
+
+143
+00:05:12.000 --> 00:05:14.000
+And then there are green regions,
+
+144
+00:05:14.000 --> 00:05:17.000
+which show weaker resting functional connectivity
+
+145
+00:05:17.000 --> 00:05:18.000
+in older adults.
+
+146
+00:05:18.000 --> 00:05:21.000
+And that's a crucial point, the default network.
+
+147
+00:05:21.000 --> 00:05:23.000
+Yeah, can you explain what that actually is?
+
+148
+00:05:23.000 --> 00:05:26.000
+Sure, so the DN is highly active when you're awake,
+
+149
+00:05:26.000 --> 00:05:28.000
+but not focused on the outside world.
+
+150
+00:05:28.000 --> 00:05:31.000
+It's the network that handles mind-wandering,
+
+151
+00:05:31.000 --> 00:05:34.000
+retrieving autobiographical memories,
+
+152
+00:05:34.000 --> 00:05:37.000
+projecting yourself into the future to make plans.
+
+153
+00:05:37.000 --> 00:05:40.000
+So if we step back from the raw data for a second,
+
+154
+00:05:40.000 --> 00:05:42.000
+if we have weaker baseline activity
+
+155
+00:05:42.000 --> 00:05:44.000
+in those red default network areas,
+
+156
+00:05:44.000 --> 00:05:46.000
+what kind of everyday functions
+
+157
+00:05:46.000 --> 00:05:48.000
+are actually taking the hit for you?
+
+158
+00:05:48.000 --> 00:05:50.000
+Basically, the brain's background processing
+
+159
+00:05:50.000 --> 00:05:51.000
+just becomes far less efficient.
+
+160
+00:05:51.000 --> 00:05:52.000
+Okay.
+
+161
+00:05:52.000 --> 00:05:55.000
+That seamless ability to shift between internal reflection
+
+162
+00:05:55.000 --> 00:05:57.000
+and external attention gets rigid.
+
+163
+00:05:57.000 --> 00:06:00.000
+So you might find it harder to instantly pull up
+
+164
+00:06:00.000 --> 00:06:01.000
+a specific memory from your past
+
+165
+00:06:01.000 --> 00:06:03.000
+to apply to a current problem.
+
+166
+00:06:03.000 --> 00:06:05.000
+But here's where that concept of adaptation
+
+167
+00:06:05.000 --> 00:06:06.000
+comes back in, right?
+
+168
+00:06:06.000 --> 00:06:08.000
+The brain doesn't just give up,
+
+169
+00:06:08.000 --> 00:06:11.000
+it actually reorganizes itself across the lifespan.
+
+170
+00:06:11.000 --> 00:06:13.000
+It does, and the timeline for that reorganization,
+
+171
+00:06:13.000 --> 00:06:16.000
+which you can see laid out on slide 10, is fascinating.
+
+172
+00:06:16.000 --> 00:06:17.000
+Yeah, let's break that down.
+
+173
+00:06:17.000 --> 00:06:22.000
+So during adulthood, which they define as roughly 32 to 66,
+
+174
+00:06:22.000 --> 00:06:23.000
+we tend to think of the brain
+
+175
+00:06:23.000 --> 00:06:25.000
+as being in this steady, static state.
+
+176
+00:06:25.000 --> 00:06:29.000
+But it's actually undergoing slow structural shifts
+
+177
+00:06:29.000 --> 00:06:30.000
+toward segregated networks.
+
+178
+00:06:30.000 --> 00:06:35.000
+Exactly, and then you hit early aging from about 66 to 83.
+
+179
+00:06:35.000 --> 00:06:36.000
+And this is when the white matter tracks
+
+180
+00:06:36.000 --> 00:06:40.000
+the actual physical highways connecting different brain regions
+
+181
+00:06:40.000 --> 00:06:43.000
+to begin to degenerate, global connectivity drops.
+
+182
+00:06:43.000 --> 00:06:45.000
+But the brain recognizes
+
+183
+00:06:45.000 --> 00:06:46.000
+that the highways are degrading, right?
+
+184
+00:06:46.000 --> 00:06:49.000
+So it enters this brilliant compensatory mode,
+
+185
+00:06:49.000 --> 00:06:50.000
+it reroutes information.
+
+186
+00:06:50.000 --> 00:06:52.000
+Yes, it actively builds detours.
+
+187
+00:06:52.000 --> 00:06:53.000
+I love that analogy.
+
+188
+00:06:53.000 --> 00:06:56.000
+It's like finding out the main highway you shut down
+
+189
+00:06:56.000 --> 00:06:58.000
+so you navigate through all these local side streets
+
+190
+00:06:58.000 --> 00:06:59.000
+to get to the same destination.
+
+191
+00:06:59.000 --> 00:07:02.000
+Precisely, and then in late aging,
+
+192
+00:07:02.000 --> 00:07:03.000
+so 83 and beyond,
+
+193
+00:07:03.000 --> 00:07:05.000
+the brain relies really heavily
+
+194
+00:07:05.000 --> 00:07:09.000
+on those isolated local regional circuits.
+
+195
+00:07:09.000 --> 00:07:10.000
+It doesn't uniformly shut down,
+
+196
+00:07:10.000 --> 00:07:13.000
+it just becomes extremely locally focused
+
+197
+00:07:13.000 --> 00:07:16.000
+to preserve whatever functional integrity it still has.
+
+198
+00:07:16.000 --> 00:07:17.000
+Which perfectly explains
+
+199
+00:07:17.000 --> 00:07:20.000
+that wild variance we see on slide seven.
+
+200
+00:07:20.000 --> 00:07:21.000
+Oh, the scatter plot, yeah.
+
+201
+00:07:21.000 --> 00:07:23.000
+Visually, you can see cognitive performance
+
+202
+00:07:23.000 --> 00:07:26.000
+on the bottom axis and age on the side.
+
+203
+00:07:26.000 --> 00:07:28.000
+And the dots representing individual people
+
+204
+00:07:28.000 --> 00:07:30.000
+are just scattered everywhere.
+
+205
+00:07:30.000 --> 00:07:31.000
+You have some 80-year-olds
+
+206
+00:07:31.000 --> 00:07:33.000
+who are actually outperforming 40-year-olds.
+
+207
+00:07:33.000 --> 00:07:35.000
+And that variance exists
+
+208
+00:07:35.000 --> 00:07:38.000
+because of those three pillars we discussed earlier,
+
+209
+00:07:38.000 --> 00:07:40.000
+biological, psychological, and social.
+
+210
+00:07:40.000 --> 00:07:43.000
+The compensatory detours we just talked about
+
+211
+00:07:43.000 --> 00:07:45.000
+are simply stronger and more resilient in some people.
+
+212
+00:07:45.000 --> 00:07:48.000
+Okay, so if the cortex is physically thinning out
+
+213
+00:07:48.000 --> 00:07:50.000
+and losing connectivity,
+
+214
+00:07:50.000 --> 00:07:52.000
+what is actually chewing up that wiring
+
+215
+00:07:52.000 --> 00:07:54.000
+on a microscopic level?
+
+216
+00:07:54.000 --> 00:07:56.000
+For that, we have to look at the brain's immune system,
+
+217
+00:07:56.000 --> 00:07:58.000
+specifically the microglia.
+
+218
+00:07:58.000 --> 00:07:59.000
+The microglia, okay.
+
+219
+00:07:59.000 --> 00:08:01.000
+Yes, carefully pronouncing that, microglia.
+
+220
+00:08:01.000 --> 00:08:03.000
+They are the resident immune cells
+
+221
+00:08:03.000 --> 00:08:05.000
+of the central nervous system.
+
+222
+00:08:05.000 --> 00:08:07.000
+But to understand why they go rogue,
+
+223
+00:08:07.000 --> 00:08:10.000
+we first have to talk about the blood-brain barrier,
+
+224
+00:08:10.000 --> 00:08:11.000
+or the BBB.
+
+225
+00:08:11.000 --> 00:08:12.000
+Right, slide eight.
+
+226
+00:08:12.000 --> 00:08:14.000
+And there's a huge student misconception here
+
+227
+00:08:14.000 --> 00:08:18.000
+that the BBB is this impenetrable concrete wall.
+
+228
+00:08:18.000 --> 00:08:19.000
+Exactly.
+
+229
+00:08:19.000 --> 00:08:21.000
+People think it keeps the brain entirely isolated,
+
+230
+00:08:21.000 --> 00:08:24.000
+but it's actually a semi-permeable filter.
+
+231
+00:08:24.000 --> 00:08:28.000
+And as we age, that filter starts to break down,
+
+232
+00:08:28.000 --> 00:08:29.000
+its permeability increases.
+
+233
+00:08:29.000 --> 00:08:30.000
+It gets leaky.
+
+234
+00:08:30.000 --> 00:08:32.000
+It gets very leaky.
+
+235
+00:08:32.000 --> 00:08:33.000
+And if you look at the flow chart on slide nine,
+
+236
+00:08:33.000 --> 00:08:36.000
+you can see the cellular hallmarks of this.
+
+237
+00:08:36.000 --> 00:08:38.000
+You have the healthy, youthful state on the left
+
+238
+00:08:38.000 --> 00:08:39.000
+and the age state on the right.
+
+239
+00:08:39.000 --> 00:08:42.000
+Yeah, let's help people build a mental map of this diagram.
+
+240
+00:08:42.000 --> 00:08:45.000
+So tracing the pathways on the right side of the age state,
+
+241
+00:08:45.000 --> 00:08:48.000
+you first see decreased synaptic density in the neurons,
+
+242
+00:08:48.000 --> 00:08:50.000
+right, the connections are physically thinning out.
+
+243
+00:08:50.000 --> 00:08:53.000
+Right, and then you see a drop in neurogenesis.
+
+244
+00:08:53.000 --> 00:08:55.000
+The stem cells just lose their ability to proliferate
+
+245
+00:08:55.000 --> 00:08:57.000
+and generate fresh neurons.
+
+246
+00:08:57.000 --> 00:09:00.000
+But the real chaos starts with inflammation.
+
+247
+00:09:00.000 --> 00:09:04.000
+Because the BBB is leaky, peripheral immune cytokines,
+
+248
+00:09:04.000 --> 00:09:06.000
+basically inflammatory messenger proteins
+
+249
+00:09:06.000 --> 00:09:08.000
+from the rest of your body,
+
+250
+00:09:08.000 --> 00:09:11.000
+they slick through the cracks and flood the brain tissue.
+
+251
+00:09:11.000 --> 00:09:13.000
+And when those microglia get flooded
+
+252
+00:09:13.000 --> 00:09:16.000
+with systemic inflammatory signals,
+
+253
+00:09:16.000 --> 00:09:17.000
+they become hyperreactive.
+
+254
+00:09:17.000 --> 00:09:19.000
+They just go into overdrive.
+
+255
+00:09:19.000 --> 00:09:22.000
+Exactly, instead of quietly doing standard maintenance,
+
+256
+00:09:22.000 --> 00:09:24.000
+they shift into this aggressive state
+
+257
+00:09:24.000 --> 00:09:27.000
+causing chronic low grade inflammation.
+
+258
+00:09:27.000 --> 00:09:28.000
+Wait, so if my immune system
+
+259
+00:09:28.000 --> 00:09:30.000
+is fighting a systemic infection,
+
+260
+00:09:30.000 --> 00:09:32.000
+or if I have chronic inflammation
+
+261
+00:09:32.000 --> 00:09:34.000
+from like core metabolic health,
+
+262
+00:09:34.000 --> 00:09:36.000
+and my BBB is leaky,
+
+263
+00:09:36.000 --> 00:09:39.000
+my brain is essentially catching the crossfire.
+
+264
+00:09:39.000 --> 00:09:42.000
+It is the collateral damage of systemic inflammation.
+
+265
+00:09:42.000 --> 00:09:43.000
+And to make matters worse,
+
+266
+00:09:43.000 --> 00:09:45.000
+the aged brain also loses its ability
+
+267
+00:09:45.000 --> 00:09:48.000
+to perform phagocytosis efficiently.
+
+268
+00:09:48.000 --> 00:09:50.000
+Phagocytosis, the cellular cleanup process.
+
+269
+00:09:50.000 --> 00:09:53.000
+I've heard people compare it to cellular garbage trucks,
+
+270
+00:09:53.000 --> 00:09:54.000
+but honestly, looking at the slides,
+
+271
+00:09:54.000 --> 00:09:55.000
+I think a better analogy
+
+272
+00:09:55.000 --> 00:09:58.000
+is a city's street sweeping protocol.
+
+273
+00:09:58.000 --> 00:10:00.000
+It's the process of cells ingesting
+
+274
+00:10:00.000 --> 00:10:02.000
+and clearing away dead tissue and protein plaques.
+
+275
+00:10:02.000 --> 00:10:04.000
+That's a great way to think about it.
+
+276
+00:10:04.000 --> 00:10:05.000
+Because just like street sweepers,
+
+277
+00:10:05.000 --> 00:10:08.000
+they can only operate when the conditions are right.
+
+278
+00:10:08.000 --> 00:10:11.000
+When the phagocytosis mechanism slows down,
+
+279
+00:10:11.000 --> 00:10:14.000
+the cellular garbage literally piles up in the streets.
+
+280
+00:10:14.000 --> 00:10:16.000
+Precisely, and because the debris is piling up,
+
+281
+00:10:16.000 --> 00:10:18.000
+those hyperreactive microglia
+
+282
+00:10:18.000 --> 00:10:21.000
+just keep sounding the inflammatory alarm indefinitely.
+
+283
+00:10:21.000 --> 00:10:24.000
+It becomes this self-sustaining loop of damage.
+
+284
+00:10:24.000 --> 00:10:26.000
+Wow, which begs the question,
+
+285
+00:10:27.000 --> 00:10:30.000
+what external real world experiences
+
+286
+00:10:30.000 --> 00:10:31.000
+are actually pulling the trigger
+
+287
+00:10:31.000 --> 00:10:33.000
+on these microscopic changes?
+
+288
+00:10:33.000 --> 00:10:34.000
+Because it doesn't just start when you turn 70.
+
+289
+00:10:34.000 --> 00:10:36.000
+No, sometimes it starts decades in advance.
+
+290
+00:10:36.000 --> 00:10:38.000
+And this brings us to slide 13,
+
+291
+00:10:38.000 --> 00:10:40.000
+looking at early life adversity.
+
+292
+00:10:40.000 --> 00:10:42.000
+Yeah, the resilience vulnerability continuum.
+
+293
+00:10:42.000 --> 00:10:44.000
+Right, the evidence shows that dementia
+
+294
+00:10:44.000 --> 00:10:46.000
+can literally take root in childhood.
+
+295
+00:10:46.000 --> 00:10:50.000
+That is so heavy, but it's robustly linked.
+
+296
+00:10:50.000 --> 00:10:52.000
+Childhood adversities abuse, neglect,
+
+297
+00:10:52.000 --> 00:10:54.000
+severe socioeconomic deprivation,
+
+298
+00:10:54.000 --> 00:10:57.000
+they lead to biological alterations,
+
+299
+00:10:57.000 --> 00:10:59.000
+reduced cognition, and increased MCI,
+
+300
+00:10:59.000 --> 00:11:02.000
+or mild cognitive impairment, later in life.
+
+301
+00:11:02.000 --> 00:11:04.000
+Because severe early stress permanently sets
+
+302
+00:11:04.000 --> 00:11:07.000
+the sensitivity of your stress response systems.
+
+303
+00:11:07.000 --> 00:11:09.000
+It dictates how resilient your brain will be
+
+304
+00:11:09.000 --> 00:11:13.000
+to that leaky BBB and those hyperreactive microglia
+
+305
+00:11:13.000 --> 00:11:14.000
+50 years later.
+
+306
+00:11:14.000 --> 00:11:16.000
+It really emphasizes that aging
+
+307
+00:11:16.000 --> 00:11:19.000
+is this lifelong accumulation of experiences.
+
+308
+00:11:19.000 --> 00:11:20.000
+Absolutely.
+
+309
+00:11:20.000 --> 00:11:22.000
+But okay, let's pivot to slide 23,
+
+310
+00:11:22.000 --> 00:11:24.000
+because this is another surprising factor,
+
+311
+00:11:24.000 --> 00:11:26.000
+and honestly, this one blew my mind.
+
+312
+00:11:26.000 --> 00:11:27.000
+The neuroscience of posture.
+
+313
+00:11:27.000 --> 00:11:29.000
+Oh, this is one of my favorite topics.
+
+314
+00:11:29.000 --> 00:11:31.000
+Because traditionally, we think of posture
+
+315
+00:11:31.000 --> 00:11:33.000
+as a mechanical issue, right?
+
+316
+00:11:33.000 --> 00:11:35.000
+Just sit up straight, stretch your muscles,
+
+317
+00:11:35.000 --> 00:11:37.000
+like tightening a loose rubber band.
+
+318
+00:11:37.000 --> 00:11:40.000
+But that rubber band analogy entirely misses
+
+319
+00:11:40.000 --> 00:11:42.000
+the neurological control center.
+
+320
+00:11:42.000 --> 00:11:43.000
+Upright posture against gravity
+
+321
+00:11:43.000 --> 00:11:47.000
+is a dynamic, highly complex neurological function.
+
+322
+00:11:47.000 --> 00:11:49.000
+It's a brain task, not just a muscle task.
+
+323
+00:11:49.000 --> 00:11:50.000
+Entirely.
+
+324
+00:11:50.000 --> 00:11:53.000
+The brain has to constantly detect gravity,
+
+325
+00:11:53.000 --> 00:11:55.000
+predict biomechanical consequences,
+
+326
+00:11:55.000 --> 00:11:57.000
+and initiate counter-responses
+
+327
+00:11:57.000 --> 00:11:59.000
+before you even consciously move.
+
+328
+00:11:59.000 --> 00:12:02.000
+It's a continuous loop of sensor motor prediction.
+
+329
+00:12:02.000 --> 00:12:02.000
+Exactly.
+
+330
+00:12:02.000 --> 00:12:05.000
+So when those structural brain networks segregate
+
+331
+00:12:05.000 --> 00:12:08.000
+and global connectivity drops as we age,
+
+332
+00:12:08.000 --> 00:12:11.000
+that predictive processing software slows down.
+
+333
+00:12:11.000 --> 00:12:12.000
+So the brain struggles
+
+334
+00:12:12.000 --> 00:12:14.000
+to calculate gravity instantaneously.
+
+335
+00:12:14.000 --> 00:12:16.000
+Yes, which explains why posture degrades
+
+336
+00:12:16.000 --> 00:12:19.000
+and fall risk increases exponentially.
+
+337
+00:12:19.000 --> 00:12:21.000
+The leg muscles might be perfectly fine.
+
+338
+00:12:21.000 --> 00:12:23.000
+It's the neurological software running them
+
+339
+00:12:23.000 --> 00:12:24.000
+that is glitching.
+
+340
+00:12:24.000 --> 00:12:24.000
+Wow.
+
+341
+00:12:24.000 --> 00:12:27.000
+So when the sensor motor networks glitch
+
+342
+00:12:27.000 --> 00:12:31.000
+and the microglia are hyperactive and the BBB fails,
+
+343
+00:12:31.000 --> 00:12:33.000
+that is the tipping point where normal aging
+
+344
+00:12:33.000 --> 00:12:35.000
+crosses the threshold into disease.
+
+345
+00:12:35.000 --> 00:12:37.000
+Yes, system failure.
+
+346
+00:12:37.000 --> 00:12:40.000
+And the most prominent example of this is Alzheimer's disease.
+
+347
+00:12:40.000 --> 00:12:42.000
+Right, and if you look at the brain scans
+
+348
+00:12:42.000 --> 00:12:45.000
+on slides 19 through 22,
+
+349
+00:12:45.000 --> 00:12:46.000
+the contrast is just staggering.
+
+350
+00:12:46.000 --> 00:12:48.000
+Visually, in a healthy brain image,
+
+351
+00:12:48.000 --> 00:12:51.000
+everything in blue, all the nuclei and neurons
+
+352
+00:12:51.000 --> 00:12:52.000
+is healthy and intact.
+
+353
+00:12:52.000 --> 00:12:53.000
+But in the Alzheimer's images,
+
+354
+00:12:53.000 --> 00:12:56.000
+you see an explosion of other colors.
+
+355
+00:12:56.000 --> 00:12:59.000
+And those colors represent markers for pathological tau.
+
+356
+00:12:59.000 --> 00:13:01.000
+Right, and tau is usually a good thing, right?
+
+357
+00:13:01.000 --> 00:13:04.000
+It stabilizes the internal skeleton of the cell.
+
+358
+00:13:04.000 --> 00:13:07.000
+Exactly, like ties on a railroad track.
+
+359
+00:13:07.000 --> 00:13:09.000
+But in Alzheimer's, they detach,
+
+360
+00:13:09.000 --> 00:13:10.000
+misfold and tangle together.
+
+361
+00:13:10.000 --> 00:13:14.000
+You are literally starving the neuron from the inside out.
+
+362
+00:13:14.000 --> 00:13:16.000
+And the structural damage is massive.
+
+363
+00:13:16.000 --> 00:13:19.000
+You can see the severe shrinkage of the cerebral cortex
+
+364
+00:13:19.000 --> 00:13:22.000
+and the hippocampus in the diagrams.
+
+365
+00:13:22.000 --> 00:13:25.000
+Plus, the ventricles, those fluid-filled cavities
+
+366
+00:13:25.000 --> 00:13:29.000
+become totally enlarged, expanding into the dead space.
+
+367
+00:13:29.000 --> 00:13:32.000
+And those physical changes trigger the classic symptoms.
+
+368
+00:13:32.000 --> 00:13:35.000
+The memory loss, confusion with time and location,
+
+369
+00:13:35.000 --> 00:13:37.000
+the poor judgment.
+
+370
+00:13:37.000 --> 00:13:40.000
+The biological machinery has simply deteriorated.
+
+371
+00:13:40.000 --> 00:13:42.000
+But we also have to talk about the glymphatic system
+
+372
+00:13:42.000 --> 00:13:44.000
+on slides 24 and 25.
+
+373
+00:13:44.000 --> 00:13:46.000
+Yes, the cerebrovascular impairment.
+
+374
+00:13:46.000 --> 00:13:49.000
+Because if you look at the flow chart with the red arrows,
+
+375
+00:13:49.000 --> 00:13:51.000
+those represent positive feedback loops
+
+376
+00:13:51.000 --> 00:13:53.000
+of damage amplification.
+
+377
+00:13:53.000 --> 00:13:55.000
+The glymphatic system is basically the macroscopic version
+
+378
+00:13:55.000 --> 00:13:57.000
+of those street sweepers we talked about.
+
+379
+00:13:57.000 --> 00:14:00.000
+Right, it flushes neurotoxic waste out of the brain tissue.
+
+380
+00:14:00.000 --> 00:14:03.000
+But because of glymphatic dysfunction as we age,
+
+381
+00:14:03.000 --> 00:14:04.000
+the flow gets blocked.
+
+382
+00:14:04.000 --> 00:14:08.000
+So harmful waste and pro-inflammatory mediators accumulate,
+
+383
+00:14:08.000 --> 00:14:10.000
+driving even more neurodegeneration.
+
+384
+00:14:10.000 --> 00:14:12.000
+It's a vicious cycle.
+
+385
+00:14:12.000 --> 00:14:13.000
+And it operates quietly
+
+386
+00:14:13.000 --> 00:14:16.000
+during what we call the prodromal phase.
+
+387
+00:14:16.000 --> 00:14:19.000
+Which the slide defines as the crucial period
+
+388
+00:14:19.000 --> 00:14:21.000
+between initial symptoms
+
+389
+00:14:21.000 --> 00:14:23.000
+and the full development of a disorder, right?
+
+390
+00:14:23.000 --> 00:14:24.000
+Exactly.
+
+391
+00:14:24.000 --> 00:14:26.000
+The silent window where the feedback loops
+
+392
+00:14:26.000 --> 00:14:27.000
+are spinning out of control
+
+393
+00:14:27.000 --> 00:14:30.000
+before severe behavioral symptoms manifest.
+
+394
+00:14:30.000 --> 00:14:32.000
+Okay, this sounds incredibly grim.
+
+395
+00:14:32.000 --> 00:14:34.000
+But if we know how the system breaks down,
+
+396
+00:14:35.000 --> 00:14:36.000
+can we hack it?
+
+397
+00:14:36.000 --> 00:14:37.000
+Can we stop or reverse it?
+
+398
+00:14:37.000 --> 00:14:39.000
+We can certainly try.
+
+399
+00:14:39.000 --> 00:14:41.000
+And the data on brain clocks and exercise
+
+400
+00:14:41.000 --> 00:14:44.000
+on slides 14 and 15 is so exciting.
+
+401
+00:14:44.000 --> 00:14:47.000
+Yes, the FMRI box and whisker charts.
+
+402
+00:14:47.000 --> 00:14:49.000
+They show that simple interventions
+
+403
+00:14:49.000 --> 00:14:51.000
+like moderate to heavy resistance training
+
+404
+00:14:51.000 --> 00:14:55.000
+significantly reduce accelerated aging in these brain clocks.
+
+405
+00:14:55.000 --> 00:14:56.000
+And a key takeaway from the slide
+
+406
+00:14:56.000 --> 00:14:58.000
+is that this effect is global and distributed.
+
+407
+00:14:58.000 --> 00:15:00.000
+It is not just confined to single brain hubs.
+
+408
+00:15:00.000 --> 00:15:02.000
+Lifting weights literally keeps
+
+409
+00:15:02.000 --> 00:15:04.000
+the whole neurological network integrated.
+
+410
+00:15:04.000 --> 00:15:05.000
+Exactly.
+
+411
+00:15:05.000 --> 00:15:06.000
+But it goes beyond exercise.
+
+412
+00:15:06.000 --> 00:15:10.000
+Slides 16 and 17 outline these rejuvenation interventions.
+
+413
+00:15:10.000 --> 00:15:11.000
+The mice diagrams.
+
+414
+00:15:11.000 --> 00:15:13.000
+You've got the young mice with brown coats
+
+415
+00:15:13.000 --> 00:15:15.000
+and the aged mice with gray coats.
+
+416
+00:15:15.000 --> 00:15:16.000
+Right, and researchers are looking
+
+417
+00:15:16.000 --> 00:15:18.000
+at two main categories here.
+
+418
+00:15:18.000 --> 00:15:22.000
+Lifestyle, which includes exercise and caloric restriction.
+
+419
+00:15:22.000 --> 00:15:26.000
+So cutting intake by 10 to 50% without malnutrition.
+
+420
+00:15:26.000 --> 00:15:27.000
+To force the cells into repair mode.
+
+421
+00:15:27.000 --> 00:15:31.000
+Yes, and then you have the blood-based interventions.
+
+422
+00:15:31.000 --> 00:15:33.000
+Heterochronic parabiosis,
+
+423
+00:15:33.000 --> 00:15:36.000
+which is surgically connecting young and old mice.
+
+424
+00:15:36.000 --> 00:15:39.000
+Or young plasma administration and neutral blood exchange.
+
+425
+00:15:39.000 --> 00:15:41.000
+Neutral blood exchange is wild.
+
+426
+00:15:41.000 --> 00:15:42.000
+They just wash out the old plasma
+
+427
+00:15:42.000 --> 00:15:45.000
+to dilute all those accumulated inflammatory cytokines.
+
+428
+00:15:45.000 --> 00:15:46.000
+And then they are seeing
+
+429
+00:15:46.000 --> 00:15:50.000
+actual measurable rejuvenation effects.
+
+430
+00:15:50.000 --> 00:15:53.000
+Which puts human aging into a crazy perspective.
+
+431
+00:15:53.000 --> 00:15:54.000
+Look at slide 18.
+
+432
+00:15:54.000 --> 00:15:56.000
+The animal kingdom lifespan chart.
+
+433
+00:15:56.000 --> 00:15:58.000
+Visually you see the may fly at zero.
+
+434
+00:15:58.000 --> 00:16:00.000
+Humans at around 120.
+
+435
+00:16:00.000 --> 00:16:02.000
+The Aldabra tortoise at 150.
+
+436
+00:16:02.000 --> 00:16:04.000
+And all the way at the edge of the chart.
+
+437
+00:16:04.000 --> 00:16:06.000
+The Greenland shark hitting 500 years.
+
+438
+00:16:06.000 --> 00:16:07.000
+500 years.
+
+439
+00:16:07.000 --> 00:16:09.000
+It proves that aging isn't a fixed law of physics.
+
+440
+00:16:09.000 --> 00:16:13.000
+Our 100 year timeline is just one evolutionary strategy.
+
+441
+00:16:13.000 --> 00:16:15.000
+That is just, it's unbelievable.
+
+442
+00:16:15.000 --> 00:16:16.000
+So, wrapping this up.
+
+443
+00:16:16.000 --> 00:16:17.000
+We've moved from the psychological
+
+444
+00:16:17.000 --> 00:16:19.000
+and social inputs of successful aging.
+
+445
+00:16:19.000 --> 00:16:22.000
+Down to the shrinking cortex and hyperactive microglia.
+
+446
+00:16:22.000 --> 00:16:25.000
+We explored the impacts of childhood trauma.
+
+447
+00:16:25.000 --> 00:16:29.000
+And how posture is actually neurological computation.
+
+448
+00:16:29.000 --> 00:16:31.000
+We looked at the devastating diseases of aging.
+
+449
+00:16:31.000 --> 00:16:32.000
+Like Alzheimer's.
+
+450
+00:16:32.000 --> 00:16:35.000
+And finally, the actual tangible hope
+
+451
+00:16:35.000 --> 00:16:38.000
+of resistance training and blood-based interventions.
+
+452
+00:16:38.000 --> 00:16:40.000
+And I wanna leave you with a final thought
+
+453
+00:16:40.000 --> 00:16:41.000
+to really mull over.
+
+454
+00:16:41.000 --> 00:16:44.000
+If resistance training can reshape our brain clocks.
+
+455
+00:16:44.000 --> 00:16:47.000
+And the brain fundamentally restructures
+
+456
+00:16:47.000 --> 00:16:49.000
+its own neural networks to compensate
+
+457
+00:16:49.000 --> 00:16:51.000
+for physical degradation as we age.
+
+458
+00:16:51.000 --> 00:16:52.000
+Yeah.
+
+459
+00:16:52.000 --> 00:16:54.000
+Then aging isn't just a process of loss.
+
+460
+00:16:54.000 --> 00:16:57.000
+It is an active, continuous act
+
+461
+00:16:57.000 --> 00:16:58.000
+of biological neuroplasticity.
+
+462
+00:16:58.000 --> 00:16:59.000
+Oh, wow.
+
+463
+00:16:59.000 --> 00:17:02.000
+So, does this mean our subjective experience
+
+464
+00:17:02.000 --> 00:17:05.000
+of self is actually evolving rather than just fading away?
+
+465
+00:17:05.000 --> 00:17:06.000
+It's a profound question, isn't it?
+
+466
+00:17:06.000 --> 00:17:07.000
+It really is.
+
+467
+00:17:07.000 --> 00:17:09.000
+Keep that in mind next time you're reviewing these notes.
+
+468
+00:17:09.000 --> 00:17:12.000
+Thank you so much for joining us on this deep dive.
+
+469
+00:17:12.000 --> 00:17:14.000
+And good luck unraveling the rest of the mystery.
+

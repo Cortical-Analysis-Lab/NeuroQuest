@@ -1,0 +1,3555 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Neuro Quest</title>
+  <style>
+    :root {
+      --ink: #172126;
+      --muted: #5d6b70;
+      --paper: #fffdf8;
+      --panel: #ffffff;
+      --line: #dbe5e1;
+      --teal: #0f7b78;
+      --teal-dark: #075a58;
+      --coral: #db6654;
+      --gold: #f0b84e;
+      --mint: #dff3ec;
+      --lav: #e8e2f5;
+      --blue: #d8edf5;
+      --shadow: 0 18px 50px rgba(23, 33, 38, 0.14);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      color: var(--ink);
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      background:
+        radial-gradient(circle at 9% 12%, rgba(240, 184, 78, 0.18), transparent 27%),
+        radial-gradient(circle at 88% 10%, rgba(15, 123, 120, 0.16), transparent 25%),
+        linear-gradient(135deg, #f8fbf7 0%, #f4f7fb 48%, #fff7f0 100%);
+    }
+
+    img {
+      -webkit-user-drag: none;
+      user-drag: none;
+      pointer-events: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    .app {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 24px 0;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .brand-mark {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 800;
+      background: conic-gradient(from 210deg, var(--teal), var(--coral), var(--gold), var(--teal));
+      box-shadow: 0 9px 24px rgba(15, 123, 120, 0.25);
+      flex: 0 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.45rem, 3vw, 2.5rem);
+      letter-spacing: 0;
+      line-height: 1.04;
+    }
+
+    .subtitle {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .utility {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 8px 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .reset {
+      border: 0;
+      color: #fff;
+      background: var(--teal-dark);
+      border-radius: 999px;
+      padding: 9px 14px;
+      cursor: pointer;
+      font-weight: 800;
+      box-shadow: 0 8px 18px rgba(7, 90, 88, 0.22);
+    }
+
+    .mode-btn {
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 999px;
+      padding: 9px 13px;
+      cursor: pointer;
+      font-weight: 800;
+    }
+
+    .mode-btn[aria-current="true"] {
+      color: #fff;
+      border-color: var(--teal-dark);
+      background: var(--teal-dark);
+    }
+
+    .mode-btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.48;
+    }
+
+    .home {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(219, 229, 225, 0.9);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+    }
+
+    .home[hidden],
+    .presentation[hidden],
+    .neuro-module[hidden],
+    .game[hidden] {
+      display: none;
+    }
+
+    .home-hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 240px;
+      gap: 18px;
+      align-items: center;
+      padding: 24px;
+      background: linear-gradient(135deg, rgba(223, 243, 236, 0.9), rgba(232, 226, 245, 0.72));
+      border-bottom: 1px solid var(--line);
+    }
+
+    .home-hero h2 {
+      margin: 0 0 10px;
+      font-size: clamp(1.6rem, 3vw, 2.4rem);
+      line-height: 1.05;
+    }
+
+    .home-hero p {
+      margin: 0;
+      color: #344348;
+      line-height: 1.55;
+      max-width: 68ch;
+    }
+
+    .home-hosts {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: end;
+      gap: 6px;
+      min-height: 180px;
+    }
+
+    .home-hosts img {
+      width: 100%;
+      max-height: 210px;
+      object-fit: contain;
+      filter: drop-shadow(0 12px 12px rgba(23, 33, 38, 0.13));
+    }
+
+    .module-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      padding: 18px;
+    }
+
+    .module-card {
+      min-height: 190px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 14px;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto auto;
+      gap: 10px;
+      text-align: left;
+      color: var(--ink);
+      box-shadow: 0 8px 18px rgba(23, 33, 38, 0.06);
+    }
+
+    button.module-card {
+      cursor: pointer;
+    }
+
+    button.module-card:hover,
+    button.module-card:focus-visible {
+      outline: 3px solid rgba(240, 184, 78, 0.45);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    .module-card.locked {
+      opacity: 0.72;
+      background: linear-gradient(180deg, #fff, #f8faf9);
+    }
+
+    .module-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .module-badge {
+      border-radius: 999px;
+      padding: 5px 8px;
+      font-size: 0.75rem;
+      font-weight: 900;
+      color: var(--teal-dark);
+      background: var(--mint);
+      border: 1px solid rgba(15, 123, 120, 0.16);
+    }
+
+    .module-card.locked .module-badge {
+      color: #6c5c22;
+      background: #fff1c8;
+      border-color: rgba(240, 184, 78, 0.25);
+    }
+
+    .module-card h3 {
+      margin: 0;
+      font-size: 1.05rem;
+      line-height: 1.18;
+    }
+
+    .module-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.92rem;
+    }
+
+    .module-action {
+      color: var(--teal-dark);
+      font-weight: 900;
+      font-size: 0.92rem;
+    }
+
+    .module-progress {
+      display: grid;
+      gap: 5px;
+    }
+
+    .module-progress-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 900;
+    }
+
+    .module-progress-track {
+      height: 7px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7efec;
+      border: 1px solid rgba(15, 123, 120, 0.12);
+    }
+
+    .module-progress-fill {
+      width: 0%;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--teal), var(--gold));
+      transition: width 180ms ease;
+    }
+
+    .presentation {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 330px;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .slide-player,
+    .presenter-panel {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(219, 229, 225, 0.9);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .slide-player {
+      overflow: hidden;
+    }
+
+    .neuro-module {
+      display: grid;
+      grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .neuro-slide-panel,
+    .sim-panel {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(219, 229, 225, 0.9);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+    }
+
+    .neuro-slide-panel img {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      background: #fff;
+      display: block;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .neuro-slide-body,
+    .sim-body {
+      padding: 16px;
+    }
+
+    .neuro-slide-body h2,
+    .sim-body h2 {
+      margin: 0 0 8px;
+      font-size: 1.25rem;
+      line-height: 1.18;
+    }
+
+    .neuro-slide-body p,
+    .sim-body p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .sim-frame {
+      width: 100%;
+      min-height: 520px;
+      border: 0;
+      display: block;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .activity-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      margin-top: 12px;
+    }
+
+    .activity-btn {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: var(--ink);
+      padding: 10px;
+      cursor: pointer;
+      font-weight: 850;
+      text-align: left;
+      min-height: 58px;
+    }
+
+    .activity-btn:hover,
+    .activity-btn:focus-visible {
+      outline: 3px solid rgba(240, 184, 78, 0.45);
+      border-color: var(--gold);
+    }
+
+    .sim-note {
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--paper);
+      color: #344348;
+      line-height: 1.45;
+    }
+
+    .presentation-media {
+      position: relative;
+      background: #fff;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: minmax(120px, 16%) minmax(0, 1fr) minmax(120px, 16%);
+      align-items: stretch;
+    }
+
+    .presentation-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      display: block;
+      background: #fff;
+    }
+
+    .presentation-stage {
+      position: relative;
+      min-width: 0;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    .inline-media {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      gap: 10px;
+      padding: 0;
+      background: transparent;
+      z-index: 2;
+      overflow: hidden;
+    }
+
+    .inline-media[hidden] {
+      display: none;
+    }
+
+    .inline-media-item {
+      position: absolute;
+      overflow: hidden;
+      background: transparent;
+    }
+
+    .inline-media img,
+    .inline-media video,
+    .inline-media iframe {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: #fff;
+      border: 0;
+      border-bottom: 0;
+      aspect-ratio: auto;
+      display: block;
+    }
+
+    .inline-media audio {
+      width: min(520px, 86%);
+    }
+
+    .youtube-fallback {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      z-index: 3;
+      border: 1px solid rgba(23, 33, 38, 0.16);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.94);
+      color: var(--ink);
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 6px 9px;
+      text-decoration: none;
+      box-shadow: 0 6px 18px rgba(23, 33, 38, 0.14);
+    }
+
+    .youtube-loader {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background: #111;
+    }
+
+    .youtube-play {
+      min-width: 74px;
+      min-height: 42px;
+      border: 0;
+      border-radius: 999px;
+      background: #fff;
+      color: #111;
+      font: 800 0.92rem/1.1 var(--font-ui);
+      cursor: pointer;
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
+    }
+
+    .youtube-play:focus-visible {
+      outline: 3px solid rgba(255, 255, 255, 0.82);
+      outline-offset: 4px;
+    }
+
+    .inline-media-actions {
+      position: absolute;
+      right: 14px;
+      bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      border: 1px solid var(--line);
+      box-shadow: 0 8px 22px rgba(23, 33, 38, 0.16);
+    }
+
+    .side-host {
+      background: linear-gradient(180deg, #fbfffd 0%, #f1f8f6 100%);
+      display: grid;
+      padding: 12px 10px 10px;
+      min-width: 0;
+      align-content: end;
+    }
+
+    .side-host.left-host {
+      border-right: 1px solid var(--line);
+    }
+
+    .side-host.right-host {
+      border-left: 1px solid var(--line);
+    }
+
+    .host-seat {
+      position: relative;
+      min-height: 100%;
+      display: grid;
+      align-content: end;
+      justify-items: center;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .host-seat::after {
+      content: "";
+      width: 76%;
+      height: 16px;
+      border-radius: 50%;
+      background: rgba(23, 33, 38, 0.12);
+      filter: blur(2px);
+      transform: translateY(-2px);
+    }
+
+    .host-seat img {
+      width: min(118%, 185px);
+      max-height: 210px;
+      object-fit: contain;
+      display: block;
+      transform-origin: 50% 100%;
+      animation: seatedBob 4s ease-in-out infinite;
+      margin-bottom: -8px;
+      z-index: 1;
+    }
+
+    .right-host .host-seat img {
+      animation-delay: -1.6s;
+    }
+
+    @keyframes seatedBob {
+      0%, 100% { transform: translateY(0) rotate(-1deg); }
+      50% { transform: translateY(-5px) rotate(1deg); }
+    }
+
+    .caption-box {
+      min-height: 86px;
+      padding: 16px 18px;
+      color: #26363b;
+      background: #102124;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .caption-box h2 {
+      margin: 0 0 6px;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+
+    .caption-box p {
+      margin: 0;
+      color: #d8ede9;
+      line-height: 1.5;
+    }
+
+    .presentation-controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 14px 18px 18px;
+      background: var(--panel);
+    }
+
+    .control-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .control-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      border-radius: 999px;
+      padding: 9px 13px;
+      cursor: pointer;
+      font-weight: 900;
+    }
+
+    .control-btn.primary-control {
+      border-color: var(--teal-dark);
+      background: var(--teal-dark);
+      color: #fff;
+    }
+
+    .progress-track {
+      width: min(280px, 100%);
+      height: 10px;
+      background: #edf1ef;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      width: 4%;
+      height: 100%;
+      background: linear-gradient(90deg, var(--gold), var(--teal));
+      transition: width 0.25s ease;
+    }
+
+    .presenter-panel {
+      padding: 18px;
+      display: grid;
+      grid-template-rows: auto auto auto 1fr;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .cohosts { display: none; }
+
+    .cohost-card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: linear-gradient(180deg, #ffffff 0%, #f7fbfa 100%);
+      padding: 8px;
+      text-align: center;
+    }
+
+    .cohost-card img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      display: block;
+      animation: floaty 3.8s ease-in-out infinite;
+    }
+
+    .cohost-card:nth-child(2) img {
+      animation-delay: -1.7s;
+    }
+
+    .cohost-card img.pose-pop {
+      animation: floaty 3.8s ease-in-out infinite, posePop 0.32s ease;
+    }
+
+    .host-seat img.pose-pop {
+      animation: seatedBob 4s ease-in-out infinite, posePop 0.32s ease;
+    }
+
+    .cohost-card strong {
+      display: block;
+      font-size: 0.92rem;
+      margin-top: 4px;
+    }
+
+    .cohost-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      line-height: 1.25;
+    }
+
+    .audio-status {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: var(--paper);
+    }
+
+    .audio-status h3,
+    .speaker-notes h3 {
+      margin: 0 0 8px;
+      font-size: 0.98rem;
+    }
+
+    .audio-status p,
+    .speaker-notes p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.94rem;
+    }
+
+    .audio-status audio {
+      width: 100%;
+      margin-top: 10px;
+      display: block;
+    }
+
+    .media-cue-title {
+      margin: 0;
+      font-weight: 900;
+      color: var(--teal-dark);
+    }
+
+    .speaker-notes {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fff;
+    }
+
+    .game {
+      display: grid;
+      grid-template-columns: minmax(260px, 330px) minmax(0, 1fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .guide,
+    .stage {
+      background: rgba(255, 255, 255, 0.86);
+      border: 1px solid rgba(219, 229, 225, 0.9);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .guide {
+      border-radius: 8px;
+      padding: 18px;
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 14px;
+      min-height: 680px;
+    }
+
+    .mascot-wrap {
+      aspect-ratio: 1 / 1;
+      border-radius: 8px;
+      overflow: hidden;
+      background: linear-gradient(180deg, #ffffff 0%, #f4fbf8 100%);
+      border: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+    }
+
+    .mascot {
+      width: min(100%, 290px);
+      height: 100%;
+      object-fit: contain;
+      animation: floaty 3.6s ease-in-out infinite;
+      transition: opacity 0.18s ease, transform 0.22s ease;
+    }
+
+    @keyframes floaty {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-7px); }
+    }
+
+    .mascot.pose-pop {
+      animation: floaty 3.6s ease-in-out infinite, posePop 0.32s ease;
+    }
+
+    @keyframes posePop {
+      0% { opacity: 0.18; transform: translateY(4px) scale(0.98) rotate(-1deg); }
+      100% { opacity: 1; transform: translateY(0) scale(1) rotate(0); }
+    }
+
+    .guide-name {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .guide-copy {
+      margin: 0;
+      line-height: 1.5;
+      color: var(--muted);
+    }
+
+    .meter {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .meter-label {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 800;
+    }
+
+    .bar {
+      height: 12px;
+      background: #edf1ef;
+      border-radius: 999px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+    }
+
+    .bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--coral), var(--gold), var(--teal));
+      border-radius: inherit;
+      transition: width 0.3s ease;
+    }
+
+    .path {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-content: start;
+    }
+
+    .path span {
+      display: inline-grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--mint);
+      color: var(--teal-dark);
+      font-weight: 900;
+      font-size: 0.78rem;
+      border: 1px solid rgba(15, 123, 120, 0.18);
+    }
+
+    .stage {
+      border-radius: 8px;
+      overflow: hidden;
+      min-height: 680px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+    }
+
+    .scene-media {
+      position: relative;
+      background: #eef4f1;
+      border-bottom: 1px solid var(--line);
+      min-height: 275px;
+    }
+
+    .slide-img {
+      width: 100%;
+      height: 100%;
+      min-height: 275px;
+      max-height: 430px;
+      object-fit: contain;
+      display: block;
+      background: #fff;
+    }
+
+    .slide-tag {
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 11px;
+      font-size: 0.84rem;
+      font-weight: 900;
+    }
+
+    .scene-body {
+      padding: 22px;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 280px;
+      gap: 20px;
+      align-items: start;
+    }
+
+    .scene-main {
+      min-width: 0;
+    }
+
+    .node-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--teal-dark);
+      font-weight: 900;
+      background: var(--mint);
+      border: 1px solid rgba(15, 123, 120, 0.16);
+      padding: 7px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: clamp(1.45rem, 2.5vw, 2.25rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    .story {
+      margin: 0 0 18px;
+      color: #344348;
+      line-height: 1.6;
+      font-size: 1.04rem;
+    }
+
+    .choices {
+      display: grid;
+      gap: 10px;
+    }
+
+    .choice {
+      width: 100%;
+      border: 1px solid #cfded8;
+      background: #fff;
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 13px 14px;
+      text-align: left;
+      cursor: pointer;
+      display: grid;
+      grid-template-columns: 32px 1fr;
+      gap: 11px;
+      align-items: center;
+      box-shadow: 0 8px 18px rgba(23, 33, 38, 0.06);
+    }
+
+    .choice:hover,
+    .choice:focus-visible {
+      outline: 3px solid rgba(240, 184, 78, 0.45);
+      border-color: var(--gold);
+      transform: translateY(-1px);
+    }
+
+    .choice-key {
+      width: 32px;
+      height: 32px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--blue);
+      color: #1d5568;
+      font-weight: 900;
+    }
+
+    .choice strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .choice small {
+      color: var(--muted);
+      line-height: 1.38;
+      font-size: 0.9rem;
+    }
+
+    .side {
+      display: grid;
+      gap: 12px;
+    }
+
+    .mini-panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--paper);
+      padding: 14px;
+    }
+
+    .mini-panel h3 {
+      margin: 0 0 8px;
+      font-size: 0.98rem;
+    }
+
+    .mini-panel p,
+    .mini-panel ul {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 0.94rem;
+    }
+
+    .mini-panel ul {
+      padding-left: 18px;
+    }
+
+    .feedback {
+      min-height: 102px;
+      background: #fff;
+      border-left: 5px solid var(--gold);
+    }
+
+    .feedback.good {
+      border-left-color: var(--teal);
+    }
+
+    .feedback.warn {
+      border-left-color: var(--coral);
+    }
+
+    .ending-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .primary,
+    .secondary {
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-weight: 900;
+      cursor: pointer;
+    }
+
+    .primary {
+      border: 0;
+      color: #fff;
+      background: var(--teal-dark);
+    }
+
+    .secondary {
+      border: 1px solid var(--line);
+      color: var(--ink);
+      background: #fff;
+    }
+
+    .preview-banner {
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+      padding: 12px 16px;
+      border: 1px solid #f0c36a;
+      border-radius: 8px;
+      background: #fff6d8;
+      color: #5f4300;
+      font-weight: 800;
+    }
+
+    .preview-banner.visible {
+      display: flex;
+    }
+
+    .preview-banner a {
+      color: #5f4300;
+      text-decoration: underline;
+    }
+
+    @media (max-width: 900px) {
+      .topbar,
+      .presentation,
+      .neuro-module,
+      .game,
+      .scene-body {
+        grid-template-columns: 1fr;
+      }
+
+      .home-hero {
+        grid-template-columns: 1fr;
+      }
+
+      .home-hosts {
+        max-width: 260px;
+      }
+
+      .module-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .guide {
+        min-height: 0;
+        grid-template-columns: 112px 1fr;
+        grid-template-rows: auto auto auto;
+        align-items: center;
+      }
+
+      .mascot-wrap {
+        grid-row: 1 / span 2;
+      }
+
+      .meter,
+      .path {
+        grid-column: 1 / -1;
+      }
+
+      .mascot {
+        width: 112px;
+      }
+
+      .stage {
+        min-height: 0;
+      }
+
+      .utility {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .app {
+        width: min(100% - 20px, 1180px);
+        padding: 14px 0;
+      }
+
+      .home-hero {
+        padding: 16px;
+      }
+
+      .module-grid {
+        grid-template-columns: 1fr;
+        padding: 12px;
+      }
+
+      .activity-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .sim-frame {
+        min-height: 430px;
+      }
+
+      .presentation-media {
+        grid-template-columns: 72px minmax(0, 1fr) 72px;
+      }
+
+      .side-host {
+        padding: 6px 4px;
+      }
+
+      .host-seat img {
+        width: 88px;
+        max-height: 110px;
+      }
+
+      .guide,
+      .scene-body {
+        padding: 14px;
+      }
+
+      .slide-img {
+        min-height: 205px;
+      }
+
+      .scene-media {
+        min-height: 205px;
+      }
+
+      .choice {
+        grid-template-columns: 1fr;
+      }
+
+      .choice-key {
+        width: 26px;
+        height: 26px;
+      }
+    }
+
+    @media print {
+      body * {
+        visibility: hidden !important;
+      }
+
+      body::before {
+        content: "Printing is disabled for Neuro Quest.";
+        visibility: visible;
+        display: block;
+        padding: 32px;
+        font: 20px Segoe UI, Arial, sans-serif;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <div class="preview-banner" id="previewBanner">
+      <span>Instructor student preview</span>
+      <a id="exitPreviewLink" href="/">Exit preview</a>
+    </div>
+    <header class="topbar">
+      <a class="brand" href="/">
+        <div class="brand-mark" aria-hidden="true">NQ</div>
+        <div>
+          <h1>Neuro Quest</h1>
+          <p class="subtitle">Choose a presentation, review the material, then enter the adventure quiz.</p>
+        </div>
+      </a>
+      <div class="utility">
+        <div class="chip" id="scoreChip">Score 0</div>
+        <div class="chip" id="statusChip">Presentation</div>
+        <button class="mode-btn" id="homeBtn" type="button" aria-current="true">Home</button>
+        <button class="mode-btn" id="presentationBtn" type="button">Slides</button>
+        <button class="mode-btn" id="quizBtn" type="button">Quiz</button>
+        <button class="reset" id="resetBtn" type="button">Restart</button>
+      </div>
+    </header>
+
+    <section class="home" id="homeView" aria-live="polite">
+      <div class="home-hero">
+        <div>
+          <h2>Choose a Neuro Quest module</h2>
+          <p>Unlocked modules are ready for students. Locked modules are placeholders for the remaining presentations we will build next.</p>
+        </div>
+        <div class="home-hosts" aria-hidden="true">
+          <img src="assets/mascot/neuro-guide-wave-transparent.png" alt="">
+          <img src="assets/mascot/glia-wave-transparent.png" alt="">
+        </div>
+      </div>
+      <div class="module-grid">
+        <button class="module-card" id="neuropsychModuleBtn" type="button" data-module-card="neuropsych">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-01</span></div>
+          <h3>Neuroscience vs Psychology</h3>
+          <p>Audio-guided presentation on levels of explanation, behavior, and nervous-system mechanisms.</p>
+          <div class="module-progress" aria-label="Neuroscience vs Psychology progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="neuropsych">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="neuropsych"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="toolsModuleBtn" type="button" data-module-card="tools">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-02</span></div>
+          <h3>Tools & Techniques</h3>
+          <p>Audio-guided slide presentation with embedded media checkpoints.</p>
+          <div class="module-progress" aria-label="Tools progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="tools">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="tools"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="anatomyModuleBtn" type="button" data-module-card="anatomy">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-03</span></div>
+          <h3>Anatomy & Function of the Nervous System</h3>
+          <p>Audio-guided slide presentation on nervous system organization and major structures.</p>
+          <div class="module-progress" aria-label="Anatomy progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="anatomy">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="anatomy"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="neurophysModuleBtn" type="button" data-module-card="neurophysiology">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-04</span></div>
+          <h3>Neurophysiology & Communication</h3>
+          <p>Slide review paired with the NGVU interactive neural signaling simulation.</p>
+          <div class="module-progress" aria-label="Neurophysiology progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="neurophysiology">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="neurophysiology"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="agingModuleBtn" type="button" data-module-card="aging">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-05</span></div>
+          <h3>Aging</h3>
+          <p>Slide presentation, audio captions, and choose-your-own-adventure review.</p>
+          <div class="module-progress" aria-label="Aging progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="aging">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="aging"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="languageModuleBtn" type="button" data-module-card="language">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-06</span></div>
+          <h3>Language and Communication</h3>
+          <p>Audio-guided presentation on speech, language biology, and communication systems.</p>
+          <div class="module-progress" aria-label="Language progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="language">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="language"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <button class="module-card" id="technologyModuleBtn" type="button" data-module-card="technology">
+          <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-07</span></div>
+          <h3>Technology and the Brain</h3>
+          <p>Audio-guided presentation on brain-computer interfaces, implants, and neural decoding.</p>
+          <div class="module-progress" aria-label="Technology progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="technology">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="technology"></div></div>
+          </div>
+          <span class="module-action">Open module</span>
+        </button>
+        <div class="module-card locked">
+          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-08</span></div>
+          <h3>Module 8</h3>
+          <p>Presentation module not built yet.</p>
+          <span class="module-action">Coming soon</span>
+        </div>
+        <div class="module-card locked">
+          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-09</span></div>
+          <h3>Neuroethics & Neuro Forensics</h3>
+          <p>Presentation module not built yet.</p>
+          <span class="module-action">Coming soon</span>
+        </div>
+        <div class="module-card locked">
+          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-10</span></div>
+          <h3>Module 10</h3>
+          <p>Presentation module not built yet.</p>
+          <span class="module-action">Coming soon</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation" id="anatomyView" aria-live="polite" hidden>
+      <article class="slide-player">
+        <div class="presentation-media">
+          <div class="side-host left-host" aria-label="Navi seated beside the Anatomy presentation">
+            <div class="host-seat">
+              <img id="anatomyNavi" src="assets/mascot/neuro-guide-pointing-transparent.png" alt="Navi the Neuron seated beside the presentation.">
+            </div>
+          </div>
+          <div class="presentation-stage">
+            <img class="presentation-img" id="anatomyImg" src="assets/slides/anatomy/anatomy-slide-01.png" alt="">
+            <div class="inline-media" id="anatomyInlineMedia" hidden></div>
+          </div>
+          <div class="side-host right-host" aria-label="Glia seated beside the Anatomy presentation">
+            <div class="host-seat">
+              <img id="anatomyGlia" src="assets/mascot/glia-cohost-transparent.png" alt="Glia the astrocyte co-host seated beside the presentation.">
+            </div>
+          </div>
+          <div class="slide-tag" id="anatomyTag">Slide 1 of 17</div>
+        </div>
+        <div class="caption-box">
+          <h2 id="anatomyTitle">Anatomy & Function of the Nervous System</h2>
+          <p id="anatomyCaption">Captions will appear here during the Anatomy presentation.</p>
+        </div>
+        <div class="presentation-controls">
+          <div class="control-group">
+            <button class="control-btn" id="anatomyPrevBtn" type="button">Previous</button>
+            <button class="control-btn primary-control" id="anatomyPlayBtn" type="button">Auto play</button>
+            <button class="control-btn" id="anatomyNextBtn" type="button">Next cue</button>
+            <button class="control-btn" type="button" data-reflection-module="anatomy">Topic Reflection</button>
+          </div>
+          <div class="control-group">
+            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="anatomyProgress"></div></div>
+            <span class="chip" id="anatomyCount">0:00 / 0:00</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="presenter-panel">
+        <div>
+          <h2 class="guide-name">Anatomy & Function</h2>
+          <p class="guide-copy" id="anatomyGuide">Navi and Glia will walk through the nervous system map, from whole-body organization to cells and support systems.</p>
+        </div>
+        <div class="audio-status">
+          <h3>Audio and captions</h3>
+          <p id="anatomyAudioStatus">Using Anatomy narration with transcript captions.</p>
+          <audio id="anatomyAudio" preload="metadata" controls src="assets/audio/anatomy.m4a">
+            <track kind="captions" src="assets/audio/anatomy.vtt" srclang="en" label="English captions" default>
+          </audio>
+        </div>
+        <div class="speaker-notes">
+          <h3>Speaker notes</h3>
+          <p id="anatomyNotes">Presentation notes appear here.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="presentation" id="toolsView" aria-live="polite" hidden>
+      <article class="slide-player">
+        <div class="presentation-media">
+          <div class="side-host left-host" aria-label="Navi seated beside the Tools and Techniques presentation">
+            <div class="host-seat">
+              <img id="toolsNavi" src="assets/mascot/neuro-guide-pointing-transparent.png" alt="Navi the Neuron seated beside the presentation.">
+            </div>
+          </div>
+          <div class="presentation-stage">
+            <img class="presentation-img" id="toolsImg" src="assets/slides/tools/tools-slide-01.png" alt="">
+            <div class="inline-media" id="toolsInlineMedia" hidden></div>
+          </div>
+          <div class="side-host right-host" aria-label="Glia seated beside the Tools and Techniques presentation">
+            <div class="host-seat">
+              <img id="toolsGlia" src="assets/mascot/glia-cohost-transparent.png" alt="Glia the astrocyte co-host seated beside the presentation.">
+            </div>
+          </div>
+          <div class="slide-tag" id="toolsTag">Slide 1 of 21</div>
+        </div>
+        <div class="caption-box">
+          <h2 id="toolsTitle">Tools & Techniques</h2>
+          <p id="toolsCaption">Captions will appear here during the Tools & Techniques presentation.</p>
+        </div>
+        <div class="presentation-controls">
+          <div class="control-group">
+            <button class="control-btn" id="toolsPrevBtn" type="button">Previous</button>
+            <button class="control-btn primary-control" id="toolsPlayBtn" type="button">Auto play</button>
+            <button class="control-btn" id="toolsNextBtn" type="button">Next cue</button>
+            <button class="control-btn" type="button" data-reflection-module="tools">Topic Reflection</button>
+          </div>
+          <div class="control-group">
+            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="toolsProgress"></div></div>
+            <span class="chip" id="toolsCount">0:00 / 0:00</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="presenter-panel">
+        <div>
+          <h2 class="guide-name">Tools & Techniques</h2>
+          <p class="guide-copy" id="toolsGuide">Navi and Glia will move from cellular labeling tools through imaging, EEG, AI modeling, and digital twin surgery.</p>
+        </div>
+        <div class="audio-status">
+          <h3>Audio and captions</h3>
+          <p id="toolsAudioStatus">Using cleaned Tools narration with transcript captions.</p>
+          <audio id="toolsAudio" preload="metadata" controls src="assets/audio/tools-clean.m4a">
+            <track kind="captions" src="assets/audio/tools.vtt" srclang="en" label="English captions" default>
+          </audio>
+        </div>
+        <div class="speaker-notes">
+          <h3>Speaker notes</h3>
+          <p id="toolsNotes">Presentation notes appear here.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="presentation" id="courseAudioView" aria-live="polite" hidden>
+      <article class="slide-player">
+        <div class="presentation-media">
+          <div class="side-host left-host" aria-label="Navi seated beside the presentation">
+            <div class="host-seat">
+              <img id="courseAudioNavi" src="assets/mascot/neuro-guide-pointing-transparent.png" alt="Navi the Neuron seated beside the presentation.">
+            </div>
+          </div>
+          <div class="presentation-stage">
+            <img class="presentation-img" id="courseAudioImg" src="assets/slides/neuropsych/neuropsych-slide-01.png" alt="">
+            <div class="inline-media" id="courseAudioInlineMedia" hidden></div>
+          </div>
+          <div class="side-host right-host" aria-label="Glia seated beside the presentation">
+            <div class="host-seat">
+              <img id="courseAudioGlia" src="assets/mascot/glia-cohost-transparent.png" alt="Glia the astrocyte co-host seated beside the presentation.">
+            </div>
+          </div>
+          <div class="slide-tag" id="courseAudioTag">Slide 1</div>
+        </div>
+        <div class="caption-box">
+          <h2 id="courseAudioTitle">Course Presentation</h2>
+          <p id="courseAudioCaption">Captions will appear here during the presentation.</p>
+        </div>
+        <div class="presentation-controls">
+          <div class="control-group">
+            <button class="control-btn" id="courseAudioPrevBtn" type="button">Previous</button>
+            <button class="control-btn primary-control" id="courseAudioPlayBtn" type="button">Auto play</button>
+            <button class="control-btn" id="courseAudioNextBtn" type="button">Next cue</button>
+            <button class="control-btn" id="courseAudioReflectionBtn" type="button" data-reflection-module="neuropsych">Topic Reflection</button>
+          </div>
+          <div class="control-group">
+            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="courseAudioProgress"></div></div>
+            <span class="chip" id="courseAudioCount">0:00 / 0:00</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="presenter-panel">
+        <div>
+          <h2 class="guide-name" id="courseAudioGuideName">Course module</h2>
+          <p class="guide-copy" id="courseAudioGuide">Navi and Glia will guide this audio presentation.</p>
+        </div>
+        <div class="audio-status">
+          <h3>Audio and captions</h3>
+          <p id="courseAudioStatus">Using narration with transcript captions.</p>
+          <audio id="courseAudio" preload="metadata" controls>
+            <track id="courseAudioTrack" kind="captions" srclang="en" label="English captions" default>
+          </audio>
+        </div>
+        <div class="speaker-notes">
+          <h3>Speaker notes</h3>
+          <p id="courseAudioNotes">Presentation notes appear here.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="neuro-module" id="neurophysView" aria-live="polite" hidden>
+      <article class="neuro-slide-panel">
+        <div class="presentation-stage">
+          <img id="neuroSlideImg" src="assets/slides/neurophysiology/neurophys-slide-01.png" alt="">
+          <div class="inline-media" id="neuroInlineMedia" hidden></div>
+        </div>
+        <div class="neuro-slide-body">
+          <div class="node-label" id="neuroSlideTag">Slide 1 of 28</div>
+          <h2 id="neuroSlideTitle">Neurophysiology & Communication</h2>
+          <p id="neuroSlideCaption">Review the slide, then use the simulation activity on the right to test the mechanism.</p>
+          <div class="presentation-controls">
+            <div class="control-group">
+              <button class="control-btn" id="neuroPrevBtn" type="button">Previous</button>
+              <button class="control-btn" id="neuroNextBtn" type="button">Next</button>
+            </div>
+            <div class="control-group">
+              <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="neuroProgress"></div></div>
+              <span class="chip" id="neuroCount">1 / 28</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="sim-panel">
+        <iframe class="sim-frame" id="ngvuFrame" title="NGVU neural signaling simulation" src="https://cortical-analysis-lab.github.io/NGVU_Simulation/"></iframe>
+        <div class="sim-body">
+          <h2>NGVU Simulation Lab</h2>
+          <p>Use the embedded simulation to connect membrane signaling, synapses, plasticity, and communication breakdowns to the slides.</p>
+          <div class="activity-grid">
+            <button class="activity-btn" type="button" data-activity="column">Cortical Column</button>
+            <button class="activity-btn" type="button" data-activity="neuron">Neuron View</button>
+            <button class="activity-btn" type="button" data-activity="synapse">Synapse View</button>
+            <button class="activity-btn" type="button" data-activity="ap">Fire AP</button>
+            <button class="activity-btn" type="button" data-activity="myelin">Myelin</button>
+            <button class="activity-btn" type="button" data-activity="plasticity">LTP / LTD</button>
+          </div>
+          <div class="sim-note" id="simNote">Start in the simulation's Home view. Then choose Neuron or Synapse when the slide content shifts from action potentials to neurotransmission.</div>
+          <div class="ending-actions">
+            <button class="secondary" id="openSimBtn" type="button">Open simulation in new tab</button>
+            <button class="secondary" type="button" data-reflection-module="neurophysiology">Topic Reflection</button>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="presentation" id="presentationView" aria-live="polite" hidden>
+      <article class="slide-player">
+        <div class="presentation-media">
+          <div class="side-host left-host" aria-label="Navi seated beside the presentation">
+            <div class="host-seat">
+              <img id="presenterMascot" src="assets/mascot/neuro-guide-pointing-transparent.png" alt="Navi the Neuron seated beside the presentation.">
+            </div>
+          </div>
+          <div class="presentation-stage">
+            <img class="presentation-img" id="presentationImg" src="assets/slides/aging-slide-01.png" alt="">
+            <div class="inline-media" id="presentationInlineMedia" hidden></div>
+          </div>
+          <div class="side-host right-host" aria-label="Glia seated beside the presentation">
+            <div class="host-seat">
+              <img id="gliaMascot" src="assets/mascot/glia-cohost-transparent.png" alt="Glia the astrocyte co-host seated beside the presentation.">
+            </div>
+          </div>
+          <div class="slide-tag" id="presentationTag">Slide 1 of 25</div>
+        </div>
+        <div class="caption-box">
+          <h2 id="presentationTitle">What Does Aging Look Like?</h2>
+          <p id="captionText">Captions will appear here during the slide presentation.</p>
+        </div>
+        <div class="presentation-controls">
+          <div class="control-group">
+            <button class="control-btn" id="prevSlideBtn" type="button">Previous</button>
+            <button class="control-btn primary-control" id="playSlidesBtn" type="button">Auto play</button>
+            <button class="control-btn" id="nextSlideBtn" type="button">Next</button>
+            <button class="control-btn primary-control" id="startQuizBtn" type="button">Start quiz</button>
+            <button class="control-btn" type="button" data-reflection-module="aging">Topic Reflection</button>
+          </div>
+          <div class="control-group">
+            <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="presentationProgress"></div></div>
+            <span class="chip" id="presentationCount">1 / 25</span>
+          </div>
+        </div>
+      </article>
+
+      <aside class="presenter-panel">
+        <div>
+          <h2 class="guide-name">Navi and Glia present first</h2>
+          <p class="guide-copy" id="presentationGuide">Move through the slides once to unlock the quiz for students. This working copy also lets you jump ahead while building.</p>
+        </div>
+        <div class="audio-status">
+          <h3>Audio and captions</h3>
+          <p id="audioStatus">No Aging audio file is included yet. Using slide-script captions and estimated auto-advance timing.</p>
+          <audio id="lectureAudio" preload="metadata" controls hidden>
+            <track kind="captions" src="assets/audio/aging.vtt" srclang="en" label="English captions" default>
+          </audio>
+        </div>
+        <div class="speaker-notes">
+          <h3>Speaker notes</h3>
+          <p id="speakerNotes">Presentation notes appear here.</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="game" id="quizView" aria-live="polite" hidden>
+      <aside class="guide">
+        <div class="mascot-wrap">
+          <img class="mascot" id="mascotImg" src="assets/mascot/neuro-guide-wave-transparent.png" alt="A cheerful neuron explorer mascot holding a compass and clipboard.">
+        </div>
+        <div>
+          <h2 class="guide-name">Navi the Neuron</h2>
+          <p class="guide-copy" id="guideCopy">I will keep track of your route through the aging brain. Choose like a scientist: look for mechanisms, evidence, and systems working together.</p>
+        </div>
+        <div class="meter">
+          <div class="meter-label">
+            <span>Neuro reasoning</span>
+            <span id="meterText">0%</span>
+          </div>
+          <div class="bar" aria-hidden="true"><div class="bar-fill" id="barFill"></div></div>
+        </div>
+        <div class="path" id="pathDots" aria-label="Visited path"></div>
+      </aside>
+
+      <article class="stage">
+        <div class="scene-media">
+          <img class="slide-img" id="slideImg" src="assets/slides/aging-slide-01.png" alt="">
+          <div class="slide-tag" id="slideTag">Slide 1</div>
+        </div>
+        <div class="scene-body">
+          <section class="scene-main">
+            <div class="node-label" id="nodeLabel">Case Start</div>
+            <h2 id="sceneTitle">Aging begins as a question</h2>
+            <p class="story" id="storyText"></p>
+            <div class="choices" id="choices"></div>
+            <div class="ending-actions" id="endingActions" hidden>
+              <button class="primary" id="playAgainBtn" type="button">Play again</button>
+              <button class="secondary" id="jumpBtn" type="button">Try intervention route</button>
+              <button class="secondary" type="button" data-reflection-module="aging">Topic Reflection</button>
+            </div>
+          </section>
+          <aside class="side">
+            <div class="mini-panel feedback" id="feedbackPanel">
+              <h3>Navi's note</h3>
+              <p id="feedbackText">Your first choice will shape the case.</p>
+            </div>
+            <div class="mini-panel">
+              <h3>Current learning target</h3>
+              <p id="targetText"></p>
+            </div>
+            <div class="mini-panel">
+              <h3>Useful clues</h3>
+              <ul id="clueList"></ul>
+            </div>
+          </aside>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/audio/aging-transcript.js"></script>
+  <script src="assets/audio/anatomy-transcript.js"></script>
+  <script src="assets/audio/tools-transcript.js"></script>
+  <script src="assets/audio/neuropsych-transcript.js"></script>
+  <script src="assets/audio/language-transcript.js"></script>
+  <script src="assets/audio/technology-transcript.js"></script>
+  <script src="assets/audio/course-modules.js"></script>
+  <script src="assets/media/media-overlays.js"></script>
+  <script>
+    const BUILD_UNLOCK_QUIZ = true;
+    const TEMP_MANUAL_SLIDE_ADVANCE = true;
+    const MEDIA_RENDER_VERSION = "yt-click-autoplay-20260704";
+    const slideSeconds = 13;
+    const anatomySlides = [
+      { title: "Anatomy & Function of the Nervous System", notes: "Introduce the nervous system as a physical and functional map." },
+      { title: "The Physical Map of Your Nervous System", notes: "Orient to the whole-body organization of neural communication." },
+      { title: "Central vs Peripheral Nervous System", notes: "Separate command centers from the communication routes that reach the body." },
+      { title: "Autonomic, Sympathetic, and Parasympathetic Systems", notes: "Connect involuntary regulation to internal state and behavior." },
+      { title: "Cerebrum, Cerebellum, and Brainstem", notes: "Identify the large-scale divisions that organize function." },
+      { title: "Cerebral Cortex Lobes", notes: "Use lobe names to organize perception, movement, and higher cognition." },
+      { title: "Lobe Naming and Regional Specialization", notes: "Connect cortical labels to functional specialization." },
+      { title: "Distributed Cortical Functional Areas", notes: "Avoid one-location explanations; emphasize distributed processing." },
+      { title: "Limbic System and Basal Ganglia", notes: "Relate motivation, emotion, habit, and movement systems." },
+      { title: "Hemispheres, Gray and White Matter, Folds", notes: "Link structure to connectivity, processing, and cortical surface area." },
+      { title: "Brainstem Stack", notes: "Show how basic life-support and relay functions are organized." },
+      { title: "Cranial Nerves", notes: "Trace sensory and motor communication through cranial nerve pathways." },
+      { title: "Spinal Cord Cross Sections", notes: "Use cross-sectional anatomy to understand pathway direction and organization." },
+      { title: "CNS Gray and White Matter Arrangement", notes: "Compare where cell bodies and axonal tracts sit in brain versus spinal cord." },
+      { title: "CSF, Ventricles, and Glymphatic System", notes: "Connect fluid spaces to protection, circulation, and waste clearance." },
+      { title: "Vasculature and Blood-Brain Barrier", notes: "Relate blood supply and selective exchange to neural health." },
+      { title: "Neurons, Glia, and Cellular Networks", notes: "End by linking the anatomical map to cellular communication." }
+    ];
+    const anatomyCues = [
+      { time: 0, slide: 1, pose: "wave" },
+      { time: 100, slide: 2, pose: "pointing" },
+      { time: 132, slide: 3, pose: "discussing" },
+      { time: 158, slide: 4, pose: "thinking" },
+      { time: 305, slide: 5, pose: "pointing" },
+      { time: 364, slide: 6, pose: "pointing" },
+      { time: 413, slide: 7, pose: "discussing" },
+      { time: 453, slide: 8, pose: "pointing" },
+      { time: 507, slide: 9, pose: "thinking" },
+      { time: 569, slide: 10, pose: "pointing" },
+      { time: 686, slide: 11, pose: "discussing" },
+      { time: 707, slide: 12, pose: "pointing" },
+      { time: 774, slide: 13, pose: "pointing" },
+      { time: 834, slide: 14, pose: "thinking" },
+      { time: 975, slide: 15, pose: "pointing" },
+      { time: 1038, slide: 16, pose: "discussing" },
+      { time: 1170, slide: 17, pose: "celebrate" }
+    ];
+    const toolsSlides = [
+      { title: "Tools & Techniques", notes: "Frame neuroscience methods as ways to measure, observe, and map the brain without breaking the system being studied." },
+      { title: "Humane Animal Use and Care in Research", notes: "Anchor research tools in ethics: reduction, replacement, and refinement." },
+      { title: "Immunofluorescence", notes: "Explain how antibody specificity can make selected proteins or cells visible." },
+      { title: "Immunofluorescence Image Examples", notes: "Use the microscopy images to show how fluorescent labeling turns invisible molecular targets into visible evidence." },
+      { title: "Optogenetics and Chemogenetics", notes: "Compare light-triggered and drug-triggered control of neural activity." },
+      { title: "Allen Institute Activity Video", notes: "Watch neural activity become visible through fluorescent indicators and advanced optics." },
+      { title: "Anatomical vs Functional Tools", notes: "Set up the difference between tools that map structure and tools that map activity." },
+      { title: "Human Brain Mapping Constraints", notes: "Transition from cellular tools to noninvasive macro-scale imaging." },
+      { title: "CAT Scans", notes: "Use computed x-ray views to show how cross-sectional structure can be reconstructed." },
+      { title: "MRI", notes: "Introduce magnetic resonance imaging through hydrogen alignment and tissue contrast." },
+      { title: "MRI Contrast Examples", notes: "Use the visual contrast between tissues to make the MRI mechanism concrete." },
+      { title: "Diffusion Tensor Imaging", notes: "Explain how water diffusion reveals organized white-matter pathways." },
+      { title: "DTI Tractography", notes: "Watch raw diffusion data become simplified fiber-track maps for surgical planning." },
+      { title: "Functional MRI", notes: "Shift from structure to activity by tracking blood oxygen changes." },
+      { title: "Cardiovascular Flow MRI", notes: "GIF-based slide: let the animation run while narration continues after removing the pause cue." },
+      { title: "PET", notes: "Contrast oxygen-delivery measures with metabolic tracer measures." },
+      { title: "EEG", notes: "Use the EEG animation to connect real-time electrical activity with limits in spatial localization." },
+      { title: "Scale and Acquisition Time", notes: "Compare tools by spatial scale, temporal resolution, invasiveness, and purpose." },
+      { title: "Modeling and AI", notes: "Show how AI integrates multimodal data across structure, function, and timing." },
+      { title: "Approach to Using Tools", notes: "Emphasize matching the research question to the tool rather than treating any method as universally best." },
+      { title: "Digital Twin Surgery Example", notes: "Close with digital twins and AI-guided surgery as a synthesis of multimodal neuroscience tools." }
+    ];
+    const toolsCues = [
+      { time: 0, slide: 1, pose: "wave" },
+      { time: 64, slide: 2, pose: "discussing" },
+      { time: 171, slide: 3, pose: "pointing" },
+      { time: 201, slide: 4, pose: "pointing" },
+      { time: 273, slide: 5, pose: "thinking" },
+      { time: 407, slide: 6, pose: "pointing" },
+      { time: 482.52, slide: 7, pose: "discussing" },
+      { time: 489.52, slide: 8, pose: "thinking" },
+      { time: 526.52, slide: 9, pose: "pointing" },
+      { time: 571.52, slide: 10, pose: "pointing" },
+      { time: 648.52, slide: 11, pose: "discussing" },
+      { time: 669.52, slide: 12, pose: "pointing" },
+      { time: 711.44, slide: 13, pose: "pointing" },
+      { time: 764.44, slide: 14, pose: "thinking" },
+      { time: 871.48, slide: 15, pose: "pointing" },
+      { time: 941.68, slide: 16, pose: "discussing" },
+      { time: 1014.68, slide: 17, pose: "pointing" },
+      { time: 1093.4, slide: 18, pose: "thinking" },
+      { time: 1109.4, slide: 19, pose: "pointing" },
+      { time: 1148.4, slide: 20, pose: "discussing" },
+      { time: 1195.4, slide: 21, pose: "celebrate" }
+    ];
+    const toolsSkipRanges = [];
+    const toolsSlideMedia = {
+      1: { type: "gif", src: "assets/media/tools/image2.gif", title: "Tools and Techniques animated opener", x: 22.671, y: 24.769, w: 51.745, h: 57.494 },
+      6: { type: "video", src: "assets/media/tools/media1.mp4", title: "Allen Institute neural activity waves", x: 46.056, y: 1.923, w: 50.645, h: 90.035 },
+      12: { type: "video", src: "assets/media/tools/media2.mp4", title: "DTI raw imaging to fiber tracking", x: 50.529, y: 37.772, w: 47.396, h: 59.259 },
+      15: { type: "gif", src: "assets/media/tools/image24.gif", title: "Cardiovascular flow animation", x: 32.057, y: 41.737, w: 62.5, h: 42.361 },
+      17: { type: "video", src: "assets/media/tools/media4.mp4", title: "EEG rhythm animation", x: 5.402, y: 52.487, w: 42.184, h: 40.537 }
+    };
+    const slideCues = [
+      { time: 0, slide: 1, pose: "wave" },
+      { time: 41, slide: 1, pose: "discussing" },
+      { time: 119, slide: 2, pose: "discussing" },
+      { time: 179, slide: 3, pose: "thinking" },
+      { time: 284, slide: 4, pose: "pointing" },
+      { time: 308, slide: 6, pose: "pointing" },
+      { time: 373, slide: 10, pose: "discussing" },
+      { time: 437, slide: 7, pose: "thinking" },
+      { time: 487, slide: 8, pose: "pointing" },
+      { time: 512, slide: 9, pose: "pointing" },
+      { time: 638, slide: 13, pose: "thinking" },
+      { time: 680, slide: 23, pose: "walking" },
+      { time: 760, slide: 19, pose: "thinking" },
+      { time: 772, slide: 21, pose: "pointing" },
+      { time: 794, slide: 20, pose: "pointing" },
+      { time: 802, slide: 22, pose: "discussing" },
+      { time: 820, slide: 24, pose: "pointing" },
+      { time: 852, slide: 25, pose: "thinking" },
+      { time: 877, slide: 14, pose: "pointing" },
+      { time: 887, slide: 15, pose: "pointing" },
+      { time: 906, slide: 16, pose: "discussing" },
+      { time: 923, slide: 17, pose: "thinking" },
+      { time: 953, slide: 18, pose: "pointing" },
+      { time: 976, slide: 25, pose: "celebrate" }
+    ];
+    const presentationSlides = [
+      { title: "What Does Aging Look Like?", caption: "Aging is more than appearance. The nervous system changes across time, and those changes can shape behavior, cognition, movement, and vulnerability.", notes: "Start by connecting visible aging to nervous-system aging." },
+      { title: "Why do we Age?", caption: "Aging reflects multiple interacting causes, including biology, environment, and accumulated life exposures.", notes: "Frame aging as a systems question rather than a single-cause story." },
+      { title: "Factors of Aging", caption: "Changes can be gradual or rapid, and they may reflect positive, negative, or stable patterns of functioning.", notes: "Emphasize variation between people and between body systems." },
+      { title: "How does the Brain age?", caption: "Some regions show larger age-related decline in cortical thickness, so brain aging is patterned rather than uniform.", notes: "Use the map to connect regional structure to possible functional effects." },
+      { title: "Brain Aging Visual", caption: "This visual asks students to read the image as evidence: what changes, where, and why might it matter?", notes: "Pause for observation before explaining the mechanism." },
+      { title: "Default Network Changes", caption: "Weaker resting functional connectivity in parts of the default network can affect memory, internal attention, and self-referential processing.", notes: "Move from isolated regions to networks that cooperate." },
+      { title: "Aging and Memory", caption: "Age-related cognitive performance varies widely. Memory changes need careful interpretation rather than immediate disease labeling.", notes: "Highlight normal variation, red flags, and daily function." },
+      { title: "Inflammation and the Aging Brain", caption: "The aged brain may show chronic low-grade inflammation, more reactive microglia, and greater blood-brain barrier permeability.", notes: "Connect immune environment to neural function." },
+      { title: "Cellular Hallmarks", caption: "Cellular hallmarks organize possible mechanisms of brain aging and help link microscopic change to behavior.", notes: "Encourage students to group mechanisms by consequences." },
+      { title: "Network Reorganization", caption: "Adult brain networks can shift toward more segregated organization as white matter changes and the brain compensates.", notes: "Aging is structured reorganization, not uniform shutdown." },
+      { title: "Good Aging vs Bad Aging", caption: "Healthy aging and pathological aging are related but distinct. The goal is to identify when change becomes impairment.", notes: "Prepare the distinction needed for disease slides." },
+      { title: "Memory Pathways", caption: "Memory changes should be interpreted across brain systems, life context, and functional impact.", notes: "Ask what evidence would distinguish normal aging from disorder." },
+      { title: "Biological Alterations", caption: "Early-life adversity and deprivation can be associated with faster aging-related changes and later cognitive risk.", notes: "Connect lifespan exposures to late-life brain outcomes." },
+      { title: "Can we Reverse Aging?", caption: "Intervention claims should be evaluated by asking what changed, how it was measured, and how plausible the mechanism is.", notes: "Build skepticism without shutting down curiosity." },
+      { title: "Resistance Training Evidence", caption: "Moderate and heavy resistance training can reduce accelerated brain-clock aging in distributed fMRI-based measures.", notes: "Stay close to the evidence: meaningful influence, not miracle cure." },
+      { title: "Rejuvenation Interventions", caption: "Interventions can be blood-based or lifestyle-based, but model systems and human outcomes need careful translation.", notes: "Compare mechanism, evidence quality, and feasibility." },
+      { title: "Young Blood and Rejuvenation", caption: "Animal-model findings can illuminate mechanisms, but they are not direct prescriptions for humans.", notes: "Use this as a translation and ethics discussion point." },
+      { title: "Longest-Lived Animals", caption: "Comparing long-lived animals helps students ask what traits might protect cells, networks, or whole organisms over time.", notes: "Invite pattern spotting without overclaiming." },
+      { title: "Age-Related Disease and Disorders", caption: "Aging can increase risk for disease, but age alone is not diagnosis.", notes: "Shift from normal aging into disease reasoning." },
+      { title: "Alzheimer's Disease Overview", caption: "Alzheimer's disease involves specific patterns of pathology, symptoms, and functional change.", notes: "Avoid collapsing all memory complaints into Alzheimer's disease." },
+      { title: "Pathological Tau Markers", caption: "Microscopy markers help distinguish healthy cells from pathological tau processes associated with Alzheimer's disease.", notes: "Use color as evidence only when the markers are understood." },
+      { title: "Alzheimer's Neuroimaging", caption: "Neuroimaging can provide converging evidence when interpreted alongside cognition, function, and pathology.", notes: "One test rarely carries the whole diagnosis." },
+      { title: "Posture and Aging", caption: "Posture is a dynamic neurological function involving prediction, sensory integration, and correction.", notes: "Reframe posture as more than strength or biomechanics." },
+      { title: "Cerebrovascular Impairment", caption: "Glymphatic dysfunction, waste accumulation, and inflammatory mediators can reinforce one another in damaging feedback loops.", notes: "Emphasize interconnected processes and amplification." },
+      { title: "Prodromal Change", caption: "A prodromal period sits between initial symptoms and full disease development, making early detection and careful language important.", notes: "Close by synthesizing aging, risk, disease, and systems thinking." }
+    ];
+
+    const scenes = {
+      start: {
+        label: "Case Start",
+        slide: 1,
+        title: "Aging begins as a question",
+        target: "Distinguish visible aging from nervous-system aging.",
+        guide: "Start broad, then narrow. Aging is not one single switch; it is a set of body and brain changes that unfold at different speeds.",
+        story: "Navi drops you into the first day of a neuroscience field rotation. Your task is to follow an older adult through a set of clues and decide which explanation best connects aging, brain function, and behavior.",
+        clues: ["Aging can include positive, negative, or neutral change.", "The nervous system can change gradually.", "Visible age is not the same as neural age."],
+        choices: [
+          { text: "Ask what aging looks like in the nervous system.", detail: "Begin with observable changes and brain mechanisms.", next: "factors", points: 2, tone: "good", feedback: "Good start. You are connecting the everyday question to neural systems instead of treating aging as only appearance." },
+          { text: "Jump straight to disease.", detail: "Assume aging is mainly pathology.", next: "disease", points: 0, tone: "warn", feedback: "Careful. Disease matters, but normal aging and disease are not identical. Navi will let you recover the thread." },
+          { text: "Search for an anti-aging shortcut.", detail: "Look for a reversal before defining the problem.", next: "reverse", points: 1, tone: "", feedback: "Tempting, but interventions make more sense after you know what is changing." }
+        ]
+      },
+      factors: {
+        label: "Systems View",
+        slide: 3,
+        title: "The factors are mixed, not simple",
+        target: "Explain why aging varies across people and systems.",
+        guide: "Nice. A strong answer usually sounds like systems thinking: biology, environment, behavior, and time all interact.",
+        story: "You notice that two people of the same chronological age do not show the same cognitive, physical, or emotional pattern. Navi asks you to choose the best explanation.",
+        clues: ["Change may be gradual or rapid.", "Function can improve, decline, or remain stable.", "Different systems can age at different rates."],
+        choices: [
+          { text: "Aging reflects interacting biological and environmental factors.", detail: "Treat the person as a whole system.", next: "brainThickness", points: 2, tone: "good", feedback: "Exactly. That keeps you from reducing aging to a single cause." },
+          { text: "Aging is mostly explained by the number of birthdays.", detail: "Use chronological age as the main mechanism.", next: "brainThickness", points: 0, tone: "warn", feedback: "Chronological age is a clue, not the mechanism. The nervous system needs a richer explanation." },
+          { text: "Aging is random, so mechanisms are not useful.", detail: "Avoid causal explanations.", next: "network", points: 0, tone: "warn", feedback: "Variation is real, but it does not mean the process is unstructured. Look for patterns." }
+        ]
+      },
+      brainThickness: {
+        label: "Brain Map",
+        slide: 4,
+        title: "Cortical thickness gives you a map",
+        target: "Connect age-related cortical thinning to regional vulnerability.",
+        guide: "Maps help. When regions show larger age-related decline, the next question is what those regions usually support.",
+        story: "The slide shows regions with stronger decline in cortical thickness across adulthood. A student says, 'So the whole brain just shrinks equally.' What do you say?",
+        clues: ["Yellow regions show larger decline.", "The sample spans ages 18 to 94.", "Regional patterns can guide hypotheses about function."],
+        choices: [
+          { text: "The pattern is regional, so functional effects may also be uneven.", detail: "Use anatomy to predict behavior.", next: "network", points: 2, tone: "good", feedback: "Yes. You are reading the map as evidence, not as decoration." },
+          { text: "All brain areas decline at the same rate.", detail: "Treat the image as uniform shrinkage.", next: "memory", points: 0, tone: "warn", feedback: "The slide argues against that. The highlighted regions point to selective vulnerability." },
+          { text: "Ignore the map and rely only on memory scores.", detail: "Skip the anatomical clue.", next: "memory", points: 1, tone: "", feedback: "Memory scores matter, but the anatomical pattern helps explain why performance changes." }
+        ]
+      },
+      network: {
+        label: "Network Clue",
+        slide: 6,
+        title: "The default network shifts with age",
+        target: "Interpret weaker functional connectivity as a network-level clue.",
+        guide: "Connectivity asks how regions cooperate. In aging, the story is often about coordination, compensation, and changing network balance.",
+        story: "You see weaker resting functional connectivity in parts of the default network among older adults. Navi asks which function you would watch most closely.",
+        clues: ["Default-network regions are shown in red.", "Green regions show weaker connectivity in older adults.", "Baseline network activity can affect cognition."],
+        choices: [
+          { text: "Watch memory, self-referential thought, and flexible internal attention.", detail: "Tie network function to cognition.", next: "memory", points: 2, tone: "good", feedback: "Strong move. You linked connectivity to functions the network helps support." },
+          { text: "Only test basic reflexes.", detail: "Focus on the spinal cord and ignore cortical networks.", next: "posture", points: 0, tone: "warn", feedback: "Reflexes can matter, but the default network points you toward higher-level cognition." },
+          { text: "Assume weaker connectivity always means complete loss.", detail: "Treat change as failure rather than adaptation.", next: "memory", points: 0, tone: "warn", feedback: "Not always. Aging brains can reorganize and compensate." }
+        ]
+      },
+      memory: {
+        label: "Memory Fork",
+        slide: 7,
+        title: "Memory change needs a careful explanation",
+        target: "Avoid treating all age-related memory differences as dementia.",
+        guide: "This is a classic fork in the path. Normal variation, brain changes, environment, and disease can overlap.",
+        story: "Your case participant reports more word-finding pauses and slower recall, but still manages daily life. What should your interpretation emphasize?",
+        clues: ["Age-related cognitive performance varies widely.", "Memory changes can have multiple causes.", "Function in daily life is an important clue."],
+        choices: [
+          { text: "Consider normal variation first, then look for red flags.", detail: "Use evidence before labeling disease.", next: "inflammation", points: 2, tone: "good", feedback: "Beautifully cautious. You kept the distinction between aging and disorder alive." },
+          { text: "Call it Alzheimer's disease immediately.", detail: "Use one symptom as diagnosis.", next: "disease", points: 0, tone: "warn", feedback: "Too fast. A diagnosis needs converging evidence, not just one complaint." },
+          { text: "Ignore the report because memory complaints are expected.", detail: "Dismiss the symptom.", next: "inflammation", points: 0, tone: "warn", feedback: "Also risky. Common does not mean irrelevant. Track the pattern." }
+        ]
+      },
+      inflammation: {
+        label: "Cellular Level",
+        slide: 8,
+        title: "Inflammation changes the aging brain's environment",
+        target: "Describe chronic low-grade inflammation and BBB permeability in aging.",
+        guide: "Now you are zooming inward. Cellular context can make neurons work in a very different neighborhood.",
+        story: "The lab report highlights chronic low-grade inflammation, increased microglia reactivity, and a more permeable blood-brain barrier. What is the best interpretation?",
+        clues: ["Aged brains can show more microglia reactivity.", "Peripheral cytokines may access the brain more easily.", "Reduced phagocytosis can help maintain inflammatory signals."],
+        choices: [
+          { text: "The brain's immune environment can shift and sustain stress on neural function.", detail: "Connect immune change to brain function.", next: "hallmarks", points: 2, tone: "good", feedback: "Right. This is a mechanism-level explanation, not just a list of molecules." },
+          { text: "Inflammation is only outside the brain.", detail: "Separate peripheral and central systems completely.", next: "hallmarks", points: 0, tone: "warn", feedback: "The blood-brain barrier clue matters. Peripheral signals can become relevant to brain aging." },
+          { text: "Microglia reactivity means neurons are no longer involved.", detail: "Replace neural explanation with immune explanation.", next: "hallmarks", points: 0, tone: "warn", feedback: "The better answer is interaction. Immune changes can influence neural function." }
+        ]
+      },
+      hallmarks: {
+        label: "Cellular Hallmarks",
+        slide: 9,
+        title: "Cellular hallmarks give you a mechanism board",
+        target: "Use cellular hallmarks to organize causes rather than memorize labels.",
+        guide: "Think of this as your evidence board. Each hallmark is a possible path from cell biology to behavior.",
+        story: "Navi points at the cellular hallmarks slide and asks which move would best help a classmate learn it.",
+        clues: ["The slide organizes cellular hallmarks of brain aging.", "Mechanisms can interact.", "A good explanation links cells to systems."],
+        choices: [
+          { text: "Group the hallmarks by how they could affect neural communication.", detail: "Turn labels into causal paths.", next: "intervention", points: 2, tone: "good", feedback: "Exactly. Organization beats memorization when concepts are dense." },
+          { text: "Memorize the diagram without explaining relationships.", detail: "Use recall only.", next: "intervention", points: 1, tone: "", feedback: "Recall helps, but the adventure rewards relationships." },
+          { text: "Skip cellular mechanisms because they are too small to matter.", detail: "Lose the micro-to-macro connection.", next: "intervention", points: 0, tone: "warn", feedback: "Small mechanisms can scale up to big changes in networks and behavior." }
+        ]
+      },
+      reverse: {
+        label: "Intervention Temptation",
+        slide: 14,
+        title: "Can aging be reversed?",
+        target: "Evaluate intervention claims with mechanism and evidence.",
+        guide: "Intervention claims are exciting, but your scientist compass should ask: what changed, how was it measured, and how far can we generalize?",
+        story: "A headline promises that brain aging can be reversed. Your class needs to decide whether the claim is useful or oversold.",
+        clues: ["Anti-aging strategies target molecular mechanisms.", "Evidence quality matters.", "Reversal can mean many different outcomes."],
+        choices: [
+          { text: "Ask what outcome changed and whether the mechanism is plausible.", detail: "Evaluate the evidence.", next: "resistance", points: 2, tone: "good", feedback: "That is the strongest scientific reflex in the room." },
+          { text: "Accept the headline if it sounds optimistic.", detail: "Let enthusiasm do the reasoning.", next: "resistance", points: 0, tone: "warn", feedback: "Optimism is welcome, but the claim still needs evidence." },
+          { text: "Reject every intervention because aging is inevitable.", detail: "Close the door before checking data.", next: "resistance", points: 0, tone: "warn", feedback: "Aging is real, but trajectories can still be shaped." }
+        ]
+      },
+      intervention: {
+        label: "Intervention Route",
+        slide: 16,
+        title: "Interventions can be biological or lifestyle-based",
+        target: "Compare blood-based and lifestyle interventions without overgeneralizing.",
+        guide: "You made it to the intervention map. Notice that the route includes both biological and behavioral paths.",
+        story: "The intervention slide groups rejuvenation strategies. Navi asks what would make a responsible classroom takeaway.",
+        clues: ["Interventions can be blood-based or lifestyle-based.", "Animal models and human outcomes are not interchangeable.", "Scalable interventions matter for public health."],
+        choices: [
+          { text: "Compare mechanisms, model systems, and real-world feasibility.", detail: "Keep the evidence layered.", next: "resistance", points: 2, tone: "good", feedback: "Excellent. You are balancing excitement with translation." },
+          { text: "Treat mouse rejuvenation as a direct human prescription.", detail: "Overgeneralize from model organisms.", next: "resistance", points: 0, tone: "warn", feedback: "Model organisms are useful, but translation needs caution." },
+          { text: "Only discuss expensive biomedical strategies.", detail: "Ignore scalable lifestyle routes.", next: "resistance", points: 1, tone: "", feedback: "Biomedical routes matter, but the lecture also points toward lifestyle interventions." }
+        ]
+      },
+      resistance: {
+        label: "Lifestyle Evidence",
+        slide: 15,
+        title: "Resistance training shapes brain-clock trajectories",
+        target: "Interpret a lifestyle intervention as distributed brain change.",
+        guide: "Here the clue is distribution. A global effect suggests that exercise can influence network-level aging, not just one tiny hub.",
+        story: "A participant asks whether exercise can really matter for the brain. You point to evidence that moderate and heavy resistance training reduced accelerated aging in brain clocks estimated with fMRI.",
+        clues: ["The effect is global and distributed.", "Brain clocks can be estimated with fMRI.", "Simple interventions may shape trajectories."],
+        choices: [
+          { text: "Say exercise may influence distributed brain aging trajectories.", detail: "Use the slide's actual claim.", next: "disease", points: 2, tone: "good", feedback: "Yes. You stayed close to the evidence without making it magical." },
+          { text: "Say exercise cures all age-related disease.", detail: "Overstate the evidence.", next: "disease", points: 0, tone: "warn", feedback: "Too broad. The slide supports meaningful influence, not a universal cure." },
+          { text: "Say lifestyle cannot affect the brain.", detail: "Ignore the fMRI evidence.", next: "disease", points: 0, tone: "warn", feedback: "The data suggest lifestyle can matter for brain trajectories." }
+        ]
+      },
+      disease: {
+        label: "Disease Check",
+        slide: 20,
+        title: "Age-related disease requires a different lens",
+        target: "Separate risk, prodrome, pathology, and diagnosis.",
+        guide: "Disease enters the adventure now. The key is to keep categories clean: aging can raise risk without making every older adult pathological.",
+        story: "The case now includes concern about Alzheimer's disease. Which statement should guide your next move?",
+        clues: ["Age-related disease is not the same as normal aging.", "Pathology can develop before full symptoms.", "Diagnosis requires multiple forms of evidence."],
+        choices: [
+          { text: "Look for converging signs across cognition, function, imaging, and pathology.", detail: "Build a careful case.", next: "alzheimers", points: 2, tone: "good", feedback: "Good clinical reasoning. One clue rarely carries the whole diagnosis." },
+          { text: "Use age alone as the diagnosis.", detail: "Conflate risk with disease.", next: "alzheimers", points: 0, tone: "warn", feedback: "Age can raise risk, but it is not a diagnosis." },
+          { text: "Avoid the topic because it is uncomfortable.", detail: "Let discomfort block reasoning.", next: "posture", points: 0, tone: "warn", feedback: "It is sensitive, but students need careful language and evidence." }
+        ]
+      },
+      alzheimers: {
+        label: "Pathology Clue",
+        slide: 21,
+        title: "Markers help distinguish healthy tissue from pathology",
+        target: "Connect pathological tau markers to Alzheimer's disease discussion.",
+        guide: "Color in a microscopy image is not just decoration. It is evidence about what tissue is healthy and what markers signal disease processes.",
+        story: "The image shows healthy nuclei and neurons in blue and green, while other colors combine markers for pathological tau. What should the class take away?",
+        clues: ["Blue and green identify healthy structures.", "Other colors mark pathological tau.", "Alzheimer's disease involves specific pathology, not just aging."],
+        choices: [
+          { text: "Pathology markers help separate disease processes from typical aging.", detail: "Use the image as evidence.", next: "posture", points: 2, tone: "good", feedback: "Exactly. The image helps students see why diagnosis is about specific evidence." },
+          { text: "Any colorful image proves Alzheimer's disease.", detail: "Overread the visual.", next: "posture", points: 0, tone: "warn", feedback: "The colors only matter because of what the markers represent." },
+          { text: "The image is interesting but unrelated to behavior.", detail: "Break the biology-behavior bridge.", next: "posture", points: 1, tone: "", feedback: "It is microscopic, but pathology can help explain behavioral and cognitive symptoms." }
+        ]
+      },
+      posture: {
+        label: "Motor Systems",
+        slide: 23,
+        title: "Posture is brain-regulated prediction",
+        target: "Explain posture as sensorimotor prediction and correction.",
+        guide: "This is one of my favorite twists: posture is not just muscles. It is a real-time nervous-system problem.",
+        story: "An older adult reports balance problems. A student says posture is just core strength. What is your better explanation?",
+        clues: ["The brain detects gravitational forces.", "It predicts biomechanical consequences.", "It adjusts before and after movement."],
+        choices: [
+          { text: "Posture is continuous sensorimotor prediction and correction.", detail: "Integrate brain, body, and gravity.", next: "glymphatic", points: 2, tone: "good", feedback: "Yes. That reframes posture as a neurological function." },
+          { text: "Posture is only about stronger abdominal muscles.", detail: "Reduce it to biomechanics.", next: "glymphatic", points: 0, tone: "warn", feedback: "Strength matters, but the slide asks for a brain-regulated explanation." },
+          { text: "Balance has no connection to aging neuroscience.", detail: "Miss the systems link.", next: "glymphatic", points: 0, tone: "warn", feedback: "Balance is deeply neural, especially when prediction and sensory integration change." }
+        ]
+      },
+      glymphatic: {
+        label: "Clearance System",
+        slide: 24,
+        title: "Cerebrovascular impairment can amplify damage",
+        target: "Describe feedback loops involving waste clearance and inflammation.",
+        guide: "Final challenge. Look for loops: impaired clearance can allow harmful molecules to accumulate, which can worsen the environment further.",
+        story: "The last case clue involves glymphatic dysfunction, harmful waste accumulation, and pro-inflammatory mediator molecules. What is the best systems explanation?",
+        clues: ["Glymphatic dysfunction can affect waste clearance.", "Red arrows indicate interconnected processes.", "Positive feedback loops can amplify damage."],
+        choices: [
+          { text: "Clearance problems and inflammation can reinforce each other over time.", detail: "Name the feedback loop.", next: "ending", points: 2, tone: "good", feedback: "That completes the systems arc. You connected cells, networks, behavior, and disease risk." },
+          { text: "Each process happens separately with no interaction.", detail: "Miss the arrows and loops.", next: "ending", points: 0, tone: "warn", feedback: "The slide emphasizes interconnected pathological processes." },
+          { text: "Waste clearance only matters outside the nervous system.", detail: "Ignore the brain clearance pathway.", next: "ending", points: 0, tone: "warn", feedback: "The glymphatic system is directly relevant to brain health." }
+        ]
+      },
+      ending: {
+        label: "Debrief",
+        slide: 25,
+        title: "You reached the debrief",
+        target: "Synthesize aging as a multi-level nervous-system story.",
+        guide: "You made it through the aging brain. Your score reflects how often you chose mechanism, evidence, and system-level thinking.",
+        story: "Navi reviews your path. The strongest route treated aging as a layered process: regional brain changes, network shifts, cellular inflammation, interventions, disease risk, motor control, and clearance systems all interact.",
+        clues: ["Prodromal periods can precede full disease.", "Healthy aging and disorder must be distinguished.", "Good explanations connect levels of analysis."],
+        ending: true,
+        choices: []
+      }
+    };
+
+    const maxScore = 24;
+    const transcriptSegments = Array.isArray(window.AGING_TRANSCRIPT) ? window.AGING_TRANSCRIPT : [];
+    const anatomyTranscriptSegments = Array.isArray(window.ANATOMY_TRANSCRIPT) ? window.ANATOMY_TRANSCRIPT : [];
+    const toolsTranscriptSegments = Array.isArray(window.TOOLS_TRANSCRIPT) ? window.TOOLS_TRANSCRIPT : [];
+    const courseAudioModules = window.COURSE_AUDIO_MODULES || {};
+    const courseMediaOverlays = window.COURSE_MEDIA_OVERLAYS || {};
+    const courseAudioTranscriptMap = {
+      neuropsych: Array.isArray(window.NEUROPSYCH_TRANSCRIPT) ? window.NEUROPSYCH_TRANSCRIPT : [],
+      language: Array.isArray(window.LANGUAGE_TRANSCRIPT) ? window.LANGUAGE_TRANSCRIPT : [],
+      technology: Array.isArray(window.TECHNOLOGY_TRANSCRIPT) ? window.TECHNOLOGY_TRANSCRIPT : []
+    };
+    const anatomyState = { cueIndex: 0, index: anatomyCues[0].slide - 1, autoPlaying: false };
+    const toolsState = { cueIndex: 0, index: toolsCues[0].slide - 1, autoPlaying: false };
+    const courseAudioState = { moduleId: "neuropsych", cueIndex: 0, index: 0, autoPlaying: false, pausedForYoutube: false };
+    const neurophysSlides = [
+      { title: "Neurophysiology & Communication", caption: "Start with the big question: how do cells turn electrical and chemical events into communication?" },
+      { title: "Neural Structure Overview", caption: "Use this slide to orient to the parts of the neuron before manipulating the simulation." },
+      { title: "Why Neuron Structure Matters", caption: "Connect dendrites, soma, axon, and terminals to information flow." },
+      { title: "86 Billion Neurons", caption: "Scale up from one cell to a network: small signaling rules can produce large system effects." },
+      { title: "Course Context", caption: "Use this as a transition into the cellular communication toolkit." },
+      { title: "Background - Neural Signaling", caption: "Pair this with Neuron View and watch how signal movement depends on membrane dynamics." },
+      { title: "Membrane and Signaling Setup", caption: "Look for inputs, thresholds, and how the cell prepares to fire." },
+      { title: "Ions and Electrical Gradients", caption: "Use the simulation to connect ion flow to voltage change." },
+      { title: "Action Potential", caption: "Use Fire AP in the simulation and track how the signal propagates." },
+      { title: "Action Potential Propagation", caption: "Compare signal movement with and without myelin when available." },
+      { title: "Vesicle Fusion via SNARE Proteins", caption: "Move into Synapse View and watch how electrical activity becomes chemical release." },
+      { title: "Botulinum Toxin", caption: "Use blockables/pathology controls to reason about what happens when vesicle release is disrupted." },
+      { title: "Communication Failure", caption: "Predict which part of the communication chain is blocked and what downstream effect follows." },
+      { title: "Ion Channel Diversity", caption: "Different channels create different signaling properties; use the simulation to test that idea." },
+      { title: "Diffusion and Pump Channels", caption: "Focus on maintenance: gradients must be restored for repeated signaling." },
+      { title: "What the Synapse Is Really Like", caption: "Use Synapse View to map presynaptic release, cleft diffusion, and postsynaptic response." },
+      { title: "Neurons Are Always Active", caption: "Look for ongoing baseline activity rather than treating neurons as simply on/off." },
+      { title: "Neural Plasticity", caption: "Use the simulation's plasticity controls to see how repeated activity changes future response." },
+      { title: "LTP and LTD", caption: "Compare strengthening and weakening as mechanisms of learning and adaptation." },
+      { title: "Dual Neurotransmission", caption: "Ask how different transmitter systems can shape the same postsynaptic target." },
+      { title: "Poor GABA Binding", caption: "Use receptor/blockable logic: weak binding changes inhibition and network balance." },
+      { title: "Excitation and Inhibition", caption: "Use the simulation to predict what happens when inhibitory signaling is reduced." },
+      { title: "Distribution of Neurotransmitters", caption: "Scale up from synapse to region: transmitter distributions shape circuit function." },
+      { title: "Regional Connections in the Brain", caption: "Connect cellular communication to larger pathways and cortical regions." },
+      { title: "Therapeutic Interventions", caption: "Ask which part of signaling a treatment changes: channels, transmitters, receptors, or plasticity." },
+      { title: "Intervention Mechanisms", caption: "Use simulation perturbations as a model for therapeutic effects and side effects." },
+      { title: "Brain Intervention Effects", caption: "Connect local cellular effects to whole-brain communication changes." },
+      { title: "Therapeutic Interventions Review", caption: "Synthesize: communication depends on electrical events, chemical release, receptors, and plasticity." }
+    ];
+    const neuroState = { index: 0 };
+    const simActivities = {
+      column: "In the simulation, choose Cortical Column. Watch how a local population turns individual cell events into a larger circuit response.",
+      neuron: "Choose Neuron View. Identify dendrites, soma, axon, and terminals, then connect each structure to signal direction.",
+      synapse: "Choose Synapse View. Trace presynaptic release, cleft diffusion, receptor binding, and postsynaptic response.",
+      ap: "Use Fire AP. Predict what will happen before firing, then compare your prediction to the propagation you observe.",
+      myelin: "Toggle or inspect Myelin if available. Compare signal speed and reliability with the lecture's communication themes.",
+      plasticity: "Use LTP/LTD or plasticity controls. Watch how repeated activity changes later signaling strength."
+    };
+    const presentationState = {
+      index: slideCues[0].slide - 1,
+      cueIndex: 0,
+      autoPlaying: false,
+      timer: null,
+      usingAudio: false,
+      presentationCompleted: BUILD_UNLOCK_QUIZ || localStorage.getItem("agingPresentationCompleted") === "true",
+      quizUnlocked: BUILD_UNLOCK_QUIZ || localStorage.getItem("agingQuizUnlocked") === "true"
+    };
+
+    const state = {
+      current: "start",
+      score: 0,
+      visited: [],
+      lastFeedback: "Your first choice will shape the case.",
+      tone: ""
+    };
+
+    const el = {
+      scoreChip: document.getElementById("scoreChip"),
+      statusChip: document.getElementById("statusChip"),
+      resetBtn: document.getElementById("resetBtn"),
+      homeBtn: document.getElementById("homeBtn"),
+      homeView: document.getElementById("homeView"),
+      neuropsychModuleBtn: document.getElementById("neuropsychModuleBtn"),
+      languageModuleBtn: document.getElementById("languageModuleBtn"),
+      technologyModuleBtn: document.getElementById("technologyModuleBtn"),
+      agingModuleBtn: document.getElementById("agingModuleBtn"),
+      previewBanner: document.getElementById("previewBanner"),
+      exitPreviewLink: document.getElementById("exitPreviewLink"),
+      anatomyModuleBtn: document.getElementById("anatomyModuleBtn"),
+      anatomyView: document.getElementById("anatomyView"),
+      anatomyImg: document.getElementById("anatomyImg"),
+      anatomyNavi: document.getElementById("anatomyNavi"),
+      anatomyGlia: document.getElementById("anatomyGlia"),
+      anatomyTag: document.getElementById("anatomyTag"),
+      anatomyTitle: document.getElementById("anatomyTitle"),
+      anatomyCaption: document.getElementById("anatomyCaption"),
+      anatomyPrevBtn: document.getElementById("anatomyPrevBtn"),
+      anatomyPlayBtn: document.getElementById("anatomyPlayBtn"),
+      anatomyNextBtn: document.getElementById("anatomyNextBtn"),
+      anatomyProgress: document.getElementById("anatomyProgress"),
+      anatomyCount: document.getElementById("anatomyCount"),
+      anatomyGuide: document.getElementById("anatomyGuide"),
+      anatomyAudioStatus: document.getElementById("anatomyAudioStatus"),
+      anatomyAudio: document.getElementById("anatomyAudio"),
+      anatomyInlineMedia: document.getElementById("anatomyInlineMedia"),
+      anatomyNotes: document.getElementById("anatomyNotes"),
+      toolsModuleBtn: document.getElementById("toolsModuleBtn"),
+      toolsView: document.getElementById("toolsView"),
+      toolsImg: document.getElementById("toolsImg"),
+      toolsNavi: document.getElementById("toolsNavi"),
+      toolsGlia: document.getElementById("toolsGlia"),
+      toolsTag: document.getElementById("toolsTag"),
+      toolsTitle: document.getElementById("toolsTitle"),
+      toolsCaption: document.getElementById("toolsCaption"),
+      toolsPrevBtn: document.getElementById("toolsPrevBtn"),
+      toolsPlayBtn: document.getElementById("toolsPlayBtn"),
+      toolsNextBtn: document.getElementById("toolsNextBtn"),
+      toolsProgress: document.getElementById("toolsProgress"),
+      toolsCount: document.getElementById("toolsCount"),
+      toolsGuide: document.getElementById("toolsGuide"),
+      toolsAudioStatus: document.getElementById("toolsAudioStatus"),
+      toolsAudio: document.getElementById("toolsAudio"),
+      toolsInlineMedia: document.getElementById("toolsInlineMedia"),
+      toolsNotes: document.getElementById("toolsNotes"),
+      courseAudioView: document.getElementById("courseAudioView"),
+      courseAudioImg: document.getElementById("courseAudioImg"),
+      courseAudioInlineMedia: document.getElementById("courseAudioInlineMedia"),
+      courseAudioNavi: document.getElementById("courseAudioNavi"),
+      courseAudioGlia: document.getElementById("courseAudioGlia"),
+      courseAudioTag: document.getElementById("courseAudioTag"),
+      courseAudioTitle: document.getElementById("courseAudioTitle"),
+      courseAudioCaption: document.getElementById("courseAudioCaption"),
+      courseAudioPrevBtn: document.getElementById("courseAudioPrevBtn"),
+      courseAudioPlayBtn: document.getElementById("courseAudioPlayBtn"),
+      courseAudioNextBtn: document.getElementById("courseAudioNextBtn"),
+      courseAudioReflectionBtn: document.getElementById("courseAudioReflectionBtn"),
+      courseAudioProgress: document.getElementById("courseAudioProgress"),
+      courseAudioCount: document.getElementById("courseAudioCount"),
+      courseAudioGuideName: document.getElementById("courseAudioGuideName"),
+      courseAudioGuide: document.getElementById("courseAudioGuide"),
+      courseAudioStatus: document.getElementById("courseAudioStatus"),
+      courseAudio: document.getElementById("courseAudio"),
+      courseAudioTrack: document.getElementById("courseAudioTrack"),
+      courseAudioNotes: document.getElementById("courseAudioNotes"),
+      neurophysModuleBtn: document.getElementById("neurophysModuleBtn"),
+      neurophysView: document.getElementById("neurophysView"),
+      neuroSlideImg: document.getElementById("neuroSlideImg"),
+      neuroInlineMedia: document.getElementById("neuroInlineMedia"),
+      neuroSlideTag: document.getElementById("neuroSlideTag"),
+      neuroSlideTitle: document.getElementById("neuroSlideTitle"),
+      neuroSlideCaption: document.getElementById("neuroSlideCaption"),
+      neuroPrevBtn: document.getElementById("neuroPrevBtn"),
+      neuroNextBtn: document.getElementById("neuroNextBtn"),
+      neuroProgress: document.getElementById("neuroProgress"),
+      neuroCount: document.getElementById("neuroCount"),
+      ngvuFrame: document.getElementById("ngvuFrame"),
+      simNote: document.getElementById("simNote"),
+      openSimBtn: document.getElementById("openSimBtn"),
+      presentationBtn: document.getElementById("presentationBtn"),
+      quizBtn: document.getElementById("quizBtn"),
+      presentationView: document.getElementById("presentationView"),
+      quizView: document.getElementById("quizView"),
+      presentationImg: document.getElementById("presentationImg"),
+      presentationInlineMedia: document.getElementById("presentationInlineMedia"),
+      presentationTag: document.getElementById("presentationTag"),
+      presentationTitle: document.getElementById("presentationTitle"),
+      captionText: document.getElementById("captionText"),
+      prevSlideBtn: document.getElementById("prevSlideBtn"),
+      playSlidesBtn: document.getElementById("playSlidesBtn"),
+      nextSlideBtn: document.getElementById("nextSlideBtn"),
+      startQuizBtn: document.getElementById("startQuizBtn"),
+      presentationProgress: document.getElementById("presentationProgress"),
+      presentationCount: document.getElementById("presentationCount"),
+      presentationGuide: document.getElementById("presentationGuide"),
+      presenterMascot: document.getElementById("presenterMascot"),
+      gliaMascot: document.getElementById("gliaMascot"),
+      audioStatus: document.getElementById("audioStatus"),
+      lectureAudio: document.getElementById("lectureAudio"),
+      speakerNotes: document.getElementById("speakerNotes"),
+      mascotImg: document.getElementById("mascotImg"),
+      guideCopy: document.getElementById("guideCopy"),
+      barFill: document.getElementById("barFill"),
+      meterText: document.getElementById("meterText"),
+      pathDots: document.getElementById("pathDots"),
+      slideImg: document.getElementById("slideImg"),
+      slideTag: document.getElementById("slideTag"),
+      nodeLabel: document.getElementById("nodeLabel"),
+      sceneTitle: document.getElementById("sceneTitle"),
+      storyText: document.getElementById("storyText"),
+      choices: document.getElementById("choices"),
+      feedbackPanel: document.getElementById("feedbackPanel"),
+      feedbackText: document.getElementById("feedbackText"),
+      targetText: document.getElementById("targetText"),
+      clueList: document.getElementById("clueList"),
+      endingActions: document.getElementById("endingActions"),
+      playAgainBtn: document.getElementById("playAgainBtn"),
+      jumpBtn: document.getElementById("jumpBtn")
+    };
+    const mascotPoses = {
+      idle: "assets/mascot/neuro-guide-transparent.png",
+      wave: "assets/mascot/neuro-guide-wave-transparent.png",
+      thinking: "assets/mascot/neuro-guide-thinking-transparent.png",
+      pointing: "assets/mascot/neuro-guide-pointing-transparent.png",
+      celebrate: "assets/mascot/neuro-guide-celebrate-transparent.png"
+    };
+
+    const gliaPoses = {
+      idle: "assets/mascot/glia-cohost-transparent.png",
+      wave: "assets/mascot/glia-wave-transparent.png",
+      thinking: "assets/mascot/glia-thinking-transparent.png",
+      pointing: "assets/mascot/glia-pointing-transparent.png",
+      celebrate: "assets/mascot/glia-celebrate-transparent.png",
+      discussing: "assets/mascot/glia-discussing-transparent.png",
+      walking: "assets/mascot/glia-walking-transparent.png"
+    };
+
+    Object.values({ ...mascotPoses, ...gliaPoses }).forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+
+    const trackingParams = new URLSearchParams(window.location.search);
+    const nqTracking = {
+      session: trackingParams.get("nq_session"),
+      token: trackingParams.get("nq_token"),
+      progress: {
+        neuropsych: 0,
+        aging: localStorage.getItem("agingPresentationCompleted") === "true" ? 100 : 0,
+        anatomy: 0,
+        language: 0,
+        neurophysiology: 0,
+        technology: 0,
+        tools: 0
+      },
+      lastEventAt: {}
+    };
+
+    function applyModuleProgress(module, percent, score = null, max = null) {
+      const safePercent = Math.max(0, Math.min(100, Math.round(Number(percent) || 0)));
+      nqTracking.progress[module] = Math.max(nqTracking.progress[module] || 0, safePercent);
+      const label = document.querySelector(`[data-progress-label="${module}"]`);
+      const fill = document.querySelector(`[data-progress-fill="${module}"]`);
+      if (label) {
+        label.textContent = score !== null && max !== null
+          ? `${nqTracking.progress[module]}% / ${score}/${max}`
+          : `${nqTracking.progress[module]}%`;
+      }
+      if (fill) fill.style.width = `${nqTracking.progress[module]}%`;
+    }
+
+    function renderModuleProgress() {
+      Object.entries(nqTracking.progress).forEach(([module, percent]) => applyModuleProgress(module, percent));
+    }
+
+    function loadTrackedProgress() {
+      renderModuleProgress();
+      if (!nqTracking.session || !nqTracking.token) return;
+      fetch(`/nq/session/${encodeURIComponent(nqTracking.session)}/${encodeURIComponent(nqTracking.token)}/progress/summary/`)
+        .then((response) => response.ok ? response.json() : null)
+        .then((payload) => {
+          if (!payload || !payload.modules) return;
+          Object.entries(payload.modules).forEach(([module, progress]) => {
+            applyModuleProgress(module, progress.progress_percent, progress.score, progress.max_score);
+          });
+        })
+        .catch(() => {});
+    }
+
+    function trackProgress(module, event, details = {}) {
+      if (details.progress_percent !== undefined) {
+        if (nqTracking.session && nqTracking.token) {
+          applyModuleProgress(module, details.progress_percent);
+        } else {
+          applyModuleProgress(module, details.progress_percent, details.score ?? null, details.max_score ?? null);
+        }
+      }
+      if (!nqTracking.session || !nqTracking.token) return;
+      const key = `${module}:${event}`;
+      const now = Date.now();
+      if (nqTracking.lastEventAt[key] && now - nqTracking.lastEventAt[key] < 2500) return;
+      nqTracking.lastEventAt[key] = now;
+      fetch(`/nq/session/${encodeURIComponent(nqTracking.session)}/${encodeURIComponent(nqTracking.token)}/progress/`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ module, event, ...details }),
+        keepalive: true
+      })
+        .then((response) => response.ok ? response.json() : null)
+        .then((payload) => {
+          if (!payload || !payload.progress) return;
+          applyModuleProgress(module, payload.progress.progress_percent, payload.progress.score, payload.progress.max_score);
+        })
+        .catch(() => {});
+    }
+
+    function launchTopicReflection(module) {
+      if (!nqTracking.session || !nqTracking.token) {
+        alert("Topic Reflection uses the webcam and audio exam setup. Open Neuro Quest from a student course session to record and submit a reflection.");
+        return;
+      }
+      const safeModule = encodeURIComponent(module);
+      window.location.href = `/nq/session/${encodeURIComponent(nqTracking.session)}/${encodeURIComponent(nqTracking.token)}/reflections/${safeModule}/`;
+    }
+
+    function slidePath(number) {
+      return `assets/slides/aging-slide-${String(number).padStart(2, "0")}.png`;
+    }
+
+    function renderPresentation() {
+      const slide = presentationSlides[presentationState.index];
+      const slideNumber = presentationState.index + 1;
+      const progress = presentationState.usingAudio && el.lectureAudio.duration
+        ? Math.round((el.lectureAudio.currentTime / el.lectureAudio.duration) * 100)
+        : Math.round(((presentationState.cueIndex + 1) / slideCues.length) * 100);
+
+      el.presentationImg.src = slidePath(slideNumber);
+      el.presentationImg.alt = `Aging lecture slide ${slideNumber}: ${slide.title}`;
+      el.presentationTag.textContent = `Slide ${slideNumber} of ${presentationSlides.length}`;
+      el.presentationTitle.textContent = slide.title;
+      el.captionText.textContent = currentCaption() || slide.caption;
+      el.speakerNotes.textContent = slide.notes;
+      el.presentationProgress.style.width = `${progress}%`;
+      el.presentationCount.textContent = presentationState.usingAudio && el.lectureAudio.duration
+        ? `${formatClock(el.lectureAudio.currentTime)} / ${formatClock(el.lectureAudio.duration)}`
+        : `Cue ${presentationState.cueIndex + 1} / ${slideCues.length}`;
+      renderSlideMedia("aging", slideNumber, el.presentationInlineMedia, presentationState.autoPlaying);
+      el.prevSlideBtn.disabled = presentationState.cueIndex === 0;
+      el.nextSlideBtn.disabled = !TEMP_MANUAL_SLIDE_ADVANCE && !presentationState.presentationCompleted;
+      el.nextSlideBtn.textContent = TEMP_MANUAL_SLIDE_ADVANCE || presentationState.presentationCompleted ? "Next cue" : "Locked";
+      el.startQuizBtn.disabled = !presentationState.quizUnlocked;
+      el.quizBtn.disabled = !presentationState.quizUnlocked;
+      el.playSlidesBtn.textContent = presentationState.autoPlaying ? "Pause" : "Auto play";
+      el.statusChip.textContent = `Slide ${slideNumber}`;
+      el.scoreChip.textContent = presentationState.quizUnlocked ? "Quiz unlocked" : "Quiz locked";
+      el.presentationGuide.textContent = presentationState.quizUnlocked
+        ? (presentationState.presentationCompleted
+          ? "Quiz jump is unlocked in this browser. Manual forward navigation is available now."
+          : "Quiz jump is unlocked for testing, but first-run slide advance is still guided by the audio.")
+        : "First run is guided: you can pause or go back, but forward movement follows the audio.";
+      updatePresentationMascots();
+    }
+
+    function currentCaption() {
+      if (!presentationState.usingAudio || transcriptSegments.length === 0) return "";
+      const time = el.lectureAudio.currentTime || 0;
+      const segment = transcriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
+      return segment ? segment.text : "";
+    }
+
+    function showMode(mode) {
+      const showHome = mode === "home";
+      const showQuiz = mode === "quiz";
+      const showPresentation = mode === "presentation";
+      const showNeurophys = mode === "neurophys";
+      const showAnatomy = mode === "anatomy";
+      const showTools = mode === "tools";
+      const showCourseAudio = mode === "courseAudio";
+      el.homeView.hidden = !showHome;
+      el.presentationView.hidden = !showPresentation;
+      el.anatomyView.hidden = !showAnatomy;
+      el.toolsView.hidden = !showTools;
+      el.courseAudioView.hidden = !showCourseAudio;
+      el.neurophysView.hidden = !showNeurophys;
+      el.quizView.hidden = !showQuiz;
+      el.homeBtn.setAttribute("aria-current", String(showHome));
+      el.presentationBtn.setAttribute("aria-current", String(showPresentation));
+      el.quizBtn.setAttribute("aria-current", String(showQuiz));
+      if (showHome) {
+        stopPresentation();
+        stopAnatomy();
+        stopTools();
+        stopCourseAudio();
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = true;
+        el.homeBtn.hidden = true;
+        el.presentationBtn.hidden = true;
+        el.quizBtn.hidden = true;
+        el.resetBtn.hidden = true;
+        el.homeBtn.textContent = "Home";
+        el.presentationBtn.textContent = "Slides";
+        el.quizBtn.textContent = "Quiz";
+        el.resetBtn.textContent = "Restart";
+        el.statusChip.textContent = "Home";
+        el.scoreChip.textContent = presentationState.quizUnlocked ? "Aging unlocked" : "Modules";
+      } else if (showQuiz) {
+        stopAnatomy();
+        stopTools();
+        stopCourseAudio();
+        trackProgress("aging", "quiz_start", {
+          progress_percent: 100,
+          score: state.score,
+          max_score: maxScore
+        });
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = false;
+        el.quizBtn.hidden = false;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Aging Slides";
+        el.quizBtn.textContent = "Aging Quiz";
+        el.resetBtn.textContent = "Restart Aging";
+        stopPresentation();
+        render();
+      } else if (showNeurophys) {
+        stopPresentation();
+        stopAnatomy();
+        stopTools();
+        stopCourseAudio();
+        trackProgress("neurophysiology", "open", {
+          progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
+        });
+        el.scoreChip.hidden = false;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = true;
+        el.quizBtn.hidden = true;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Slides";
+        el.quizBtn.textContent = "Quiz";
+        el.resetBtn.textContent = "Reset Lab";
+        el.statusChip.textContent = "Neurophysiology";
+        el.scoreChip.textContent = "Simulation lab";
+        renderNeurophys();
+      } else if (showAnatomy) {
+        stopPresentation();
+        stopTools();
+        stopCourseAudio();
+        trackProgress("anatomy", "open", {
+          progress_percent: Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100)
+        });
+        el.scoreChip.hidden = false;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = true;
+        el.quizBtn.hidden = true;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Slides";
+        el.quizBtn.textContent = "Quiz";
+        el.resetBtn.textContent = "Restart Anatomy";
+        el.statusChip.textContent = "Anatomy";
+        renderAnatomy();
+      } else if (showTools) {
+        stopPresentation();
+        stopAnatomy();
+        stopCourseAudio();
+        trackProgress("tools", "open", {
+          progress_percent: Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100)
+        });
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = true;
+        el.quizBtn.hidden = true;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Slides";
+        el.quizBtn.textContent = "Quiz";
+        el.resetBtn.textContent = "Restart Tools";
+        el.statusChip.textContent = "Tools";
+        renderTools();
+      } else if (showCourseAudio) {
+        stopPresentation();
+        stopAnatomy();
+        stopTools();
+        const mod = currentCourseAudioModule();
+        trackProgress(mod.id, "open", {
+          progress_percent: Math.round(((courseAudioState.cueIndex + 1) / mod.cues.length) * 100)
+        });
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = true;
+        el.quizBtn.hidden = true;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Slides";
+        el.quizBtn.textContent = "Quiz";
+        el.resetBtn.textContent = `Restart ${mod.shortTitle}`;
+        el.statusChip.textContent = mod.shortTitle;
+        renderCourseAudio();
+      } else if (showPresentation) {
+        stopAnatomy();
+        stopTools();
+        stopCourseAudio();
+        trackProgress("aging", "presentation_open", {
+          progress_percent: Math.round(((presentationState.cueIndex + 1) / slideCues.length) * 100),
+          max_score: maxScore
+        });
+        el.scoreChip.hidden = false;
+        el.statusChip.hidden = false;
+        el.homeBtn.hidden = false;
+        el.presentationBtn.hidden = false;
+        el.quizBtn.hidden = false;
+        el.resetBtn.hidden = false;
+        el.homeBtn.textContent = "Modules";
+        el.presentationBtn.textContent = "Aging Slides";
+        el.quizBtn.textContent = "Aging Quiz";
+        el.resetBtn.textContent = "Restart Aging";
+        renderPresentation();
+      }
+    }
+
+    function neuroSlidePath(number) {
+      return `assets/slides/neurophysiology/neurophys-slide-${String(number).padStart(2, "0")}.png`;
+    }
+
+    function anatomySlidePath(number) {
+      return `assets/slides/anatomy/anatomy-slide-${String(number).padStart(2, "0")}.png`;
+    }
+
+    function toolsSlidePath(number) {
+      return `assets/slides/tools/tools-slide-${String(number).padStart(2, "0")}.png`;
+    }
+
+    function currentCourseAudioModule() {
+      return courseAudioModules[courseAudioState.moduleId] || courseAudioModules.neuropsych;
+    }
+
+    function openCourseAudioModule(moduleId) {
+      const mod = courseAudioModules[moduleId];
+      if (!mod) return;
+      const changed = courseAudioState.moduleId !== moduleId;
+      stopCourseAudio();
+      courseAudioState.moduleId = moduleId;
+      if (changed) {
+        courseAudioState.cueIndex = 0;
+        courseAudioState.index = 0;
+        try { el.courseAudio.currentTime = 0; } catch { }
+      }
+      el.courseAudio.src = `assets/audio/${mod.audioOut}`;
+      el.courseAudioTrack.src = `assets/audio/${mod.id}.vtt`;
+      el.courseAudio.load();
+      showMode("courseAudio");
+    }
+
+    function courseAudioSlidePath(mod, number) {
+      return `assets/slides/${mod.slidesDir}/${mod.slidePrefix}-${String(number).padStart(2, "0")}.png`;
+    }
+
+    function anatomyCaption() {
+      const time = el.anatomyAudio.currentTime || 0;
+      const segment = anatomyTranscriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
+      return segment ? segment.text : "";
+    }
+
+    function toolsCaption() {
+      const time = el.toolsAudio.currentTime || 0;
+      const segment = toolsTranscriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
+      return segment ? segment.text : "";
+    }
+
+    function courseAudioCaption() {
+      const transcript = courseAudioTranscriptMap[courseAudioState.moduleId] || [];
+      const time = el.courseAudio.currentTime || 0;
+      const segment = transcript.find((item) => time >= item.start && time <= item.end + 0.65);
+      return segment ? segment.text : "";
+    }
+
+    function anatomyCueForTime(time) {
+      let index = 0;
+      for (let i = 0; i < anatomyCues.length; i++) {
+        if (time >= anatomyCues[i].time) index = i;
+        else break;
+      }
+      return index;
+    }
+
+    function toolsCueForTime(time) {
+      let index = 0;
+      for (let i = 0; i < toolsCues.length; i++) {
+        if (time >= toolsCues[i].time) index = i;
+        else break;
+      }
+      return index;
+    }
+
+    function courseAudioCueForTime(time) {
+      const cues = currentCourseAudioModule().cues || [];
+      let index = 0;
+      for (let i = 0; i < cues.length; i++) {
+        if (time >= cues[i].time) index = i;
+        else break;
+      }
+      return index;
+    }
+
+    function renderAnatomy() {
+      const slide = anatomySlides[anatomyState.index];
+      const slideNumber = anatomyState.index + 1;
+      const progress = el.anatomyAudio.duration
+        ? Math.round((el.anatomyAudio.currentTime / el.anatomyAudio.duration) * 100)
+        : Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100);
+      el.anatomyImg.src = anatomySlidePath(slideNumber);
+      el.anatomyImg.alt = `Anatomy lecture slide ${slideNumber}: ${slide.title}`;
+      el.anatomyTag.textContent = `Slide ${slideNumber} of ${anatomySlides.length}`;
+      el.anatomyTitle.textContent = slide.title;
+      el.anatomyCaption.textContent = anatomyCaption() || slide.notes;
+      el.anatomyNotes.textContent = slide.notes;
+      el.anatomyProgress.style.width = `${progress}%`;
+      el.anatomyCount.textContent = el.anatomyAudio.duration
+        ? `${formatClock(el.anatomyAudio.currentTime)} / ${formatClock(el.anatomyAudio.duration)}`
+        : `Cue ${anatomyState.cueIndex + 1} / ${anatomyCues.length}`;
+      renderSlideMedia("anatomy", slideNumber, el.anatomyInlineMedia, anatomyState.autoPlaying);
+      el.anatomyPrevBtn.disabled = anatomyState.cueIndex === 0;
+      el.anatomyNextBtn.disabled = anatomyState.cueIndex === anatomyCues.length - 1;
+      el.anatomyPlayBtn.textContent = anatomyState.autoPlaying ? "Pause" : "Auto play";
+      updateAnatomyMascots();
+    }
+
+    function renderTools() {
+      const slide = toolsSlides[toolsState.index];
+      const slideNumber = toolsState.index + 1;
+      const progress = el.toolsAudio.duration
+        ? Math.round((el.toolsAudio.currentTime / el.toolsAudio.duration) * 100)
+        : Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100);
+      el.toolsImg.src = toolsSlidePath(slideNumber);
+      el.toolsImg.alt = `Tools and Techniques lecture slide ${slideNumber}: ${slide.title}`;
+      el.toolsTag.textContent = `Slide ${slideNumber} of ${toolsSlides.length}`;
+      el.toolsTitle.textContent = slide.title;
+      el.toolsCaption.textContent = toolsCaption() || slide.notes;
+      el.toolsNotes.textContent = slide.notes;
+      el.toolsProgress.style.width = `${progress}%`;
+      el.toolsCount.textContent = el.toolsAudio.duration
+        ? `${formatClock(el.toolsAudio.currentTime)} / ${formatClock(el.toolsAudio.duration)}`
+        : `Cue ${toolsState.cueIndex + 1} / ${toolsCues.length}`;
+      el.toolsPrevBtn.disabled = toolsState.cueIndex === 0;
+      el.toolsNextBtn.disabled = toolsState.cueIndex === toolsCues.length - 1;
+      el.toolsPlayBtn.textContent = toolsState.autoPlaying ? "Pause" : "Auto play";
+      renderSlideMedia("tools", slideNumber, el.toolsInlineMedia, toolsState.autoPlaying);
+      updateToolsMascots();
+    }
+
+    function renderCourseAudio() {
+      const mod = currentCourseAudioModule();
+      const slides = mod.slides || [];
+      const cues = mod.cues || [];
+      const slide = slides[courseAudioState.index] || slides[0] || { title: mod.title, notes: mod.notes };
+      const slideNumber = courseAudioState.index + 1;
+      const progress = el.courseAudio.duration
+        ? Math.round((el.courseAudio.currentTime / el.courseAudio.duration) * 100)
+        : Math.round(((courseAudioState.cueIndex + 1) / Math.max(1, cues.length)) * 100);
+      el.courseAudioImg.src = courseAudioSlidePath(mod, slideNumber);
+      el.courseAudioImg.alt = `${mod.deckLabel} lecture slide ${slideNumber}: ${slide.title}`;
+      el.courseAudioTag.textContent = `Slide ${slideNumber} of ${slides.length}`;
+      el.courseAudioTitle.textContent = slide.title;
+      el.courseAudioCaption.textContent = courseAudioCaption() || slide.notes || mod.notes;
+      el.courseAudioNotes.textContent = slide.notes || mod.notes;
+      el.courseAudioProgress.style.width = `${progress}%`;
+      el.courseAudioCount.textContent = el.courseAudio.duration
+        ? `${formatClock(el.courseAudio.currentTime)} / ${formatClock(el.courseAudio.duration)}`
+        : `Cue ${courseAudioState.cueIndex + 1} / ${cues.length}`;
+      el.courseAudioPrevBtn.disabled = courseAudioState.cueIndex === 0;
+      el.courseAudioNextBtn.disabled = courseAudioState.cueIndex === cues.length - 1;
+      el.courseAudioPlayBtn.textContent = courseAudioState.autoPlaying ? "Pause" : "Auto play";
+      if (el.courseAudioReflectionBtn) el.courseAudioReflectionBtn.dataset.reflectionModule = mod.id;
+      el.courseAudioGuideName.textContent = mod.title;
+      el.courseAudioGuide.textContent = mod.guide;
+      renderSlideMedia(mod.id, slideNumber, el.courseAudioInlineMedia, courseAudioState.autoPlaying);
+      pauseCourseAudioForYoutubeCue(mod.id, slideNumber);
+      updateCourseAudioMascots();
+    }
+
+    function hasYoutubeMedia(moduleId, slideNumber) {
+      return (((courseMediaOverlays[moduleId] || {})[String(slideNumber)] || [])
+        .some((item) => item.type === "youtube"));
+    }
+
+    function pauseCourseAudioForYoutubeCue(moduleId, slideNumber) {
+      if (!courseAudioState.autoPlaying || courseAudioState.pausedForYoutube) return;
+      if (moduleId !== courseAudioState.moduleId || !hasYoutubeMedia(moduleId, slideNumber)) return;
+      courseAudioState.pausedForYoutube = true;
+      if (el.courseAudio && !el.courseAudio.paused) el.courseAudio.pause();
+      el.courseAudioPlayBtn.textContent = "Auto play";
+      el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next cue or Auto play to continue.";
+    }
+
+    function renderSlideMedia(moduleId, slideNumber, container, shouldPlay = true) {
+      if (!container) return;
+      const items = ((courseMediaOverlays[moduleId] || {})[String(slideNumber)] || []);
+      const seen = new Set();
+      const mediaItems = items.filter((item) => {
+        const key = `${item.type}:${item.src}:${item.x}:${item.y}:${item.w}:${item.h}`;
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+      if (mediaItems.length === 0) {
+        container.hidden = true;
+        container.innerHTML = "";
+        container.dataset.mediaKey = "";
+        container.removeAttribute("style");
+        return;
+      }
+      const mediaKey = `${MEDIA_RENDER_VERSION}|${mediaItems.map((item) => `${item.type}:${item.src}`).join("|")}`;
+      container.style.left = "0%";
+      container.style.top = "0%";
+      container.style.width = "100%";
+      container.style.height = "100%";
+      if (container.dataset.mediaKey !== mediaKey) {
+        container.innerHTML = "";
+        mediaItems.forEach((media) => {
+          const wrapper = document.createElement("div");
+          wrapper.className = "inline-media-item";
+          wrapper.style.left = `${media.x ?? 0}%`;
+          wrapper.style.top = `${media.y ?? 0}%`;
+          wrapper.style.width = `${media.w ?? 100}%`;
+          wrapper.style.height = `${media.h ?? 100}%`;
+          if (media.type === "video") {
+            const video = document.createElement("video");
+            video.src = media.src;
+            video.autoplay = true;
+            video.muted = true;
+            video.loop = true;
+            video.playsInline = true;
+            video.title = media.title || "Embedded video";
+            wrapper.appendChild(video);
+          } else if (media.type === "youtube") {
+            const loader = document.createElement("div");
+            loader.className = "youtube-loader";
+            const play = document.createElement("button");
+            play.className = "youtube-play";
+            play.type = "button";
+            play.textContent = "Play";
+            play.setAttribute("aria-label", `Play ${media.title || "YouTube video"}`);
+            play.addEventListener("click", () => {
+              const iframe = document.createElement("iframe");
+              iframe.src = youtubeEmbedSrc(media.src, true);
+              iframe.title = media.title || "Embedded YouTube video";
+              iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture; web-share";
+              iframe.allowFullscreen = true;
+              iframe.frameBorder = "0";
+              iframe.loading = "eager";
+              iframe.referrerPolicy = "strict-origin-when-cross-origin";
+              loader.replaceWith(iframe);
+            }, { once: true });
+            loader.appendChild(play);
+            wrapper.appendChild(loader);
+            const link = document.createElement("a");
+            link.className = "youtube-fallback";
+            link.href = youtubeWatchUrl(media.src);
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = "Open video";
+            wrapper.appendChild(link);
+          } else {
+            const img = document.createElement("img");
+            img.src = media.src;
+            img.alt = media.title || "Embedded animated media";
+            wrapper.appendChild(img);
+          }
+          container.appendChild(wrapper);
+        });
+        container.dataset.mediaKey = mediaKey;
+      }
+      container.hidden = false;
+      container.querySelectorAll("video").forEach((video) => {
+        if (shouldPlay) video.play().catch(() => {});
+        else video.pause();
+      });
+    }
+
+    function youtubeEmbedSrc(src, autoplay = false) {
+      try {
+        const url = new URL(src, window.location.href);
+        const videoId = youtubeVideoId(url);
+        if (!videoId) return src;
+        const embed = new URL(`https://www.youtube.com/embed/${videoId}`);
+        const start = url.searchParams.get("start");
+        if (start) embed.searchParams.set("start", start);
+        if (autoplay) embed.searchParams.set("autoplay", "1");
+        embed.searchParams.set("rel", "0");
+        embed.searchParams.set("playsinline", "1");
+        return embed.toString();
+      } catch {
+        return src;
+      }
+    }
+
+    function youtubeWatchUrl(src) {
+      try {
+        const url = new URL(src, window.location.href);
+        const videoId = youtubeVideoId(url);
+        if (!videoId) return src;
+        const watch = new URL("https://www.youtube.com/watch");
+        watch.searchParams.set("v", videoId);
+        const start = url.searchParams.get("start");
+        if (start) watch.searchParams.set("t", `${start}s`);
+        return watch.toString();
+      } catch {
+        return src;
+      }
+    }
+
+    function youtubeVideoId(url) {
+      if (url.hostname.includes("youtu.be")) {
+        return url.pathname.replace("/", "").split("/")[0] || "";
+      }
+      const embedMatch = url.pathname.match(/\/embed\/([^/?]+)/);
+      if (embedMatch) return embedMatch[1];
+      return url.searchParams.get("v") || "";
+    }
+
+    function syncMediaPlayback(container, shouldPlay) {
+      if (!container) return;
+      container.querySelectorAll("video").forEach((video) => {
+        video.muted = true;
+        video.loop = true;
+        video.playsInline = true;
+        if (shouldPlay) video.play().catch(() => {});
+        else video.pause();
+      });
+    }
+
+    function renderToolsInlineMedia(slideNumber) {
+      const media = toolsSlideMedia[slideNumber];
+      if (!media) {
+        el.toolsInlineMedia.hidden = true;
+        el.toolsInlineMedia.innerHTML = "";
+        el.toolsInlineMedia.dataset.mediaKey = "";
+        el.toolsInlineMedia.removeAttribute("style");
+        return;
+      }
+      const mediaKey = `${media.type}:${media.src}`;
+      el.toolsInlineMedia.style.left = `${media.x ?? 0}%`;
+      el.toolsInlineMedia.style.top = `${media.y ?? 0}%`;
+      el.toolsInlineMedia.style.width = `${media.w ?? 100}%`;
+      el.toolsInlineMedia.style.height = `${media.h ?? 100}%`;
+      if (el.toolsInlineMedia.dataset.mediaKey !== mediaKey) {
+      if (media.type === "video") {
+        el.toolsInlineMedia.innerHTML = `<video src="${media.src}" autoplay muted loop playsinline></video>`;
+      } else {
+        el.toolsInlineMedia.innerHTML = `<img src="${media.src}" alt="${media.title}">`;
+      }
+        el.toolsInlineMedia.dataset.mediaKey = mediaKey;
+      }
+      el.toolsInlineMedia.hidden = false;
+      const video = el.toolsInlineMedia.querySelector("video");
+      if (video) {
+        if (toolsState.autoPlaying) video.play().catch(() => {});
+        else video.pause();
+      }
+    }
+
+    function goToAnatomyCue(index, syncAudio = true) {
+      anatomyState.cueIndex = Math.max(0, Math.min(anatomyCues.length - 1, index));
+      const cue = anatomyCues[anatomyState.cueIndex];
+      anatomyState.index = cue.slide - 1;
+      if (syncAudio && el.anatomyAudio.duration) {
+        el.anatomyAudio.currentTime = cue.time;
+        anatomyState.cueIndex = anatomyCueForTime(cue.time);
+        anatomyState.index = anatomyCues[anatomyState.cueIndex].slide - 1;
+      }
+      trackProgress("anatomy", anatomyState.cueIndex === anatomyCues.length - 1 ? "complete" : "progress", {
+        progress_percent: Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100)
+      });
+      renderAnatomy();
+    }
+
+    function goToToolsCue(index, syncAudio = true) {
+      toolsState.cueIndex = Math.max(0, Math.min(toolsCues.length - 1, index));
+      const cue = toolsCues[toolsState.cueIndex];
+      toolsState.index = cue.slide - 1;
+      if (syncAudio && el.toolsAudio.duration) {
+        el.toolsAudio.currentTime = cue.time;
+        toolsState.cueIndex = toolsCueForTime(cue.time);
+        toolsState.index = toolsCues[toolsState.cueIndex].slide - 1;
+      }
+      trackProgress("tools", toolsState.cueIndex === toolsCues.length - 1 ? "complete" : "progress", {
+        progress_percent: Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100)
+      });
+      renderTools();
+    }
+
+    function goToCourseAudioCue(index, syncAudio = true) {
+      const mod = currentCourseAudioModule();
+      const cues = mod.cues || [];
+      courseAudioState.cueIndex = Math.max(0, Math.min(cues.length - 1, index));
+      const cue = cues[courseAudioState.cueIndex] || cues[0] || { slide: 1, time: 0 };
+      courseAudioState.index = cue.slide - 1;
+      if (syncAudio && el.courseAudio.duration) {
+        el.courseAudio.currentTime = cue.time;
+        courseAudioState.cueIndex = courseAudioCueForTime(cue.time);
+        courseAudioState.index = cues[courseAudioState.cueIndex].slide - 1;
+      }
+      trackProgress(mod.id, courseAudioState.cueIndex === cues.length - 1 ? "complete" : "progress", {
+        progress_percent: Math.round(((courseAudioState.cueIndex + 1) / cues.length) * 100)
+      });
+      renderCourseAudio();
+    }
+
+    function stopAnatomy() {
+      anatomyState.autoPlaying = false;
+      if (el.anatomyAudio) el.anatomyAudio.pause();
+      if (el.anatomyPlayBtn) el.anatomyPlayBtn.textContent = "Auto play";
+      pauseInlineVideos(el.anatomyInlineMedia);
+    }
+
+    function stopTools() {
+      toolsState.autoPlaying = false;
+      if (el.toolsAudio) el.toolsAudio.pause();
+      if (el.toolsPlayBtn) el.toolsPlayBtn.textContent = "Auto play";
+      pauseInlineVideos(el.toolsInlineMedia);
+    }
+
+    function stopCourseAudio() {
+      courseAudioState.autoPlaying = false;
+      courseAudioState.pausedForYoutube = false;
+      if (el.courseAudio) el.courseAudio.pause();
+      if (el.courseAudioPlayBtn) el.courseAudioPlayBtn.textContent = "Auto play";
+      pauseInlineVideos(el.courseAudioInlineMedia);
+    }
+
+    function pauseInlineVideos(container) {
+      if (!container) return;
+      container.querySelectorAll("video").forEach((video) => video.pause());
+    }
+
+    function updateAnatomyFromAudio() {
+      if (!el.anatomyAudio.duration) return;
+      const cueIndex = anatomyCueForTime(el.anatomyAudio.currentTime);
+      if (cueIndex !== anatomyState.cueIndex) {
+        anatomyState.cueIndex = cueIndex;
+        anatomyState.index = anatomyCues[cueIndex].slide - 1;
+        trackProgress("anatomy", cueIndex === anatomyCues.length - 1 ? "complete" : "progress", {
+          progress_percent: Math.round(((cueIndex + 1) / anatomyCues.length) * 100)
+        });
+      }
+      renderAnatomy();
+    }
+
+    function skipToolsPauseMarkers(time) {
+      const range = toolsSkipRanges.find((item) => time >= item.start && time < item.end);
+      if (!range) return false;
+      el.toolsAudio.currentTime = range.end + 0.05;
+      return true;
+    }
+
+    function updateToolsFromAudio() {
+      if (!el.toolsAudio.duration) return;
+      if (skipToolsPauseMarkers(el.toolsAudio.currentTime)) return;
+      const cueIndex = toolsCueForTime(el.toolsAudio.currentTime);
+      if (cueIndex !== toolsState.cueIndex) {
+        toolsState.cueIndex = cueIndex;
+        toolsState.index = toolsCues[cueIndex].slide - 1;
+        trackProgress("tools", cueIndex === toolsCues.length - 1 ? "complete" : "progress", {
+          progress_percent: Math.round(((cueIndex + 1) / toolsCues.length) * 100)
+        });
+      }
+      renderTools();
+    }
+
+    function updateCourseAudioFromAudio() {
+      const mod = currentCourseAudioModule();
+      const cues = mod.cues || [];
+      if (!el.courseAudio.duration || cues.length === 0) return;
+      const cueIndex = courseAudioCueForTime(el.courseAudio.currentTime);
+      if (cueIndex !== courseAudioState.cueIndex) {
+        courseAudioState.cueIndex = cueIndex;
+        courseAudioState.index = cues[cueIndex].slide - 1;
+        trackProgress(mod.id, cueIndex === cues.length - 1 ? "complete" : "progress", {
+          progress_percent: Math.round(((cueIndex + 1) / cues.length) * 100)
+        });
+      }
+      renderCourseAudio();
+    }
+
+    function updateAnatomyMascots() {
+      const cue = anatomyCues[anatomyState.cueIndex] || anatomyCues[0];
+      const gliaPose = cue.pose || "discussing";
+      const naviPose = gliaPose === "celebrate" ? "celebrate"
+        : gliaPose === "thinking" ? "thinking"
+        : gliaPose === "wave" ? "wave"
+        : "pointing";
+      setPresenterPose(el.anatomyNavi, mascotPoses[naviPose] || mascotPoses.pointing);
+      setPresenterPose(el.anatomyGlia, gliaPoses[gliaPose] || gliaPoses.idle);
+    }
+
+    function updateToolsMascots() {
+      const cue = toolsCues[toolsState.cueIndex] || toolsCues[0];
+      const gliaPose = cue.pose || "discussing";
+      const naviPose = gliaPose === "celebrate" ? "celebrate"
+        : gliaPose === "thinking" ? "thinking"
+        : gliaPose === "wave" ? "wave"
+        : "pointing";
+      setPresenterPose(el.toolsNavi, mascotPoses[naviPose] || mascotPoses.pointing);
+      setPresenterPose(el.toolsGlia, gliaPoses[gliaPose] || gliaPoses.idle);
+    }
+
+    function updateCourseAudioMascots() {
+      const poseCycle = ["discussing", "thinking", "pointing", "wave"];
+      const gliaPose = poseCycle[courseAudioState.cueIndex % poseCycle.length];
+      const naviPose = gliaPose === "thinking" ? "thinking"
+        : gliaPose === "wave" ? "wave"
+        : "pointing";
+      setPresenterPose(el.courseAudioNavi, mascotPoses[naviPose] || mascotPoses.pointing);
+      setPresenterPose(el.courseAudioGlia, gliaPoses[gliaPose] || gliaPoses.idle);
+    }
+
+    function renderNeurophys() {
+      const slide = neurophysSlides[neuroState.index];
+      const slideNumber = neuroState.index + 1;
+      const progress = Math.round((slideNumber / neurophysSlides.length) * 100);
+      el.neuroSlideImg.src = neuroSlidePath(slideNumber);
+      el.neuroSlideImg.alt = `Neurophysiology lecture slide ${slideNumber}: ${slide.title}`;
+      el.neuroSlideTag.textContent = `Slide ${slideNumber} of ${neurophysSlides.length}`;
+      el.neuroSlideTitle.textContent = slide.title;
+      el.neuroSlideCaption.textContent = slide.caption;
+      el.neuroProgress.style.width = `${progress}%`;
+      el.neuroCount.textContent = `${slideNumber} / ${neurophysSlides.length}`;
+      el.neuroPrevBtn.disabled = neuroState.index === 0;
+      el.neuroNextBtn.disabled = neuroState.index === neurophysSlides.length - 1;
+      renderSlideMedia("neurophysiology", slideNumber, el.neuroInlineMedia, true);
+    }
+
+    function changeNeuroSlide(delta) {
+      neuroState.index = Math.max(0, Math.min(neurophysSlides.length - 1, neuroState.index + delta));
+      renderNeurophys();
+      trackProgress("neurophysiology", neuroState.index === neurophysSlides.length - 1 ? "complete" : "progress", {
+        progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
+      });
+    }
+
+    function setSimActivity(activity) {
+      el.simNote.textContent = simActivities[activity] || simActivities.neuron;
+      trackProgress("neurophysiology", "simulation_activity", {
+        activity,
+        progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
+      });
+    }
+
+    function unlockQuiz() {
+      presentationState.presentationCompleted = true;
+      presentationState.quizUnlocked = true;
+      localStorage.setItem("agingPresentationCompleted", "true");
+      localStorage.setItem("agingQuizUnlocked", "true");
+      trackProgress("aging", "presentation_complete", {
+        progress_percent: 100,
+        max_score: maxScore
+      });
+      renderPresentation();
+    }
+
+    function cueForTime(time) {
+      let index = 0;
+      for (let i = 0; i < slideCues.length; i++) {
+        if (time >= slideCues[i].time) index = i;
+        else break;
+      }
+      return index;
+    }
+
+    function goToCue(index, syncAudio = true) {
+      presentationState.cueIndex = Math.max(0, Math.min(slideCues.length - 1, index));
+      const cue = slideCues[presentationState.cueIndex];
+      presentationState.index = cue.slide - 1;
+      if (syncAudio && presentationState.usingAudio && el.lectureAudio.duration) {
+        el.lectureAudio.currentTime = cue.time;
+        presentationState.cueIndex = cueForTime(cue.time);
+        presentationState.index = slideCues[presentationState.cueIndex].slide - 1;
+      }
+      if (presentationState.cueIndex === slideCues.length - 1) unlockQuiz();
+      renderPresentation();
+    }
+
+    function nextPresentationSlide() {
+      if (!TEMP_MANUAL_SLIDE_ADVANCE && !presentationState.presentationCompleted) return;
+      if (presentationState.cueIndex >= slideCues.length - 1) {
+        unlockQuiz();
+        stopPresentation();
+        return;
+      }
+      goToCue(presentationState.cueIndex + 1);
+    }
+
+    function prevPresentationSlide() {
+      stopPresentation();
+      goToCue(presentationState.cueIndex - 1);
+    }
+
+    function togglePresentationPlayback() {
+      if (presentationState.autoPlaying) {
+        stopPresentation();
+        return;
+      }
+      presentationState.autoPlaying = true;
+      if (presentationState.usingAudio) {
+        el.lectureAudio.play().catch(() => {
+          el.audioStatus.textContent = "Click the audio play button to start playback. Browser autoplay rules blocked automatic audio.";
+        });
+      } else {
+        presentationState.timer = window.setInterval(nextPresentationSlide, slideSeconds * 1000);
+      }
+      renderPresentation();
+    }
+
+    function stopPresentation() {
+      presentationState.autoPlaying = false;
+      if (presentationState.timer) {
+        window.clearInterval(presentationState.timer);
+        presentationState.timer = null;
+      }
+      if (presentationState.usingAudio) el.lectureAudio.pause();
+      if (el.playSlidesBtn) el.playSlidesBtn.textContent = "Auto play";
+      pauseInlineVideos(el.presentationInlineMedia);
+    }
+
+    function updatePresentationFromAudio() {
+      if (!presentationState.usingAudio || !el.lectureAudio.duration) return;
+      const ratio = el.lectureAudio.currentTime / el.lectureAudio.duration;
+      const cueIndex = cueForTime(el.lectureAudio.currentTime);
+      if (cueIndex !== presentationState.cueIndex) {
+        presentationState.cueIndex = cueIndex;
+        presentationState.index = slideCues[cueIndex].slide - 1;
+      }
+      if (presentationState.cueIndex === slideCues.length - 1 || ratio > 0.985) unlockQuiz();
+      renderPresentation();
+    }
+
+    function formatClock(seconds) {
+      const safe = Math.max(0, Number.isFinite(seconds) ? seconds : 0);
+      const minutes = Math.floor(safe / 60);
+      const secs = Math.floor(safe % 60).toString().padStart(2, "0");
+      return `${minutes}:${secs}`;
+    }
+
+    function setupAudio() {
+      el.lectureAudio.src = "assets/audio/aging.m4a";
+      el.lectureAudio.hidden = false;
+      el.lectureAudio.addEventListener("loadedmetadata", () => {
+        presentationState.usingAudio = true;
+        const minutes = Math.floor(el.lectureAudio.duration / 60);
+        const seconds = Math.round(el.lectureAudio.duration % 60).toString().padStart(2, "0");
+        el.audioStatus.textContent = transcriptSegments.length > 0
+          ? `Using Aging.m4a (${minutes}:${seconds}) with timed transcript captions. Slides follow transcript-based topic cues.`
+          : `Using Aging.m4a (${minutes}:${seconds}). Timed transcript captions were not found.`;
+        renderPresentation();
+      });
+      el.lectureAudio.addEventListener("timeupdate", updatePresentationFromAudio);
+      el.lectureAudio.addEventListener("play", () => {
+        presentationState.autoPlaying = true;
+        renderPresentation();
+        syncMediaPlayback(el.presentationInlineMedia, true);
+      });
+      el.lectureAudio.addEventListener("pause", () => {
+        if (!el.lectureAudio.ended) presentationState.autoPlaying = false;
+        renderPresentation();
+        syncMediaPlayback(el.presentationInlineMedia, false);
+      });
+      el.lectureAudio.addEventListener("ended", () => {
+        unlockQuiz();
+        stopPresentation();
+      });
+      el.lectureAudio.addEventListener("error", () => {
+        presentationState.usingAudio = false;
+        el.lectureAudio.hidden = true;
+        el.audioStatus.textContent = "No Aging audio file is available in the game assets. Using slide-script captions and estimated auto-advance timing.";
+        renderPresentation();
+      });
+    }
+
+    function render() {
+      const scene = scenes[state.current];
+      if (!state.visited.includes(state.current)) {
+        state.visited.push(state.current);
+      }
+
+      const scorePercent = Math.min(100, Math.round((state.score / maxScore) * 100));
+      el.scoreChip.textContent = `Score ${state.score}`;
+      el.statusChip.textContent = scene.ending ? "Debrief" : `Node ${state.visited.length}`;
+      el.barFill.style.width = `${scorePercent}%`;
+      el.meterText.textContent = `${scorePercent}%`;
+      el.guideCopy.textContent = scene.guide;
+      setMascotPose(mascotPoseFor(scene));
+      el.slideImg.src = slidePath(scene.slide);
+      el.slideImg.alt = `Aging lecture slide ${scene.slide}: ${scene.title}`;
+      el.slideTag.textContent = `Slide ${scene.slide}`;
+      el.nodeLabel.textContent = scene.label;
+      el.sceneTitle.textContent = scene.title;
+      el.storyText.textContent = scene.ending ? endingText(scene.story) : scene.story;
+      el.targetText.textContent = scene.target;
+      el.feedbackText.textContent = state.lastFeedback;
+      el.feedbackPanel.classList.remove("good", "warn");
+      if (state.tone) el.feedbackPanel.classList.add(state.tone);
+
+      el.clueList.innerHTML = "";
+      scene.clues.forEach((clue) => {
+        const li = document.createElement("li");
+        li.textContent = clue;
+        el.clueList.appendChild(li);
+      });
+
+      el.pathDots.innerHTML = "";
+      state.visited.forEach((_, index) => {
+        const dot = document.createElement("span");
+        dot.textContent = index + 1;
+        el.pathDots.appendChild(dot);
+      });
+
+      el.choices.innerHTML = "";
+      scene.choices.forEach((choice, index) => {
+        const button = document.createElement("button");
+        button.className = "choice";
+        button.type = "button";
+        button.innerHTML = `<span class="choice-key">${String.fromCharCode(65 + index)}</span><span><strong>${choice.text}</strong><small>${choice.detail}</small></span>`;
+        button.addEventListener("click", () => choose(choice));
+        el.choices.appendChild(button);
+      });
+
+      el.endingActions.hidden = !scene.ending;
+    }
+
+    function mascotPoseFor(scene) {
+      if (scene.ending) return "celebrate";
+      if (state.current === "start" && state.visited.length <= 1) return "wave";
+      if (state.tone === "good") return "celebrate";
+      if (state.tone === "warn") return "thinking";
+      return "pointing";
+    }
+
+    function setMascotPose(pose) {
+      const nextSrc = mascotPoses[pose] || mascotPoses.idle;
+      if (el.mascotImg.getAttribute("src") === nextSrc) return;
+      el.mascotImg.classList.remove("pose-pop");
+      el.mascotImg.src = nextSrc;
+      requestAnimationFrame(() => el.mascotImg.classList.add("pose-pop"));
+    }
+
+    function setPresenterPose(img, src) {
+      if (!img || img.getAttribute("src") === src) return;
+      img.classList.remove("pose-pop");
+      img.src = src;
+      requestAnimationFrame(() => img.classList.add("pose-pop"));
+    }
+
+    function updatePresentationMascots() {
+      const cue = slideCues[presentationState.cueIndex] || slideCues[0];
+      const gliaPose = cue.pose || "discussing";
+      const naviPose = gliaPose === "celebrate" ? "celebrate"
+        : gliaPose === "thinking" ? "thinking"
+        : gliaPose === "wave" ? "wave"
+        : "pointing";
+      setPresenterPose(el.presenterMascot, mascotPoses[naviPose] || mascotPoses.pointing);
+      setPresenterPose(el.gliaMascot, gliaPoses[gliaPose] || gliaPoses.idle);
+    }
+
+    function endingText(base) {
+      if (state.score >= 19) {
+        return `${base} Your route was expert-level: you consistently chose evidence-based, multi-level explanations.`;
+      }
+      if (state.score >= 13) {
+        return `${base} Your route was solid: you found many of the key mechanisms, with a few places to sharpen the aging-versus-disease distinction.`;
+      }
+      return `${base} Your route is a useful practice run: replay and look for choices that connect mechanisms, evidence, and behavior.`;
+    }
+
+    function choose(choice) {
+      setMascotPose("thinking");
+      state.score += choice.points;
+      state.current = choice.next;
+      state.lastFeedback = choice.feedback;
+      state.tone = choice.tone;
+      render();
+      const scene = scenes[state.current];
+      trackProgress("aging", scene.ending ? "complete" : "quiz_progress", {
+        progress_percent: scene.ending ? 100 : Math.min(99, Math.round((state.visited.length / Object.keys(scenes).length) * 100)),
+        score: state.score,
+        max_score: maxScore,
+        node: state.current
+      });
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function reset(start = "start") {
+      state.current = start;
+      state.score = 0;
+      state.visited = [];
+      state.lastFeedback = start === "intervention"
+        ? "You jumped into the intervention route. Evaluate claims with mechanism and evidence."
+        : "Your first choice will shape the case.";
+      state.tone = "";
+      render();
+    }
+
+    function restartExperience() {
+      if (!el.anatomyView.hidden) {
+        stopAnatomy();
+        anatomyState.cueIndex = 0;
+        anatomyState.index = anatomyCues[0].slide - 1;
+        try { el.anatomyAudio.currentTime = 0; } catch { }
+        renderAnatomy();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      if (!el.toolsView.hidden) {
+        stopTools();
+        toolsState.cueIndex = 0;
+        toolsState.index = toolsCues[0].slide - 1;
+        try { el.toolsAudio.currentTime = 0; } catch { }
+        renderTools();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      if (!el.courseAudioView.hidden) {
+        stopCourseAudio();
+        courseAudioState.cueIndex = 0;
+        courseAudioState.index = 0;
+        try { el.courseAudio.currentTime = 0; } catch { }
+        renderCourseAudio();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      if (!el.neurophysView.hidden) {
+        neuroState.index = 0;
+        setSimActivity("column");
+        renderNeurophys();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        return;
+      }
+      stopPresentation();
+      reset();
+      presentationState.cueIndex = 0;
+      presentationState.index = slideCues[0].slide - 1;
+      try { el.lectureAudio.currentTime = 0; } catch { }
+      showMode("presentation");
+      renderPresentation();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function setupPreviewBanner() {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get("preview") !== "1") return;
+      el.previewBanner.classList.add("visible");
+      const returnUrl = params.get("return") || "/instructor/courses/";
+      el.exitPreviewLink.href = returnUrl;
+    }
+
+    function blockContentCopying() {
+      ["copy", "cut", "contextmenu", "dragstart", "selectstart"].forEach((eventName) => {
+        document.addEventListener(eventName, (event) => event.preventDefault());
+      });
+
+      document.addEventListener("keydown", (event) => {
+        const key = event.key.toLowerCase();
+        if ((event.ctrlKey || event.metaKey) && ["c", "x", "s", "p", "u"].includes(key)) {
+          event.preventDefault();
+        }
+        if (key === "printscreen") {
+          event.preventDefault();
+        }
+      });
+    }
+
+    el.resetBtn.addEventListener("click", restartExperience);
+    el.homeBtn.addEventListener("click", () => showMode("home"));
+    el.neuropsychModuleBtn.addEventListener("click", () => openCourseAudioModule("neuropsych"));
+    el.languageModuleBtn.addEventListener("click", () => openCourseAudioModule("language"));
+    el.technologyModuleBtn.addEventListener("click", () => openCourseAudioModule("technology"));
+    el.agingModuleBtn.addEventListener("click", () => showMode("presentation"));
+    el.anatomyModuleBtn.addEventListener("click", () => showMode("anatomy"));
+    el.anatomyPrevBtn.addEventListener("click", () => {
+      stopAnatomy();
+      goToAnatomyCue(anatomyState.cueIndex - 1);
+    });
+    el.anatomyNextBtn.addEventListener("click", () => goToAnatomyCue(anatomyState.cueIndex + 1));
+    el.anatomyPlayBtn.addEventListener("click", () => {
+      if (anatomyState.autoPlaying) {
+        stopAnatomy();
+        return;
+      }
+      anatomyState.autoPlaying = true;
+      el.anatomyAudio.play().catch(() => {
+        el.anatomyAudioStatus.textContent = "Click the audio play button to start playback. Browser autoplay rules blocked automatic audio.";
+      });
+      renderAnatomy();
+    });
+    el.anatomyAudio.addEventListener("loadedmetadata", () => {
+      const minutes = Math.floor(el.anatomyAudio.duration / 60);
+      const seconds = Math.round(el.anatomyAudio.duration % 60).toString().padStart(2, "0");
+      el.anatomyAudioStatus.textContent = `Using anatomy narration (${minutes}:${seconds}) with timed transcript captions.`;
+      renderAnatomy();
+    });
+    el.anatomyAudio.addEventListener("timeupdate", updateAnatomyFromAudio);
+    el.anatomyAudio.addEventListener("play", () => {
+      anatomyState.autoPlaying = true;
+      renderAnatomy();
+      syncMediaPlayback(el.anatomyInlineMedia, true);
+    });
+    el.anatomyAudio.addEventListener("pause", () => {
+      if (!el.anatomyAudio.ended) anatomyState.autoPlaying = false;
+      renderAnatomy();
+      syncMediaPlayback(el.anatomyInlineMedia, false);
+    });
+    el.anatomyAudio.addEventListener("ended", stopAnatomy);
+    el.toolsModuleBtn.addEventListener("click", () => showMode("tools"));
+    el.toolsPrevBtn.addEventListener("click", () => {
+      stopTools();
+      goToToolsCue(toolsState.cueIndex - 1);
+    });
+    el.toolsNextBtn.addEventListener("click", () => goToToolsCue(toolsState.cueIndex + 1));
+    el.toolsPlayBtn.addEventListener("click", () => {
+      if (toolsState.autoPlaying) {
+        stopTools();
+        return;
+      }
+      toolsState.autoPlaying = true;
+      el.toolsAudio.play().catch(() => {
+        el.toolsAudioStatus.textContent = "Click the audio play button to start playback. Browser autoplay rules blocked automatic audio.";
+      });
+      renderTools();
+    });
+    el.toolsAudio.addEventListener("loadedmetadata", () => {
+      const minutes = Math.floor(el.toolsAudio.duration / 60);
+      const seconds = Math.round(el.toolsAudio.duration % 60).toString().padStart(2, "0");
+      el.toolsAudioStatus.textContent = `Using cleaned Tools narration (${minutes}:${seconds}) with timed transcript captions. Pause-for-media narration has been removed from the audio.`;
+      renderTools();
+    });
+    el.toolsAudio.addEventListener("timeupdate", updateToolsFromAudio);
+    el.toolsAudio.addEventListener("play", () => {
+      toolsState.autoPlaying = true;
+      renderTools();
+      syncMediaPlayback(el.toolsInlineMedia, true);
+    });
+    el.toolsAudio.addEventListener("pause", () => {
+      if (!el.toolsAudio.ended) toolsState.autoPlaying = false;
+      renderTools();
+      syncMediaPlayback(el.toolsInlineMedia, false);
+    });
+    el.toolsAudio.addEventListener("ended", () => {
+      trackProgress("tools", "complete", { progress_percent: 100 });
+      stopTools();
+    });
+    el.courseAudioPrevBtn.addEventListener("click", () => {
+      stopCourseAudio();
+      goToCourseAudioCue(courseAudioState.cueIndex - 1);
+    });
+    el.courseAudioNextBtn.addEventListener("click", () => {
+      const shouldResume = courseAudioState.autoPlaying || courseAudioState.pausedForYoutube;
+      courseAudioState.pausedForYoutube = false;
+      goToCourseAudioCue(courseAudioState.cueIndex + 1);
+      if (courseAudioState.pausedForYoutube) return;
+      if (shouldResume) {
+        courseAudioState.autoPlaying = true;
+        el.courseAudio.play().catch(() => {
+          el.courseAudioStatus.textContent = "Click Auto play to resume narration. Browser autoplay rules blocked automatic audio.";
+        });
+      }
+    });
+    el.courseAudioPlayBtn.addEventListener("click", () => {
+      if (courseAudioState.autoPlaying) {
+        stopCourseAudio();
+        return;
+      }
+      courseAudioState.pausedForYoutube = false;
+      courseAudioState.autoPlaying = true;
+      el.courseAudio.play().catch(() => {
+        el.courseAudioStatus.textContent = "Click the audio play button to start playback. Browser autoplay rules blocked automatic audio.";
+      });
+      renderCourseAudio();
+    });
+    el.courseAudio.addEventListener("loadedmetadata", () => {
+      const mod = currentCourseAudioModule();
+      const minutes = Math.floor(el.courseAudio.duration / 60);
+      const seconds = Math.round(el.courseAudio.duration % 60).toString().padStart(2, "0");
+      el.courseAudioStatus.textContent = `Using ${mod.shortTitle} narration (${minutes}:${seconds}) with timed transcript captions.`;
+      renderCourseAudio();
+    });
+    el.courseAudio.addEventListener("timeupdate", updateCourseAudioFromAudio);
+    el.courseAudio.addEventListener("play", () => {
+      courseAudioState.autoPlaying = true;
+      renderCourseAudio();
+      syncMediaPlayback(el.courseAudioInlineMedia, true);
+    });
+    el.courseAudio.addEventListener("pause", () => {
+      if (courseAudioState.pausedForYoutube) {
+        syncMediaPlayback(el.courseAudioInlineMedia, false);
+        return;
+      }
+      if (!el.courseAudio.ended) courseAudioState.autoPlaying = false;
+      renderCourseAudio();
+      syncMediaPlayback(el.courseAudioInlineMedia, false);
+    });
+    el.courseAudio.addEventListener("ended", () => {
+      const mod = currentCourseAudioModule();
+      trackProgress(mod.id, "complete", { progress_percent: 100 });
+      stopCourseAudio();
+    });
+    el.neurophysModuleBtn.addEventListener("click", () => showMode("neurophys"));
+    el.neuroPrevBtn.addEventListener("click", () => changeNeuroSlide(-1));
+    el.neuroNextBtn.addEventListener("click", () => changeNeuroSlide(1));
+    document.querySelectorAll("[data-activity]").forEach((button) => {
+      button.addEventListener("click", () => setSimActivity(button.dataset.activity));
+    });
+    document.querySelectorAll("[data-reflection-module]").forEach((button) => {
+      button.addEventListener("click", () => launchTopicReflection(button.dataset.reflectionModule));
+    });
+    el.openSimBtn.addEventListener("click", () => {
+      window.open("https://cortical-analysis-lab.github.io/NGVU_Simulation/", "_blank", "noopener");
+    });
+    el.presentationBtn.addEventListener("click", () => showMode("presentation"));
+    el.quizBtn.addEventListener("click", () => {
+      if (presentationState.quizUnlocked) showMode("quiz");
+    });
+    el.startQuizBtn.addEventListener("click", () => {
+      if (presentationState.quizUnlocked) showMode("quiz");
+    });
+    el.prevSlideBtn.addEventListener("click", prevPresentationSlide);
+    el.nextSlideBtn.addEventListener("click", nextPresentationSlide);
+    el.playSlidesBtn.addEventListener("click", togglePresentationPlayback);
+    el.playAgainBtn.addEventListener("click", () => reset());
+    el.jumpBtn.addEventListener("click", () => reset("intervention"));
+
+    render();
+    blockContentCopying();
+    setupPreviewBanner();
+    setupAudio();
+    loadTrackedProgress();
+    showMode("home");
+  </script>
+</body>
+</html>

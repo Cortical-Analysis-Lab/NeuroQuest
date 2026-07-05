@@ -1,0 +1,471 @@
+language=en probability=1.000
+
+[00:00:00 - 00:00:05] So, we usually think of aging as this really slow,
+[00:00:06 - 00:00:07] inevitable mechanical breakdown.
+[00:00:07 - 00:00:09] Right, yeah, like an old truck
+[00:00:09 - 00:00:10] just kind of rusting in the driveway.
+[00:00:10 - 00:00:14] Exactly, but what if I told you that the struggle
+[00:00:14 - 00:00:17] to just stand up straight in your 70s
+[00:00:17 - 00:00:19] isn't actually about weak muscles at all?
+[00:00:19 - 00:00:22] Oh man, yeah, this is where it gets wild.
+[00:00:22 - 00:00:25] Right, like what if it's actually a glitch
+[00:00:25 - 00:00:27] in your brain's massive,
+[00:00:27 - 00:00:30] real-time gravitational prediction software?
+[00:00:30 - 00:00:33] Which completely reframes how we even view getting older.
+[00:00:33 - 00:00:36] I mean, we have to stop looking at just the physical wear
+[00:00:36 - 00:00:37] and tear on the body and start looking
+[00:00:37 - 00:00:40] at the sheer computational power required
+[00:00:40 - 00:00:41] to just navigate the world.
+[00:00:41 - 00:00:44] Exactly, so welcome to today's deep dive.
+[00:00:44 - 00:00:47] If you're an undergrad sitting there with your lecture
+[00:00:47 - 00:00:50] slides trying to wrap your head around the neuroscience
+[00:00:50 - 00:00:53] of aging, you are in the exact right place.
+[00:00:53 - 00:00:53] Absolutely.
+[00:00:53 - 00:00:56] But we have a very specific mission today.
+[00:00:56 - 00:00:57] We are not just here to memorize pathways
+[00:00:57 - 00:00:59] for you to regurgitate.
+[00:00:59 - 00:01:00] No, definitely not.
+[00:01:00 - 00:01:02] We are going to unpack the hidden wiring
+[00:01:02 - 00:01:05] of the human brain to understand exactly
+[00:01:05 - 00:01:07] why it changes over time.
+[00:01:07 - 00:01:11] And like how those microscopic alterations ripple outward
+[00:01:11 - 00:01:13] to dictate our behavior, our memory,
+[00:01:13 - 00:01:14] and our physical movement.
+[00:01:14 - 00:01:16] Yeah, and we really need to emphasize this
+[00:01:16 - 00:01:17] right out of the gate.
+[00:01:17 - 00:01:20] Aging is not a single catastrophic event.
+[00:01:20 - 00:01:21] Right.
+[00:01:21 - 00:01:22] It's not a switch that suddenly flips
+[00:01:22 - 00:01:24] on your 65th birthday.
+[00:01:24 - 00:01:27] It is this dynamic, lifelong biological mystery.
+[00:01:27 - 00:01:29] Which brings us to the first visual, right?
+[00:01:29 - 00:01:32] Slide one, you've got this prompt asking,
+[00:01:32 - 00:01:34] what does aging look like?
+[00:01:34 - 00:01:39] Alongside this really pervasive idea of aging gracefully.
+[00:01:39 - 00:01:40] Yeah, you see it on magazine covers everywhere.
+[00:01:40 - 00:01:42] Usually it's someone looking very confident,
+[00:01:42 - 00:01:43] silver hair, doing yoga.
+[00:01:43 - 00:01:45] Totally, and it's a nice sentiment,
+[00:01:45 - 00:01:47] but it's completely superficial.
+[00:01:47 - 00:01:49] If we actually want to know what aging gracefully means
+[00:01:49 - 00:01:51] biologically, we have to look past the wrinkles
+[00:01:51 - 00:01:53] and get into the actual mechanics.
+[00:01:54 - 00:01:57] Well, because it's never just one isolated system failing.
+[00:01:57 - 00:01:59] Far from it.
+[00:01:59 - 00:02:01] When you look at the flow charts on slide two,
+[00:02:01 - 00:02:04] it asks you to visualize how these different influences
+[00:02:04 - 00:02:06] all converge on what we call successful aging.
+[00:02:06 - 00:02:08] And it's basically three main buckets, right?
+[00:02:08 - 00:02:10] Right, first you have the biological baseline.
+[00:02:10 - 00:02:15] So your baseline nutrition, your metabolic health,
+[00:02:15 - 00:02:16] your genetic predispositions.
+[00:02:16 - 00:02:18] But then you have these psychological influences
+[00:02:18 - 00:02:20] that plug directly into that biology.
+[00:02:20 - 00:02:23] So maintaining an optimistic outlook
+[00:02:23 - 00:02:27] or having a high degree of cognitive engagement
+[00:02:27 - 00:02:28] throughout your entire life.
+[00:02:28 - 00:02:30] Yeah, and you cannot separate those
+[00:02:30 - 00:02:31] from the socio-cultural inputs.
+[00:02:31 - 00:02:34] Like are you living in a safe environment?
+[00:02:34 - 00:02:37] Do you have robust family support?
+[00:02:37 - 00:02:39] Does your culture actively respect
+[00:02:39 - 00:02:42] and integrate older adults or does it isolate them?
+[00:02:42 - 00:02:44] Which is fascinating because your brain health
+[00:02:44 - 00:02:47] isn't isolated from your zip code or your social circle.
+[00:02:47 - 00:02:48] No, not at all.
+[00:02:48 - 00:02:50] Like a lack of socio-cultural support
+[00:02:50 - 00:02:53] actually triggers physiological stress responses,
+[00:02:53 - 00:02:56] which directly accelerates biological decline.
+[00:02:56 - 00:02:58] The inputs are just, they're totally intertwined.
+[00:02:58 - 00:02:59] They really are.
+[00:02:59 - 00:03:02] So when we strip away the psychological and social layers
+[00:03:02 - 00:03:05] to look strictly at the biological mechanisms,
+[00:03:05 - 00:03:07] like the actual hardware,
+[00:03:07 - 00:03:10] it's this huge interconnected collapse.
+[00:03:10 - 00:03:12] Right, and researchers often call these
+[00:03:12 - 00:03:14] the biological hallmarks of aging,
+[00:03:14 - 00:03:17] which is visualized in that circular diagram
+[00:03:17 - 00:03:18] on slide three.
+[00:03:18 - 00:03:20] Yeah, it looks almost like a wheel of aging
+[00:03:20 - 00:03:22] with the human life cycle right in the center.
+[00:03:22 - 00:03:24] Exactly, and around it,
+[00:03:24 - 00:03:27] you've got these nine distinct biological factors.
+[00:03:27 - 00:03:28] It's like a car breaking down.
+[00:03:28 - 00:03:30] It's really just one part failing.
+[00:03:30 - 00:03:32] You have genomic instability
+[00:03:32 - 00:03:34] where the actual DNA instruction manual
+[00:03:34 - 00:03:36] starts getting smudged.
+[00:03:36 - 00:03:37] Right, and telemeritrician.
+[00:03:37 - 00:03:39] Yeah, and mitochondrial dysfunction,
+[00:03:39 - 00:03:41] which is basically the cell's engines
+[00:03:41 - 00:03:43] just losing their ability to process fuel,
+[00:03:43 - 00:03:45] plus stem cell exhaustion,
+[00:03:45 - 00:03:47] like literally running out of the spare parts
+[00:03:47 - 00:03:48] you need to regenerate tissue.
+[00:03:48 - 00:03:51] It is a phenomenal cascade of events,
+[00:03:51 - 00:03:54] but this raises a really important point,
+[00:03:54 - 00:03:55] and it's a critical misconception
+[00:03:55 - 00:03:57] I want to clear up for anyone studying this.
+[00:03:57 - 00:03:58] Oh, please do.
+[00:03:58 - 00:04:01] We have this tendency to view these biological hallmarks
+[00:04:01 - 00:04:04] as a strict, relentless, downward slope,
+[00:04:04 - 00:04:07] like just a slow, universal decay,
+[00:04:07 - 00:04:08] but it isn't always like that.
+[00:04:08 - 00:04:09] Wait, how so?
+[00:04:09 - 00:04:10] Because these changes,
+[00:04:10 - 00:04:13] they can be gradual or they can be rapid,
+[00:04:13 - 00:04:14] and more importantly,
+[00:04:14 - 00:04:16] they can actually reflect positive, negative,
+[00:04:16 - 00:04:19] or even no change from previous levels of functioning.
+[00:04:19 - 00:04:20] Oh, wow.
+[00:04:20 - 00:04:22] So it's not just a one-way street.
+[00:04:22 - 00:04:22] Exactly.
+[00:04:22 - 00:04:25] The biological system is incredibly plastic.
+[00:04:25 - 00:04:28] Aging is fundamentally a process of adaptation,
+[00:04:28 - 00:04:31] not just passive degradation.
+[00:04:31 - 00:04:34] The organism is constantly trying to balance itself
+[00:04:34 - 00:04:35] against the damage.
+[00:04:35 - 00:04:35] Okay, that makes sense.
+[00:04:35 - 00:04:38] So if we take those whole-body biological factors,
+[00:04:38 - 00:04:40] the smudged DNA, the failing mitochondria,
+[00:04:40 - 00:04:43] how do they specifically reshape
+[00:04:43 - 00:04:44] the physical architecture of the brain?
+[00:04:44 - 00:04:47] Well, this is where the structural MRI data is so incredible.
+[00:04:47 - 00:04:49] Yeah, so if you look at the brain maps
+[00:04:49 - 00:04:51] on slides four and six,
+[00:04:51 - 00:04:54] you'll see specific regions highlighted in yellow.
+[00:04:54 - 00:04:55] And these represent the areas
+[00:04:55 - 00:04:57] with the largest decline in cortical thickness
+[00:04:57 - 00:05:00] across a huge, I think it was an 883-person sample.
+[00:05:00 - 00:05:03] Yep, yep, massive sample size.
+[00:05:03 - 00:05:06] And the cortex is essentially physically thinning out,
+[00:05:06 - 00:05:08] but it isn't thinning out uniformly.
+[00:05:08 - 00:05:10] Right, you also see these red regions,
+[00:05:10 - 00:05:12] which make up the default network or the DN.
+[00:05:12 - 00:05:14] And then there are green regions,
+[00:05:14 - 00:05:17] which show weaker resting functional connectivity
+[00:05:17 - 00:05:18] in older adults.
+[00:05:18 - 00:05:21] And that's a crucial point, the default network.
+[00:05:21 - 00:05:23] Yeah, can you explain what that actually is?
+[00:05:23 - 00:05:26] Sure, so the DN is highly active when you're awake,
+[00:05:26 - 00:05:28] but not focused on the outside world.
+[00:05:28 - 00:05:31] It's the network that handles mind-wandering,
+[00:05:31 - 00:05:34] retrieving autobiographical memories,
+[00:05:34 - 00:05:37] projecting yourself into the future to make plans.
+[00:05:37 - 00:05:40] So if we step back from the raw data for a second,
+[00:05:40 - 00:05:42] if we have weaker baseline activity
+[00:05:42 - 00:05:44] in those red default network areas,
+[00:05:44 - 00:05:46] what kind of everyday functions
+[00:05:46 - 00:05:48] are actually taking the hit for you?
+[00:05:48 - 00:05:50] Basically, the brain's background processing
+[00:05:50 - 00:05:51] just becomes far less efficient.
+[00:05:51 - 00:05:52] Okay.
+[00:05:52 - 00:05:55] That seamless ability to shift between internal reflection
+[00:05:55 - 00:05:57] and external attention gets rigid.
+[00:05:57 - 00:06:00] So you might find it harder to instantly pull up
+[00:06:00 - 00:06:01] a specific memory from your past
+[00:06:01 - 00:06:03] to apply to a current problem.
+[00:06:03 - 00:06:05] But here's where that concept of adaptation
+[00:06:05 - 00:06:06] comes back in, right?
+[00:06:06 - 00:06:08] The brain doesn't just give up,
+[00:06:08 - 00:06:11] it actually reorganizes itself across the lifespan.
+[00:06:11 - 00:06:13] It does, and the timeline for that reorganization,
+[00:06:13 - 00:06:16] which you can see laid out on slide 10, is fascinating.
+[00:06:16 - 00:06:17] Yeah, let's break that down.
+[00:06:17 - 00:06:22] So during adulthood, which they define as roughly 32 to 66,
+[00:06:22 - 00:06:23] we tend to think of the brain
+[00:06:23 - 00:06:25] as being in this steady, static state.
+[00:06:25 - 00:06:29] But it's actually undergoing slow structural shifts
+[00:06:29 - 00:06:30] toward segregated networks.
+[00:06:30 - 00:06:35] Exactly, and then you hit early aging from about 66 to 83.
+[00:06:35 - 00:06:36] And this is when the white matter tracks
+[00:06:36 - 00:06:40] the actual physical highways connecting different brain regions
+[00:06:40 - 00:06:43] to begin to degenerate, global connectivity drops.
+[00:06:43 - 00:06:45] But the brain recognizes
+[00:06:45 - 00:06:46] that the highways are degrading, right?
+[00:06:46 - 00:06:49] So it enters this brilliant compensatory mode,
+[00:06:49 - 00:06:50] it reroutes information.
+[00:06:50 - 00:06:52] Yes, it actively builds detours.
+[00:06:52 - 00:06:53] I love that analogy.
+[00:06:53 - 00:06:56] It's like finding out the main highway you shut down
+[00:06:56 - 00:06:58] so you navigate through all these local side streets
+[00:06:58 - 00:06:59] to get to the same destination.
+[00:06:59 - 00:07:02] Precisely, and then in late aging,
+[00:07:02 - 00:07:03] so 83 and beyond,
+[00:07:03 - 00:07:05] the brain relies really heavily
+[00:07:05 - 00:07:09] on those isolated local regional circuits.
+[00:07:09 - 00:07:10] It doesn't uniformly shut down,
+[00:07:10 - 00:07:13] it just becomes extremely locally focused
+[00:07:13 - 00:07:16] to preserve whatever functional integrity it still has.
+[00:07:16 - 00:07:17] Which perfectly explains
+[00:07:17 - 00:07:20] that wild variance we see on slide seven.
+[00:07:20 - 00:07:21] Oh, the scatter plot, yeah.
+[00:07:21 - 00:07:23] Visually, you can see cognitive performance
+[00:07:23 - 00:07:26] on the bottom axis and age on the side.
+[00:07:26 - 00:07:28] And the dots representing individual people
+[00:07:28 - 00:07:30] are just scattered everywhere.
+[00:07:30 - 00:07:31] You have some 80-year-olds
+[00:07:31 - 00:07:33] who are actually outperforming 40-year-olds.
+[00:07:33 - 00:07:35] And that variance exists
+[00:07:35 - 00:07:38] because of those three pillars we discussed earlier,
+[00:07:38 - 00:07:40] biological, psychological, and social.
+[00:07:40 - 00:07:43] The compensatory detours we just talked about
+[00:07:43 - 00:07:45] are simply stronger and more resilient in some people.
+[00:07:45 - 00:07:48] Okay, so if the cortex is physically thinning out
+[00:07:48 - 00:07:50] and losing connectivity,
+[00:07:50 - 00:07:52] what is actually chewing up that wiring
+[00:07:52 - 00:07:54] on a microscopic level?
+[00:07:54 - 00:07:56] For that, we have to look at the brain's immune system,
+[00:07:56 - 00:07:58] specifically the microglia.
+[00:07:58 - 00:07:59] The microglia, okay.
+[00:07:59 - 00:08:01] Yes, carefully pronouncing that, microglia.
+[00:08:01 - 00:08:03] They are the resident immune cells
+[00:08:03 - 00:08:05] of the central nervous system.
+[00:08:05 - 00:08:07] But to understand why they go rogue,
+[00:08:07 - 00:08:10] we first have to talk about the blood-brain barrier,
+[00:08:10 - 00:08:11] or the BBB.
+[00:08:11 - 00:08:12] Right, slide eight.
+[00:08:12 - 00:08:14] And there's a huge student misconception here
+[00:08:14 - 00:08:18] that the BBB is this impenetrable concrete wall.
+[00:08:18 - 00:08:19] Exactly.
+[00:08:19 - 00:08:21] People think it keeps the brain entirely isolated,
+[00:08:21 - 00:08:24] but it's actually a semi-permeable filter.
+[00:08:24 - 00:08:28] And as we age, that filter starts to break down,
+[00:08:28 - 00:08:29] its permeability increases.
+[00:08:29 - 00:08:30] It gets leaky.
+[00:08:30 - 00:08:32] It gets very leaky.
+[00:08:32 - 00:08:33] And if you look at the flow chart on slide nine,
+[00:08:33 - 00:08:36] you can see the cellular hallmarks of this.
+[00:08:36 - 00:08:38] You have the healthy, youthful state on the left
+[00:08:38 - 00:08:39] and the age state on the right.
+[00:08:39 - 00:08:42] Yeah, let's help people build a mental map of this diagram.
+[00:08:42 - 00:08:45] So tracing the pathways on the right side of the age state,
+[00:08:45 - 00:08:48] you first see decreased synaptic density in the neurons,
+[00:08:48 - 00:08:50] right, the connections are physically thinning out.
+[00:08:50 - 00:08:53] Right, and then you see a drop in neurogenesis.
+[00:08:53 - 00:08:55] The stem cells just lose their ability to proliferate
+[00:08:55 - 00:08:57] and generate fresh neurons.
+[00:08:57 - 00:09:00] But the real chaos starts with inflammation.
+[00:09:00 - 00:09:04] Because the BBB is leaky, peripheral immune cytokines,
+[00:09:04 - 00:09:06] basically inflammatory messenger proteins
+[00:09:06 - 00:09:08] from the rest of your body,
+[00:09:08 - 00:09:11] they slick through the cracks and flood the brain tissue.
+[00:09:11 - 00:09:13] And when those microglia get flooded
+[00:09:13 - 00:09:16] with systemic inflammatory signals,
+[00:09:16 - 00:09:17] they become hyperreactive.
+[00:09:17 - 00:09:19] They just go into overdrive.
+[00:09:19 - 00:09:22] Exactly, instead of quietly doing standard maintenance,
+[00:09:22 - 00:09:24] they shift into this aggressive state
+[00:09:24 - 00:09:27] causing chronic low grade inflammation.
+[00:09:27 - 00:09:28] Wait, so if my immune system
+[00:09:28 - 00:09:30] is fighting a systemic infection,
+[00:09:30 - 00:09:32] or if I have chronic inflammation
+[00:09:32 - 00:09:34] from like core metabolic health,
+[00:09:34 - 00:09:36] and my BBB is leaky,
+[00:09:36 - 00:09:39] my brain is essentially catching the crossfire.
+[00:09:39 - 00:09:42] It is the collateral damage of systemic inflammation.
+[00:09:42 - 00:09:43] And to make matters worse,
+[00:09:43 - 00:09:45] the aged brain also loses its ability
+[00:09:45 - 00:09:48] to perform phagocytosis efficiently.
+[00:09:48 - 00:09:50] Phagocytosis, the cellular cleanup process.
+[00:09:50 - 00:09:53] I've heard people compare it to cellular garbage trucks,
+[00:09:53 - 00:09:54] but honestly, looking at the slides,
+[00:09:54 - 00:09:55] I think a better analogy
+[00:09:55 - 00:09:58] is a city's street sweeping protocol.
+[00:09:58 - 00:10:00] It's the process of cells ingesting
+[00:10:00 - 00:10:02] and clearing away dead tissue and protein plaques.
+[00:10:02 - 00:10:04] That's a great way to think about it.
+[00:10:04 - 00:10:05] Because just like street sweepers,
+[00:10:05 - 00:10:08] they can only operate when the conditions are right.
+[00:10:08 - 00:10:11] When the phagocytosis mechanism slows down,
+[00:10:11 - 00:10:14] the cellular garbage literally piles up in the streets.
+[00:10:14 - 00:10:16] Precisely, and because the debris is piling up,
+[00:10:16 - 00:10:18] those hyperreactive microglia
+[00:10:18 - 00:10:21] just keep sounding the inflammatory alarm indefinitely.
+[00:10:21 - 00:10:24] It becomes this self-sustaining loop of damage.
+[00:10:24 - 00:10:26] Wow, which begs the question,
+[00:10:27 - 00:10:30] what external real world experiences
+[00:10:30 - 00:10:31] are actually pulling the trigger
+[00:10:31 - 00:10:33] on these microscopic changes?
+[00:10:33 - 00:10:34] Because it doesn't just start when you turn 70.
+[00:10:34 - 00:10:36] No, sometimes it starts decades in advance.
+[00:10:36 - 00:10:38] And this brings us to slide 13,
+[00:10:38 - 00:10:40] looking at early life adversity.
+[00:10:40 - 00:10:42] Yeah, the resilience vulnerability continuum.
+[00:10:42 - 00:10:44] Right, the evidence shows that dementia
+[00:10:44 - 00:10:46] can literally take root in childhood.
+[00:10:46 - 00:10:50] That is so heavy, but it's robustly linked.
+[00:10:50 - 00:10:52] Childhood adversities abuse, neglect,
+[00:10:52 - 00:10:54] severe socioeconomic deprivation,
+[00:10:54 - 00:10:57] they lead to biological alterations,
+[00:10:57 - 00:10:59] reduced cognition, and increased MCI,
+[00:10:59 - 00:11:02] or mild cognitive impairment, later in life.
+[00:11:02 - 00:11:04] Because severe early stress permanently sets
+[00:11:04 - 00:11:07] the sensitivity of your stress response systems.
+[00:11:07 - 00:11:09] It dictates how resilient your brain will be
+[00:11:09 - 00:11:13] to that leaky BBB and those hyperreactive microglia
+[00:11:13 - 00:11:14] 50 years later.
+[00:11:14 - 00:11:16] It really emphasizes that aging
+[00:11:16 - 00:11:19] is this lifelong accumulation of experiences.
+[00:11:19 - 00:11:20] Absolutely.
+[00:11:20 - 00:11:22] But okay, let's pivot to slide 23,
+[00:11:22 - 00:11:24] because this is another surprising factor,
+[00:11:24 - 00:11:26] and honestly, this one blew my mind.
+[00:11:26 - 00:11:27] The neuroscience of posture.
+[00:11:27 - 00:11:29] Oh, this is one of my favorite topics.
+[00:11:29 - 00:11:31] Because traditionally, we think of posture
+[00:11:31 - 00:11:33] as a mechanical issue, right?
+[00:11:33 - 00:11:35] Just sit up straight, stretch your muscles,
+[00:11:35 - 00:11:37] like tightening a loose rubber band.
+[00:11:37 - 00:11:40] But that rubber band analogy entirely misses
+[00:11:40 - 00:11:42] the neurological control center.
+[00:11:42 - 00:11:43] Upright posture against gravity
+[00:11:43 - 00:11:47] is a dynamic, highly complex neurological function.
+[00:11:47 - 00:11:49] It's a brain task, not just a muscle task.
+[00:11:49 - 00:11:50] Entirely.
+[00:11:50 - 00:11:53] The brain has to constantly detect gravity,
+[00:11:53 - 00:11:55] predict biomechanical consequences,
+[00:11:55 - 00:11:57] and initiate counter-responses
+[00:11:57 - 00:11:59] before you even consciously move.
+[00:11:59 - 00:12:02] It's a continuous loop of sensor motor prediction.
+[00:12:02 - 00:12:02] Exactly.
+[00:12:02 - 00:12:05] So when those structural brain networks segregate
+[00:12:05 - 00:12:08] and global connectivity drops as we age,
+[00:12:08 - 00:12:11] that predictive processing software slows down.
+[00:12:11 - 00:12:12] So the brain struggles
+[00:12:12 - 00:12:14] to calculate gravity instantaneously.
+[00:12:14 - 00:12:16] Yes, which explains why posture degrades
+[00:12:16 - 00:12:19] and fall risk increases exponentially.
+[00:12:19 - 00:12:21] The leg muscles might be perfectly fine.
+[00:12:21 - 00:12:23] It's the neurological software running them
+[00:12:23 - 00:12:24] that is glitching.
+[00:12:24 - 00:12:24] Wow.
+[00:12:24 - 00:12:27] So when the sensor motor networks glitch
+[00:12:27 - 00:12:31] and the microglia are hyperactive and the BBB fails,
+[00:12:31 - 00:12:33] that is the tipping point where normal aging
+[00:12:33 - 00:12:35] crosses the threshold into disease.
+[00:12:35 - 00:12:37] Yes, system failure.
+[00:12:37 - 00:12:40] And the most prominent example of this is Alzheimer's disease.
+[00:12:40 - 00:12:42] Right, and if you look at the brain scans
+[00:12:42 - 00:12:45] on slides 19 through 22,
+[00:12:45 - 00:12:46] the contrast is just staggering.
+[00:12:46 - 00:12:48] Visually, in a healthy brain image,
+[00:12:48 - 00:12:51] everything in blue, all the nuclei and neurons
+[00:12:51 - 00:12:52] is healthy and intact.
+[00:12:52 - 00:12:53] But in the Alzheimer's images,
+[00:12:53 - 00:12:56] you see an explosion of other colors.
+[00:12:56 - 00:12:59] And those colors represent markers for pathological tau.
+[00:12:59 - 00:13:01] Right, and tau is usually a good thing, right?
+[00:13:01 - 00:13:04] It stabilizes the internal skeleton of the cell.
+[00:13:04 - 00:13:07] Exactly, like ties on a railroad track.
+[00:13:07 - 00:13:09] But in Alzheimer's, they detach,
+[00:13:09 - 00:13:10] misfold and tangle together.
+[00:13:10 - 00:13:14] You are literally starving the neuron from the inside out.
+[00:13:14 - 00:13:16] And the structural damage is massive.
+[00:13:16 - 00:13:19] You can see the severe shrinkage of the cerebral cortex
+[00:13:19 - 00:13:22] and the hippocampus in the diagrams.
+[00:13:22 - 00:13:25] Plus, the ventricles, those fluid-filled cavities
+[00:13:25 - 00:13:29] become totally enlarged, expanding into the dead space.
+[00:13:29 - 00:13:32] And those physical changes trigger the classic symptoms.
+[00:13:32 - 00:13:35] The memory loss, confusion with time and location,
+[00:13:35 - 00:13:37] the poor judgment.
+[00:13:37 - 00:13:40] The biological machinery has simply deteriorated.
+[00:13:40 - 00:13:42] But we also have to talk about the glymphatic system
+[00:13:42 - 00:13:44] on slides 24 and 25.
+[00:13:44 - 00:13:46] Yes, the cerebrovascular impairment.
+[00:13:46 - 00:13:49] Because if you look at the flow chart with the red arrows,
+[00:13:49 - 00:13:51] those represent positive feedback loops
+[00:13:51 - 00:13:53] of damage amplification.
+[00:13:53 - 00:13:55] The glymphatic system is basically the macroscopic version
+[00:13:55 - 00:13:57] of those street sweepers we talked about.
+[00:13:57 - 00:14:00] Right, it flushes neurotoxic waste out of the brain tissue.
+[00:14:00 - 00:14:03] But because of glymphatic dysfunction as we age,
+[00:14:03 - 00:14:04] the flow gets blocked.
+[00:14:04 - 00:14:08] So harmful waste and pro-inflammatory mediators accumulate,
+[00:14:08 - 00:14:10] driving even more neurodegeneration.
+[00:14:10 - 00:14:12] It's a vicious cycle.
+[00:14:12 - 00:14:13] And it operates quietly
+[00:14:13 - 00:14:16] during what we call the prodromal phase.
+[00:14:16 - 00:14:19] Which the slide defines as the crucial period
+[00:14:19 - 00:14:21] between initial symptoms
+[00:14:21 - 00:14:23] and the full development of a disorder, right?
+[00:14:23 - 00:14:24] Exactly.
+[00:14:24 - 00:14:26] The silent window where the feedback loops
+[00:14:26 - 00:14:27] are spinning out of control
+[00:14:27 - 00:14:30] before severe behavioral symptoms manifest.
+[00:14:30 - 00:14:32] Okay, this sounds incredibly grim.
+[00:14:32 - 00:14:34] But if we know how the system breaks down,
+[00:14:35 - 00:14:36] can we hack it?
+[00:14:36 - 00:14:37] Can we stop or reverse it?
+[00:14:37 - 00:14:39] We can certainly try.
+[00:14:39 - 00:14:41] And the data on brain clocks and exercise
+[00:14:41 - 00:14:44] on slides 14 and 15 is so exciting.
+[00:14:44 - 00:14:47] Yes, the FMRI box and whisker charts.
+[00:14:47 - 00:14:49] They show that simple interventions
+[00:14:49 - 00:14:51] like moderate to heavy resistance training
+[00:14:51 - 00:14:55] significantly reduce accelerated aging in these brain clocks.
+[00:14:55 - 00:14:56] And a key takeaway from the slide
+[00:14:56 - 00:14:58] is that this effect is global and distributed.
+[00:14:58 - 00:15:00] It is not just confined to single brain hubs.
+[00:15:00 - 00:15:02] Lifting weights literally keeps
+[00:15:02 - 00:15:04] the whole neurological network integrated.
+[00:15:04 - 00:15:05] Exactly.
+[00:15:05 - 00:15:06] But it goes beyond exercise.
+[00:15:06 - 00:15:10] Slides 16 and 17 outline these rejuvenation interventions.
+[00:15:10 - 00:15:11] The mice diagrams.
+[00:15:11 - 00:15:13] You've got the young mice with brown coats
+[00:15:13 - 00:15:15] and the aged mice with gray coats.
+[00:15:15 - 00:15:16] Right, and researchers are looking
+[00:15:16 - 00:15:18] at two main categories here.
+[00:15:18 - 00:15:22] Lifestyle, which includes exercise and caloric restriction.
+[00:15:22 - 00:15:26] So cutting intake by 10 to 50% without malnutrition.
+[00:15:26 - 00:15:27] To force the cells into repair mode.
+[00:15:27 - 00:15:31] Yes, and then you have the blood-based interventions.
+[00:15:31 - 00:15:33] Heterochronic parabiosis,
+[00:15:33 - 00:15:36] which is surgically connecting young and old mice.
+[00:15:36 - 00:15:39] Or young plasma administration and neutral blood exchange.
+[00:15:39 - 00:15:41] Neutral blood exchange is wild.
+[00:15:41 - 00:15:42] They just wash out the old plasma
+[00:15:42 - 00:15:45] to dilute all those accumulated inflammatory cytokines.
+[00:15:45 - 00:15:46] And then they are seeing
+[00:15:46 - 00:15:50] actual measurable rejuvenation effects.
+[00:15:50 - 00:15:53] Which puts human aging into a crazy perspective.
+[00:15:53 - 00:15:54] Look at slide 18.
+[00:15:54 - 00:15:56] The animal kingdom lifespan chart.
+[00:15:56 - 00:15:58] Visually you see the may fly at zero.
+[00:15:58 - 00:16:00] Humans at around 120.
+[00:16:00 - 00:16:02] The Aldabra tortoise at 150.
+[00:16:02 - 00:16:04] And all the way at the edge of the chart.
+[00:16:04 - 00:16:06] The Greenland shark hitting 500 years.
+[00:16:06 - 00:16:07] 500 years.
+[00:16:07 - 00:16:09] It proves that aging isn't a fixed law of physics.
+[00:16:09 - 00:16:13] Our 100 year timeline is just one evolutionary strategy.
+[00:16:13 - 00:16:15] That is just, it's unbelievable.
+[00:16:15 - 00:16:16] So, wrapping this up.
+[00:16:16 - 00:16:17] We've moved from the psychological
+[00:16:17 - 00:16:19] and social inputs of successful aging.
+[00:16:19 - 00:16:22] Down to the shrinking cortex and hyperactive microglia.
+[00:16:22 - 00:16:25] We explored the impacts of childhood trauma.
+[00:16:25 - 00:16:29] And how posture is actually neurological computation.
+[00:16:29 - 00:16:31] We looked at the devastating diseases of aging.
+[00:16:31 - 00:16:32] Like Alzheimer's.
+[00:16:32 - 00:16:35] And finally, the actual tangible hope
+[00:16:35 - 00:16:38] of resistance training and blood-based interventions.
+[00:16:38 - 00:16:40] And I wanna leave you with a final thought
+[00:16:40 - 00:16:41] to really mull over.
+[00:16:41 - 00:16:44] If resistance training can reshape our brain clocks.
+[00:16:44 - 00:16:47] And the brain fundamentally restructures
+[00:16:47 - 00:16:49] its own neural networks to compensate
+[00:16:49 - 00:16:51] for physical degradation as we age.
+[00:16:51 - 00:16:52] Yeah.
+[00:16:52 - 00:16:54] Then aging isn't just a process of loss.
+[00:16:54 - 00:16:57] It is an active, continuous act
+[00:16:57 - 00:16:58] of biological neuroplasticity.
+[00:16:58 - 00:16:59] Oh, wow.
+[00:16:59 - 00:17:02] So, does this mean our subjective experience
+[00:17:02 - 00:17:05] of self is actually evolving rather than just fading away?
+[00:17:05 - 00:17:06] It's a profound question, isn't it?
+[00:17:06 - 00:17:07] It really is.
+[00:17:07 - 00:17:09] Keep that in mind next time you're reviewing these notes.
+[00:17:09 - 00:17:12] Thank you so much for joining us on this deep dive.
+[00:17:12 - 00:17:14] And good luck unraveling the rest of the mystery.

@@ -1,0 +1,2567 @@
+window.NEUROPSYCH_TRANSCRIPT = [
+  {
+    "start": 0.0,
+    "end": 3.36,
+    "text": "So, I want you to picture this."
+  },
+  {
+    "start": 3.36,
+    "end": 4.96,
+    "text": "You've studied for weeks."
+  },
+  {
+    "start": 4.96,
+    "end": 5.72,
+    "text": "Oh yeah."
+  },
+  {
+    "start": 5.72,
+    "end": 7.44,
+    "text": "You know the material backward and forward,"
+  },
+  {
+    "start": 7.44,
+    "end": 9.92,
+    "text": "you completely nailed the practice test, right?"
+  },
+  {
+    "start": 9.92,
+    "end": 12.92,
+    "text": "But the second you sit down in that quiet room,"
+  },
+  {
+    "start": 12.92,
+    "end": 14.72,
+    "text": "the fluorescent lights are buzzing,"
+  },
+  {
+    "start": 14.72,
+    "end": 16.48,
+    "text": "you flip the exam paper over,"
+  },
+  {
+    "start": 16.48,
+    "end": 17.88,
+    "text": "and you just completely freeze."
+  },
+  {
+    "start": 17.88,
+    "end": 19.88,
+    "text": "Like your mind goes entirely blank."
+  },
+  {
+    "start": 19.88,
+    "end": 21.76,
+    "text": "Completely blank, why does that happen?"
+  },
+  {
+    "start": 21.76,
+    "end": 23.76,
+    "text": "Well, if you ask a psychologist,"
+  },
+  {
+    "start": 23.76,
+    "end": 25.0,
+    "text": "they're gonna tell you one thing."
+  },
+  {
+    "start": 25.0,
+    "end": 26.88,
+    "text": "But if you ask a neurobiologist,"
+  },
+  {
+    "start": 26.88,
+    "end": 28.96,
+    "text": "they will give you a completely different answer."
+  },
+  {
+    "start": 28.96,
+    "end": 31.16,
+    "text": "And, you know, the neither of them is wrong."
+  },
+  {
+    "start": 31.16,
+    "end": 31.96,
+    "text": "Right."
+  },
+  {
+    "start": 31.96,
+    "end": 34.24,
+    "text": "So today, we're doing a deep dive"
+  },
+  {
+    "start": 34.24,
+    "end": 35.96,
+    "text": "into the dynamic relationship"
+  },
+  {
+    "start": 35.96,
+    "end": 38.88,
+    "text": "between neuroscience and psychology."
+  },
+  {
+    "start": 38.88,
+    "end": 40.92,
+    "text": "We're unpacking how these two fields"
+  },
+  {
+    "start": 40.92,
+    "end": 42.92,
+    "text": "don't actually compete."
+  },
+  {
+    "start": 42.92,
+    "end": 45.16,
+    "text": "Our mission today is to show how they come together"
+  },
+  {
+    "start": 45.16,
+    "end": 49.04,
+    "text": "to fully explain like the entire human experience."
+  },
+  {
+    "start": 49.04,
+    "end": 50.44,
+    "text": "Yeah, because freezing up on a test"
+  },
+  {
+    "start": 50.44,
+    "end": 53.48,
+    "text": "is this universally frustrating human experience."
+  },
+  {
+    "start": 53.48,
+    "end": 54.84,
+    "text": "And it perfectly illustrates"
+  },
+  {
+    "start": 54.84,
+    "end": 57.08,
+    "text": "this massive misconception that people have."
+  },
+  {
+    "start": 57.08,
+    "end": 58.0,
+    "text": "Okay, let's unpack this."
+  },
+  {
+    "start": 58.0,
+    "end": 58.92,
+    "text": "What misconception?"
+  },
+  {
+    "start": 58.92,
+    "end": 62.76,
+    "text": "Well, people tend to think that psychology"
+  },
+  {
+    "start": 62.76,
+    "end": 67.64,
+    "text": "and neuroscience are sort of fighting"
+  },
+  {
+    "start": 67.64,
+    "end": 70.36,
+    "text": "to be the right way to view human behavior."
+  },
+  {
+    "start": 70.36,
+    "end": 71.92,
+    "text": "Like it has to be one or the other."
+  },
+  {
+    "start": 71.92,
+    "end": 72.76,
+    "text": "But they're not."
+  },
+  {
+    "start": 72.76,
+    "end": 73.8,
+    "text": "No, not at all."
+  },
+  {
+    "start": 73.8,
+    "end": 76.28,
+    "text": "They're actually looking at the exact same event"
+  },
+  {
+    "start": 76.28,
+    "end": 77.84,
+    "text": "and the exact same student."
+  },
+  {
+    "start": 77.84,
+    "end": 80.24,
+    "text": "But they're just asking fundamentally different questions"
+  },
+  {
+    "start": 80.24,
+    "end": 81.88,
+    "text": "to gather entirely different data."
+  },
+  {
+    "start": 81.88,
+    "end": 83.92,
+    "text": "Right, because to the untrained eye,"
+  },
+  {
+    "start": 83.92,
+    "end": 85.72,
+    "text": "a freeze is just a freeze."
+  },
+  {
+    "start": 85.72,
+    "end": 87.16,
+    "text": "But if we view this behavior"
+  },
+  {
+    "start": 87.16,
+    "end": 89.08,
+    "text": "through the psychological lens,"
+  },
+  {
+    "start": 89.08,
+    "end": 92.04,
+    "text": "we are really looking at meaning and context."
+  },
+  {
+    "start": 92.04,
+    "end": 95.04,
+    "text": "Exactly, the psychology lens focuses on the mind."
+  },
+  {
+    "start": 95.04,
+    "end": 98.24,
+    "text": "Right, a psychologist is looking at that student at the desk"
+  },
+  {
+    "start": 98.24,
+    "end": 102.56,
+    "text": "and asking about their internal and external reality."
+  },
+  {
+    "start": 102.56,
+    "end": 104.68,
+    "text": "Like what did that person perceive in that moment?"
+  },
+  {
+    "start": 104.68,
+    "end": 106.52,
+    "text": "What did they expect was gonna happen?"
+  },
+  {
+    "start": 106.52,
+    "end": 108.08,
+    "text": "Yeah, they're examining the thoughts,"
+  },
+  {
+    "start": 108.08,
+    "end": 110.76,
+    "text": "the emotions, maybe the ingrained habits"
+  },
+  {
+    "start": 110.76,
+    "end": 112.44,
+    "text": "that shape that freezing behavior."
+  },
+  {
+    "start": 112.44,
+    "end": 114.4,
+    "text": "Like is there some deep-seated fear or failure?"
+  },
+  {
+    "start": 114.48,
+    "end": 118.04,
+    "text": "Or maybe the specific phrasing of that very first question"
+  },
+  {
+    "start": 118.04,
+    "end": 121.4,
+    "text": "triggered a memory of a past academic disaster or something?"
+  },
+  {
+    "start": 121.4,
+    "end": 122.68,
+    "text": "Precisely."
+  },
+  {
+    "start": 122.68,
+    "end": 125.4,
+    "text": "The psychological lens is deeply concerned"
+  },
+  {
+    "start": 125.4,
+    "end": 127.44,
+    "text": "with the subjective experience."
+  },
+  {
+    "start": 127.44,
+    "end": 129.84,
+    "text": "It's looking at the threat appraisal happening"
+  },
+  {
+    "start": 129.84,
+    "end": 130.92,
+    "text": "in that student's mind."
+  },
+  {
+    "start": 130.92,
+    "end": 132.48,
+    "text": "But then you swap lenses, right?"
+  },
+  {
+    "start": 132.48,
+    "end": 134.24,
+    "text": "You look through the neuroscience lens"
+  },
+  {
+    "start": 134.24,
+    "end": 137.48,
+    "text": "and the focus shifts entirely to the physical mechanisms"
+  },
+  {
+    "start": 137.48,
+    "end": 140.44,
+    "text": "like operating inside the actual nervous system."
+  },
+  {
+    "start": 140.44,
+    "end": 141.88,
+    "text": "Yeah, the physical hardware."
+  },
+  {
+    "start": 141.88,
+    "end": 142.72,
+    "text": "Yeah."
+  },
+  {
+    "start": 142.76,
+    "end": 145.16,
+    "text": "The scientists isn't asking about the student's fear"
+  },
+  {
+    "start": 145.16,
+    "end": 148.68,
+    "text": "of failure or their past trauma."
+  },
+  {
+    "start": 148.68,
+    "end": 150.8,
+    "text": "They don't care about the bad test and third grade."
+  },
+  {
+    "start": 150.8,
+    "end": 155.16,
+    "text": "Right, they are asking which specific brain circuits,"
+  },
+  {
+    "start": 155.16,
+    "end": 159.32,
+    "text": "which stress hormones, which autonomic responses were firing,"
+  },
+  {
+    "start": 159.32,
+    "end": 161.6,
+    "text": "what exact neurotransmitters were active,"
+  },
+  {
+    "start": 161.6,
+    "end": 164.6,
+    "text": "the literal millisecond that student froze."
+  },
+  {
+    "start": 164.6,
+    "end": 167.24,
+    "text": "And what's fascinating here is that this is where that"
+  },
+  {
+    "start": 167.24,
+    "end": 169.12,
+    "text": "misconception usually crops up, right?"
+  },
+  {
+    "start": 169.12,
+    "end": 171.08,
+    "text": "People often think, well, one of these explanations"
+  },
+  {
+    "start": 171.08,
+    "end": 172.56,
+    "text": "has to be the real root cause."
+  },
+  {
+    "start": 172.56,
+    "end": 175.32,
+    "text": "Yes, but neither level replaces the other."
+  },
+  {
+    "start": 175.32,
+    "end": 177.6,
+    "text": "That is so critical to understand."
+  },
+  {
+    "start": 177.6,
+    "end": 179.76,
+    "text": "Psychology describes the mind and behavior."
+  },
+  {
+    "start": 179.76,
+    "end": 181.12,
+    "text": "It's what a person does,"
+  },
+  {
+    "start": 181.12,
+    "end": 183.32,
+    "text": "what they feel, think, learn and report."
+  },
+  {
+    "start": 183.32,
+    "end": 185.08,
+    "text": "While neuroscience is just explaining"
+  },
+  {
+    "start": 185.08,
+    "end": 187.52,
+    "text": "the biological implementation of those things."
+  },
+  {
+    "start": 187.52,
+    "end": 188.68,
+    "text": "Exactly."
+  },
+  {
+    "start": 188.68,
+    "end": 191.28,
+    "text": "Both explanations for our frozen student"
+  },
+  {
+    "start": 191.28,
+    "end": 194.4,
+    "text": "are 100% true at the exact same time."
+  },
+  {
+    "start": 194.4,
+    "end": 196.36,
+    "text": "Okay, let me try an analogy here."
+  },
+  {
+    "start": 196.36,
+    "end": 198.28,
+    "text": "I like to think of this like a computer."
+  },
+  {
+    "start": 198.28,
+    "end": 199.92,
+    "text": "Okay, I like what this is going."
+  },
+  {
+    "start": 199.92,
+    "end": 202.64,
+    "text": "So psychology is sort of like analyzing"
+  },
+  {
+    "start": 202.64,
+    "end": 205.48,
+    "text": "a software program's user interface, right?"
+  },
+  {
+    "start": 205.48,
+    "end": 206.92,
+    "text": "You're looking at the menus, the butters,"
+  },
+  {
+    "start": 206.92,
+    "end": 209.52,
+    "text": "what the user actually experiences on the screen."
+  },
+  {
+    "start": 209.52,
+    "end": 211.04,
+    "text": "Yeah, output in the interaction, yeah."
+  },
+  {
+    "start": 211.04,
+    "end": 214.28,
+    "text": "But neuroscience is like opening up the computer case"
+  },
+  {
+    "start": 214.28,
+    "end": 215.28,
+    "text": "and looking at the hardware."
+  },
+  {
+    "start": 215.28,
+    "end": 218.24,
+    "text": "You're measuring the electrical currents on the motherboard,"
+  },
+  {
+    "start": 218.24,
+    "end": 221.04,
+    "text": "the physical memory chips, the fan speed."
+  },
+  {
+    "start": 221.04,
+    "end": 222.56,
+    "text": "That is a perfect way to look at it."
+  },
+  {
+    "start": 222.56,
+    "end": 224.0,
+    "text": "You have a software experience"
+  },
+  {
+    "start": 224.0,
+    "end": 225.56,
+    "text": "and the physical hardware mechanism."
+  },
+  {
+    "start": 225.56,
+    "end": 228.4,
+    "text": "Oh, wait, let me push back on that for a second."
+  },
+  {
+    "start": 228.44,
+    "end": 232.4,
+    "text": "Because if our neuroscience tools get so incredibly advanced"
+  },
+  {
+    "start": 232.4,
+    "end": 234.84,
+    "text": "that we can eventually map out the physical hardware"
+  },
+  {
+    "start": 234.84,
+    "end": 237.48,
+    "text": "perfectly, like down the every single"
+  },
+  {
+    "start": 237.48,
+    "end": 239.12,
+    "text": "atom and electrical current,"
+  },
+  {
+    "start": 239.12,
+    "end": 242.08,
+    "text": "do we even need to study the software anymore?"
+  },
+  {
+    "start": 242.08,
+    "end": 242.92,
+    "text": "Right."
+  },
+  {
+    "start": 242.92,
+    "end": 245.44,
+    "text": "If we know the hardware, why bother with the psychology?"
+  },
+  {
+    "start": 245.44,
+    "end": 247.44,
+    "text": "Yeah, why talk about abstract feelings"
+  },
+  {
+    "start": 247.44,
+    "end": 250.68,
+    "text": "if I can just mathematically measure your exact dopamine"
+  },
+  {
+    "start": 250.68,
+    "end": 251.96,
+    "text": "and cortisol levels?"
+  },
+  {
+    "start": 251.96,
+    "end": 253.84,
+    "text": "It's a really common debate."
+  },
+  {
+    "start": 253.84,
+    "end": 255.96,
+    "text": "But abandoning the psychological context"
+  },
+  {
+    "start": 255.96,
+    "end": 257.36,
+    "text": "is a total dead end."
+  },
+  {
+    "start": 257.36,
+    "end": 258.08,
+    "text": "Why?"
+  },
+  {
+    "start": 258.08,
+    "end": 259.76,
+    "text": "Because knowing the physical hardware"
+  },
+  {
+    "start": 259.76,
+    "end": 262.24,
+    "text": "doesn't tell you anything about the intent of the system."
+  },
+  {
+    "start": 262.24,
+    "end": 263.08,
+    "text": "Yeah."
+  },
+  {
+    "start": 263.08,
+    "end": 266.36,
+    "text": "Even if you map every single electrical impulse,"
+  },
+  {
+    "start": 266.36,
+    "end": 269.52,
+    "text": "each lens is answering a completely different kind of question."
+  },
+  {
+    "start": 269.52,
+    "end": 270.36,
+    "text": "Oh, I see."
+  },
+  {
+    "start": 270.36,
+    "end": 272.16,
+    "text": "You absolutely need the psychological context"
+  },
+  {
+    "start": 272.16,
+    "end": 276.24,
+    "text": "to understand why that biological mechanism matters"
+  },
+  {
+    "start": 276.24,
+    "end": 278.44,
+    "text": "in the real world, like what actually triggered"
+  },
+  {
+    "start": 278.44,
+    "end": 280.2,
+    "text": "those electrical currents in the first place?"
+  },
+  {
+    "start": 280.2,
+    "end": 283.92,
+    "text": "So to really grasp how deeply these lenses rely on each other,"
+  },
+  {
+    "start": 283.92,
+    "end": 286.28,
+    "text": "we have to look at the scale of human behavior."
+  },
+  {
+    "start": 286.28,
+    "end": 289.08,
+    "text": "Because a single action like our student freezing"
+  },
+  {
+    "start": 289.08,
+    "end": 291.16,
+    "text": "is actually the result of processes happening"
+  },
+  {
+    "start": 291.16,
+    "end": 292.56,
+    "text": "across a mass spectrum."
+  },
+  {
+    "start": 292.56,
+    "end": 294.0,
+    "text": "Right, the levels of analysis."
+  },
+  {
+    "start": 294.0,
+    "end": 294.84,
+    "text": "Exactly."
+  },
+  {
+    "start": 294.84,
+    "end": 296.84,
+    "text": "At the very foundation, you have this microscopic level."
+  },
+  {
+    "start": 296.84,
+    "end": 298.12,
+    "text": "We're talking molecules."
+  },
+  {
+    "start": 298.12,
+    "end": 300.52,
+    "text": "This is where neurotransmitters and hormones operate."
+  },
+  {
+    "start": 300.52,
+    "end": 303.52,
+    "text": "And then as you zoom out, you hit the cellular level."
+  },
+  {
+    "start": 303.52,
+    "end": 306.12,
+    "text": "So now you're looking at networks of individual neurons"
+  },
+  {
+    "start": 306.12,
+    "end": 307.24,
+    "text": "or glia cells."
+  },
+  {
+    "start": 307.24,
+    "end": 308.8,
+    "text": "Right, zoom out again."
+  },
+  {
+    "start": 308.8,
+    "end": 310.8,
+    "text": "And you're looking at entire brain circuits"
+  },
+  {
+    "start": 310.8,
+    "end": 312.4,
+    "text": "communicating with each other."
+  },
+  {
+    "start": 312.4,
+    "end": 315.08,
+    "text": "Further still, you're observing the whole brain."
+  },
+  {
+    "start": 315.08,
+    "end": 317.44,
+    "text": "And then the individual's outward behavior, right?"
+  },
+  {
+    "start": 317.44,
+    "end": 317.76,
+    "text": "Yes."
+  },
+  {
+    "start": 317.76,
+    "end": 320.52,
+    "text": "And eventually, you zoom all the way out"
+  },
+  {
+    "start": 320.52,
+    "end": 323.36,
+    "text": "to see how that specific behavior interacts"
+  },
+  {
+    "start": 323.36,
+    "end": 325.88,
+    "text": "with an impact broader society."
+  },
+  {
+    "start": 325.88,
+    "end": 326.68,
+    "text": "Wow."
+  },
+  {
+    "start": 326.68,
+    "end": 329.04,
+    "text": "So if you look at the diagram on this slide"
+  },
+  {
+    "start": 329.04,
+    "end": 330.52,
+    "text": "from our source nodes, visually, you"
+  },
+  {
+    "start": 330.52,
+    "end": 333.16,
+    "text": "can see how researchers try to map this out."
+  },
+  {
+    "start": 333.16,
+    "end": 335.44,
+    "text": "They try to link the brain activity"
+  },
+  {
+    "start": 335.44,
+    "end": 338.44,
+    "text": "at those lower levels to the complex behaviors"
+  },
+  {
+    "start": 338.44,
+    "end": 339.44,
+    "text": "at the higher levels."
+  },
+  {
+    "start": 339.44,
+    "end": 341.68,
+    "text": "It is a massive puzzle of causality."
+  },
+  {
+    "start": 341.68,
+    "end": 343.68,
+    "text": "Yeah, and visually mapping the link"
+  },
+  {
+    "start": 343.68,
+    "end": 346.32,
+    "text": "between the brain and behavior is wild."
+  },
+  {
+    "start": 346.32,
+    "end": 348.08,
+    "text": "If you look at model A in the nodes,"
+  },
+  {
+    "start": 348.08,
+    "end": 351.2,
+    "text": "it shows that a subset of neural activity patterns"
+  },
+  {
+    "start": 351.2,
+    "end": 354.68,
+    "text": "in our brain is linked to all natural behaviors."
+  },
+  {
+    "start": 354.68,
+    "end": 355.28,
+    "text": "That makes sense."
+  },
+  {
+    "start": 355.28,
+    "end": 355.76,
+    "text": "It does."
+  },
+  {
+    "start": 355.76,
+    "end": 356.92,
+    "text": "It's the baseline assumption."
+  },
+  {
+    "start": 356.92,
+    "end": 358.76,
+    "text": "But then you look at models B and C."
+  },
+  {
+    "start": 358.76,
+    "end": 361.28,
+    "text": "And visually, you can see that sometimes"
+  },
+  {
+    "start": 361.28,
+    "end": 364.0,
+    "text": "a really small subset of activity patterns"
+  },
+  {
+    "start": 364.0,
+    "end": 366.68,
+    "text": "links to a specific small subset of behaviors."
+  },
+  {
+    "start": 366.68,
+    "end": 367.04,
+    "text": "Right."
+  },
+  {
+    "start": 367.04,
+    "end": 369.48,
+    "text": "But crucially, not all brain activity"
+  },
+  {
+    "start": 369.48,
+    "end": 371.84,
+    "text": "results in a behavioral output."
+  },
+  {
+    "start": 371.84,
+    "end": 372.68,
+    "text": "Wait, really?"
+  },
+  {
+    "start": 372.68,
+    "end": 374.24,
+    "text": "So my brain is doing things that don't"
+  },
+  {
+    "start": 374.24,
+    "end": 375.72,
+    "text": "results in any action."
+  },
+  {
+    "start": 375.72,
+    "end": 376.92,
+    "text": "Oh, constantly."
+  },
+  {
+    "start": 376.92,
+    "end": 378.84,
+    "text": "Your brain is doing an enormous amount"
+  },
+  {
+    "start": 378.84,
+    "end": 381.84,
+    "text": "of background processing that never translates"
+  },
+  {
+    "start": 381.84,
+    "end": 383.4,
+    "text": "into any behavior at all."
+  },
+  {
+    "start": 383.4,
+    "end": 385.2,
+    "text": "It's like going back to your analogy,"
+  },
+  {
+    "start": 385.2,
+    "end": 387.24,
+    "text": "a computer running a huge background update"
+  },
+  {
+    "start": 387.24,
+    "end": 389.32,
+    "text": "while you're just reading a web page."
+  },
+  {
+    "start": 389.32,
+    "end": 391.36,
+    "text": "The neural activity is furious,"
+  },
+  {
+    "start": 391.36,
+    "end": 393.24,
+    "text": "but your hands aren't moving any differently."
+  },
+  {
+    "start": 393.24,
+    "end": 395.32,
+    "text": "That is so wild to think about."
+  },
+  {
+    "start": 395.32,
+    "end": 398.76,
+    "text": "But then visually, models D and E show something"
+  },
+  {
+    "start": 398.76,
+    "end": 400.36,
+    "text": "even more confusing."
+  },
+  {
+    "start": 400.36,
+    "end": 401.96,
+    "text": "It's the many to one problem."
+  },
+  {
+    "start": 401.96,
+    "end": 405.52,
+    "text": "You can have multiple completely different neural patterns"
+  },
+  {
+    "start": 405.52,
+    "end": 407.92,
+    "text": "underlying just one single behavior."
+  },
+  {
+    "start": 407.92,
+    "end": 408.56,
+    "text": "Yes."
+  },
+  {
+    "start": 408.56,
+    "end": 410.52,
+    "text": "The exact same physical movement"
+  },
+  {
+    "start": 410.52,
+    "end": 413.08,
+    "text": "can be driven by entirely different circuits."
+  },
+  {
+    "start": 413.08,
+    "end": 413.4,
+    "text": "Right."
+  },
+  {
+    "start": 413.4,
+    "end": 415.2,
+    "text": "Like throwing your hands up in the air."
+  },
+  {
+    "start": 415.2,
+    "end": 416.36,
+    "text": "You could be doing that because you're"
+  },
+  {
+    "start": 416.36,
+    "end": 418.04,
+    "text": "cheering for your favorite team."
+  },
+  {
+    "start": 418.04,
+    "end": 419.92,
+    "text": "Or you could be defensively bracing"
+  },
+  {
+    "start": 419.92,
+    "end": 422.2,
+    "text": "because something is falling on you."
+  },
+  {
+    "start": 422.2,
+    "end": 424.52,
+    "text": "To the naked eye, the behavior is identical."
+  },
+  {
+    "start": 424.52,
+    "end": 426.36,
+    "text": "But the neural patterns are totally different."
+  },
+  {
+    "start": 426.36,
+    "end": 428.72,
+    "text": "And you know, the brain does the exact reverse, too."
+  },
+  {
+    "start": 428.72,
+    "end": 429.84,
+    "text": "No one did any problem."
+  },
+  {
+    "start": 429.84,
+    "end": 430.84,
+    "text": "Exactly."
+  },
+  {
+    "start": 430.84,
+    "end": 432.76,
+    "text": "One single neural firing pattern"
+  },
+  {
+    "start": 432.76,
+    "end": 435.84,
+    "text": "might be involved in multiple wildly different behaviors."
+  },
+  {
+    "start": 435.84,
+    "end": 439.12,
+    "text": "Like a specific circuit involving the amygdala"
+  },
+  {
+    "start": 439.12,
+    "end": 441.84,
+    "text": "might be recruited when you are terrified of a snake."
+  },
+  {
+    "start": 441.84,
+    "end": 444.04,
+    "text": "But that same underlying circuitry"
+  },
+  {
+    "start": 444.04,
+    "end": 446.08,
+    "text": "might also be heavily engaged"
+  },
+  {
+    "start": 446.08,
+    "end": 447.92,
+    "text": "when you were intensely excited,"
+  },
+  {
+    "start": 447.92,
+    "end": 449.68,
+    "text": "like riding a massive roller coaster."
+  },
+  {
+    "start": 449.68,
+    "end": 450.52,
+    "text": "Oh, wow."
+  },
+  {
+    "start": 450.52,
+    "end": 453.24,
+    "text": "So the context completely changes the output."
+  },
+  {
+    "start": 453.24,
+    "end": 455.28,
+    "text": "But that raises a huge question."
+  },
+  {
+    "start": 455.28,
+    "end": 458.48,
+    "text": "If one behavior can have multiple different neural patterns"
+  },
+  {
+    "start": 458.48,
+    "end": 460.72,
+    "text": "behind it and one neural pattern"
+  },
+  {
+    "start": 460.72,
+    "end": 465.4,
+    "text": "can drive multiple behaviors, how do researchers ever figure"
+  },
+  {
+    "start": 465.4,
+    "end": 467.36,
+    "text": "out what's causing what?"
+  },
+  {
+    "start": 467.36,
+    "end": 469.76,
+    "text": "Honestly, that is the defining struggle"
+  },
+  {
+    "start": 469.76,
+    "end": 472.92,
+    "text": "of the entire field, untangling that web"
+  },
+  {
+    "start": 472.92,
+    "end": 475.08,
+    "text": "requires highly sophisticated data gathering"
+  },
+  {
+    "start": 475.08,
+    "end": 478.52,
+    "text": "from both the psychological side and the neurobiological side."
+  },
+  {
+    "start": 478.52,
+    "end": 480.68,
+    "text": "And we really have to understand"
+  },
+  {
+    "start": 480.68,
+    "end": 482.16,
+    "text": "Let's break down that data gathering."
+  },
+  {
+    "start": 482.16,
+    "end": 483.12,
+    "text": "Because I think we need to clear up"
+  },
+  {
+    "start": 483.12,
+    "end": 485.16,
+    "text": "how empirical psychology actually is."
+  },
+  {
+    "start": 485.2,
+    "end": 486.92,
+    "text": "Psychology doesn't just talk about feelings."
+  },
+  {
+    "start": 486.92,
+    "end": 489.64,
+    "text": "It turns the messy, subjective human experience"
+  },
+  {
+    "start": 489.64,
+    "end": 491.92,
+    "text": "into hard, quantifiable data."
+  },
+  {
+    "start": 491.92,
+    "end": 492.88,
+    "text": "Oh, absolutely."
+  },
+  {
+    "start": 492.88,
+    "end": 494.92,
+    "text": "They aren't just observing behavior and guessing."
+  },
+  {
+    "start": 494.92,
+    "end": 497.0,
+    "text": "They are putting actual numbers to it."
+  },
+  {
+    "start": 497.0,
+    "end": 497.72,
+    "text": "Right."
+  },
+  {
+    "start": 497.72,
+    "end": 499.4,
+    "text": "Through highly controlled tasks,"
+  },
+  {
+    "start": 499.4,
+    "end": 502.88,
+    "text": "psychologists measure reaction times down to the millisecond."
+  },
+  {
+    "start": 502.88,
+    "end": 506.36,
+    "text": "They track accuracy rates, analyze specific choices,"
+  },
+  {
+    "start": 506.36,
+    "end": 510.04,
+    "text": "and map out the exact errors someone makes under pressure."
+  },
+  {
+    "start": 510.04,
+    "end": 513.52,
+    "text": "And they also use very validated self-reporting structures."
+  },
+  {
+    "start": 513.52,
+    "end": 516.16,
+    "text": "Patients systematically categorize their thoughts,"
+  },
+  {
+    "start": 516.16,
+    "end": 518.04,
+    "text": "their symptoms, their beliefs."
+  },
+  {
+    "start": 518.04,
+    "end": 521.2,
+    "text": "It's a rigorous quantification of the mind."
+  },
+  {
+    "start": 521.2,
+    "end": 523.28,
+    "text": "Meanwhile, neuroscience is trying"
+  },
+  {
+    "start": 523.28,
+    "end": 525.88,
+    "text": "to turn the physical nervous system into data, right?"
+  },
+  {
+    "start": 525.88,
+    "end": 526.68,
+    "text": "Yes."
+  },
+  {
+    "start": 526.68,
+    "end": 528.76,
+    "text": "They use functional measurements, advanced imaging,"
+  },
+  {
+    "start": 528.76,
+    "end": 530.8,
+    "text": "animal research, and pharmacology."
+  },
+  {
+    "start": 530.8,
+    "end": 532.64,
+    "text": "But every single one of those neuroscience"
+  },
+  {
+    "start": 532.64,
+    "end": 535.04,
+    "text": "cools comes with a heavy trade-off, doesn't it?"
+  },
+  {
+    "start": 535.04,
+    "end": 537.08,
+    "text": "It really is a constant balancing act."
+  },
+  {
+    "start": 537.08,
+    "end": 540.32,
+    "text": "Researchers basically have to navigate four main constraints."
+  },
+  {
+    "start": 540.32,
+    "end": 542.48,
+    "text": "You have spatial detail, which is where it happens."
+  },
+  {
+    "start": 542.48,
+    "end": 542.98,
+    "text": "OK."
+  },
+  {
+    "start": 542.98,
+    "end": 545.4,
+    "text": "Timing, which is when it happens, invasiveness,"
+  },
+  {
+    "start": 545.4,
+    "end": 548.04,
+    "text": "how much you have to disrupt the body and causal power."
+  },
+  {
+    "start": 548.04,
+    "end": 550.0,
+    "text": "Causal power just meaning proving"
+  },
+  {
+    "start": 550.0,
+    "end": 553.28,
+    "text": "that manipulating circuit x directly causes behavior y."
+  },
+  {
+    "start": 553.28,
+    "end": 553.84,
+    "text": "Exactly."
+  },
+  {
+    "start": 553.84,
+    "end": 555.68,
+    "text": "Proving true cause and effect."
+  },
+  {
+    "start": 555.68,
+    "end": 558.92,
+    "text": "So take functional MRI, or FMRI, for example."
+  },
+  {
+    "start": 558.92,
+    "end": 561.04,
+    "text": "It provides breathtaking spatial detail."
+  },
+  {
+    "start": 561.04,
+    "end": 564.08,
+    "text": "You can see exactly where activity is happening deep inside"
+  },
+  {
+    "start": 564.08,
+    "end": 565.4,
+    "text": "the brain down to the millimeter."
+  },
+  {
+    "start": 565.4,
+    "end": 567.6,
+    "text": "But its timing is inherently flawed, right?"
+  },
+  {
+    "start": 567.6,
+    "end": 568.44,
+    "text": "Yes."
+  },
+  {
+    "start": 568.44,
+    "end": 571.64,
+    "text": "Because FMRI doesn't measure electricity directly,"
+  },
+  {
+    "start": 571.64,
+    "end": 572.92,
+    "text": "it measures blood flow."
+  },
+  {
+    "start": 572.92,
+    "end": 573.12,
+    "text": "Right."
+  },
+  {
+    "start": 573.12,
+    "end": 575.56,
+    "text": "The blood oxygen level of dependent signal."
+  },
+  {
+    "start": 575.56,
+    "end": 577.48,
+    "text": "And blood takes a few seconds"
+  },
+  {
+    "start": 577.48,
+    "end": 579.2,
+    "text": "to rush into an active brain region."
+  },
+  {
+    "start": 579.2,
+    "end": 580.12,
+    "text": "Exactly."
+  },
+  {
+    "start": 580.12,
+    "end": 583.16,
+    "text": "Neurofiring happens in milliseconds."
+  },
+  {
+    "start": 583.16,
+    "end": 585.12,
+    "text": "But the blood flow takes seconds."
+  },
+  {
+    "start": 585.12,
+    "end": 588.04,
+    "text": "So by the time the FMRI registers the activity,"
+  },
+  {
+    "start": 588.04,
+    "end": 590.76,
+    "text": "the actual thought or impulse is already passed."
+  },
+  {
+    "start": 590.76,
+    "end": 594.4,
+    "text": "It's like seeing the smoke, but missing the actual explosion."
+  },
+  {
+    "start": 594.4,
+    "end": 596.72,
+    "text": "You know where it happened, but you completely"
+  },
+  {
+    "start": 596.72,
+    "end": 600.0,
+    "text": "missed the exact millisecond the spark ignited."
+  },
+  {
+    "start": 600.0,
+    "end": 600.84,
+    "text": "That's a great way to put it."
+  },
+  {
+    "start": 600.84,
+    "end": 603.0,
+    "text": "Now if you want that millisecond precision,"
+  },
+  {
+    "start": 603.0,
+    "end": 605.04,
+    "text": "you use something like an EEG, measuring"
+  },
+  {
+    "start": 605.04,
+    "end": 606.64,
+    "text": "the electrical signals right on the scalp."
+  },
+  {
+    "start": 606.64,
+    "end": 608.2,
+    "text": "But then you lose the spatial detail, right?"
+  },
+  {
+    "start": 608.2,
+    "end": 608.88,
+    "text": "Yes."
+  },
+  {
+    "start": 608.88,
+    "end": 610.52,
+    "text": "You know exactly when it happened."
+  },
+  {
+    "start": 610.52,
+    "end": 612.8,
+    "text": "But you can't tell exactly where deep inside the brain"
+  },
+  {
+    "start": 612.8,
+    "end": 614.72,
+    "text": "tissue, the signal originated from."
+  },
+  {
+    "start": 614.72,
+    "end": 617.2,
+    "text": "And then there's the hurdle of causal power."
+  },
+  {
+    "start": 617.2,
+    "end": 618.92,
+    "text": "Because if you want high causal power,"
+  },
+  {
+    "start": 618.92,
+    "end": 620.2,
+    "text": "you have to physically intervene."
+  },
+  {
+    "start": 620.2,
+    "end": 621.92,
+    "text": "You have to turn circuits on and off."
+  },
+  {
+    "start": 621.92,
+    "end": 623.36,
+    "text": "Which is obviously highly invasive."
+  },
+  {
+    "start": 623.36,
+    "end": 626.04,
+    "text": "You can't just open up a human volunteer's skull"
+  },
+  {
+    "start": 626.04,
+    "end": 628.48,
+    "text": "and start temporarily disabling brain regions"
+  },
+  {
+    "start": 628.48,
+    "end": 629.32,
+    "text": "with pharmacology."
+  },
+  {
+    "start": 629.32,
+    "end": 629.64,
+    "text": "Right."
+  },
+  {
+    "start": 629.68,
+    "end": 632.32,
+    "text": "Which is exactly why animal models are so crucial"
+  },
+  {
+    "start": 632.32,
+    "end": 635.2,
+    "text": "for causal research, while non-invasive imaging"
+  },
+  {
+    "start": 635.2,
+    "end": 637.4,
+    "text": "is what we have to rely on for humans."
+  },
+  {
+    "start": 637.4,
+    "end": 639.36,
+    "text": "And actually visually representing"
+  },
+  {
+    "start": 639.36,
+    "end": 641.4,
+    "text": "what those non-invasive scans capture"
+  },
+  {
+    "start": 641.4,
+    "end": 643.4,
+    "text": "is just incredible."
+  },
+  {
+    "start": 643.4,
+    "end": 645.56,
+    "text": "GIF showing dynamic neural activity"
+  },
+  {
+    "start": 645.56,
+    "end": 648.76,
+    "text": "with interconnected regions and network fibers."
+  },
+  {
+    "start": 648.76,
+    "end": 650.64,
+    "text": "OK, visually the animation is showing"
+  },
+  {
+    "start": 650.64,
+    "end": 652.6,
+    "text": "these glowing network fibers firing"
+  },
+  {
+    "start": 652.6,
+    "end": 655.0,
+    "text": "and rapid succession across totally different regions"
+  },
+  {
+    "start": 655.0,
+    "end": 656.8,
+    "text": "of the brain, like all simultaneously."
+  },
+  {
+    "start": 656.8,
+    "end": 657.76,
+    "text": "It's mesmerizing."
+  },
+  {
+    "start": 657.76,
+    "end": 658.64,
+    "text": "It really is."
+  },
+  {
+    "start": 658.64,
+    "end": 660.64,
+    "text": "What strikes you is the sheer speed"
+  },
+  {
+    "start": 660.64,
+    "end": 662.48,
+    "text": "and the interconnectedness of it all."
+  },
+  {
+    "start": 662.48,
+    "end": 665.36,
+    "text": "It visually proves that the brain is this continuous,"
+  },
+  {
+    "start": 665.36,
+    "end": 667.04,
+    "text": "wildly dynamic web."
+  },
+  {
+    "start": 667.04,
+    "end": 669.0,
+    "text": "Yeah, completely shatters that old myth"
+  },
+  {
+    "start": 669.0,
+    "end": 671.32,
+    "text": "that the brain works in isolated buckets."
+  },
+  {
+    "start": 671.32,
+    "end": 673.56,
+    "text": "Right, like the idea that vision happens"
+  },
+  {
+    "start": 673.56,
+    "end": 675.96,
+    "text": "in one quiet little corner and emotion"
+  },
+  {
+    "start": 675.96,
+    "end": 679.56,
+    "text": "happens in a completely separate, disconnected room."
+  },
+  {
+    "start": 679.56,
+    "end": 680.68,
+    "text": "That's just not true."
+  },
+  {
+    "start": 680.68,
+    "end": 681.68,
+    "text": "Not at all."
+  },
+  {
+    "start": 681.68,
+    "end": 685.2,
+    "text": "It is a relentless rapid fire symphony."
+  },
+  {
+    "start": 685.2,
+    "end": 688.2,
+    "text": "Everything is talking to everything else all the time."
+  },
+  {
+    "start": 688.2,
+    "end": 691.76,
+    "text": "And building on that dynamic GIF we just saw,"
+  },
+  {
+    "start": 691.76,
+    "end": 693.76,
+    "text": "we really have to factor in neural variability."
+  },
+  {
+    "start": 693.76,
+    "end": 695.32,
+    "text": "What do you mean my variability?"
+  },
+  {
+    "start": 695.32,
+    "end": 697.88,
+    "text": "Well, just as humans express behaviors differently"
+  },
+  {
+    "start": 697.88,
+    "end": 700.16,
+    "text": "on the outside, we have massive structural"
+  },
+  {
+    "start": 700.16,
+    "end": 702.96,
+    "text": "and functional variability in our physical neural makeup"
+  },
+  {
+    "start": 702.96,
+    "end": 703.64,
+    "text": "on the inside."
+  },
+  {
+    "start": 703.64,
+    "end": 706.08,
+    "text": "Wait, meaning my brain's physical wiring"
+  },
+  {
+    "start": 706.08,
+    "end": 707.96,
+    "text": "literally looks different than yours."
+  },
+  {
+    "start": 707.96,
+    "end": 710.16,
+    "text": "Unquestionably, that variability exists"
+  },
+  {
+    "start": 710.16,
+    "end": 711.28,
+    "text": "between different individuals,"
+  },
+  {
+    "start": 711.28,
+    "end": 712.68,
+    "text": "between different groups of people."
+  },
+  {
+    "start": 712.68,
+    "end": 714.28,
+    "text": "And this is the crazy part,"
+  },
+  {
+    "start": 714.28,
+    "end": 717.0,
+    "text": "even within the exact same person over time."
+  },
+  {
+    "start": 717.0,
+    "end": 718.6,
+    "text": "So my brain is physically different today"
+  },
+  {
+    "start": 718.6,
+    "end": 719.44,
+    "text": "than it was yesterday."
+  },
+  {
+    "start": 719.44,
+    "end": 721.32,
+    "text": "Yes, the physical neural pathways"
+  },
+  {
+    "start": 721.32,
+    "end": 723.28,
+    "text": "in your brain today are structurally different"
+  },
+  {
+    "start": 723.28,
+    "end": 724.84,
+    "text": "than they were five years ago."
+  },
+  {
+    "start": 724.84,
+    "end": 727.88,
+    "text": "Your experiences, your learning, your environment,"
+  },
+  {
+    "start": 727.88,
+    "end": 730.88,
+    "text": "they have literally rewired the physical connections."
+  },
+  {
+    "start": 731.88,
+    "end": 733.96,
+    "text": "Okay, here's where it gets really interesting."
+  },
+  {
+    "start": 733.96,
+    "end": 736.64,
+    "text": "When you take everything we've just discussed,"
+  },
+  {
+    "start": 736.72,
+    "end": 740.56,
+    "text": "the psychological meaning, the neurobiological mechanisms,"
+  },
+  {
+    "start": 740.56,
+    "end": 744.12,
+    "text": "the data trade-offs, the physical rewiring over time,"
+  },
+  {
+    "start": 744.12,
+    "end": 747.0,
+    "text": "and you apply it to major human struggles,"
+  },
+  {
+    "start": 747.0,
+    "end": 749.04,
+    "text": "it totally changes how we approach things."
+  },
+  {
+    "start": 749.04,
+    "end": 751.72,
+    "text": "It changes everything about treatment and understanding."
+  },
+  {
+    "start": 751.72,
+    "end": 752.6,
+    "text": "Yeah."
+  },
+  {
+    "start": 752.6,
+    "end": 755.72,
+    "text": "Let's look at fear and severe anxiety as an example."
+  },
+  {
+    "start": 755.72,
+    "end": 757.24,
+    "text": "Fear is a brilliant example"
+  },
+  {
+    "start": 757.24,
+    "end": 759.68,
+    "text": "of why both lenses are mandatory."
+  },
+  {
+    "start": 759.68,
+    "end": 761.04,
+    "text": "Through the psychology lens,"
+  },
+  {
+    "start": 761.04,
+    "end": 763.08,
+    "text": "we evaluate threat appraisal."
+  },
+  {
+    "start": 763.08,
+    "end": 765.56,
+    "text": "Like how is this person mentally evaluating"
+  },
+  {
+    "start": 765.56,
+    "end": 767.28,
+    "text": "the danger in their environment?"
+  },
+  {
+    "start": 767.28,
+    "end": 768.32,
+    "text": "Exactly."
+  },
+  {
+    "start": 768.32,
+    "end": 771.2,
+    "text": "We look at their history of avoidance learning."
+  },
+  {
+    "start": 771.2,
+    "end": 773.0,
+    "text": "How have they been conditioned over time"
+  },
+  {
+    "start": 773.0,
+    "end": 775.16,
+    "text": "to avoid specific triggers?"
+  },
+  {
+    "start": 775.16,
+    "end": 777.28,
+    "text": "What are their cognitive expectations?"
+  },
+  {
+    "start": 777.28,
+    "end": 779.68,
+    "text": "But if we switch to the neuroscience lens,"
+  },
+  {
+    "start": 779.68,
+    "end": 782.48,
+    "text": "we're looking at the specific biological threat circuits."
+  },
+  {
+    "start": 782.48,
+    "end": 784.68,
+    "text": "We are measuring the autonomic nervous system"
+  },
+  {
+    "start": 784.68,
+    "end": 785.72,
+    "text": "going into overdrive."
+  },
+  {
+    "start": 785.72,
+    "end": 787.0,
+    "text": "Right, the heart rate spikes."
+  },
+  {
+    "start": 787.0,
+    "end": 788.96,
+    "text": "The immediate activation of the amygdala"
+  },
+  {
+    "start": 788.96,
+    "end": 792.0,
+    "text": "before the conscious brain even realizes what's happening."
+  },
+  {
+    "start": 792.0,
+    "end": 795.76,
+    "text": "And to treat a severe phobia, you absolutely need both."
+  },
+  {
+    "start": 795.76,
+    "end": 797.48,
+    "text": "I mean, you can give someone a medication"
+  },
+  {
+    "start": 797.48,
+    "end": 800.36,
+    "text": "like a beta blocker to stop their heart from racing."
+  },
+  {
+    "start": 800.36,
+    "end": 802.08,
+    "text": "But if their psychological threat appraisal"
+  },
+  {
+    "start": 802.08,
+    "end": 805.24,
+    "text": "is still screaming that they are in mortal danger,"
+  },
+  {
+    "start": 805.24,
+    "end": 806.72,
+    "text": "the phobia is still there."
+  },
+  {
+    "start": 806.72,
+    "end": 808.12,
+    "text": "That's spot on."
+  },
+  {
+    "start": 808.12,
+    "end": 810.84,
+    "text": "Let's apply it to another really complex issue."
+  },
+  {
+    "start": 810.84,
+    "end": 813.16,
+    "text": "Addiction and reward."
+  },
+  {
+    "start": 813.16,
+    "end": 814.52,
+    "text": "Take a single action, right?"
+  },
+  {
+    "start": 814.52,
+    "end": 816.72,
+    "text": "Like a person reaching for a cigarette."
+  },
+  {
+    "start": 816.72,
+    "end": 818.92,
+    "text": "Psychology might view that reach"
+  },
+  {
+    "start": 818.92,
+    "end": 820.8,
+    "text": "as a deeply ingrained habit"
+  },
+  {
+    "start": 820.8,
+    "end": 823.36,
+    "text": "or maybe a lapse in decision-making."
+  },
+  {
+    "start": 823.36,
+    "end": 826.44,
+    "text": "It focuses on concepts like reinforcement learning."
+  },
+  {
+    "start": 826.44,
+    "end": 828.48,
+    "text": "The subjective feeling of craving."
+  },
+  {
+    "start": 828.48,
+    "end": 830.44,
+    "text": "Yes, that agonizing craving."
+  },
+  {
+    "start": 830.44,
+    "end": 832.36,
+    "text": "And the internal psychological battle"
+  },
+  {
+    "start": 832.36,
+    "end": 834.6,
+    "text": "for self-control against long-term goals."
+  },
+  {
+    "start": 834.6,
+    "end": 836.92,
+    "text": "But neuroscience views the exact same reach"
+  },
+  {
+    "start": 836.92,
+    "end": 839.76,
+    "text": "for a cigarette as a circuit level adaptation."
+  },
+  {
+    "start": 839.76,
+    "end": 842.0,
+    "text": "It's looking at the immediate reward pathways."
+  },
+  {
+    "start": 842.0,
+    "end": 844.96,
+    "text": "Exactly, it's tracking this specific dopamine signaling"
+  },
+  {
+    "start": 844.96,
+    "end": 847.0,
+    "text": "that creates a prediction error in the brain."
+  },
+  {
+    "start": 847.0,
+    "end": 848.92,
+    "text": "That dopamine floods the system"
+  },
+  {
+    "start": 848.92,
+    "end": 851.68,
+    "text": "and structurally hijacks the prefrontal cortex's ability"
+  },
+  {
+    "start": 851.68,
+    "end": 853.68,
+    "text": "to exert top-down control."
+  },
+  {
+    "start": 853.68,
+    "end": 856.4,
+    "text": "Wow, so you literally can't separate the biology"
+  },
+  {
+    "start": 856.4,
+    "end": 859.0,
+    "text": "from the experience, which is why modern research"
+  },
+  {
+    "start": 859.0,
+    "end": 860.8,
+    "text": "doesn't silo these fields anymore."
+  },
+  {
+    "start": 860.8,
+    "end": 861.84,
+    "text": "No, they don't."
+  },
+  {
+    "start": 861.84,
+    "end": 863.56,
+    "text": "Disciplines like cognitive neuroscience"
+  },
+  {
+    "start": 863.56,
+    "end": 866.04,
+    "text": "intentionally fuse these lenses together."
+  },
+  {
+    "start": 866.04,
+    "end": 868.6,
+    "text": "And there is a really powerful applied model"
+  },
+  {
+    "start": 868.6,
+    "end": 870.28,
+    "text": "for this overlap in our notes."
+  },
+  {
+    "start": 870.28,
+    "end": 872.72,
+    "text": "Chronic stress and its effect on learning."
+  },
+  {
+    "start": 872.72,
+    "end": 874.12,
+    "text": "Oh, this is a profound one."
+  },
+  {
+    "start": 874.12,
+    "end": 875.92,
+    "text": "Yeah, let's go back to our student."
+  },
+  {
+    "start": 875.92,
+    "end": 877.56,
+    "text": "But this time, it's a student whose grades"
+  },
+  {
+    "start": 877.6,
+    "end": 880.12,
+    "text": "are slowly slipping over a whole semester."
+  },
+  {
+    "start": 880.12,
+    "end": 883.52,
+    "text": "The psychology side, the context, provides the why."
+  },
+  {
+    "start": 883.52,
+    "end": 884.36,
+    "text": "Right."
+  },
+  {
+    "start": 884.36,
+    "end": 886.68,
+    "text": "Perhaps there is intense financial pressure at home."
+  },
+  {
+    "start": 886.68,
+    "end": 888.8,
+    "text": "Or a heavy family caretaking demands."
+  },
+  {
+    "start": 888.8,
+    "end": 892.08,
+    "text": "That environment creates a persistent, subjective mental"
+  },
+  {
+    "start": 892.08,
+    "end": 893.92,
+    "text": "state of worry and pressure."
+  },
+  {
+    "start": 893.92,
+    "end": 897.04,
+    "text": "And then the neuroscience side provides the how."
+  },
+  {
+    "start": 897.04,
+    "end": 899.6,
+    "text": "It explains how that persistent psychological worry"
+  },
+  {
+    "start": 899.6,
+    "end": 901.76,
+    "text": "physically translates into sustained releases"
+  },
+  {
+    "start": 901.76,
+    "end": 903.76,
+    "text": "of stress hormones, like cortisol."
+  },
+  {
+    "start": 903.76,
+    "end": 907.0,
+    "text": "Right, and over time, that chronic biological stress"
+  },
+  {
+    "start": 907.0,
+    "end": 909.84,
+    "text": "structurally impairs the brain's learning circuits."
+  },
+  {
+    "start": 909.84,
+    "end": 912.72,
+    "text": "Sustained cortisol exposure can literally inhibit"
+  },
+  {
+    "start": 912.72,
+    "end": 915.24,
+    "text": "long-term potentiation in the hippocampus."
+  },
+  {
+    "start": 915.24,
+    "end": 917.52,
+    "text": "Long-term potentiation, that's the strengthening"
+  },
+  {
+    "start": 917.52,
+    "end": 919.8,
+    "text": "of synapses needed to form memories, right?"
+  },
+  {
+    "start": 919.8,
+    "end": 920.32,
+    "text": "Exactly."
+  },
+  {
+    "start": 920.32,
+    "end": 923.52,
+    "text": "So the stress chemically prevents"
+  },
+  {
+    "start": 923.52,
+    "end": 925.44,
+    "text": "the strengthening of those synapses."
+  },
+  {
+    "start": 925.44,
+    "end": 926.28,
+    "text": "Yeah."
+  },
+  {
+    "start": 926.28,
+    "end": 928.4,
+    "text": "The psychological worry physically damages"
+  },
+  {
+    "start": 928.4,
+    "end": 930.68,
+    "text": "the hardware's ability to learn."
+  },
+  {
+    "start": 930.68,
+    "end": 932.36,
+    "text": "OK, but if that's true, then we're back"
+  },
+  {
+    "start": 932.36,
+    "end": 933.48,
+    "text": "in that obvious trap again."
+  },
+  {
+    "start": 933.48,
+    "end": 934.2,
+    "text": "How so?"
+  },
+  {
+    "start": 934.2,
+    "end": 936.96,
+    "text": "Well, if we know the exact chemical mechanism"
+  },
+  {
+    "start": 936.96,
+    "end": 939.52,
+    "text": "like if we know that cortisol is blocking long-term"
+  },
+  {
+    "start": 939.52,
+    "end": 942.32,
+    "text": "potentiation in the hippocampus, why do we even"
+  },
+  {
+    "start": 942.32,
+    "end": 945.28,
+    "text": "care about the family dynamics causing the stress?"
+  },
+  {
+    "start": 945.28,
+    "end": 945.96,
+    "text": "I see."
+  },
+  {
+    "start": 945.96,
+    "end": 949.36,
+    "text": "Why not just give that student a pharmacological intervention"
+  },
+  {
+    "start": 949.36,
+    "end": 951.28,
+    "text": "that blocks the cortisol receptors"
+  },
+  {
+    "start": 951.28,
+    "end": 955.0,
+    "text": "and completely ignore the messy psychological environment?"
+  },
+  {
+    "start": 955.0,
+    "end": 957.84,
+    "text": "Because if we connect this to the bigger picture,"
+  },
+  {
+    "start": 957.84,
+    "end": 961.32,
+    "text": "the environment is continuously programming the biology."
+  },
+  {
+    "start": 961.32,
+    "end": 964.4,
+    "text": "You cannot separate the brain from the world it exists in."
+  },
+  {
+    "start": 964.4,
+    "end": 964.72,
+    "text": "Right."
+  },
+  {
+    "start": 964.72,
+    "end": 966.44,
+    "text": "But you can give that student a pill"
+  },
+  {
+    "start": 966.44,
+    "end": 970.24,
+    "text": "to artificially block their biological stress response today."
+  },
+  {
+    "start": 970.24,
+    "end": 971.88,
+    "text": "But if they go right back into a home"
+  },
+  {
+    "start": 971.88,
+    "end": 974.32,
+    "text": "with severe financial pressure tomorrow,"
+  },
+  {
+    "start": 974.32,
+    "end": 976.16,
+    "text": "their psychological threat appraisal"
+  },
+  {
+    "start": 976.16,
+    "end": 977.88,
+    "text": "will still recognize the danger."
+  },
+  {
+    "start": 977.88,
+    "end": 979.88,
+    "text": "The software still knows there's a problem."
+  },
+  {
+    "start": 979.88,
+    "end": 980.56,
+    "text": "Exactly."
+  },
+  {
+    "start": 980.56,
+    "end": 982.8,
+    "text": "And the brain will continuously try to adapt."
+  },
+  {
+    "start": 982.8,
+    "end": 985.0,
+    "text": "It might override the medication, increase"
+  },
+  {
+    "start": 985.0,
+    "end": 988.2,
+    "text": "receptor density, or find a completely different biological"
+  },
+  {
+    "start": 988.2,
+    "end": 990.4,
+    "text": "pathway to signal that stress."
+  },
+  {
+    "start": 990.4,
+    "end": 992.32,
+    "text": "Because the hardware is always reacting"
+  },
+  {
+    "start": 992.32,
+    "end": 994.44,
+    "text": "to the software's interpretation of the world."
+  },
+  {
+    "start": 994.44,
+    "end": 997.12,
+    "text": "Yes, if you only treat the hardware"
+  },
+  {
+    "start": 997.12,
+    "end": 999.76,
+    "text": "and completely ignore the environmental context"
+  },
+  {
+    "start": 999.76,
+    "end": 1001.48,
+    "text": "that is programming the software,"
+  },
+  {
+    "start": 1001.48,
+    "end": 1003.68,
+    "text": "the system will just keep crashing."
+  },
+  {
+    "start": 1003.68,
+    "end": 1006.8,
+    "text": "The biological intervention might buy you some time, sure."
+  },
+  {
+    "start": 1006.8,
+    "end": 1008.76,
+    "text": "But the psychological reality will eventually"
+  },
+  {
+    "start": 1008.76,
+    "end": 1011.12,
+    "text": "So what does this all mean for us?"
+  },
+  {
+    "start": 1011.12,
+    "end": 1015.28,
+    "text": "For you, listening right now, going about your daily life."
+  },
+  {
+    "start": 1015.28,
+    "end": 1017.24,
+    "text": "It really brings us to the ultimate takeaway"
+  },
+  {
+    "start": 1017.24,
+    "end": 1018.52,
+    "text": "from these two fields."
+  },
+  {
+    "start": 1018.52,
+    "end": 1020.56,
+    "text": "Psychology gives our behavior meaning."
+  },
+  {
+    "start": 1020.56,
+    "end": 1022.72,
+    "text": "And neuroscience gives our behavior mechanism."
+  },
+  {
+    "start": 1022.72,
+    "end": 1025.88,
+    "text": "Yes, together and only together."
+  },
+  {
+    "start": 1025.88,
+    "end": 1028.4,
+    "text": "They explain the mind, the brain, our behavior,"
+  },
+  {
+    "start": 1028.4,
+    "end": 1031.24,
+    "text": "and our environment as one single beautifully connected"
+  },
+  {
+    "start": 1031.24,
+    "end": 1033.04,
+    "text": "constantly adapting system."
+  },
+  {
+    "start": 1033.04,
+    "end": 1037.12,
+    "text": "It's a total paradigm shift for how you view your own life."
+  },
+  {
+    "start": 1037.12,
+    "end": 1039.92,
+    "text": "The next time you find yourself freezing up under pressure"
+  },
+  {
+    "start": 1039.92,
+    "end": 1042.16,
+    "text": "or maybe defaulting to a bad habit"
+  },
+  {
+    "start": 1042.16,
+    "end": 1045.08,
+    "text": "or just feeling overwhelmed by stress,"
+  },
+  {
+    "start": 1045.08,
+    "end": 1047.0,
+    "text": "you don't have to just sit there and frustration."
+  },
+  {
+    "start": 1047.0,
+    "end": 1048.16,
+    "text": "No, but you can step back."
+  },
+  {
+    "start": 1048.16,
+    "end": 1050.52,
+    "text": "You can analyze your own hardware and your own software."
+  },
+  {
+    "start": 1050.52,
+    "end": 1052.52,
+    "text": "You can ask what your biology is doing,"
+  },
+  {
+    "start": 1052.52,
+    "end": 1054.16,
+    "text": "what your environment is telling it to do."
+  },
+  {
+    "start": 1054.16,
+    "end": 1056.76,
+    "text": "It does leave us with one very provocative thought, though,"
+  },
+  {
+    "start": 1056.76,
+    "end": 1058.6,
+    "text": "from everything we just talked about."
+  },
+  {
+    "start": 1058.6,
+    "end": 1059.44,
+    "text": "What's that?"
+  },
+  {
+    "start": 1059.44,
+    "end": 1063.72,
+    "text": "Well, if our physical neural makeup is highly variable"
+  },
+  {
+    "start": 1063.72,
+    "end": 1067.56,
+    "text": "and it is constantly physically rewiring itself over time"
+  },
+  {
+    "start": 1067.56,
+    "end": 1070.64,
+    "text": "based on our experiences and our psychological context,"
+  },
+  {
+    "start": 1070.64,
+    "end": 1075.08,
+    "text": "like our moods, our environment, our beliefs is always shifting."
+  },
+  {
+    "start": 1075.08,
+    "end": 1078.6,
+    "text": "Is any behavior you do today truly the exact same behavior"
+  },
+  {
+    "start": 1078.6,
+    "end": 1079.44,
+    "text": "you did yesterday?"
+  },
+  {
+    "start": 1079.52,
+    "end": 1081.56,
+    "text": "Oh, wow, that is a deep question."
+  },
+  {
+    "start": 1081.56,
+    "end": 1084.64,
+    "text": "Right, if your physical hardware changed overnight"
+  },
+  {
+    "start": 1084.64,
+    "end": 1087.52,
+    "text": "through neuroplasticity and your psychological software"
+  },
+  {
+    "start": 1087.52,
+    "end": 1090.88,
+    "text": "updated this morning based on new context,"
+  },
+  {
+    "start": 1090.88,
+    "end": 1093.16,
+    "text": "are you ever really repeating an action?"
+  },
+  {
+    "start": 1093.16,
+    "end": 1097.16,
+    "text": "Or is every single thing you do, a brand new event generated"
+  },
+  {
+    "start": 1097.16,
+    "end": 1099.56,
+    "text": "by a brain that has literally never existed"
+  },
+  {
+    "start": 1099.56,
+    "end": 1100.92,
+    "text": "in this exact state before?"
+  },
+  {
+    "start": 1100.92,
+    "end": 1102.88,
+    "text": "That is a fascinating mystery to sit with."
+  },
+  {
+    "start": 1102.88,
+    "end": 1105.92,
+    "text": "So for the next behavior, you observe in yourself"
+  },
+  {
+    "start": 1105.92,
+    "end": 1107.96,
+    "text": "for our friend today, whether it's freezing on a test,"
+  },
+  {
+    "start": 1107.96,
+    "end": 1110.76,
+    "text": "reaching for a cup of coffee or just laughing at a joke."
+  },
+  {
+    "start": 1110.76,
+    "end": 1113.52,
+    "text": "Ask yourself, what would the psychological lens show you?"
+  },
+  {
+    "start": 1113.52,
+    "end": 1115.76,
+    "text": "And what secret mechanisms is the neuroscience lens"
+  },
+  {
+    "start": 1115.76,
+    "end": 1117.36,
+    "text": "hiding just beneath the surface?"
+  }
+];
