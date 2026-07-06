@@ -1218,7 +1218,7 @@
         <div class="brand-mark" aria-hidden="true">NQ</div>
         <div>
           <h1>Neuro Quest</h1>
-          <p class="subtitle">Choose a presentation, review the material, then enter the adventure quiz.</p>
+          <p class="subtitle">Choose a presentation and review the material.</p>
         </div>
       </a>
       <div class="utility">
@@ -1226,7 +1226,8 @@
         <div class="chip" id="statusChip">Presentation</div>
         <button class="mode-btn" id="homeBtn" type="button" aria-current="true">Home</button>
         <button class="mode-btn" id="presentationBtn" type="button">Slides</button>
-        <button class="mode-btn" id="quizBtn" type="button">Quiz</button>
+        <!-- Quiz navigation disabled while quiz logic is commented out. -->
+        <!-- <button class="mode-btn" id="quizBtn" type="button">Quiz</button> -->
         <button class="reset" id="resetBtn" type="button">Restart</button>
       </div>
     </header>
@@ -1286,7 +1287,7 @@
         <button class="module-card" id="agingModuleBtn" type="button" data-module-card="aging">
           <div class="module-top"><span class="module-badge">Unlocked</span><span>NQ-05</span></div>
           <h3>Aging</h3>
-          <p>Slide presentation, audio captions, and choose-your-own-adventure review.</p>
+          <p>Audio-guided presentation on brain aging, lifespan factors, and age-related disorders.</p>
           <div class="module-progress" aria-label="Aging progress">
             <div class="module-progress-row"><span>Complete</span><span data-progress-label="aging">0%</span></div>
             <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="aging"></div></div>
@@ -1563,7 +1564,8 @@
             <button class="control-btn" id="prevSlideBtn" type="button">Previous</button>
             <button class="control-btn primary-control" id="playSlidesBtn" type="button">Auto play</button>
             <button class="control-btn" id="nextSlideBtn" type="button">Next slide</button>
-            <button class="control-btn primary-control" id="startQuizBtn" type="button">Start quiz</button>
+            <!-- Quiz logic disabled. -->
+            <!-- <button class="control-btn primary-control" id="startQuizBtn" type="button">Start quiz</button> -->
             <!-- <button class="control-btn" type="button" data-reflection-module="aging">Topic Reflection</button> -->
           </div>
           <div class="control-group">
@@ -1575,8 +1577,8 @@
 
       <aside class="presenter-panel">
         <div>
-          <h2 class="guide-name">Navi and Glia present first</h2>
-          <p class="guide-copy" id="presentationGuide">Move through the slides once to unlock the quiz for students. This working copy also lets you jump ahead while building.</p>
+          <h2 class="guide-name">Aging</h2>
+          <p class="guide-copy" id="presentationGuide">Navi and Glia walk through nervous-system aging, healthy trajectories, risk, disease, and systems-level evidence.</p>
         </div>
         <div class="audio-status">
           <h3>Audio and captions</h3>
@@ -1588,6 +1590,7 @@
       </aside>
     </section>
 
+    <!-- Quiz UI is inert while quiz logic and entry points are disabled. -->
     <section class="game" id="quizView" aria-live="polite" hidden>
       <aside class="guide">
         <div class="mascot-wrap">
@@ -2072,7 +2075,8 @@
       timer: null,
       usingAudio: false,
       presentationCompleted: BUILD_UNLOCK_QUIZ || localStorage.getItem("agingPresentationCompleted") === "true",
-      quizUnlocked: BUILD_UNLOCK_QUIZ || localStorage.getItem("agingQuizUnlocked") === "true"
+      // Quiz logic disabled.
+      quizUnlocked: false
     };
 
     const state = {
@@ -2369,16 +2373,12 @@
       el.prevSlideBtn.disabled = presentationState.cueIndex === 0;
       el.nextSlideBtn.disabled = !TEMP_MANUAL_SLIDE_ADVANCE && !presentationState.presentationCompleted;
       el.nextSlideBtn.textContent = TEMP_MANUAL_SLIDE_ADVANCE || presentationState.presentationCompleted ? "Next slide" : "Locked";
-      el.startQuizBtn.disabled = !presentationState.quizUnlocked;
-      el.quizBtn.disabled = !presentationState.quizUnlocked;
+      // Quiz logic disabled.
+      // if (el.startQuizBtn) el.startQuizBtn.disabled = !presentationState.quizUnlocked;
+      // if (el.quizBtn) el.quizBtn.disabled = !presentationState.quizUnlocked;
       el.playSlidesBtn.textContent = presentationState.autoPlaying ? "Pause" : "Auto play";
       el.statusChip.textContent = `Slide ${slideNumber}`;
-      el.scoreChip.textContent = presentationState.quizUnlocked ? "Quiz unlocked" : "Quiz locked";
-      el.presentationGuide.textContent = presentationState.quizUnlocked
-        ? (presentationState.presentationCompleted
-          ? "Review controls are enabled. Use Previous, Next slide, or the left and right arrow keys."
-          : "Review controls are enabled for this preview. Use Previous, Next slide, or the left and right arrow keys.")
-        : "First run is guided by audio. Review controls can be enabled for instructor preview.";
+      el.presentationGuide.textContent = "Navi and Glia walk through nervous-system aging, healthy trajectories, risk, disease, and systems-level evidence.";
       updatePresentationMascots();
     }
 
@@ -2391,7 +2391,8 @@
 
     function showMode(mode) {
       const showHome = mode === "home";
-      const showQuiz = mode === "quiz";
+      // Quiz logic disabled.
+      const showQuiz = false;
       const showPresentation = mode === "presentation";
       const showNeurophys = mode === "neurophys";
       const showAnatomy = mode === "anatomy";
@@ -2403,10 +2404,10 @@
       el.toolsView.hidden = !showTools;
       el.courseAudioView.hidden = !showCourseAudio;
       el.neurophysView.hidden = !showNeurophys;
-      el.quizView.hidden = !showQuiz;
+      if (el.quizView) el.quizView.hidden = !showQuiz;
       el.homeBtn.setAttribute("aria-current", String(showHome));
       el.presentationBtn.setAttribute("aria-current", String(showPresentation));
-      el.quizBtn.setAttribute("aria-current", String(showQuiz));
+      if (el.quizBtn) el.quizBtn.setAttribute("aria-current", String(showQuiz));
       if (showHome) {
         stopPresentation();
         stopAnatomy();
@@ -2416,14 +2417,15 @@
         el.statusChip.hidden = true;
         el.homeBtn.hidden = true;
         el.presentationBtn.hidden = true;
-        el.quizBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = true;
         el.homeBtn.textContent = "Home";
         el.presentationBtn.textContent = "Slides";
-        el.quizBtn.textContent = "Quiz";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = "Restart";
         el.statusChip.textContent = "Home";
-        el.scoreChip.textContent = presentationState.quizUnlocked ? "Aging unlocked" : "Modules";
+        el.scoreChip.textContent = "Modules";
+      /*
       } else if (showQuiz) {
         stopAnatomy();
         stopTools();
@@ -2445,6 +2447,7 @@
         el.resetBtn.textContent = "Restart Aging";
         stopPresentation();
         render();
+      */
       } else if (showNeurophys) {
         stopPresentation();
         stopAnatomy();
@@ -2453,15 +2456,15 @@
         trackProgress("neurophysiology", "open", {
           progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
         });
-        el.scoreChip.hidden = false;
-        el.statusChip.hidden = false;
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = true;
         el.homeBtn.hidden = false;
         el.presentationBtn.hidden = true;
-        el.quizBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = false;
         el.homeBtn.textContent = "Modules";
         el.presentationBtn.textContent = "Slides";
-        el.quizBtn.textContent = "Quiz";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = "Reset Lab";
         el.statusChip.textContent = "Neurophysiology";
         el.scoreChip.textContent = "Simulation lab";
@@ -2473,15 +2476,15 @@
         trackProgress("anatomy", "open", {
           progress_percent: Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100)
         });
-        el.scoreChip.hidden = false;
-        el.statusChip.hidden = false;
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = true;
         el.homeBtn.hidden = false;
         el.presentationBtn.hidden = true;
-        el.quizBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = false;
         el.homeBtn.textContent = "Modules";
         el.presentationBtn.textContent = "Slides";
-        el.quizBtn.textContent = "Quiz";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = "Restart Anatomy";
         el.statusChip.textContent = "Anatomy";
         renderAnatomy();
@@ -2493,14 +2496,14 @@
           progress_percent: Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100)
         });
         el.scoreChip.hidden = true;
-        el.statusChip.hidden = false;
+        el.statusChip.hidden = true;
         el.homeBtn.hidden = false;
         el.presentationBtn.hidden = true;
-        el.quizBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = false;
         el.homeBtn.textContent = "Modules";
         el.presentationBtn.textContent = "Slides";
-        el.quizBtn.textContent = "Quiz";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = "Restart Tools";
         el.statusChip.textContent = "Tools";
         renderTools();
@@ -2513,14 +2516,14 @@
           progress_percent: Math.round(((courseAudioState.cueIndex + 1) / mod.cues.length) * 100)
         });
         el.scoreChip.hidden = true;
-        el.statusChip.hidden = false;
+        el.statusChip.hidden = true;
         el.homeBtn.hidden = false;
         el.presentationBtn.hidden = true;
-        el.quizBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = false;
         el.homeBtn.textContent = "Modules";
         el.presentationBtn.textContent = "Slides";
-        el.quizBtn.textContent = "Quiz";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = `Restart ${mod.shortTitle}`;
         el.statusChip.textContent = mod.shortTitle;
         renderCourseAudio();
@@ -2532,15 +2535,15 @@
           progress_percent: Math.round(((presentationState.cueIndex + 1) / slideCues.length) * 100),
           max_score: maxScore
         });
-        el.scoreChip.hidden = false;
-        el.statusChip.hidden = false;
+        el.scoreChip.hidden = true;
+        el.statusChip.hidden = true;
         el.homeBtn.hidden = false;
-        el.presentationBtn.hidden = false;
-        el.quizBtn.hidden = false;
+        el.presentationBtn.hidden = true;
+        if (el.quizBtn) el.quizBtn.hidden = true;
         el.resetBtn.hidden = false;
         el.homeBtn.textContent = "Modules";
-        el.presentationBtn.textContent = "Aging Slides";
-        el.quizBtn.textContent = "Aging Quiz";
+        el.presentationBtn.textContent = "Slides";
+        if (el.quizBtn) el.quizBtn.textContent = "Quiz";
         el.resetBtn.textContent = "Restart Aging";
         renderPresentation();
       }
@@ -3114,9 +3117,10 @@
 
     function unlockQuiz() {
       presentationState.presentationCompleted = true;
-      presentationState.quizUnlocked = true;
+      // Quiz logic disabled.
+      // presentationState.quizUnlocked = true;
       localStorage.setItem("agingPresentationCompleted", "true");
-      localStorage.setItem("agingQuizUnlocked", "true");
+      // localStorage.setItem("agingQuizUnlocked", "true");
       trackProgress("aging", "presentation_complete", {
         progress_percent: 100,
         max_score: maxScore
@@ -3243,6 +3247,7 @@
       });
     }
 
+    /* Quiz logic disabled.
     function render() {
       const scene = scenes[state.current];
       if (!state.visited.includes(state.current)) {
@@ -3309,6 +3314,7 @@
       el.mascotImg.src = nextSrc;
       requestAnimationFrame(() => el.mascotImg.classList.add("pose-pop"));
     }
+    */
 
     function setPresenterPose(img, src) {
       if (!img || img.getAttribute("src") === src) return;
@@ -3328,6 +3334,7 @@
       setPresenterPose(el.gliaMascot, gliaPoses[gliaPose] || gliaPoses.idle);
     }
 
+    /* Quiz logic disabled.
     function endingText(base) {
       if (state.score >= 19) {
         return `${base} Your route was expert-level: you consistently chose evidence-based, multi-level explanations.`;
@@ -3365,6 +3372,7 @@
       state.tone = "";
       render();
     }
+    */
 
     function restartExperience() {
       if (!el.anatomyView.hidden) {
@@ -3395,7 +3403,8 @@
         return;
       }
       stopPresentation();
-      reset();
+      // Quiz logic disabled.
+      // reset();
       presentationState.cueIndex = 0;
       presentationState.index = slideCues[0].slide - 1;
       if (presentationState.usingAudio) setSegmentAudioSource(el.lectureAudio, "aging", 0);
@@ -3460,19 +3469,78 @@
       }
     }
 
+    function openModule(moduleId) {
+      const normalizedModuleId = String(moduleId || "")
+        .trim()
+        .toLowerCase()
+        .replace(/[\s_-]+/g, "");
+
+      const moduleAliases = {
+        neuropsych: "neuropsych",
+        neurosciencepsychology: "neuropsych",
+        neurosciencevspsychology: "neuropsych",
+        psych: "neuropsych",
+        psychology: "neuropsych",
+        tools: "tools",
+        toolstechniques: "tools",
+        toolsandtechniques: "tools",
+        anatomy: "anatomy",
+        anatomyfunction: "anatomy",
+        anatomyandfunction: "anatomy",
+        neurophys: "neurophysiology",
+        neurophysiology: "neurophysiology",
+        neurophysiologycommunication: "neurophysiology",
+        neurophysiologyandcommunication: "neurophysiology",
+        aging: "aging",
+        age: "aging",
+        language: "language",
+        languagecommunication: "language",
+        languageandcommunication: "language",
+        technology: "technology",
+        technologybrain: "technology",
+        technologyandthebrain: "technology"
+      };
+
+      const canonicalModuleId = moduleAliases[normalizedModuleId];
+      if (!canonicalModuleId) return false;
+
+      if (canonicalModuleId === "aging") {
+        if (presentationState.usingAudio) setSegmentAudioSource(el.lectureAudio, "aging", presentationState.cueIndex);
+        showMode("presentation");
+        return true;
+      }
+      if (canonicalModuleId === "anatomy") {
+        goToAnatomyCue(anatomyState.cueIndex);
+        showMode("anatomy");
+        return true;
+      }
+      if (canonicalModuleId === "tools") {
+        goToToolsCue(toolsState.cueIndex);
+        showMode("tools");
+        return true;
+      }
+      if (canonicalModuleId === "neurophysiology") {
+        showMode("neurophys");
+        return true;
+      }
+      openCourseAudioModule(canonicalModuleId);
+      return true;
+    }
+
+    function openInitialModule() {
+      const params = new URLSearchParams(window.location.search);
+      const requestedModule = params.get("module") || params.get("m");
+      if (openModule(requestedModule)) return;
+      showMode("home");
+    }
+
     el.resetBtn.addEventListener("click", restartExperience);
     el.homeBtn.addEventListener("click", () => showMode("home"));
-    el.neuropsychModuleBtn.addEventListener("click", () => openCourseAudioModule("neuropsych"));
-    el.languageModuleBtn.addEventListener("click", () => openCourseAudioModule("language"));
-    el.technologyModuleBtn.addEventListener("click", () => openCourseAudioModule("technology"));
-    el.agingModuleBtn.addEventListener("click", () => {
-      if (presentationState.usingAudio) setSegmentAudioSource(el.lectureAudio, "aging", presentationState.cueIndex);
-      showMode("presentation");
-    });
-    el.anatomyModuleBtn.addEventListener("click", () => {
-      goToAnatomyCue(anatomyState.cueIndex);
-      showMode("anatomy");
-    });
+    el.neuropsychModuleBtn.addEventListener("click", () => openModule("neuropsych"));
+    el.languageModuleBtn.addEventListener("click", () => openModule("language"));
+    el.technologyModuleBtn.addEventListener("click", () => openModule("technology"));
+    el.agingModuleBtn.addEventListener("click", () => openModule("aging"));
+    el.anatomyModuleBtn.addEventListener("click", () => openModule("anatomy"));
     el.anatomyPrevBtn.addEventListener("click", () => changeAnatomySlide(-1));
     el.anatomyNextBtn.addEventListener("click", () => changeAnatomySlide(1));
     el.anatomyPlayBtn.addEventListener("click", () => {
@@ -3514,10 +3582,7 @@
       trackProgress("anatomy", "complete", { progress_percent: 100 });
       stopAnatomy();
     });
-    el.toolsModuleBtn.addEventListener("click", () => {
-      goToToolsCue(toolsState.cueIndex);
-      showMode("tools");
-    });
+    el.toolsModuleBtn.addEventListener("click", () => openModule("tools"));
     el.toolsPrevBtn.addEventListener("click", () => changeToolsSlide(-1));
     el.toolsNextBtn.addEventListener("click", () => changeToolsSlide(1));
     el.toolsPlayBtn.addEventListener("click", () => {
@@ -3637,7 +3702,7 @@
       trackProgress(mod.id, "complete", { progress_percent: 100 });
       stopCourseAudio();
     });
-    el.neurophysModuleBtn.addEventListener("click", () => showMode("neurophys"));
+    el.neurophysModuleBtn.addEventListener("click", () => openModule("neurophysiology"));
     el.neuroPrevBtn.addEventListener("click", () => changeNeuroSlide(-1));
     el.neuroNextBtn.addEventListener("click", () => changeNeuroSlide(1));
     document.querySelectorAll("[data-activity]").forEach((button) => {
@@ -3650,25 +3715,32 @@
       window.open("https://cortical-analysis-lab.github.io/NGVU_Simulation/", "_blank", "noopener");
     });
     el.presentationBtn.addEventListener("click", () => showMode("presentation"));
-    el.quizBtn.addEventListener("click", () => {
-      if (presentationState.quizUnlocked) showMode("quiz");
-    });
-    el.startQuizBtn.addEventListener("click", () => {
-      if (presentationState.quizUnlocked) showMode("quiz");
-    });
+    // Quiz logic disabled.
+    // if (el.quizBtn) {
+    //   el.quizBtn.addEventListener("click", () => {
+    //     if (presentationState.quizUnlocked) showMode("quiz");
+    //   });
+    // }
+    // if (el.startQuizBtn) {
+    //   el.startQuizBtn.addEventListener("click", () => {
+    //     if (presentationState.quizUnlocked) showMode("quiz");
+    //   });
+    // }
     el.prevSlideBtn.addEventListener("click", prevPresentationSlide);
     el.nextSlideBtn.addEventListener("click", nextPresentationSlide);
     el.playSlidesBtn.addEventListener("click", togglePresentationPlayback);
-    el.playAgainBtn.addEventListener("click", () => reset());
-    el.jumpBtn.addEventListener("click", () => reset("intervention"));
+    // Quiz logic disabled.
+    // if (el.playAgainBtn) el.playAgainBtn.addEventListener("click", () => reset());
+    // if (el.jumpBtn) el.jumpBtn.addEventListener("click", () => reset("intervention"));
     document.addEventListener("keydown", handleReviewKeys);
 
-    render();
+    // Quiz logic disabled.
+    // render();
     blockContentCopying();
     setupPreviewBanner();
     setupAudio();
     loadTrackedProgress();
-    showMode("home");
+    openInitialModule();
   </script>
 </body>
 </html>
