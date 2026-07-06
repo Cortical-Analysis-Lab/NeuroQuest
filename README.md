@@ -6,8 +6,9 @@ This repository is the GitHub Pages version of NeuroQuest. It is a static learni
 
 1. Put `index.html` and the `assets/` folder at the repository root.
 2. In GitHub, open **Settings > Pages**.
-3. Set **Source** to deploy from the main branch root, usually `main` and `/ (root)`.
-4. Save and wait for GitHub Pages to publish the site.
+3. Set **Source** to **GitHub Actions**.
+4. Push to `main`, or run the **Deploy GitHub Pages** workflow manually.
+5. Wait for GitHub Pages to publish the site.
 
 The expected published URL is usually:
 
