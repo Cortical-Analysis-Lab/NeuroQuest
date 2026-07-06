@@ -2311,11 +2311,49 @@
       return `assets/slides/aging-slide-${String(number).padStart(2, "0")}.png`;
     }
 
+    const audioDurations = {
+      aging: 1033.64,
+      anatomy: 1382.28,
+      tools: 1304.44
+    };
+
+    function segmentAudioSrc(moduleId, cueIndex) {
+      return `assets/audio/segments/${moduleId}/${moduleId}-${String(cueIndex + 1).padStart(2, "0")}.m4a`;
+    }
+
+    function setSegmentAudioSource(audio, moduleId, cueIndex) {
+      const nextSrc = segmentAudioSrc(moduleId, cueIndex);
+      const current = audio.getAttribute("src") || "";
+      if (current.endsWith(nextSrc)) return;
+      audio.src = nextSrc;
+      audio.load();
+    }
+
+    function moduleAudioDuration(moduleId) {
+      if (moduleId === "course") {
+        return currentCourseAudioModule().duration || el.courseAudio.duration || 0;
+      }
+      return audioDurations[moduleId] || 0;
+    }
+
+    function cueGlobalTime(cues, cueIndex, audio) {
+      const cue = cues[cueIndex] || cues[0] || { time: 0 };
+      return cue.time + (audio.currentTime || 0);
+    }
+
+    function cueProgress(cues, cueIndex, audio, totalDuration) {
+      const total = totalDuration || 0;
+      if (!total) return Math.round(((cueIndex + 1) / Math.max(1, cues.length)) * 100);
+      return Math.min(100, Math.round((cueGlobalTime(cues, cueIndex, audio) / total) * 100));
+    }
+
     function renderPresentation() {
       const slide = presentationSlides[presentationState.index];
       const slideNumber = presentationState.index + 1;
+      const totalDuration = moduleAudioDuration("aging");
+      const currentTime = cueGlobalTime(slideCues, presentationState.cueIndex, el.lectureAudio);
       const progress = presentationState.usingAudio && el.lectureAudio.duration
-        ? Math.round((el.lectureAudio.currentTime / el.lectureAudio.duration) * 100)
+        ? cueProgress(slideCues, presentationState.cueIndex, el.lectureAudio, totalDuration)
         : Math.round(((presentationState.cueIndex + 1) / slideCues.length) * 100);
 
       el.presentationImg.src = slidePath(slideNumber);
@@ -2325,7 +2363,7 @@
       el.captionText.textContent = currentCaption() || slide.caption;
       el.presentationProgress.style.width = `${progress}%`;
       el.presentationCount.textContent = presentationState.usingAudio && el.lectureAudio.duration
-        ? `${formatClock(el.lectureAudio.currentTime)} / ${formatClock(el.lectureAudio.duration)}`
+        ? `${formatClock(currentTime)} / ${formatClock(totalDuration)}`
         : `Cue ${presentationState.cueIndex + 1} / ${slideCues.length}`;
       renderSlideMedia("aging", slideNumber, el.presentationInlineMedia, presentationState.autoPlaying);
       el.prevSlideBtn.disabled = presentationState.cueIndex === 0;
@@ -2346,7 +2384,7 @@
 
     function currentCaption() {
       if (!presentationState.usingAudio || transcriptSegments.length === 0) return "";
-      const time = el.lectureAudio.currentTime || 0;
+      const time = cueGlobalTime(slideCues, presentationState.cueIndex, el.lectureAudio);
       const segment = transcriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
       return segment ? segment.text : "";
     }
@@ -2535,9 +2573,8 @@
         courseAudioState.index = 0;
         try { el.courseAudio.currentTime = 0; } catch { }
       }
-      el.courseAudio.src = `assets/audio/${mod.audioOut}`;
+      setSegmentAudioSource(el.courseAudio, mod.id, courseAudioState.cueIndex);
       el.courseAudioTrack.src = `assets/audio/${mod.id}.vtt`;
-      el.courseAudio.load();
       showMode("courseAudio");
     }
 
@@ -2546,20 +2583,20 @@
     }
 
     function anatomyCaption() {
-      const time = el.anatomyAudio.currentTime || 0;
+      const time = cueGlobalTime(anatomyCues, anatomyState.cueIndex, el.anatomyAudio);
       const segment = anatomyTranscriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
       return segment ? segment.text : "";
     }
 
     function toolsCaption() {
-      const time = el.toolsAudio.currentTime || 0;
+      const time = cueGlobalTime(toolsCues, toolsState.cueIndex, el.toolsAudio);
       const segment = toolsTranscriptSegments.find((item) => time >= item.start && time <= item.end + 0.65);
       return segment ? segment.text : "";
     }
 
     function courseAudioCaption() {
       const transcript = courseAudioTranscriptMap[courseAudioState.moduleId] || [];
-      const time = el.courseAudio.currentTime || 0;
+      const time = cueGlobalTime(currentCourseAudioModule().cues || [], courseAudioState.cueIndex, el.courseAudio);
       const segment = transcript.find((item) => time >= item.start && time <= item.end + 0.65);
       return segment ? segment.text : "";
     }
@@ -2595,8 +2632,10 @@
     function renderAnatomy() {
       const slide = anatomySlides[anatomyState.index];
       const slideNumber = anatomyState.index + 1;
+      const totalDuration = moduleAudioDuration("anatomy");
+      const currentTime = cueGlobalTime(anatomyCues, anatomyState.cueIndex, el.anatomyAudio);
       const progress = el.anatomyAudio.duration
-        ? Math.round((el.anatomyAudio.currentTime / el.anatomyAudio.duration) * 100)
+        ? cueProgress(anatomyCues, anatomyState.cueIndex, el.anatomyAudio, totalDuration)
         : Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100);
       el.anatomyImg.src = anatomySlidePath(slideNumber);
       el.anatomyImg.alt = `Anatomy lecture slide ${slideNumber}: ${slide.title}`;
@@ -2605,7 +2644,7 @@
       el.anatomyCaption.textContent = anatomyCaption() || slide.notes;
       el.anatomyProgress.style.width = `${progress}%`;
       el.anatomyCount.textContent = el.anatomyAudio.duration
-        ? `${formatClock(el.anatomyAudio.currentTime)} / ${formatClock(el.anatomyAudio.duration)}`
+        ? `${formatClock(currentTime)} / ${formatClock(totalDuration)}`
         : `Cue ${anatomyState.cueIndex + 1} / ${anatomyCues.length}`;
       renderSlideMedia("anatomy", slideNumber, el.anatomyInlineMedia, anatomyState.autoPlaying);
       el.anatomyPrevBtn.disabled = anatomyState.cueIndex === 0;
@@ -2618,8 +2657,10 @@
     function renderTools() {
       const slide = toolsSlides[toolsState.index];
       const slideNumber = toolsState.index + 1;
+      const totalDuration = moduleAudioDuration("tools");
+      const currentTime = cueGlobalTime(toolsCues, toolsState.cueIndex, el.toolsAudio);
       const progress = el.toolsAudio.duration
-        ? Math.round((el.toolsAudio.currentTime / el.toolsAudio.duration) * 100)
+        ? cueProgress(toolsCues, toolsState.cueIndex, el.toolsAudio, totalDuration)
         : Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100);
       el.toolsImg.src = toolsSlidePath(slideNumber);
       el.toolsImg.alt = `Tools and Techniques lecture slide ${slideNumber}: ${slide.title}`;
@@ -2628,7 +2669,7 @@
       el.toolsCaption.textContent = toolsCaption() || slide.notes;
       el.toolsProgress.style.width = `${progress}%`;
       el.toolsCount.textContent = el.toolsAudio.duration
-        ? `${formatClock(el.toolsAudio.currentTime)} / ${formatClock(el.toolsAudio.duration)}`
+        ? `${formatClock(currentTime)} / ${formatClock(totalDuration)}`
         : `Cue ${toolsState.cueIndex + 1} / ${toolsCues.length}`;
       el.toolsPrevBtn.disabled = toolsState.cueIndex === 0;
       el.toolsNextBtn.disabled = toolsState.cueIndex === toolsCues.length - 1;
@@ -2644,8 +2685,10 @@
       const cues = mod.cues || [];
       const slide = slides[courseAudioState.index] || slides[0] || { title: mod.title, notes: mod.notes };
       const slideNumber = courseAudioState.index + 1;
+      const totalDuration = moduleAudioDuration("course");
+      const currentTime = cueGlobalTime(cues, courseAudioState.cueIndex, el.courseAudio);
       const progress = el.courseAudio.duration
-        ? Math.round((el.courseAudio.currentTime / el.courseAudio.duration) * 100)
+        ? cueProgress(cues, courseAudioState.cueIndex, el.courseAudio, totalDuration)
         : Math.round(((courseAudioState.cueIndex + 1) / Math.max(1, cues.length)) * 100);
       el.courseAudioImg.src = courseAudioSlidePath(mod, slideNumber);
       el.courseAudioImg.alt = `${mod.deckLabel} lecture slide ${slideNumber}: ${slide.title}`;
@@ -2654,7 +2697,7 @@
       el.courseAudioCaption.textContent = courseAudioCaption() || slide.notes || mod.notes;
       el.courseAudioProgress.style.width = `${progress}%`;
       el.courseAudioCount.textContent = el.courseAudio.duration
-        ? `${formatClock(el.courseAudio.currentTime)} / ${formatClock(el.courseAudio.duration)}`
+        ? `${formatClock(currentTime)} / ${formatClock(totalDuration)}`
         : `Cue ${courseAudioState.cueIndex + 1} / ${cues.length}`;
       el.courseAudioPrevBtn.disabled = courseAudioState.cueIndex === 0;
       el.courseAudioNextBtn.disabled = courseAudioState.cueIndex === cues.length - 1;
@@ -2890,10 +2933,9 @@
       anatomyState.cueIndex = Math.max(0, Math.min(anatomyCues.length - 1, index));
       const cue = anatomyCues[anatomyState.cueIndex];
       anatomyState.index = cue.slide - 1;
-      if (syncAudio && el.anatomyAudio.duration) {
-        el.anatomyAudio.currentTime = cue.time;
-        anatomyState.cueIndex = anatomyCueForTime(cue.time);
-        anatomyState.index = anatomyCues[anatomyState.cueIndex].slide - 1;
+      if (syncAudio) {
+        setSegmentAudioSource(el.anatomyAudio, "anatomy", anatomyState.cueIndex);
+        try { el.anatomyAudio.currentTime = 0; } catch { }
       }
       trackProgress("anatomy", anatomyState.cueIndex === anatomyCues.length - 1 ? "complete" : "progress", {
         progress_percent: Math.round(((anatomyState.cueIndex + 1) / anatomyCues.length) * 100)
@@ -2905,10 +2947,9 @@
       toolsState.cueIndex = Math.max(0, Math.min(toolsCues.length - 1, index));
       const cue = toolsCues[toolsState.cueIndex];
       toolsState.index = cue.slide - 1;
-      if (syncAudio && el.toolsAudio.duration) {
-        el.toolsAudio.currentTime = cue.time;
-        toolsState.cueIndex = toolsCueForTime(cue.time);
-        toolsState.index = toolsCues[toolsState.cueIndex].slide - 1;
+      if (syncAudio) {
+        setSegmentAudioSource(el.toolsAudio, "tools", toolsState.cueIndex);
+        try { el.toolsAudio.currentTime = 0; } catch { }
       }
       trackProgress("tools", toolsState.cueIndex === toolsCues.length - 1 ? "complete" : "progress", {
         progress_percent: Math.round(((toolsState.cueIndex + 1) / toolsCues.length) * 100)
@@ -2922,10 +2963,9 @@
       courseAudioState.cueIndex = Math.max(0, Math.min(cues.length - 1, index));
       const cue = cues[courseAudioState.cueIndex] || cues[0] || { slide: 1, time: 0 };
       courseAudioState.index = cue.slide - 1;
-      if (syncAudio && el.courseAudio.duration) {
-        el.courseAudio.currentTime = cue.time;
-        courseAudioState.cueIndex = courseAudioCueForTime(cue.time);
-        courseAudioState.index = cues[courseAudioState.cueIndex].slide - 1;
+      if (syncAudio) {
+        setSegmentAudioSource(el.courseAudio, mod.id, courseAudioState.cueIndex);
+        try { el.courseAudio.currentTime = 0; } catch { }
       }
       trackProgress(mod.id, courseAudioState.cueIndex === cues.length - 1 ? "complete" : "progress", {
         progress_percent: Math.round(((courseAudioState.cueIndex + 1) / cues.length) * 100)
@@ -2962,14 +3002,6 @@
 
     function updateAnatomyFromAudio() {
       if (!el.anatomyAudio.duration) return;
-      const cueIndex = anatomyCueForTime(el.anatomyAudio.currentTime);
-      if (cueIndex !== anatomyState.cueIndex) {
-        anatomyState.cueIndex = cueIndex;
-        anatomyState.index = anatomyCues[cueIndex].slide - 1;
-        trackProgress("anatomy", cueIndex === anatomyCues.length - 1 ? "complete" : "progress", {
-          progress_percent: Math.round(((cueIndex + 1) / anatomyCues.length) * 100)
-        });
-      }
       renderAnatomy();
     }
 
@@ -2982,15 +3014,7 @@
 
     function updateToolsFromAudio() {
       if (!el.toolsAudio.duration) return;
-      if (skipToolsPauseMarkers(el.toolsAudio.currentTime)) return;
-      const cueIndex = toolsCueForTime(el.toolsAudio.currentTime);
-      if (cueIndex !== toolsState.cueIndex) {
-        toolsState.cueIndex = cueIndex;
-        toolsState.index = toolsCues[cueIndex].slide - 1;
-        trackProgress("tools", cueIndex === toolsCues.length - 1 ? "complete" : "progress", {
-          progress_percent: Math.round(((cueIndex + 1) / toolsCues.length) * 100)
-        });
-      }
+      if (skipToolsPauseMarkers(cueGlobalTime(toolsCues, toolsState.cueIndex, el.toolsAudio))) return;
       renderTools();
     }
 
@@ -2998,14 +3022,6 @@
       const mod = currentCourseAudioModule();
       const cues = mod.cues || [];
       if (!el.courseAudio.duration || cues.length === 0) return;
-      const cueIndex = courseAudioCueForTime(el.courseAudio.currentTime);
-      if (cueIndex !== courseAudioState.cueIndex) {
-        courseAudioState.cueIndex = cueIndex;
-        courseAudioState.index = cues[cueIndex].slide - 1;
-        trackProgress(mod.id, cueIndex === cues.length - 1 ? "complete" : "progress", {
-          progress_percent: Math.round(((cueIndex + 1) / cues.length) * 100)
-        });
-      }
       renderCourseAudio();
     }
 
@@ -3098,10 +3114,9 @@
       presentationState.cueIndex = Math.max(0, Math.min(slideCues.length - 1, index));
       const cue = slideCues[presentationState.cueIndex];
       presentationState.index = cue.slide - 1;
-      if (syncAudio && presentationState.usingAudio && el.lectureAudio.duration) {
-        el.lectureAudio.currentTime = cue.time;
-        presentationState.cueIndex = cueForTime(cue.time);
-        presentationState.index = slideCues[presentationState.cueIndex].slide - 1;
+      if (syncAudio && presentationState.usingAudio) {
+        setSegmentAudioSource(el.lectureAudio, "aging", presentationState.cueIndex);
+        try { el.lectureAudio.currentTime = 0; } catch { }
       }
       if (presentationState.cueIndex === slideCues.length - 1) unlockQuiz();
       renderPresentation();
@@ -3151,12 +3166,7 @@
 
     function updatePresentationFromAudio() {
       if (!presentationState.usingAudio || !el.lectureAudio.duration) return;
-      const ratio = el.lectureAudio.currentTime / el.lectureAudio.duration;
-      const cueIndex = cueForTime(el.lectureAudio.currentTime);
-      if (cueIndex !== presentationState.cueIndex) {
-        presentationState.cueIndex = cueIndex;
-        presentationState.index = slideCues[cueIndex].slide - 1;
-      }
+      const ratio = cueGlobalTime(slideCues, presentationState.cueIndex, el.lectureAudio) / moduleAudioDuration("aging");
       if (presentationState.cueIndex === slideCues.length - 1 || ratio > 0.985) unlockQuiz();
       renderPresentation();
     }
@@ -3169,15 +3179,16 @@
     }
 
     function setupAudio() {
-      el.lectureAudio.src = "assets/audio/aging.m4a";
+      setSegmentAudioSource(el.lectureAudio, "aging", presentationState.cueIndex);
       el.lectureAudio.hidden = false;
       el.lectureAudio.addEventListener("loadedmetadata", () => {
         presentationState.usingAudio = true;
-        const minutes = Math.floor(el.lectureAudio.duration / 60);
-        const seconds = Math.round(el.lectureAudio.duration % 60).toString().padStart(2, "0");
+        const totalDuration = moduleAudioDuration("aging");
+        const minutes = Math.floor(totalDuration / 60);
+        const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
         el.audioStatus.textContent = transcriptSegments.length > 0
-          ? `Using Aging.m4a (${minutes}:${seconds}) with timed transcript captions. Slides follow transcript-based topic cues.`
-          : `Using Aging.m4a (${minutes}:${seconds}). Timed transcript captions were not found.`;
+          ? `Using Aging segmented narration (${minutes}:${seconds}) with timed transcript captions. Slides follow transcript-based topic cues.`
+          : `Using Aging segmented narration (${minutes}:${seconds}). Timed transcript captions were not found.`;
         renderPresentation();
       });
       el.lectureAudio.addEventListener("timeupdate", updatePresentationFromAudio);
@@ -3192,6 +3203,11 @@
         syncMediaPlayback(el.presentationInlineMedia, false);
       });
       el.lectureAudio.addEventListener("ended", () => {
+        if (presentationState.cueIndex < slideCues.length - 1) {
+          goToCue(presentationState.cueIndex + 1);
+          if (presentationState.autoPlaying) el.lectureAudio.play().catch(() => {});
+          return;
+        }
         unlockQuiz();
         stopPresentation();
       });
@@ -3329,19 +3345,13 @@
     function restartExperience() {
       if (!el.anatomyView.hidden) {
         stopAnatomy();
-        anatomyState.cueIndex = 0;
-        anatomyState.index = anatomyCues[0].slide - 1;
-        try { el.anatomyAudio.currentTime = 0; } catch { }
-        renderAnatomy();
+        goToAnatomyCue(0);
         window.scrollTo({ top: 0, behavior: "smooth" });
         return;
       }
       if (!el.toolsView.hidden) {
         stopTools();
-        toolsState.cueIndex = 0;
-        toolsState.index = toolsCues[0].slide - 1;
-        try { el.toolsAudio.currentTime = 0; } catch { }
-        renderTools();
+        goToToolsCue(0);
         window.scrollTo({ top: 0, behavior: "smooth" });
         return;
       }
@@ -3349,8 +3359,7 @@
         stopCourseAudio();
         courseAudioState.cueIndex = 0;
         courseAudioState.index = 0;
-        try { el.courseAudio.currentTime = 0; } catch { }
-        renderCourseAudio();
+        goToCourseAudioCue(0);
         window.scrollTo({ top: 0, behavior: "smooth" });
         return;
       }
@@ -3365,7 +3374,7 @@
       reset();
       presentationState.cueIndex = 0;
       presentationState.index = slideCues[0].slide - 1;
-      try { el.lectureAudio.currentTime = 0; } catch { }
+      if (presentationState.usingAudio) setSegmentAudioSource(el.lectureAudio, "aging", 0);
       showMode("presentation");
       renderPresentation();
       window.scrollTo({ top: 0, behavior: "smooth" });
@@ -3432,8 +3441,14 @@
     el.neuropsychModuleBtn.addEventListener("click", () => openCourseAudioModule("neuropsych"));
     el.languageModuleBtn.addEventListener("click", () => openCourseAudioModule("language"));
     el.technologyModuleBtn.addEventListener("click", () => openCourseAudioModule("technology"));
-    el.agingModuleBtn.addEventListener("click", () => showMode("presentation"));
-    el.anatomyModuleBtn.addEventListener("click", () => showMode("anatomy"));
+    el.agingModuleBtn.addEventListener("click", () => {
+      if (presentationState.usingAudio) setSegmentAudioSource(el.lectureAudio, "aging", presentationState.cueIndex);
+      showMode("presentation");
+    });
+    el.anatomyModuleBtn.addEventListener("click", () => {
+      goToAnatomyCue(anatomyState.cueIndex);
+      showMode("anatomy");
+    });
     el.anatomyPrevBtn.addEventListener("click", () => changeAnatomySlide(-1));
     el.anatomyNextBtn.addEventListener("click", () => changeAnatomySlide(1));
     el.anatomyPlayBtn.addEventListener("click", () => {
@@ -3448,9 +3463,10 @@
       renderAnatomy();
     });
     el.anatomyAudio.addEventListener("loadedmetadata", () => {
-      const minutes = Math.floor(el.anatomyAudio.duration / 60);
-      const seconds = Math.round(el.anatomyAudio.duration % 60).toString().padStart(2, "0");
-      el.anatomyAudioStatus.textContent = `Using anatomy narration (${minutes}:${seconds}) with timed transcript captions.`;
+      const totalDuration = moduleAudioDuration("anatomy");
+      const minutes = Math.floor(totalDuration / 60);
+      const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
+      el.anatomyAudioStatus.textContent = `Using segmented anatomy narration (${minutes}:${seconds}) with timed transcript captions.`;
       renderAnatomy();
     });
     el.anatomyAudio.addEventListener("timeupdate", updateAnatomyFromAudio);
@@ -3464,8 +3480,19 @@
       renderAnatomy();
       syncMediaPlayback(el.anatomyInlineMedia, false);
     });
-    el.anatomyAudio.addEventListener("ended", stopAnatomy);
-    el.toolsModuleBtn.addEventListener("click", () => showMode("tools"));
+    el.anatomyAudio.addEventListener("ended", () => {
+      if (anatomyState.cueIndex < anatomyCues.length - 1) {
+        goToAnatomyCue(anatomyState.cueIndex + 1);
+        if (anatomyState.autoPlaying) el.anatomyAudio.play().catch(() => {});
+        return;
+      }
+      trackProgress("anatomy", "complete", { progress_percent: 100 });
+      stopAnatomy();
+    });
+    el.toolsModuleBtn.addEventListener("click", () => {
+      goToToolsCue(toolsState.cueIndex);
+      showMode("tools");
+    });
     el.toolsPrevBtn.addEventListener("click", () => changeToolsSlide(-1));
     el.toolsNextBtn.addEventListener("click", () => changeToolsSlide(1));
     el.toolsPlayBtn.addEventListener("click", () => {
@@ -3480,9 +3507,10 @@
       renderTools();
     });
     el.toolsAudio.addEventListener("loadedmetadata", () => {
-      const minutes = Math.floor(el.toolsAudio.duration / 60);
-      const seconds = Math.round(el.toolsAudio.duration % 60).toString().padStart(2, "0");
-      el.toolsAudioStatus.textContent = `Using cleaned Tools narration (${minutes}:${seconds}) with timed transcript captions. Pause-for-media narration has been removed from the audio.`;
+      const totalDuration = moduleAudioDuration("tools");
+      const minutes = Math.floor(totalDuration / 60);
+      const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
+      el.toolsAudioStatus.textContent = `Using segmented Tools narration (${minutes}:${seconds}) with timed transcript captions. Pause-for-media narration has been removed from the audio.`;
       renderTools();
     });
     el.toolsAudio.addEventListener("timeupdate", updateToolsFromAudio);
@@ -3497,6 +3525,11 @@
       syncMediaPlayback(el.toolsInlineMedia, false);
     });
     el.toolsAudio.addEventListener("ended", () => {
+      if (toolsState.cueIndex < toolsCues.length - 1) {
+        goToToolsCue(toolsState.cueIndex + 1);
+        if (toolsState.autoPlaying) el.toolsAudio.play().catch(() => {});
+        return;
+      }
       trackProgress("tools", "complete", { progress_percent: 100 });
       stopTools();
     });
@@ -3528,9 +3561,10 @@
     });
     el.courseAudio.addEventListener("loadedmetadata", () => {
       const mod = currentCourseAudioModule();
-      const minutes = Math.floor(el.courseAudio.duration / 60);
-      const seconds = Math.round(el.courseAudio.duration % 60).toString().padStart(2, "0");
-      el.courseAudioStatus.textContent = `Using ${mod.shortTitle} narration (${minutes}:${seconds}) with timed transcript captions.`;
+      const totalDuration = moduleAudioDuration("course");
+      const minutes = Math.floor(totalDuration / 60);
+      const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
+      el.courseAudioStatus.textContent = `Using segmented ${mod.shortTitle} narration (${minutes}:${seconds}) with timed transcript captions.`;
       renderCourseAudio();
     });
     el.courseAudio.addEventListener("timeupdate", updateCourseAudioFromAudio);
@@ -3550,6 +3584,12 @@
     });
     el.courseAudio.addEventListener("ended", () => {
       const mod = currentCourseAudioModule();
+      const cues = mod.cues || [];
+      if (courseAudioState.cueIndex < cues.length - 1) {
+        goToCourseAudioCue(courseAudioState.cueIndex + 1);
+        if (courseAudioState.autoPlaying && !courseAudioState.pausedForYoutube) el.courseAudio.play().catch(() => {});
+        return;
+      }
       trackProgress(mod.id, "complete", { progress_percent: 100 });
       stopCourseAudio();
     });
