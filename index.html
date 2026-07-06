@@ -48,9 +48,9 @@
     }
 
     .app {
-      width: min(1180px, calc(100% - 32px));
+      width: min(1440px, calc(100% - 24px));
       margin: 0 auto;
-      padding: 24px 0;
+      padding: 12px 0 18px;
     }
 
     .topbar {
@@ -58,7 +58,7 @@
       grid-template-columns: 1fr auto;
       align-items: center;
       gap: 16px;
-      margin-bottom: 16px;
+      margin-bottom: 10px;
     }
 
     .brand {
@@ -69,8 +69,8 @@
     }
 
     .brand-mark {
-      width: 42px;
-      height: 42px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
       display: grid;
       place-items: center;
@@ -83,7 +83,7 @@
 
     h1 {
       margin: 0;
-      font-size: clamp(1.45rem, 3vw, 2.5rem);
+      font-size: clamp(1.25rem, 2.2vw, 2rem);
       letter-spacing: 0;
       line-height: 1.04;
     }
@@ -91,7 +91,7 @@
     .subtitle {
       margin: 4px 0 0;
       color: var(--muted);
-      font-size: 0.98rem;
+      font-size: 0.9rem;
     }
 
     .utility {
@@ -107,7 +107,7 @@
       background: rgba(255, 255, 255, 0.72);
       color: var(--ink);
       border-radius: 999px;
-      padding: 8px 11px;
+      padding: 7px 10px;
       font-weight: 700;
       white-space: nowrap;
     }
@@ -117,7 +117,7 @@
       color: #fff;
       background: var(--teal-dark);
       border-radius: 999px;
-      padding: 9px 14px;
+      padding: 8px 12px;
       cursor: pointer;
       font-weight: 800;
       box-shadow: 0 8px 18px rgba(7, 90, 88, 0.22);
@@ -128,7 +128,7 @@
       color: var(--ink);
       background: rgba(255, 255, 255, 0.8);
       border-radius: 999px;
-      padding: 9px 13px;
+      padding: 8px 12px;
       cursor: pointer;
       font-weight: 800;
     }
@@ -309,8 +309,8 @@
 
     .presentation {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) 330px;
-      gap: 18px;
+      grid-template-columns: minmax(0, 1fr) clamp(260px, 21vw, 320px);
+      gap: 12px;
       align-items: stretch;
     }
 
@@ -329,8 +329,8 @@
 
     .neuro-module {
       display: grid;
-      grid-template-columns: minmax(0, 0.95fr) minmax(360px, 1.05fr);
-      gap: 18px;
+      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.95fr);
+      gap: 12px;
       align-items: stretch;
     }
 
@@ -355,7 +355,7 @@
 
     .neuro-slide-body,
     .sim-body {
-      padding: 16px;
+      padding: 12px;
     }
 
     .neuro-slide-body h2,
@@ -374,7 +374,7 @@
 
     .sim-frame {
       width: 100%;
-      min-height: 520px;
+      min-height: min(48vh, 520px);
       border: 0;
       display: block;
       background: #fff;
@@ -384,8 +384,8 @@
     .activity-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 8px;
-      margin-top: 12px;
+      gap: 6px;
+      margin-top: 10px;
     }
 
     .activity-btn {
@@ -397,7 +397,7 @@
       cursor: pointer;
       font-weight: 850;
       text-align: left;
-      min-height: 58px;
+      min-height: 48px;
     }
 
     .activity-btn:hover,
@@ -407,10 +407,10 @@
     }
 
     .sim-note {
-      margin-top: 12px;
+      margin-top: 10px;
       border: 1px solid var(--line);
       border-radius: 8px;
-      padding: 12px;
+      padding: 10px;
       background: var(--paper);
       color: #344348;
       line-height: 1.45;
@@ -421,7 +421,7 @@
       background: #fff;
       border-bottom: 1px solid var(--line);
       display: grid;
-      grid-template-columns: minmax(120px, 16%) minmax(0, 1fr) minmax(120px, 16%);
+      grid-template-columns: minmax(76px, 11%) minmax(0, 1fr) minmax(76px, 11%);
       align-items: stretch;
     }
 
@@ -438,6 +438,7 @@
       min-width: 0;
       width: 100%;
       aspect-ratio: 16 / 9;
+      max-height: calc(100vh - 260px);
       overflow: hidden;
       background: #fff;
     }
@@ -538,7 +539,7 @@
     .side-host {
       background: linear-gradient(180deg, #fbfffd 0%, #f1f8f6 100%);
       display: grid;
-      padding: 12px 10px 10px;
+      padding: 8px 6px 6px;
       min-width: 0;
       align-content: end;
     }
@@ -572,8 +573,8 @@
     }
 
     .host-seat img {
-      width: min(118%, 185px);
-      max-height: 210px;
+      width: min(112%, 138px);
+      max-height: min(17vh, 160px);
       object-fit: contain;
       display: block;
       transform-origin: 50% 100%;
@@ -592,23 +593,24 @@
     }
 
     .caption-box {
-      min-height: 86px;
-      padding: 16px 18px;
+      min-height: 64px;
+      padding: 10px 14px;
       color: #26363b;
       background: #102124;
       border-top: 1px solid rgba(255, 255, 255, 0.1);
     }
 
     .caption-box h2 {
-      margin: 0 0 6px;
+      margin: 0 0 4px;
       color: #fff;
-      font-size: 1.1rem;
+      font-size: 0.98rem;
     }
 
     .caption-box p {
       margin: 0;
       color: #d8ede9;
-      line-height: 1.5;
+      line-height: 1.38;
+      font-size: 0.92rem;
     }
 
     .presentation-controls {
@@ -616,15 +618,15 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      gap: 12px;
-      padding: 14px 18px 18px;
+      gap: 8px;
+      padding: 10px 14px 12px;
       background: var(--panel);
     }
 
     .control-group {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 6px;
       align-items: center;
     }
 
@@ -633,9 +635,10 @@
       background: #fff;
       color: var(--ink);
       border-radius: 999px;
-      padding: 9px 13px;
+      padding: 8px 11px;
       cursor: pointer;
       font-weight: 900;
+      font-size: 0.92rem;
     }
 
     .control-btn.primary-control {
@@ -645,7 +648,7 @@
     }
 
     .progress-track {
-      width: min(280px, 100%);
+      width: min(230px, 100%);
       height: 10px;
       background: #edf1ef;
       border: 1px solid var(--line);
@@ -661,10 +664,10 @@
     }
 
     .presenter-panel {
-      padding: 18px;
+      padding: 12px;
       display: grid;
       grid-template-rows: auto auto auto 1fr;
-      gap: 14px;
+      gap: 10px;
       align-content: start;
     }
 
@@ -718,14 +721,12 @@
       background: var(--paper);
     }
 
-    .audio-status h3,
-    .speaker-notes h3 {
+    .audio-status h3 {
       margin: 0 0 8px;
       font-size: 0.98rem;
     }
 
-    .audio-status p,
-    .speaker-notes p {
+    .audio-status p {
       margin: 0;
       color: var(--muted);
       line-height: 1.45;
@@ -742,13 +743,6 @@
       margin: 0;
       font-weight: 900;
       color: var(--teal-dark);
-    }
-
-    .speaker-notes {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 12px;
-      background: #fff;
     }
 
     .game {
@@ -1367,8 +1361,8 @@
           <div class="control-group">
             <button class="control-btn" id="anatomyPrevBtn" type="button">Previous</button>
             <button class="control-btn primary-control" id="anatomyPlayBtn" type="button">Auto play</button>
-            <button class="control-btn" id="anatomyNextBtn" type="button">Next cue</button>
-            <button class="control-btn" type="button" data-reflection-module="anatomy">Topic Reflection</button>
+            <button class="control-btn" id="anatomyNextBtn" type="button">Next slide</button>
+            <!-- <button class="control-btn" type="button" data-reflection-module="anatomy">Topic Reflection</button> -->
           </div>
           <div class="control-group">
             <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="anatomyProgress"></div></div>
@@ -1388,10 +1382,6 @@
           <audio id="anatomyAudio" preload="metadata" controls src="assets/audio/anatomy.m4a">
             <track kind="captions" src="assets/audio/anatomy.vtt" srclang="en" label="English captions" default>
           </audio>
-        </div>
-        <div class="speaker-notes">
-          <h3>Speaker notes</h3>
-          <p id="anatomyNotes">Presentation notes appear here.</p>
         </div>
       </aside>
     </section>
@@ -1423,8 +1413,8 @@
           <div class="control-group">
             <button class="control-btn" id="toolsPrevBtn" type="button">Previous</button>
             <button class="control-btn primary-control" id="toolsPlayBtn" type="button">Auto play</button>
-            <button class="control-btn" id="toolsNextBtn" type="button">Next cue</button>
-            <button class="control-btn" type="button" data-reflection-module="tools">Topic Reflection</button>
+            <button class="control-btn" id="toolsNextBtn" type="button">Next slide</button>
+            <!-- <button class="control-btn" type="button" data-reflection-module="tools">Topic Reflection</button> -->
           </div>
           <div class="control-group">
             <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="toolsProgress"></div></div>
@@ -1444,10 +1434,6 @@
           <audio id="toolsAudio" preload="metadata" controls src="assets/audio/tools-clean.m4a">
             <track kind="captions" src="assets/audio/tools.vtt" srclang="en" label="English captions" default>
           </audio>
-        </div>
-        <div class="speaker-notes">
-          <h3>Speaker notes</h3>
-          <p id="toolsNotes">Presentation notes appear here.</p>
         </div>
       </aside>
     </section>
@@ -1479,8 +1465,8 @@
           <div class="control-group">
             <button class="control-btn" id="courseAudioPrevBtn" type="button">Previous</button>
             <button class="control-btn primary-control" id="courseAudioPlayBtn" type="button">Auto play</button>
-            <button class="control-btn" id="courseAudioNextBtn" type="button">Next cue</button>
-            <button class="control-btn" id="courseAudioReflectionBtn" type="button" data-reflection-module="neuropsych">Topic Reflection</button>
+            <button class="control-btn" id="courseAudioNextBtn" type="button">Next slide</button>
+            <!-- <button class="control-btn" id="courseAudioReflectionBtn" type="button" data-reflection-module="neuropsych">Topic Reflection</button> -->
           </div>
           <div class="control-group">
             <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="courseAudioProgress"></div></div>
@@ -1501,10 +1487,6 @@
             <track id="courseAudioTrack" kind="captions" srclang="en" label="English captions" default>
           </audio>
         </div>
-        <div class="speaker-notes">
-          <h3>Speaker notes</h3>
-          <p id="courseAudioNotes">Presentation notes appear here.</p>
-        </div>
       </aside>
     </section>
 
@@ -1521,7 +1503,7 @@
           <div class="presentation-controls">
             <div class="control-group">
               <button class="control-btn" id="neuroPrevBtn" type="button">Previous</button>
-              <button class="control-btn" id="neuroNextBtn" type="button">Next</button>
+              <button class="control-btn" id="neuroNextBtn" type="button">Next slide</button>
             </div>
             <div class="control-group">
               <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="neuroProgress"></div></div>
@@ -1547,7 +1529,7 @@
           <div class="sim-note" id="simNote">Start in the simulation's Home view. Then choose Neuron or Synapse when the slide content shifts from action potentials to neurotransmission.</div>
           <div class="ending-actions">
             <button class="secondary" id="openSimBtn" type="button">Open simulation in new tab</button>
-            <button class="secondary" type="button" data-reflection-module="neurophysiology">Topic Reflection</button>
+            <!-- <button class="secondary" type="button" data-reflection-module="neurophysiology">Topic Reflection</button> -->
           </div>
         </div>
       </article>
@@ -1580,9 +1562,9 @@
           <div class="control-group">
             <button class="control-btn" id="prevSlideBtn" type="button">Previous</button>
             <button class="control-btn primary-control" id="playSlidesBtn" type="button">Auto play</button>
-            <button class="control-btn" id="nextSlideBtn" type="button">Next</button>
+            <button class="control-btn" id="nextSlideBtn" type="button">Next slide</button>
             <button class="control-btn primary-control" id="startQuizBtn" type="button">Start quiz</button>
-            <button class="control-btn" type="button" data-reflection-module="aging">Topic Reflection</button>
+            <!-- <button class="control-btn" type="button" data-reflection-module="aging">Topic Reflection</button> -->
           </div>
           <div class="control-group">
             <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="presentationProgress"></div></div>
@@ -1602,10 +1584,6 @@
           <audio id="lectureAudio" preload="metadata" controls hidden>
             <track kind="captions" src="assets/audio/aging.vtt" srclang="en" label="English captions" default>
           </audio>
-        </div>
-        <div class="speaker-notes">
-          <h3>Speaker notes</h3>
-          <p id="speakerNotes">Presentation notes appear here.</p>
         </div>
       </aside>
     </section>
@@ -1643,7 +1621,7 @@
             <div class="ending-actions" id="endingActions" hidden>
               <button class="primary" id="playAgainBtn" type="button">Play again</button>
               <button class="secondary" id="jumpBtn" type="button">Try intervention route</button>
-              <button class="secondary" type="button" data-reflection-module="aging">Topic Reflection</button>
+              <!-- <button class="secondary" type="button" data-reflection-module="aging">Topic Reflection</button> -->
             </div>
           </section>
           <aside class="side">
@@ -2134,7 +2112,6 @@
       anatomyAudioStatus: document.getElementById("anatomyAudioStatus"),
       anatomyAudio: document.getElementById("anatomyAudio"),
       anatomyInlineMedia: document.getElementById("anatomyInlineMedia"),
-      anatomyNotes: document.getElementById("anatomyNotes"),
       toolsModuleBtn: document.getElementById("toolsModuleBtn"),
       toolsView: document.getElementById("toolsView"),
       toolsImg: document.getElementById("toolsImg"),
@@ -2152,7 +2129,6 @@
       toolsAudioStatus: document.getElementById("toolsAudioStatus"),
       toolsAudio: document.getElementById("toolsAudio"),
       toolsInlineMedia: document.getElementById("toolsInlineMedia"),
-      toolsNotes: document.getElementById("toolsNotes"),
       courseAudioView: document.getElementById("courseAudioView"),
       courseAudioImg: document.getElementById("courseAudioImg"),
       courseAudioInlineMedia: document.getElementById("courseAudioInlineMedia"),
@@ -2172,7 +2148,6 @@
       courseAudioStatus: document.getElementById("courseAudioStatus"),
       courseAudio: document.getElementById("courseAudio"),
       courseAudioTrack: document.getElementById("courseAudioTrack"),
-      courseAudioNotes: document.getElementById("courseAudioNotes"),
       neurophysModuleBtn: document.getElementById("neurophysModuleBtn"),
       neurophysView: document.getElementById("neurophysView"),
       neuroSlideImg: document.getElementById("neuroSlideImg"),
@@ -2207,7 +2182,6 @@
       gliaMascot: document.getElementById("gliaMascot"),
       audioStatus: document.getElementById("audioStatus"),
       lectureAudio: document.getElementById("lectureAudio"),
-      speakerNotes: document.getElementById("speakerNotes"),
       mascotImg: document.getElementById("mascotImg"),
       guideCopy: document.getElementById("guideCopy"),
       barFill: document.getElementById("barFill"),
@@ -2349,7 +2323,6 @@
       el.presentationTag.textContent = `Slide ${slideNumber} of ${presentationSlides.length}`;
       el.presentationTitle.textContent = slide.title;
       el.captionText.textContent = currentCaption() || slide.caption;
-      el.speakerNotes.textContent = slide.notes;
       el.presentationProgress.style.width = `${progress}%`;
       el.presentationCount.textContent = presentationState.usingAudio && el.lectureAudio.duration
         ? `${formatClock(el.lectureAudio.currentTime)} / ${formatClock(el.lectureAudio.duration)}`
@@ -2357,7 +2330,7 @@
       renderSlideMedia("aging", slideNumber, el.presentationInlineMedia, presentationState.autoPlaying);
       el.prevSlideBtn.disabled = presentationState.cueIndex === 0;
       el.nextSlideBtn.disabled = !TEMP_MANUAL_SLIDE_ADVANCE && !presentationState.presentationCompleted;
-      el.nextSlideBtn.textContent = TEMP_MANUAL_SLIDE_ADVANCE || presentationState.presentationCompleted ? "Next cue" : "Locked";
+      el.nextSlideBtn.textContent = TEMP_MANUAL_SLIDE_ADVANCE || presentationState.presentationCompleted ? "Next slide" : "Locked";
       el.startQuizBtn.disabled = !presentationState.quizUnlocked;
       el.quizBtn.disabled = !presentationState.quizUnlocked;
       el.playSlidesBtn.textContent = presentationState.autoPlaying ? "Pause" : "Auto play";
@@ -2365,9 +2338,9 @@
       el.scoreChip.textContent = presentationState.quizUnlocked ? "Quiz unlocked" : "Quiz locked";
       el.presentationGuide.textContent = presentationState.quizUnlocked
         ? (presentationState.presentationCompleted
-          ? "Quiz jump is unlocked in this browser. Manual forward navigation is available now."
-          : "Quiz jump is unlocked for testing, but first-run slide advance is still guided by the audio.")
-        : "First run is guided: you can pause or go back, but forward movement follows the audio.";
+          ? "Review controls are enabled. Use Previous, Next slide, or the left and right arrow keys."
+          : "Review controls are enabled for this preview. Use Previous, Next slide, or the left and right arrow keys.")
+        : "First run is guided by audio. Review controls can be enabled for instructor preview.";
       updatePresentationMascots();
     }
 
@@ -2630,7 +2603,6 @@
       el.anatomyTag.textContent = `Slide ${slideNumber} of ${anatomySlides.length}`;
       el.anatomyTitle.textContent = slide.title;
       el.anatomyCaption.textContent = anatomyCaption() || slide.notes;
-      el.anatomyNotes.textContent = slide.notes;
       el.anatomyProgress.style.width = `${progress}%`;
       el.anatomyCount.textContent = el.anatomyAudio.duration
         ? `${formatClock(el.anatomyAudio.currentTime)} / ${formatClock(el.anatomyAudio.duration)}`
@@ -2638,6 +2610,7 @@
       renderSlideMedia("anatomy", slideNumber, el.anatomyInlineMedia, anatomyState.autoPlaying);
       el.anatomyPrevBtn.disabled = anatomyState.cueIndex === 0;
       el.anatomyNextBtn.disabled = anatomyState.cueIndex === anatomyCues.length - 1;
+      el.anatomyNextBtn.textContent = "Next slide";
       el.anatomyPlayBtn.textContent = anatomyState.autoPlaying ? "Pause" : "Auto play";
       updateAnatomyMascots();
     }
@@ -2653,13 +2626,13 @@
       el.toolsTag.textContent = `Slide ${slideNumber} of ${toolsSlides.length}`;
       el.toolsTitle.textContent = slide.title;
       el.toolsCaption.textContent = toolsCaption() || slide.notes;
-      el.toolsNotes.textContent = slide.notes;
       el.toolsProgress.style.width = `${progress}%`;
       el.toolsCount.textContent = el.toolsAudio.duration
         ? `${formatClock(el.toolsAudio.currentTime)} / ${formatClock(el.toolsAudio.duration)}`
         : `Cue ${toolsState.cueIndex + 1} / ${toolsCues.length}`;
       el.toolsPrevBtn.disabled = toolsState.cueIndex === 0;
       el.toolsNextBtn.disabled = toolsState.cueIndex === toolsCues.length - 1;
+      el.toolsNextBtn.textContent = "Next slide";
       el.toolsPlayBtn.textContent = toolsState.autoPlaying ? "Pause" : "Auto play";
       renderSlideMedia("tools", slideNumber, el.toolsInlineMedia, toolsState.autoPlaying);
       updateToolsMascots();
@@ -2679,13 +2652,13 @@
       el.courseAudioTag.textContent = `Slide ${slideNumber} of ${slides.length}`;
       el.courseAudioTitle.textContent = slide.title;
       el.courseAudioCaption.textContent = courseAudioCaption() || slide.notes || mod.notes;
-      el.courseAudioNotes.textContent = slide.notes || mod.notes;
       el.courseAudioProgress.style.width = `${progress}%`;
       el.courseAudioCount.textContent = el.courseAudio.duration
         ? `${formatClock(el.courseAudio.currentTime)} / ${formatClock(el.courseAudio.duration)}`
         : `Cue ${courseAudioState.cueIndex + 1} / ${cues.length}`;
       el.courseAudioPrevBtn.disabled = courseAudioState.cueIndex === 0;
       el.courseAudioNextBtn.disabled = courseAudioState.cueIndex === cues.length - 1;
+      el.courseAudioNextBtn.textContent = "Next slide";
       el.courseAudioPlayBtn.textContent = courseAudioState.autoPlaying ? "Pause" : "Auto play";
       if (el.courseAudioReflectionBtn) el.courseAudioReflectionBtn.dataset.reflectionModule = mod.id;
       el.courseAudioGuideName.textContent = mod.title;
@@ -2706,7 +2679,7 @@
       courseAudioState.pausedForYoutube = true;
       if (el.courseAudio && !el.courseAudio.paused) el.courseAudio.pause();
       el.courseAudioPlayBtn.textContent = "Auto play";
-      el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next cue or Auto play to continue.";
+      el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next slide or Auto play to continue.";
     }
 
     function renderSlideMedia(moduleId, slideNumber, container, shouldPlay = true) {
@@ -2874,6 +2847,43 @@
         if (toolsState.autoPlaying) video.play().catch(() => {});
         else video.pause();
       }
+    }
+
+    function adjacentSlideCueIndex(cues, currentIndex, delta) {
+      if (!Array.isArray(cues) || cues.length === 0) return 0;
+      const boundedIndex = Math.max(0, Math.min(cues.length - 1, currentIndex));
+      const currentSlide = cues[boundedIndex].slide;
+      if (delta > 0) {
+        for (let i = boundedIndex + 1; i < cues.length; i++) {
+          if (cues[i].slide !== currentSlide) return i;
+        }
+        return cues.length - 1;
+      }
+      for (let i = boundedIndex - 1; i >= 0; i--) {
+        if (cues[i].slide !== currentSlide) {
+          const targetSlide = cues[i].slide;
+          while (i > 0 && cues[i - 1].slide === targetSlide) i--;
+          return i;
+        }
+      }
+      return 0;
+    }
+
+    function changeAnatomySlide(delta) {
+      stopAnatomy();
+      goToAnatomyCue(adjacentSlideCueIndex(anatomyCues, anatomyState.cueIndex, delta));
+    }
+
+    function changeToolsSlide(delta) {
+      stopTools();
+      goToToolsCue(adjacentSlideCueIndex(toolsCues, toolsState.cueIndex, delta));
+    }
+
+    function changeCourseAudioSlide(delta) {
+      stopCourseAudio();
+      courseAudioState.pausedForYoutube = false;
+      const cues = currentCourseAudioModule().cues || [];
+      goToCourseAudioCue(adjacentSlideCueIndex(cues, courseAudioState.cueIndex, delta));
     }
 
     function goToAnatomyCue(index, syncAudio = true) {
@@ -3104,12 +3114,12 @@
         stopPresentation();
         return;
       }
-      goToCue(presentationState.cueIndex + 1);
+      goToCue(adjacentSlideCueIndex(slideCues, presentationState.cueIndex, 1));
     }
 
     function prevPresentationSlide() {
       stopPresentation();
-      goToCue(presentationState.cueIndex - 1);
+      goToCue(adjacentSlideCueIndex(slideCues, presentationState.cueIndex, -1));
     }
 
     function togglePresentationPlayback() {
@@ -3385,6 +3395,38 @@
       });
     }
 
+    function handleReviewKeys(event) {
+      const key = event.key;
+      if (!["ArrowLeft", "ArrowRight"].includes(key)) return;
+      const target = event.target;
+      if (target && ["INPUT", "TEXTAREA", "SELECT"].includes(target.tagName)) return;
+      if (!el.anatomyView.hidden) {
+        event.preventDefault();
+        changeAnatomySlide(key === "ArrowRight" ? 1 : -1);
+        return;
+      }
+      if (!el.toolsView.hidden) {
+        event.preventDefault();
+        changeToolsSlide(key === "ArrowRight" ? 1 : -1);
+        return;
+      }
+      if (!el.courseAudioView.hidden) {
+        event.preventDefault();
+        changeCourseAudioSlide(key === "ArrowRight" ? 1 : -1);
+        return;
+      }
+      if (!el.neurophysView.hidden) {
+        event.preventDefault();
+        changeNeuroSlide(key === "ArrowRight" ? 1 : -1);
+        return;
+      }
+      if (!el.presentationView.hidden) {
+        event.preventDefault();
+        if (key === "ArrowRight") nextPresentationSlide();
+        else prevPresentationSlide();
+      }
+    }
+
     el.resetBtn.addEventListener("click", restartExperience);
     el.homeBtn.addEventListener("click", () => showMode("home"));
     el.neuropsychModuleBtn.addEventListener("click", () => openCourseAudioModule("neuropsych"));
@@ -3392,11 +3434,8 @@
     el.technologyModuleBtn.addEventListener("click", () => openCourseAudioModule("technology"));
     el.agingModuleBtn.addEventListener("click", () => showMode("presentation"));
     el.anatomyModuleBtn.addEventListener("click", () => showMode("anatomy"));
-    el.anatomyPrevBtn.addEventListener("click", () => {
-      stopAnatomy();
-      goToAnatomyCue(anatomyState.cueIndex - 1);
-    });
-    el.anatomyNextBtn.addEventListener("click", () => goToAnatomyCue(anatomyState.cueIndex + 1));
+    el.anatomyPrevBtn.addEventListener("click", () => changeAnatomySlide(-1));
+    el.anatomyNextBtn.addEventListener("click", () => changeAnatomySlide(1));
     el.anatomyPlayBtn.addEventListener("click", () => {
       if (anatomyState.autoPlaying) {
         stopAnatomy();
@@ -3427,11 +3466,8 @@
     });
     el.anatomyAudio.addEventListener("ended", stopAnatomy);
     el.toolsModuleBtn.addEventListener("click", () => showMode("tools"));
-    el.toolsPrevBtn.addEventListener("click", () => {
-      stopTools();
-      goToToolsCue(toolsState.cueIndex - 1);
-    });
-    el.toolsNextBtn.addEventListener("click", () => goToToolsCue(toolsState.cueIndex + 1));
+    el.toolsPrevBtn.addEventListener("click", () => changeToolsSlide(-1));
+    el.toolsNextBtn.addEventListener("click", () => changeToolsSlide(1));
     el.toolsPlayBtn.addEventListener("click", () => {
       if (toolsState.autoPlaying) {
         stopTools();
@@ -3464,14 +3500,12 @@
       trackProgress("tools", "complete", { progress_percent: 100 });
       stopTools();
     });
-    el.courseAudioPrevBtn.addEventListener("click", () => {
-      stopCourseAudio();
-      goToCourseAudioCue(courseAudioState.cueIndex - 1);
-    });
+    el.courseAudioPrevBtn.addEventListener("click", () => changeCourseAudioSlide(-1));
     el.courseAudioNextBtn.addEventListener("click", () => {
       const shouldResume = courseAudioState.autoPlaying || courseAudioState.pausedForYoutube;
       courseAudioState.pausedForYoutube = false;
-      goToCourseAudioCue(courseAudioState.cueIndex + 1);
+      const cues = currentCourseAudioModule().cues || [];
+      goToCourseAudioCue(adjacentSlideCueIndex(cues, courseAudioState.cueIndex, 1));
       if (courseAudioState.pausedForYoutube) return;
       if (shouldResume) {
         courseAudioState.autoPlaying = true;
@@ -3543,6 +3577,7 @@
     el.playSlidesBtn.addEventListener("click", togglePresentationPlayback);
     el.playAgainBtn.addEventListener("click", () => reset());
     el.jumpBtn.addEventListener("click", () => reset("intervention"));
+    document.addEventListener("keydown", handleReviewKeys);
 
     render();
     blockContentCopying();
