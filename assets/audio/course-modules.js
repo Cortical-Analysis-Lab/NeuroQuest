@@ -74,55 +74,55 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 2,
-        "time": 56.53
+        "time": 49.04
       },
       {
         "slide": 3,
-        "time": 158.57
+        "time": 87.16
       },
       {
         "slide": 4,
-        "time": 244.47
+        "time": 132.48
       },
       {
         "slide": 5,
-        "time": 329.63
+        "time": 172.56
       },
       {
         "slide": 6,
-        "time": 414.05
+        "time": 280.2
       },
       {
         "slide": 7,
-        "time": 486.73
+        "time": 480.68
       },
       {
         "slide": 8,
-        "time": 571.16
+        "time": 526.68
       },
       {
         "slide": 9,
-        "time": 647.51
+        "time": 648.76
       },
       {
         "slide": 10,
-        "time": 723.13
+        "time": 752.6
       },
       {
         "slide": 11,
-        "time": 797.28
+        "time": 810.84
       },
       {
         "slide": 12,
-        "time": 883.9
+        "time": 861.84
       },
       {
         "slide": 13,
-        "time": 961.72
+        "time": 870.28
       },
       {
         "slide": 14,
-        "time": 1039.54
+        "time": 1018.52
       }
     ],
     "duration": 1117.36
@@ -254,107 +254,107 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 2,
-        "time": 29.93
+        "time": 57.64
       },
       {
         "slide": 3,
-        "time": 71.29
+        "time": 70.28
       },
       {
         "slide": 4,
-        "time": 102.8
+        "time": 88.32
       },
       {
         "slide": 5,
-        "time": 149.67
+        "time": 216.36
       },
       {
         "slide": 6,
-        "time": 189.05
+        "time": 246.76
       },
       {
         "slide": 7,
-        "time": 223.32
+        "time": 272.36
       },
       {
         "slide": 8,
-        "time": 258.77
+        "time": 396.96
       },
       {
         "slide": 9,
-        "time": 297.37
+        "time": 416.72
       },
       {
         "slide": 10,
-        "time": 329.66
+        "time": 422.36
       },
       {
         "slide": 11,
-        "time": 397.02
+        "time": 446.32
       },
       {
         "slide": 12,
-        "time": 447.82
+        "time": 456.68
       },
       {
         "slide": 13,
-        "time": 456.0
+        "time": 469.64
       },
       {
         "slide": 14,
-        "time": 470.0
+        "time": 478.76
       },
       {
         "slide": 15,
-        "time": 488.0
+        "time": 484.28
       },
       {
         "slide": 16,
-        "time": 499.9
+        "time": 488.2
       },
       {
         "slide": 17,
-        "time": 521.0
+        "time": 499.92
       },
       {
         "slide": 18,
-        "time": 548.0
+        "time": 503.0
       },
       {
         "slide": 19,
-        "time": 556.0
+        "time": 548.4
       },
       {
         "slide": 20,
-        "time": 560.0
+        "time": 557.4
       },
       {
         "slide": 21,
-        "time": 564.0
+        "time": 563.64
       },
       {
         "slide": 22,
-        "time": 653.0
+        "time": 659.2
       },
       {
         "slide": 23,
-        "time": 693.0
+        "time": 690.28
       },
       {
         "slide": 24,
-        "time": 778.0
+        "time": 788.76
       },
       {
         "slide": 25,
-        "time": 846.0
+        "time": 844.84
       },
       {
         "slide": 26,
-        "time": 855.0
+        "time": 858.84
       },
       {
         "slide": 27,
-        "time": 971.0
+        "time": 1014.0
       }
     ],
     "duration": 1073.28
@@ -471,8 +471,8 @@ window.COURSE_AUDIO_MODULES = {
         "notes": "Now let's move to Non-Invasive Tech integration can also be fun. This slide appears to rely mostly on its image, diagram, or spatial layout rather than detailed text. I would describe what students should notice first, name..."
       },
       {
-        "title": "8/06/20XX",
-        "notes": "To close this section, let's use 8/06/20XX to pull the main ideas together. The main ideas to hear are PITCH DECK. As students look at the slide, I would point them toward the visual organization: Primarily text-based slide;..."
+        "title": "What are some pros and cons of connecting our brains to Technology",
+        "notes": "To close this section, use the prompt about the pros and cons of connecting our brains to technology to pull the main ideas together."
       }
     ],
     "cues": [
@@ -482,103 +482,103 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 2,
-        "time": 31.94
+        "time": 32.8
       },
       {
         "slide": 3,
-        "time": 66.74
+        "time": 120.72
       },
       {
         "slide": 4,
-        "time": 94.59
+        "time": 137.2
       },
       {
         "slide": 5,
-        "time": 126.11
+        "time": 240.4
       },
       {
         "slide": 6,
-        "time": 159.28
+        "time": 251.92
       },
       {
         "slide": 7,
-        "time": 193.68
+        "time": 294.4
       },
       {
         "slide": 8,
-        "time": 228.07
+        "time": 457.6
       },
       {
         "slide": 9,
-        "time": 264.1
+        "time": 501.52
       },
       {
         "slide": 10,
-        "time": 295.63
+        "time": 501.6
       },
       {
         "slide": 11,
-        "time": 327.98
+        "time": 515.68
       },
       {
         "slide": 12,
-        "time": 361.96
+        "time": 530.4
       },
       {
         "slide": 13,
-        "time": 394.31
+        "time": 557.76
       },
       {
         "slide": 14,
-        "time": 426.66
+        "time": 563.84
       },
       {
         "slide": 15,
-        "time": 459.01
+        "time": 588.0
       },
       {
         "slide": 16,
-        "time": 533.94
+        "time": 734.88
       },
       {
         "slide": 17,
-        "time": 565.47
+        "time": 734.96
       },
       {
         "slide": 18,
-        "time": 597.81
+        "time": 739.52
       },
       {
         "slide": 19,
-        "time": 629.34
+        "time": 744.64
       },
       {
         "slide": 20,
-        "time": 664.15
+        "time": 750.56
       },
       {
         "slide": 21,
-        "time": 696.08
+        "time": 756.16
       },
       {
         "slide": 22,
-        "time": 728.02
+        "time": 770.08
       },
       {
         "slide": 23,
-        "time": 759.96
+        "time": 785.52
       },
       {
         "slide": 24,
-        "time": 789.44
+        "time": 789.84
       },
       {
         "slide": 25,
-        "time": 820.97
+        "time": 794.4
       },
       {
         "slide": 26,
-        "time": 854.96
+        "time": 814.32
       }
     ],
     "duration": 889.76

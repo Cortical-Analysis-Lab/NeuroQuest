@@ -2716,13 +2716,32 @@
         .some((item) => item.type === "youtube"));
     }
 
+    function courseAudioCueHasYoutube(index) {
+      const mod = currentCourseAudioModule();
+      const cue = (mod.cues || [])[index];
+      return !!cue && hasYoutubeMedia(mod.id, cue.slide);
+    }
+
+    function nextNonYoutubeCourseCue(index) {
+      const cues = currentCourseAudioModule().cues || [];
+      let next = Math.max(0, index);
+      while (next < cues.length && courseAudioCueHasYoutube(next)) next++;
+      return Math.min(next, cues.length - 1);
+    }
+
+    function showCourseAudioYoutubePause() {
+      courseAudioState.autoPlaying = false;
+      courseAudioState.pausedForYoutube = true;
+      if (el.courseAudio && !el.courseAudio.paused) el.courseAudio.pause();
+      pauseInlineVideos(el.courseAudioInlineMedia);
+      el.courseAudioPlayBtn.textContent = "Auto play";
+      el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next slide or Auto play to continue after the video slide.";
+    }
+
     function pauseCourseAudioForYoutubeCue(moduleId, slideNumber) {
       if (!courseAudioState.autoPlaying || courseAudioState.pausedForYoutube) return;
       if (moduleId !== courseAudioState.moduleId || !hasYoutubeMedia(moduleId, slideNumber)) return;
-      courseAudioState.pausedForYoutube = true;
-      if (el.courseAudio && !el.courseAudio.paused) el.courseAudio.pause();
-      el.courseAudioPlayBtn.textContent = "Auto play";
-      el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next slide or Auto play to continue.";
+      showCourseAudioYoutubePause();
     }
 
     function renderSlideMedia(moduleId, slideNumber, container, shouldPlay = true) {
@@ -2964,8 +2983,12 @@
       const cue = cues[courseAudioState.cueIndex] || cues[0] || { slide: 1, time: 0 };
       courseAudioState.index = cue.slide - 1;
       if (syncAudio) {
-        setSegmentAudioSource(el.courseAudio, mod.id, courseAudioState.cueIndex);
-        try { el.courseAudio.currentTime = 0; } catch { }
+        if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+          showCourseAudioYoutubePause();
+        } else {
+          setSegmentAudioSource(el.courseAudio, mod.id, courseAudioState.cueIndex);
+          try { el.courseAudio.currentTime = 0; } catch { }
+        }
       }
       trackProgress(mod.id, courseAudioState.cueIndex === cues.length - 1 ? "complete" : "progress", {
         progress_percent: Math.round(((courseAudioState.cueIndex + 1) / cues.length) * 100)
@@ -3204,8 +3227,9 @@
       });
       el.lectureAudio.addEventListener("ended", () => {
         if (presentationState.cueIndex < slideCues.length - 1) {
+          const shouldResume = presentationState.autoPlaying;
           goToCue(presentationState.cueIndex + 1);
-          if (presentationState.autoPlaying) el.lectureAudio.play().catch(() => {});
+          if (shouldResume) el.lectureAudio.play().catch(() => {});
           return;
         }
         unlockQuiz();
@@ -3482,8 +3506,9 @@
     });
     el.anatomyAudio.addEventListener("ended", () => {
       if (anatomyState.cueIndex < anatomyCues.length - 1) {
+        const shouldResume = anatomyState.autoPlaying;
         goToAnatomyCue(anatomyState.cueIndex + 1);
-        if (anatomyState.autoPlaying) el.anatomyAudio.play().catch(() => {});
+        if (shouldResume) el.anatomyAudio.play().catch(() => {});
         return;
       }
       trackProgress("anatomy", "complete", { progress_percent: 100 });
@@ -3526,8 +3551,9 @@
     });
     el.toolsAudio.addEventListener("ended", () => {
       if (toolsState.cueIndex < toolsCues.length - 1) {
+        const shouldResume = toolsState.autoPlaying;
         goToToolsCue(toolsState.cueIndex + 1);
-        if (toolsState.autoPlaying) el.toolsAudio.play().catch(() => {});
+        if (shouldResume) el.toolsAudio.play().catch(() => {});
         return;
       }
       trackProgress("tools", "complete", { progress_percent: 100 });
@@ -3538,8 +3564,12 @@
       const shouldResume = courseAudioState.autoPlaying || courseAudioState.pausedForYoutube;
       courseAudioState.pausedForYoutube = false;
       const cues = currentCourseAudioModule().cues || [];
-      goToCourseAudioCue(adjacentSlideCueIndex(cues, courseAudioState.cueIndex, 1));
-      if (courseAudioState.pausedForYoutube) return;
+      const nextCue = adjacentSlideCueIndex(cues, courseAudioState.cueIndex, 1);
+      goToCourseAudioCue(nextCue);
+      if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+        showCourseAudioYoutubePause();
+        return;
+      }
       if (shouldResume) {
         courseAudioState.autoPlaying = true;
         el.courseAudio.play().catch(() => {
@@ -3553,6 +3583,14 @@
         return;
       }
       courseAudioState.pausedForYoutube = false;
+      if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+        const nextCue = nextNonYoutubeCourseCue(courseAudioState.cueIndex + 1);
+        goToCourseAudioCue(nextCue);
+        if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+          showCourseAudioYoutubePause();
+          return;
+        }
+      }
       courseAudioState.autoPlaying = true;
       el.courseAudio.play().catch(() => {
         el.courseAudioStatus.textContent = "Click the audio play button to start playback. Browser autoplay rules blocked automatic audio.";
@@ -3586,8 +3624,14 @@
       const mod = currentCourseAudioModule();
       const cues = mod.cues || [];
       if (courseAudioState.cueIndex < cues.length - 1) {
-        goToCourseAudioCue(courseAudioState.cueIndex + 1);
-        if (courseAudioState.autoPlaying && !courseAudioState.pausedForYoutube) el.courseAudio.play().catch(() => {});
+        const shouldResume = courseAudioState.autoPlaying && !courseAudioState.pausedForYoutube;
+        const nextCue = courseAudioState.cueIndex + 1;
+        goToCourseAudioCue(nextCue);
+        if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+          showCourseAudioYoutubePause();
+          return;
+        }
+        if (shouldResume) el.courseAudio.play().catch(() => {});
         return;
       }
       trackProgress(mod.id, "complete", { progress_percent: 100 });
