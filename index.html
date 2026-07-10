@@ -374,46 +374,20 @@
 
     .sim-frame {
       width: 100%;
-      min-height: min(48vh, 520px);
+      min-height: clamp(560px, 64vh, 720px);
       border: 0;
       display: block;
       background: #fff;
       border-bottom: 1px solid var(--line);
     }
 
-    .activity-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 6px;
-      margin-top: 10px;
-    }
-
-    .activity-btn {
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #fff;
-      color: var(--ink);
-      padding: 10px;
-      cursor: pointer;
-      font-weight: 850;
-      text-align: left;
-      min-height: 48px;
-    }
-
-    .activity-btn:hover,
-    .activity-btn:focus-visible {
-      outline: 3px solid rgba(240, 184, 78, 0.45);
-      border-color: var(--gold);
-    }
-
-    .sim-note {
-      margin-top: 10px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      padding: 10px;
-      background: var(--paper);
-      color: #344348;
-      line-height: 1.45;
+    .sim-window-hint {
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+      background: var(--mint);
+      color: #244247;
+      font-weight: 800;
+      line-height: 1.35;
     }
 
     .presentation-media {
@@ -1148,12 +1122,8 @@
         padding: 12px;
       }
 
-      .activity-grid {
-        grid-template-columns: 1fr;
-      }
-
       .sim-frame {
-        min-height: 430px;
+        min-height: 520px;
       }
 
       .presentation-media {
@@ -1500,7 +1470,6 @@
         <div class="neuro-slide-body">
           <div class="node-label" id="neuroSlideTag">Slide 1 of 28</div>
           <h2 id="neuroSlideTitle">Neurophysiology & Communication</h2>
-          <p id="neuroSlideCaption">Review the slide, then use the simulation activity on the right to test the mechanism.</p>
           <div class="presentation-controls">
             <div class="control-group">
               <button class="control-btn" id="neuroPrevBtn" type="button">Previous</button>
@@ -1509,30 +1478,22 @@
             </div>
             <div class="control-group">
               <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="neuroProgress"></div></div>
-              <span class="chip" id="neuroCount">1 / 28</span>
+              <span class="chip" id="neuroCount">1 / 30</span>
             </div>
           </div>
           <div class="audio-status" id="neuroAudioStatus">Neurophysiology narration is ready.</div>
-          <audio id="neuroAudio" preload="metadata">
+          <audio id="neuroAudio" preload="metadata" controls>
             <track id="neuroAudioTrack" kind="captions" srclang="en" label="English" src="assets/audio/neurophysiology.vtt">
           </audio>
         </div>
       </article>
 
       <article class="sim-panel">
+        <div class="sim-window-hint">Click Show to reveal the simulation navigation menu for each view.</div>
         <iframe class="sim-frame" id="ngvuFrame" title="NGVU neural signaling simulation" src="https://cortical-analysis-lab.github.io/NGVU_Simulation/"></iframe>
         <div class="sim-body">
           <h2>NGVU Simulation Lab</h2>
           <p>Use the embedded simulation to connect membrane signaling, synapses, plasticity, and communication breakdowns to the slides.</p>
-          <div class="activity-grid">
-            <button class="activity-btn" type="button" data-activity="column">Cortical Column</button>
-            <button class="activity-btn" type="button" data-activity="neuron">Neuron View</button>
-            <button class="activity-btn" type="button" data-activity="synapse">Synapse View</button>
-            <button class="activity-btn" type="button" data-activity="ap">Fire AP</button>
-            <button class="activity-btn" type="button" data-activity="myelin">Myelin</button>
-            <button class="activity-btn" type="button" data-activity="plasticity">LTP / LTD</button>
-          </div>
-          <div class="sim-note" id="simNote">Start in the simulation's Home view. Then choose Neuron or Synapse when the slide content shifts from action potentials to neurotransmission.</div>
           <div class="ending-actions">
             <button class="secondary" id="openSimBtn" type="button">Open simulation in new tab</button>
             <!-- <button class="secondary" type="button" data-reflection-module="neurophysiology">Topic Reflection</button> -->
@@ -2038,18 +1999,9 @@
     const courseAudioState = { moduleId: "neuropsych", cueIndex: 0, index: 0, autoPlaying: false, pausedForYoutube: false, pausedForManual: false };
     const neurophysModule = courseAudioModules.neurophysiology || { slides: [], cues: [], duration: 0 };
     const neurophysSlides = (neurophysModule.slides || []).map((slide, index) => ({
-      title: slide.title || `Slide ${index + 1}`,
-      caption: slide.notes || "Use the slide image, narration, and simulation panel together."
+      title: slide.title || `Slide ${index + 1}`
     }));
     const neuroState = { index: 0, cueIndex: 0, autoPlaying: false, pausedForManual: false };
-    const simActivities = {
-      column: "In the simulation, choose Cortical Column. Watch how a local population turns individual cell events into a larger circuit response.",
-      neuron: "Choose Neuron View. Identify dendrites, soma, axon, and terminals, then connect each structure to signal direction.",
-      synapse: "Choose Synapse View. Trace presynaptic release, cleft diffusion, receptor binding, and postsynaptic response.",
-      ap: "Use Fire AP. Predict what will happen before firing, then compare your prediction to the propagation you observe.",
-      myelin: "Toggle or inspect Myelin if available. Compare signal speed and reliability with the lecture's communication themes.",
-      plasticity: "Use LTP/LTD or plasticity controls. Watch how repeated activity changes later signaling strength."
-    };
     const presentationState = {
       index: slideCues[0].slide - 1,
       cueIndex: 0,
@@ -2140,7 +2092,6 @@
       neuroInlineMedia: document.getElementById("neuroInlineMedia"),
       neuroSlideTag: document.getElementById("neuroSlideTag"),
       neuroSlideTitle: document.getElementById("neuroSlideTitle"),
-      neuroSlideCaption: document.getElementById("neuroSlideCaption"),
       neuroPrevBtn: document.getElementById("neuroPrevBtn"),
       neuroPlayBtn: document.getElementById("neuroPlayBtn"),
       neuroNextBtn: document.getElementById("neuroNextBtn"),
@@ -2150,7 +2101,6 @@
       neuroAudio: document.getElementById("neuroAudio"),
       neuroAudioTrack: document.getElementById("neuroAudioTrack"),
       ngvuFrame: document.getElementById("ngvuFrame"),
-      simNote: document.getElementById("simNote"),
       openSimBtn: document.getElementById("openSimBtn"),
       presentationBtn: document.getElementById("presentationBtn"),
       quizBtn: document.getElementById("quizBtn"),
@@ -3161,7 +3111,6 @@
       el.neuroSlideImg.alt = `Neurophysiology lecture slide ${slideNumber}: ${slide.title}`;
       el.neuroSlideTag.textContent = `Slide ${slideNumber} of ${neurophysSlides.length}`;
       el.neuroSlideTitle.textContent = slide.title;
-      el.neuroSlideCaption.textContent = slide.caption;
       el.neuroProgress.style.width = `${progress}%`;
       el.neuroCount.textContent = `${slideNumber} / ${neurophysSlides.length}`;
       el.neuroPrevBtn.disabled = neuroState.index === 0;
@@ -3169,8 +3118,11 @@
       if (el.neuroPlayBtn) el.neuroPlayBtn.textContent = neuroState.autoPlaying ? "Pause" : "Auto play";
       if (el.neuroAudioStatus && !neuroState.pausedForManual) {
         const cue = (neurophysModule.cues || [])[neuroState.cueIndex];
+        const totalDuration = neurophysModule.duration || 0;
+        const minutes = Math.floor(totalDuration / 60);
+        const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
         el.neuroAudioStatus.textContent = cue
-          ? `Segment ${neuroState.cueIndex + 1} / ${(neurophysModule.cues || []).length}`
+          ? `Using segmented Neurophysiology narration (${minutes}:${seconds}). Segment ${neuroState.cueIndex + 1} / ${(neurophysModule.cues || []).length}.`
           : "Neurophysiology narration is ready.";
       }
       renderSlideMedia("neurophysiology", slideNumber, el.neuroInlineMedia, true);
@@ -3195,14 +3147,6 @@
         });
       }
       trackProgress("neurophysiology", neuroState.index === neurophysSlides.length - 1 ? "complete" : "progress", {
-        progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
-      });
-    }
-
-    function setSimActivity(activity) {
-      el.simNote.textContent = simActivities[activity] || simActivities.neuron;
-      trackProgress("neurophysiology", "simulation_activity", {
-        activity,
         progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
       });
     }
@@ -3489,7 +3433,6 @@
       }
       if (!el.neurophysView.hidden) {
         neuroState.index = 0;
-        setSimActivity("column");
         renderNeurophys();
         window.scrollTo({ top: 0, behavior: "smooth" });
         return;
@@ -3612,6 +3555,7 @@
         return true;
       }
       if (canonicalModuleId === "neurophysiology") {
+        goToNeuroCue(neuroState.cueIndex);
         showMode("neurophys");
         return true;
       }
@@ -3835,6 +3779,15 @@
       renderNeurophys();
       syncMediaPlayback(el.neuroInlineMedia, true);
     });
+    el.neuroAudio.addEventListener("loadedmetadata", () => {
+      const totalDuration = neurophysModule.duration || 0;
+      const minutes = Math.floor(totalDuration / 60);
+      const seconds = Math.round(totalDuration % 60).toString().padStart(2, "0");
+      if (el.neuroAudioStatus && !neuroState.pausedForManual) {
+        el.neuroAudioStatus.textContent = `Using segmented Neurophysiology narration (${minutes}:${seconds}) with timed transcript captions.`;
+      }
+      renderNeurophys();
+    });
     el.neuroAudio.addEventListener("pause", () => {
       if (neuroState.pausedForManual) {
         syncMediaPlayback(el.neuroInlineMedia, false);
@@ -3858,9 +3811,6 @@
       }
       trackProgress("neurophysiology", "complete", { progress_percent: 100 });
       stopNeurophysAudio();
-    });
-    document.querySelectorAll("[data-activity]").forEach((button) => {
-      button.addEventListener("click", () => setSimActivity(button.dataset.activity));
     });
     document.querySelectorAll("[data-reflection-module]").forEach((button) => {
       button.addEventListener("click", () => launchTopicReflection(button.dataset.reflectionModule));
