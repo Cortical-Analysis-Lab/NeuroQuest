@@ -1,0 +1,2642 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.92,
+    "text": "You know, when you look at a computer motherboard or like you open up a laptop,"
+  },
+  {
+    "start": 4.92,
+    "end": 7.52,
+    "text": "everything makes this very rigid sort of sense."
+  },
+  {
+    "start": 7.52,
+    "end": 8.96,
+    "text": "Oh, yeah, completely. Right."
+  },
+  {
+    "start": 8.96,
+    "end": 14.0,
+    "text": "You have these clean lines of copper, these perfectly soldered pathways."
+  },
+  {
+    "start": 14.56,
+    "end": 19.64,
+    "text": "A signal goes from point A to point B, and it's just this closed unbroken loop."
+  },
+  {
+    "start": 19.64,
+    "end": 23.64,
+    "text": "It's binary, it's engineered, and you can visibly trace it."
+  },
+  {
+    "start": 23.88,
+    "end": 25.56,
+    "text": "Yeah, it's incredibly orderly."
+  },
+  {
+    "start": 25.56,
+    "end": 28.76,
+    "text": "I mean, you trace the wire, you find the exact destination."
+  },
+  {
+    "start": 28.76,
+    "end": 31.24,
+    "text": "There's no ambiguity at all."
+  },
+  {
+    "start": 31.24,
+    "end": 34.76,
+    "text": "But then as a student stepping into neurophysiology for the first time,"
+  },
+  {
+    "start": 35.04,
+    "end": 38.52,
+    "text": "you look at the human brain and that entire engineering paradigm"
+  },
+  {
+    "start": 38.52,
+    "end": 39.96,
+    "text": "just completely shatters."
+  },
+  {
+    "start": 39.96,
+    "end": 41.24,
+    "text": "So it falls apart immediately."
+  },
+  {
+    "start": 41.24,
+    "end": 41.96,
+    "text": "It really does."
+  },
+  {
+    "start": 41.96,
+    "end": 45.6,
+    "text": "Suddenly you're looking at this wet, messy chemical soup where the wires"
+  },
+  {
+    "start": 45.6,
+    "end": 48.28,
+    "text": "and we're talking billions of them, they don't even actually touch each other."
+  },
+  {
+    "start": 48.28,
+    "end": 51.04,
+    "text": "Right. It is the ultimate biological paradox, honestly."
+  },
+  {
+    "start": 51.48,
+    "end": 56.56,
+    "text": "The most sophisticated, high speed communication network in the known universe"
+  },
+  {
+    "start": 56.88,
+    "end": 60.88,
+    "text": "relies on physical gaps and floating chemicals to get its message across."
+  },
+  {
+    "start": 61.12,
+    "end": 63.32,
+    "text": "Which is just wild to wrap your head around."
+  },
+  {
+    "start": 63.32,
+    "end": 68.44,
+    "text": "And our mission today for this deep dive is to decode that exact paradox."
+  },
+  {
+    "start": 68.44,
+    "end": 69.08,
+    "text": "Exactly."
+  },
+  {
+    "start": 69.08,
+    "end": 72.96,
+    "text": "We're going to take some incredibly complex neuroscience from your lecture"
+  },
+  {
+    "start": 72.96,
+    "end": 77.12,
+    "text": "slides and turn it into a clear, functioning mental map for you."
+  },
+  {
+    "start": 77.2,
+    "end": 79.36,
+    "text": "Yeah, we're going to bypass the dense jargon today."
+  },
+  {
+    "start": 79.36,
+    "end": 83.44,
+    "text": "Right. And figure out how a thought or a memory or an action"
+  },
+  {
+    "start": 83.76,
+    "end": 89.68,
+    "text": "travels from a tiny spark in a single cell to a full blown physical behavior."
+  },
+  {
+    "start": 89.68,
+    "end": 93.2,
+    "text": "Because understanding how those disconnected wires actually bridge that gap,"
+  },
+  {
+    "start": 93.2,
+    "end": 96.0,
+    "text": "how they truly communicate is the master key to everything."
+  },
+  {
+    "start": 96.0,
+    "end": 96.76,
+    "text": "It really is."
+  },
+  {
+    "start": 96.76,
+    "end": 99.8,
+    "text": "It unlocks the mechanics of learning, the physical nature of memory"
+  },
+  {
+    "start": 99.8,
+    "end": 103.72,
+    "text": "and even the fundamental reasons why the medications we take actually work."
+  },
+  {
+    "start": 104.0,
+    "end": 106.72,
+    "text": "So let's start big and then kind of shrink down."
+  },
+  {
+    "start": 107.56,
+    "end": 111.4,
+    "text": "Picture a journey inward, starting from a satellite view and zooming"
+  },
+  {
+    "start": 111.4,
+    "end": 113.68,
+    "text": "all the way down to like a single person on the street."
+  },
+  {
+    "start": 114.4,
+    "end": 117.36,
+    "text": "Gifts showing the brain from the outer gray matter, then white matter,"
+  },
+  {
+    "start": 118.0,
+    "end": 120.12,
+    "text": "littered with synaptic dendritic buds."
+  },
+  {
+    "start": 120.48,
+    "end": 123.04,
+    "text": "So what you're seeing in that animation on slide two"
+  },
+  {
+    "start": 123.36,
+    "end": 125.84,
+    "text": "is this beautiful descent from the gross anatomy."
+  },
+  {
+    "start": 125.88,
+    "end": 126.88,
+    "text": "It's a great visual."
+  },
+  {
+    "start": 126.88,
+    "end": 127.72,
+    "text": "It really is."
+  },
+  {
+    "start": 127.72,
+    "end": 129.84,
+    "text": "We start at the outer folds of the gray matter,"
+  },
+  {
+    "start": 129.96,
+    "end": 134.36,
+    "text": "pushing down through the white matter past the ventricles down into the brainstem"
+  },
+  {
+    "start": 134.36,
+    "end": 137.48,
+    "text": "and sweeping past structures like the amygdala, amygdala."
+  },
+  {
+    "start": 138.0,
+    "end": 141.56,
+    "text": "And we just keep zooming in deeper and deeper until we hit the microscopic level,"
+  },
+  {
+    "start": 141.76,
+    "end": 144.36,
+    "text": "finally resting on a single individual neuron"
+  },
+  {
+    "start": 144.52,
+    "end": 147.2,
+    "text": "that is absolutely covered in tiny little dendritic buds."
+  },
+  {
+    "start": 147.24,
+    "end": 151.64,
+    "text": "And when you look at those neural populations, the numbers are just staggering."
+  },
+  {
+    "start": 151.64,
+    "end": 155.88,
+    "text": "Yeah. We always hear about the 86 billion neurons in the brain, right?"
+  },
+  {
+    "start": 155.96,
+    "end": 159.92,
+    "text": "They're usually treated as the undisputed rock stars of the nervous system."
+  },
+  {
+    "start": 159.92,
+    "end": 161.96,
+    "text": "The main characters. Yeah, exactly."
+  },
+  {
+    "start": 161.96,
+    "end": 165.88,
+    "text": "But research from Susana Herculon or Huzal and the Allen Brain Institute"
+  },
+  {
+    "start": 165.88,
+    "end": 169.04,
+    "text": "on slide three reveals there are also"
+  },
+  {
+    "start": 169.24,
+    "end": 173.72,
+    "text": "85 billion non neural cells hanging around, which is I mean,"
+  },
+  {
+    "start": 173.72,
+    "end": 177.16,
+    "text": "that is almost a one to one ratio of neurons to non neurons. Right."
+  },
+  {
+    "start": 177.16,
+    "end": 179.72,
+    "text": "But I have to push back on the biology here a little bit."
+  },
+  {
+    "start": 179.72,
+    "end": 183.96,
+    "text": "If nearly half of the brain's cellular population isn't even made up of neurons,"
+  },
+  {
+    "start": 184.36,
+    "end": 186.68,
+    "text": "what are all those other cells actually doing?"
+  },
+  {
+    "start": 186.68,
+    "end": 187.64,
+    "text": "That's a great question."
+  },
+  {
+    "start": 187.64,
+    "end": 191.68,
+    "text": "Because nature usually doesn't waste that much energy just, you know, taking up space."
+  },
+  {
+    "start": 191.72,
+    "end": 193.96,
+    "text": "Oh, they definitely aren't just taking up space."
+  },
+  {
+    "start": 193.96,
+    "end": 199.12,
+    "text": "Those 85 billion non neural cells are the unsung heroes of the entire system."
+  },
+  {
+    "start": 199.16,
+    "end": 200.2,
+    "text": "OK, how so?"
+  },
+  {
+    "start": 200.2,
+    "end": 204.44,
+    "text": "Well, we're talking about glial cells, epinidymal cells, epithelial cells,"
+  },
+  {
+    "start": 204.44,
+    "end": 207.8,
+    "text": "parasites, they do the absolutely crucial background work."
+  },
+  {
+    "start": 207.84,
+    "end": 209.4,
+    "text": "Like what? For example,"
+  },
+  {
+    "start": 209.4,
+    "end": 212.08,
+    "text": "epithelial cells physically form the blood,"
+  },
+  {
+    "start": 212.08,
+    "end": 216.12,
+    "text": "cerebrospinal fluid barrier, which is the ultimate defense system for the brain."
+  },
+  {
+    "start": 216.72,
+    "end": 221.48,
+    "text": "And parasites regulate blood flow in the capillaries so the brain gets oxygen."
+  },
+  {
+    "start": 222.12,
+    "end": 224.12,
+    "text": "Epinidymal cells line the ventricles."
+  },
+  {
+    "start": 224.12,
+    "end": 227.0,
+    "text": "I mean, they provide the structure, the defense and the nourishment"
+  },
+  {
+    "start": 227.24,
+    "end": 229.96,
+    "text": "so that the neurons can actually do their job of communicating."
+  },
+  {
+    "start": 229.96,
+    "end": 234.28,
+    "text": "So they're like the roadies, the security and the catering for the rock band."
+  },
+  {
+    "start": 234.28,
+    "end": 236.72,
+    "text": "Yes. Without them, the stadium falls apart."
+  },
+  {
+    "start": 236.72,
+    "end": 238.44,
+    "text": "And the show simply doesn't happen."
+  },
+  {
+    "start": 238.44,
+    "end": 240.48,
+    "text": "That is a perfect way to look at it."
+  },
+  {
+    "start": 240.48,
+    "end": 243.96,
+    "text": "They completely set the stage for the true stars of communication."
+  },
+  {
+    "start": 244.08,
+    "end": 248.0,
+    "text": "And when those stars communicate, it is just a spectacular light show,"
+  },
+  {
+    "start": 248.12,
+    "end": 251.96,
+    "text": "Yeah, visually, those flashing fluorescent lights pulsing like fireflies"
+  },
+  {
+    "start": 251.96,
+    "end": 256.88,
+    "text": "on a dark summer night, those represent real live electrical activity"
+  },
+  {
+    "start": 256.88,
+    "end": 259.6,
+    "text": "firing across a living neural network. It's beautiful."
+  },
+  {
+    "start": 259.6,
+    "end": 263.08,
+    "text": "It is every single flash is a piece of data moving."
+  },
+  {
+    "start": 263.2,
+    "end": 265.16,
+    "text": "As we make our way through this presentation,"
+  },
+  {
+    "start": 265.16,
+    "end": 267.56,
+    "text": "make sure to utilize the simulation on the right."
+  },
+  {
+    "start": 268.36,
+    "end": 271.64,
+    "text": "Start with the neuron view and check the guided tutorial box"
+  },
+  {
+    "start": 271.64,
+    "end": 274.68,
+    "text": "located in the top menu by clicking the dropdown arrow"
+  },
+  {
+    "start": 274.68,
+    "end": 276.88,
+    "text": "in the top right where it says show."
+  },
+  {
+    "start": 276.88,
+    "end": 280.04,
+    "text": "As you learn about the synaptic signaling, use the guided tutorial"
+  },
+  {
+    "start": 280.04,
+    "end": 281.96,
+    "text": "So we've seen the fireflies."
+  },
+  {
+    "start": 281.96,
+    "end": 285.12,
+    "text": "We know there's a massive amount of electrical activity happening."
+  },
+  {
+    "start": 285.6,
+    "end": 288.56,
+    "text": "But let's look at the actual wiring on slide five."
+  },
+  {
+    "start": 288.64,
+    "end": 289.96,
+    "text": "Let's do it."
+  },
+  {
+    "start": 289.96,
+    "end": 292.56,
+    "text": "The fundamental structure of a neuron is fairly distinct."
+  },
+  {
+    "start": 292.88,
+    "end": 297.2,
+    "text": "You have the dendrites, which look like the sprawling branches of a tree"
+  },
+  {
+    "start": 297.2,
+    "end": 299.08,
+    "text": "reaching out to receive incoming signals."
+  },
+  {
+    "start": 299.08,
+    "end": 300.6,
+    "text": "Right. Then you have the soma,"
+  },
+  {
+    "start": 300.6,
+    "end": 302.8,
+    "text": "which is the main cell body holding the nucleus."
+  },
+  {
+    "start": 303.2,
+    "end": 307.6,
+    "text": "And then you have this long single tail like structure called the axon,"
+  },
+  {
+    "start": 307.88,
+    "end": 311.44,
+    "text": "which acts as the wire carrying the signal away to the next destination."
+  },
+  {
+    "start": 311.6,
+    "end": 314.4,
+    "text": "Crucially, though, wrapped around that axon,"
+  },
+  {
+    "start": 314.6,
+    "end": 316.96,
+    "text": "you have the myelin and myelin sheath."
+  },
+  {
+    "start": 317.48,
+    "end": 322.4,
+    "text": "And that myelin and myelin is where the magic of biological speed actually happens."
+  },
+  {
+    "start": 322.4,
+    "end": 326.04,
+    "text": "It kind of reminds me of wrapping electrical tape around a frayed wire in your house."
+  },
+  {
+    "start": 326.04,
+    "end": 326.6,
+    "text": "Oh, totally."
+  },
+  {
+    "start": 326.6,
+    "end": 329.6,
+    "text": "It just acts as an insulator so the current doesn't leak out."
+  },
+  {
+    "start": 329.64,
+    "end": 330.8,
+    "text": "It acts as an insulator."
+  },
+  {
+    "start": 330.8,
+    "end": 333.16,
+    "text": "Yeah. But if you look at the diagram on slide six,"
+  },
+  {
+    "start": 333.16,
+    "end": 335.16,
+    "text": "it also provides a massive speed upgrade."
+  },
+  {
+    "start": 335.32,
+    "end": 337.32,
+    "text": "Wait, really? How?"
+  },
+  {
+    "start": 337.32,
+    "end": 340.28,
+    "text": "Well, myelination wraps around the axon in distinct segments,"
+  },
+  {
+    "start": 340.36,
+    "end": 343.2,
+    "text": "trapping and insulating positively charged ions,"
+  },
+  {
+    "start": 343.44,
+    "end": 346.92,
+    "text": "ensuring they're concentrated and readily available right where they are needed."
+  },
+  {
+    "start": 346.92,
+    "end": 347.72,
+    "text": "OK, I see."
+  },
+  {
+    "start": 347.72,
+    "end": 350.28,
+    "text": "Because of that myelin and myelin insulation,"
+  },
+  {
+    "start": 350.84,
+    "end": 354.72,
+    "text": "the neural signal doesn't have to slowly like inch its way down"
+  },
+  {
+    "start": 354.72,
+    "end": 356.6,
+    "text": "the entire length of the biological wire."
+  },
+  {
+    "start": 356.6,
+    "end": 358.32,
+    "text": "So it skips. Exactly."
+  },
+  {
+    "start": 358.32,
+    "end": 362.08,
+    "text": "It literally jumps from one uninsulated gap to the next. Wow."
+  },
+  {
+    "start": 362.28,
+    "end": 365.28,
+    "text": "This sultatory conduction allows neural signals"
+  },
+  {
+    "start": 365.48,
+    "end": 368.72,
+    "text": "to travel significantly faster than they ever could in a bare,"
+  },
+  {
+    "start": 368.72,
+    "end": 370.16,
+    "text": "unmyelinated axon."
+  },
+  {
+    "start": 370.16,
+    "end": 372.2,
+    "text": "So the wave has traveled down the axon."
+  },
+  {
+    "start": 372.2,
+    "end": 376.76,
+    "text": "It's moving incredibly fast, jumping along that myelin and while insulation."
+  },
+  {
+    "start": 377.12,
+    "end": 381.4,
+    "text": "But here's where we hit the major plot twist of neurophysiology on slide seven."
+  },
+  {
+    "start": 382.04,
+    "end": 385.64,
+    "text": "The electrical signal reaches the very end of the axon terminal"
+  },
+  {
+    "start": 385.92,
+    "end": 387.56,
+    "text": "and the road just ends."
+  },
+  {
+    "start": 387.56,
+    "end": 388.68,
+    "text": "The wires do not touch."
+  },
+  {
+    "start": 388.68,
+    "end": 389.88,
+    "text": "They don't touch."
+  },
+  {
+    "start": 389.88,
+    "end": 391.6,
+    "text": "There is a microscopic gap."
+  },
+  {
+    "start": 391.6,
+    "end": 393.4,
+    "text": "The synapse, SINapse."
+  },
+  {
+    "start": 393.4,
+    "end": 394.52,
+    "text": "The famous gap."
+  },
+  {
+    "start": 394.52,
+    "end": 398.44,
+    "text": "And as someone trying to understand the engineering of the body,"
+  },
+  {
+    "start": 398.8,
+    "end": 401.84,
+    "text": "this feels profoundly counterintuitive."
+  },
+  {
+    "start": 401.84,
+    "end": 402.6,
+    "text": "It really does."
+  },
+  {
+    "start": 402.6,
+    "end": 406.28,
+    "text": "If the electrical wave we just talked about is so fast, so efficient"
+  },
+  {
+    "start": 406.28,
+    "end": 409.88,
+    "text": "and so brilliantly insulated, why on earth does the brain"
+  },
+  {
+    "start": 409.88,
+    "end": 411.44,
+    "text": "purposefully break the circuit?"
+  },
+  {
+    "start": 411.44,
+    "end": 412.44,
+    "text": "It seems like a flaw."
+  },
+  {
+    "start": 412.44,
+    "end": 416.28,
+    "text": "Yeah. Why rely on floating chemicals to drift across a physical gap?"
+  },
+  {
+    "start": 416.28,
+    "end": 419.36,
+    "text": "Isn't that slower and like significantly more risky?"
+  },
+  {
+    "start": 419.48,
+    "end": 420.44,
+    "text": "It is slightly slower."
+  },
+  {
+    "start": 420.44,
+    "end": 422.44,
+    "text": "Yeah. But the tradeoff is what makes you human."
+  },
+  {
+    "start": 422.48,
+    "end": 423.48,
+    "text": "Wow. OK."
+  },
+  {
+    "start": 423.48,
+    "end": 425.52,
+    "text": "If everything were just hardwired electrically,"
+  },
+  {
+    "start": 425.88,
+    "end": 428.8,
+    "text": "the brain would be nothing more than a simple calculator."
+  },
+  {
+    "start": 428.8,
+    "end": 430.72,
+    "text": "You'd only have binary responses."
+  },
+  {
+    "start": 430.72,
+    "end": 431.76,
+    "text": "Yeah. On or off."
+  },
+  {
+    "start": 431.76,
+    "end": 432.64,
+    "text": "Like a light switch."
+  },
+  {
+    "start": 432.64,
+    "end": 436.16,
+    "text": "Exactly. By breaking the circuit and introducing the synapse,"
+  },
+  {
+    "start": 436.28,
+    "end": 441.32,
+    "text": "SINapse, the brain creates an opportunity for complex variable processing."
+  },
+  {
+    "start": 441.6,
+    "end": 443.88,
+    "text": "It's what I like to call the brain's handshake."
+  },
+  {
+    "start": 444.08,
+    "end": 446.28,
+    "text": "The brain's handshake."
+  },
+  {
+    "start": 446.28,
+    "end": 448.32,
+    "text": "Because it's an agreement, not just a command."
+  },
+  {
+    "start": 448.32,
+    "end": 449.16,
+    "text": "That's it."
+  },
+  {
+    "start": 449.16,
+    "end": 453.72,
+    "text": "It's the moment where a rigid binary electrical signal"
+  },
+  {
+    "start": 454.04,
+    "end": 456.84,
+    "text": "is converted into a highly nuanced chemical signal."
+  },
+  {
+    "start": 456.84,
+    "end": 457.64,
+    "text": "OK, I see."
+  },
+  {
+    "start": 457.64,
+    "end": 460.28,
+    "text": "Right, because a single neuron is covered in"
+  },
+  {
+    "start": 460.28,
+    "end": 463.24,
+    "text": "thousands of those little synaptic buds we saw earlier."
+  },
+  {
+    "start": 464.04,
+    "end": 468.28,
+    "text": "So it is receiving chemical keys from thousands of different cells at once."
+  },
+  {
+    "start": 468.28,
+    "end": 469.32,
+    "text": "Constantly."
+  },
+  {
+    "start": 469.32,
+    "end": 474.68,
+    "text": "How does it mathematically decide whether or not to actually trigger its own action potential?"
+  },
+  {
+    "start": 474.68,
+    "end": 477.4,
+    "text": "You're touching on a really cool concept called summation."
+  },
+  {
+    "start": 477.4,
+    "end": 481.0,
+    "text": "And if we look at the post-synaptic potentials chart on the slide,"
+  },
+  {
+    "start": 481.0,
+    "end": 485.0,
+    "text": "you'll see this is essentially a very complex biological voting system."
+  },
+  {
+    "start": 485.0,
+    "end": 485.88,
+    "text": "A voting system."
+  },
+  {
+    "start": 485.88,
+    "end": 488.68,
+    "text": "Yeah, imagine the receiving neuron as a politician,"
+  },
+  {
+    "start": 488.68,
+    "end": 492.84,
+    "text": "try and make a decision, taking input from thousands of different advisors."
+  },
+  {
+    "start": 492.84,
+    "end": 498.84,
+    "text": "Some of the neurotransmitters it receives are excitatory, meaning they cast a yes vote to fire."
+  },
+  {
+    "start": 499.4,
+    "end": 500.52,
+    "text": "Others are inhibitory."
+  },
+  {
+    "start": 500.52,
+    "end": 503.8,
+    "text": "They cast a no vote, basically telling the neuron to stay quiet."
+  },
+  {
+    "start": 503.8,
+    "end": 506.6,
+    "text": "So it's essentially a microscopic tug of war."
+  },
+  {
+    "start": 506.6,
+    "end": 508.84,
+    "text": "Excitatory is pulling forward toward a spike."
+  },
+  {
+    "start": 509.4,
+    "end": 511.16,
+    "text": "Inhibitory is pulling backward."
+  },
+  {
+    "start": 511.16,
+    "end": 512.04,
+    "text": "Yes."
+  },
+  {
+    "start": 512.04,
+    "end": 516.36,
+    "text": "In neurophysiology, we call these EPSPs and IPSPs."
+  },
+  {
+    "start": 516.36,
+    "end": 520.44,
+    "text": "That stands for Excitatory and Inhibitory Post-synaptic Potentials."
+  },
+  {
+    "start": 520.44,
+    "end": 521.0,
+    "text": "Got it."
+  },
+  {
+    "start": 521.0,
+    "end": 525.96,
+    "text": "The chart illustrates EPSP-IPSP cancellation beautifully."
+  },
+  {
+    "start": 525.96,
+    "end": 531.8,
+    "text": "If an excitatory yes signal and an inhibitory no signal arrive at the exact same millisecond,"
+  },
+  {
+    "start": 531.8,
+    "end": 533.8,
+    "text": "they literally cancel each other out."
+  },
+  {
+    "start": 533.8,
+    "end": 534.36,
+    "text": "Oh, wow."
+  },
+  {
+    "start": 534.36,
+    "end": 536.68,
+    "text": "So the internal voltage just stays completely flat."
+  },
+  {
+    "start": 536.68,
+    "end": 537.56,
+    "text": "Completely flat."
+  },
+  {
+    "start": 537.56,
+    "end": 541.08,
+    "text": "So how does a yes vote ever actually win the tug of war?"
+  },
+  {
+    "start": 541.08,
+    "end": 544.92,
+    "text": "By summing the signals together, the process of summation happens in two ways."
+  },
+  {
+    "start": 544.92,
+    "end": 545.96,
+    "text": "Okay, what's the first way?"
+  },
+  {
+    "start": 545.96,
+    "end": 547.16,
+    "text": "Spatial summation."
+  },
+  {
+    "start": 547.16,
+    "end": 551.64,
+    "text": "That's when multiple different synapses on the neuron receive yes signals at the exact same moment."
+  },
+  {
+    "start": 551.64,
+    "end": 555.56,
+    "text": "It's like 10 different friends shouting go from different sides of the room all at once."
+  },
+  {
+    "start": 555.56,
+    "end": 556.76,
+    "text": "That makes sense."
+  },
+  {
+    "start": 556.76,
+    "end": 559.08,
+    "text": "And the second way, temporal summation."
+  },
+  {
+    "start": 559.64,
+    "end": 564.84,
+    "text": "That is when a single synapse is hit repeatedly and rapidly with a yes signal."
+  },
+  {
+    "start": 564.84,
+    "end": 568.52,
+    "text": "Like one friend rapidly poking you on the shoulder saying go, go, go, go."
+  },
+  {
+    "start": 568.52,
+    "end": 569.56,
+    "text": "Ah, I see."
+  },
+  {
+    "start": 569.56,
+    "end": 569.8,
+    "text": "Right."
+  },
+  {
+    "start": 569.8,
+    "end": 574.28,
+    "text": "And if these summations build up enough positive charge to hit the threshold,"
+  },
+  {
+    "start": 574.28,
+    "end": 578.44,
+    "text": "Well, it relies on an electrical process called the action potential."
+  },
+  {
+    "start": 578.44,
+    "end": 583.32,
+    "text": "Basically, specialized channels open and close along the length of the neuron's outer layer,"
+  },
+  {
+    "start": 583.32,
+    "end": 585.0,
+    "text": "which is called the axon."
+  },
+  {
+    "start": 585.0,
+    "end": 588.28,
+    "text": "And this opening and closing allows a signal to travel down the line."
+  },
+  {
+    "start": 588.92,
+    "end": 593.72,
+    "text": "Visually, if you look at the diagram charting membrane potential over time,"
+  },
+  {
+    "start": 593.72,
+    "end": 596.92,
+    "text": "you see this very specific, beautiful sequence of events."
+  },
+  {
+    "start": 596.92,
+    "end": 597.88,
+    "text": "Oh, I see it."
+  },
+  {
+    "start": 597.88,
+    "end": 602.6,
+    "text": "I'm picturing that classic graph with the massive, sharp spike right in the middle."
+  },
+  {
+    "start": 602.6,
+    "end": 604.84,
+    "text": "Walk us through how that spike actually happens."
+  },
+  {
+    "start": 604.84,
+    "end": 606.84,
+    "text": "So it starts at what we call the resting state."
+  },
+  {
+    "start": 606.84,
+    "end": 611.4,
+    "text": "The inside of the cell sits at roughly negative 70 millivolts."
+  },
+  {
+    "start": 611.4,
+    "end": 612.6,
+    "text": "Wait, why is it negative?"
+  },
+  {
+    "start": 613.32,
+    "end": 615.8,
+    "text": "Because the cell actually spends a lot of energy"
+  },
+  {
+    "start": 615.8,
+    "end": 619.8,
+    "text": "pumping positively charged molecules out just to keep the inside negative."
+  },
+  {
+    "start": 620.44,
+    "end": 622.52,
+    "text": "It's quiet, but it's highly primed."
+  },
+  {
+    "start": 622.52,
+    "end": 624.52,
+    "text": "Think of it like a stretched rubber band."
+  },
+  {
+    "start": 624.52,
+    "end": 627.08,
+    "text": "It holds tension just waiting for a trigger."
+  },
+  {
+    "start": 627.08,
+    "end": 628.36,
+    "text": "Okay, I like that visual."
+  },
+  {
+    "start": 628.36,
+    "end": 628.6,
+    "text": "Right."
+  },
+  {
+    "start": 628.6,
+    "end": 633.48,
+    "text": "So when a stimulus hits the neuron and is strong enough to cross a specific press hold,"
+  },
+  {
+    "start": 633.48,
+    "end": 635.88,
+    "text": "it triggers a phase called depolarization."
+  },
+  {
+    "start": 635.88,
+    "end": 637.48,
+    "text": "So the rubber band snaps."
+  },
+  {
+    "start": 637.48,
+    "end": 638.52,
+    "text": "Exactly."
+  },
+  {
+    "start": 638.52,
+    "end": 642.2,
+    "text": "Suddenly, these specialized doorways open up along the membrane,"
+  },
+  {
+    "start": 642.2,
+    "end": 646.28,
+    "text": "and positively charged sodium molecules come rushing back into the cell."
+  },
+  {
+    "start": 646.28,
+    "end": 647.08,
+    "text": "Oh, wow."
+  },
+  {
+    "start": 647.08,
+    "end": 653.0,
+    "text": "Yeah, this massive, sudden influx of positive charge shoots the internal voltage way up."
+  },
+  {
+    "start": 653.0,
+    "end": 656.04,
+    "text": "And that's the big spike on our graph, the literal spark of thought."
+  },
+  {
+    "start": 656.04,
+    "end": 656.6,
+    "text": "You got it."
+  },
+  {
+    "start": 656.6,
+    "end": 661.8,
+    "text": "But wait, if all this positive charge is just aggressively flooding into the cell,"
+  },
+  {
+    "start": 661.8,
+    "end": 665.32,
+    "text": "wouldn't the cell just short circuit or overload?"
+  },
+  {
+    "start": 665.32,
+    "end": 667.64,
+    "text": "How does it reset for the next signal?"
+  },
+  {
+    "start": 667.64,
+    "end": 668.6,
+    "text": "That's a great question."
+  },
+  {
+    "start": 668.6,
+    "end": 673.32,
+    "text": "And it's exactly why the cell immediately enters a phase called repolarization."
+  },
+  {
+    "start": 673.32,
+    "end": 674.36,
+    "text": "Repolarization, okay."
+  },
+  {
+    "start": 674.36,
+    "end": 674.76,
+    "text": "Right."
+  },
+  {
+    "start": 674.76,
+    "end": 678.52,
+    "text": "As soon as the voltage spikes, the sodium door slams shut."
+  },
+  {
+    "start": 678.52,
+    "end": 683.8,
+    "text": "Then different channels open up, and positively charged potassium molecules rush out of the cell."
+  },
+  {
+    "start": 683.8,
+    "end": 684.2,
+    "text": "Oh, I see."
+  },
+  {
+    "start": 684.2,
+    "end": 687.72,
+    "text": "So it's carrying the positive charge away to bring the internal voltage back down."
+  },
+  {
+    "start": 687.72,
+    "end": 688.28,
+    "text": "Exactly."
+  },
+  {
+    "start": 688.28,
+    "end": 693.08,
+    "text": "It actually overshoots a bit, getting slightly too negative in a phase called hyperpolarization"
+  },
+  {
+    "start": 693.08,
+    "end": 697.16,
+    "text": "before it eventually settles back down to that negative 70 millivolt resting state."
+  },
+  {
+    "start": 697.16,
+    "end": 698.76,
+    "text": "Stretched and ready to fire again."
+  },
+  {
+    "start": 699.32,
+    "end": 701.88,
+    "text": "That is an incredibly elegant mechanical loop."
+  },
+  {
+    "start": 701.88,
+    "end": 702.92,
+    "text": "It really is."
+  },
+  {
+    "start": 702.92,
+    "end": 708.44,
+    "text": "And this wave of rushing positive charge travels all the way down the long arm of the neuron,"
+  },
+  {
+    "start": 708.44,
+    "end": 709.08,
+    "text": "the axon."
+  },
+  {
+    "start": 709.08,
+    "end": 712.36,
+    "text": "Let's actually watch this handshake happen in the animation on slide 12."
+  },
+  {
+    "start": 712.8,
+    "end": 716.28,
+    "text": "that happen in the synaptic terminal that lead to the release of neurotransmitters"
+  },
+  {
+    "start": 716.28,
+    "end": 718.56,
+    "text": "that bind to postsynaptic receptors."
+  },
+  {
+    "start": 718.6,
+    "end": 721.92,
+    "text": "So visually, you can see the action potential reaching the end of the line."
+  },
+  {
+    "start": 721.92,
+    "end": 725.76,
+    "text": "Yeah. That electrical voltage forces calcium channels to open."
+  },
+  {
+    "start": 725.76,
+    "end": 727.6,
+    "text": "Right. Calcium rushes in."
+  },
+  {
+    "start": 727.6,
+    "end": 731.44,
+    "text": "And that acts as the biological signal for these tiny membrane bound bubbles"
+  },
+  {
+    "start": 731.44,
+    "end": 735.48,
+    "text": "called vesicles, which are basically tiny cargo ships loaded with chemical messengers."
+  },
+  {
+    "start": 735.52,
+    "end": 738.64,
+    "text": "Precisely. The calcium tells those cargo ships"
+  },
+  {
+    "start": 738.84,
+    "end": 742.6,
+    "text": "to move to the very edge of the cell membrane, fuse with it"
+  },
+  {
+    "start": 742.84,
+    "end": 746.08,
+    "text": "and dump their chemical cargo into the synaptic left of the gap."
+  },
+  {
+    "start": 746.08,
+    "end": 747.4,
+    "text": "And then they float across."
+  },
+  {
+    "start": 747.4,
+    "end": 751.52,
+    "text": "Yep. Those chemicals then float across and bind to specific receptors"
+  },
+  {
+    "start": 751.52,
+    "end": 754.24,
+    "text": "on the next neuron, passing that nuanced message along."
+  },
+  {
+    "start": 754.76,
+    "end": 758.36,
+    "text": "Zooming in on exactly how those cargo ships dock with the membrane"
+  },
+  {
+    "start": 758.36,
+    "end": 761.0,
+    "text": "on slides 13 and 14 is just fascinating."
+  },
+  {
+    "start": 761.0,
+    "end": 761.84,
+    "text": "It's amazing."
+  },
+  {
+    "start": 761.84,
+    "end": 764.76,
+    "text": "To get that vesicle to fuse with the cell edge,"
+  },
+  {
+    "start": 765.04,
+    "end": 768.72,
+    "text": "you have these highly specific proteins called snare proteins."
+  },
+  {
+    "start": 769.24,
+    "end": 772.2,
+    "text": "They act almost exactly like the teeth of a zipper."
+  },
+  {
+    "start": 772.2,
+    "end": 773.36,
+    "text": "That's a really good visual."
+  },
+  {
+    "start": 773.36,
+    "end": 775.8,
+    "text": "Yeah. They physically grab onto each other, twist"
+  },
+  {
+    "start": 776.04,
+    "end": 778.28,
+    "text": "and pull the vesicle tight against the membrane"
+  },
+  {
+    "start": 778.28,
+    "end": 779.96,
+    "text": "until the pressure just pox it open."
+  },
+  {
+    "start": 779.96,
+    "end": 782.52,
+    "text": "It's mechanical perfection at a molecular level."
+  },
+  {
+    "start": 782.52,
+    "end": 786.08,
+    "text": "And the real world application of this is slightly terrifying, honestly."
+  },
+  {
+    "start": 786.08,
+    "end": 787.36,
+    "text": "Oh, with Botox."
+  },
+  {
+    "start": 787.36,
+    "end": 792.56,
+    "text": "Yes. That exact zipping mechanism is what botulinum toxin targets."
+  },
+  {
+    "start": 793.08,
+    "end": 796.08,
+    "text": "Botox. It acts like a pair of molecular scissors"
+  },
+  {
+    "start": 796.08,
+    "end": 799.16,
+    "text": "that sneaks in and snips those snare proteins in half."
+  },
+  {
+    "start": 799.44,
+    "end": 802.16,
+    "text": "If the zipper is broken, the vesicle can't dock."
+  },
+  {
+    "start": 802.4,
+    "end": 806.0,
+    "text": "The chemical signal can't cross the synapse, S-I-N-X,"
+  },
+  {
+    "start": 806.32,
+    "end": 808.36,
+    "text": "and the muscle is completely paralyzed."
+  },
+  {
+    "start": 808.68,
+    "end": 811.16,
+    "text": "One microscopic cut to a protein zipper"
+  },
+  {
+    "start": 811.48,
+    "end": 813.64,
+    "text": "and a human muscle just stops working."
+  },
+  {
+    "start": 813.68,
+    "end": 817.52,
+    "text": "It perfectly illustrates how vital that microscopic chemical handshake"
+  },
+  {
+    "start": 817.52,
+    "end": 820.44,
+    "text": "is to our gross physical movements. Absolutely."
+  },
+  {
+    "start": 820.48,
+    "end": 821.76,
+    "text": "Right, back to the receiving end."
+  },
+  {
+    "start": 821.76,
+    "end": 823.36,
+    "text": "But looking at our next visual,"
+  },
+  {
+    "start": 823.36,
+    "end": 827.36,
+    "text": "it seems not all of those receiving locks, the receptors, are created equal."
+  },
+  {
+    "start": 827.36,
+    "end": 828.64,
+    "text": "They absolutely are not."
+  },
+  {
+    "start": 828.72,
+    "end": 832.72,
+    "text": "The receptor dynamic illustration contrasts two entirely different systems."
+  },
+  {
+    "start": 832.72,
+    "end": 833.6,
+    "text": "Let's break them down."
+  },
+  {
+    "start": 833.6,
+    "end": 834.24,
+    "text": "Sure."
+  },
+  {
+    "start": 834.24,
+    "end": 838.0,
+    "text": "On the left, you have the ligand-gated ion channels we discussed earlier."
+  },
+  {
+    "start": 838.0,
+    "end": 839.68,
+    "text": "These are very straightforward."
+  },
+  {
+    "start": 839.68,
+    "end": 840.16,
+    "text": "The key?"
+  },
+  {
+    "start": 841.04,
+    "end": 841.84,
+    "text": "Locks."
+  },
+  {
+    "start": 841.84,
+    "end": 842.4,
+    "text": "Right."
+  },
+  {
+    "start": 842.4,
+    "end": 844.56,
+    "text": "A neurotransmitter binds to the receptor,"
+  },
+  {
+    "start": 844.56,
+    "end": 846.72,
+    "text": "the channel opens like a swinging door,"
+  },
+  {
+    "start": 846.72,
+    "end": 849.76,
+    "text": "and positive molecules flow directly inside."
+  },
+  {
+    "start": 849.76,
+    "end": 852.56,
+    "text": "It is fast, direct, and immediate."
+  },
+  {
+    "start": 852.56,
+    "end": 854.64,
+    "text": "But on the right side of the illustration,"
+  },
+  {
+    "start": 854.64,
+    "end": 856.88,
+    "text": "there's something much more convoluted happening."
+  },
+  {
+    "start": 856.88,
+    "end": 857.6,
+    "text": "Right."
+  },
+  {
+    "start": 857.6,
+    "end": 861.68,
+    "text": "Those are G-protein-coupled receptors, or GPCRs."
+  },
+  {
+    "start": 861.68,
+    "end": 864.56,
+    "text": "The neurotransmitter binds to the outside of the receptor,"
+  },
+  {
+    "start": 864.56,
+    "end": 866.16,
+    "text": "but no door opens."
+  },
+  {
+    "start": 866.16,
+    "end": 867.28,
+    "text": "Then what happens?"
+  },
+  {
+    "start": 867.28,
+    "end": 872.48,
+    "text": "Instead, the binding activates a G-protein that is attached to the inside of the receptor."
+  },
+  {
+    "start": 872.48,
+    "end": 876.24,
+    "text": "This G-protein breaks off and acts as an intracellular messenger."
+  },
+  {
+    "start": 876.24,
+    "end": 878.32,
+    "text": "So it travels deeper inside the cell?"
+  },
+  {
+    "start": 878.32,
+    "end": 879.04,
+    "text": "Exactly."
+  },
+  {
+    "start": 879.04,
+    "end": 882.88,
+    "text": "It travels inside the cell to set off a complex cascade of signals,"
+  },
+  {
+    "start": 882.88,
+    "end": 886.8,
+    "text": "which eventually go and modulate other ion channels elsewhere on the membrane."
+  },
+  {
+    "start": 886.8,
+    "end": 888.56,
+    "text": "We mentioned ion channels earlier."
+  },
+  {
+    "start": 888.56,
+    "end": 889.84,
+    "text": "Just to give you a sense of scale,"
+  },
+  {
+    "start": 889.84,
+    "end": 893.84,
+    "text": "there are over 300 different types of ion channels in the human body."
+  },
+  {
+    "start": 893.84,
+    "end": 894.96,
+    "text": "Wow, 300."
+  },
+  {
+    "start": 894.96,
+    "end": 895.2,
+    "text": "Yeah."
+  },
+  {
+    "start": 895.92,
+    "end": 899.84,
+    "text": "And a single neuron terminal might contain 10 or more different kinds,"
+  },
+  {
+    "start": 899.84,
+    "end": 903.84,
+    "text": "all tightly packed alongside complex structural proteins"
+  },
+  {
+    "start": 903.84,
+    "end": 906.44,
+    "text": "Now, when you look at classic textbook diagrams,"
+  },
+  {
+    "start": 906.8,
+    "end": 909.52,
+    "text": "the end of a neuron, the synaptic bouton,"
+  },
+  {
+    "start": 909.52,
+    "end": 912.8,
+    "text": "usually looks like an empty balloon holding a few neat little vesicle"
+  },
+  {
+    "start": 912.8,
+    "end": 915.0,
+    "text": "bubbles floating in empty space."
+  },
+  {
+    "start": 915.0,
+    "end": 917.0,
+    "text": "The empty sack myth. Right."
+  },
+  {
+    "start": 917.0,
+    "end": 919.92,
+    "text": "Which, if you look at the 3D illustration on slide 17,"
+  },
+  {
+    "start": 920.32,
+    "end": 922.6,
+    "text": "couldn't be further from the truth. It's so crowded."
+  },
+  {
+    "start": 922.68,
+    "end": 925.92,
+    "text": "It is. A synapse, S-I-N-X, is incredibly dense."
+  },
+  {
+    "start": 925.92,
+    "end": 930.44,
+    "text": "It's a packed molecular city completely full of thousands of complex proteins,"
+  },
+  {
+    "start": 930.44,
+    "end": 934.84,
+    "text": "mitochondria, structural scaffolding and molecules that are just constantly at work."
+  },
+  {
+    "start": 934.96,
+    "end": 938.76,
+    "text": "Let's look at the proof of just how busy this microscopic city is on slide 18."
+  },
+  {
+    "start": 939.04,
+    "end": 943.68,
+    "text": "In that visualization, you can actually see microtubules acting like superhighways."
+  },
+  {
+    "start": 943.68,
+    "end": 945.24,
+    "text": "Yeah, they're moving so fast."
+  },
+  {
+    "start": 945.24,
+    "end": 947.64,
+    "text": "They're constantly transporting neurotransmitters,"
+  },
+  {
+    "start": 947.64,
+    "end": 949.76,
+    "text": "proteins and cellular parts back and forth."
+  },
+  {
+    "start": 950.32,
+    "end": 953.24,
+    "text": "The key takeaway here is that neurons"
+  },
+  {
+    "start": 953.48,
+    "end": 956.64,
+    "text": "are fiercely biologically active all the time."
+  },
+  {
+    "start": 956.96,
+    "end": 957.96,
+    "text": "Even at rest."
+  },
+  {
+    "start": 957.96,
+    "end": 959.2,
+    "text": "Even when they're resting."
+  },
+  {
+    "start": 959.2,
+    "end": 962.76,
+    "text": "Yeah, even when they aren't actively firing an action potential,"
+  },
+  {
+    "start": 962.96,
+    "end": 966.48,
+    "text": "they're constantly maintaining their readiness and rebuilding their infrastructure."
+  },
+  {
+    "start": 967.36,
+    "end": 971.48,
+    "text": "Right. But the most incredible feature of the brain on slide 19"
+  },
+  {
+    "start": 971.76,
+    "end": 973.72,
+    "text": "is that it is not static."
+  },
+  {
+    "start": 973.72,
+    "end": 976.96,
+    "text": "It changes its own hardware based on what you do."
+  },
+  {
+    "start": 976.96,
+    "end": 978.48,
+    "text": "Neuroplasticity."
+  },
+  {
+    "start": 978.48,
+    "end": 982.2,
+    "text": "It is the nervous system's ability to fundamentally reorganize its physical"
+  },
+  {
+    "start": 982.2,
+    "end": 986.08,
+    "text": "structure, build new pathways and strengthen connections in response"
+  },
+  {
+    "start": 986.08,
+    "end": 988.6,
+    "text": "to practice, experience or even an injury."
+  },
+  {
+    "start": 988.92,
+    "end": 992.36,
+    "text": "Think about the illustration showing a person practicing guitar."
+  },
+  {
+    "start": 992.36,
+    "end": 995.36,
+    "text": "The very first time you try to play a chord, your fingers feel clumsy."
+  },
+  {
+    "start": 995.52,
+    "end": 996.72,
+    "text": "The movement is slow."
+  },
+  {
+    "start": 996.72,
+    "end": 999.16,
+    "text": "And you have to think about every micro adjustment. Right."
+  },
+  {
+    "start": 999.4,
+    "end": 1002.04,
+    "text": "Mechanically, that happens because the synaptic connection"
+  },
+  {
+    "start": 1002.04,
+    "end": 1005.2,
+    "text": "for that specific movement is incredibly thin and weak."
+  },
+  {
+    "start": 1005.2,
+    "end": 1006.16,
+    "text": "It's underdeveloped."
+  },
+  {
+    "start": 1006.16,
+    "end": 1007.24,
+    "text": "Exactly."
+  },
+  {
+    "start": 1007.24,
+    "end": 1011.12,
+    "text": "But as you repeat the motion, the physical connection between the presynaptic"
+  },
+  {
+    "start": 1011.12,
+    "end": 1013.6,
+    "text": "and postsynaptic terminals physically thickens."
+  },
+  {
+    "start": 1013.92,
+    "end": 1015.32,
+    "text": "It builds more receptors."
+  },
+  {
+    "start": 1015.32,
+    "end": 1017.0,
+    "text": "It stages more vesicles."
+  },
+  {
+    "start": 1017.0,
+    "end": 1020.92,
+    "text": "The hardware literally upgrades to accommodate the software of your new skill."
+  },
+  {
+    "start": 1020.96,
+    "end": 1024.72,
+    "text": "The more pathway fires, the stronger the chemical handshake becomes."
+  },
+  {
+    "start": 1024.76,
+    "end": 1029.72,
+    "text": "I always picture it like walking through a dense, overgrown grassy field."
+  },
+  {
+    "start": 1029.72,
+    "end": 1031.12,
+    "text": "Oh, I love this analogy."
+  },
+  {
+    "start": 1031.12,
+    "end": 1034.0,
+    "text": "The first time you push your way through, it is tough going, right?"
+  },
+  {
+    "start": 1034.24,
+    "end": 1036.52,
+    "text": "The grass immediately springs back up behind you."
+  },
+  {
+    "start": 1036.76,
+    "end": 1039.64,
+    "text": "But if you walk that exact same path every single day,"
+  },
+  {
+    "start": 1039.84,
+    "end": 1043.36,
+    "text": "eventually you break the grass, you compact the soil and it becomes a permanent,"
+  },
+  {
+    "start": 1043.56,
+    "end": 1045.36,
+    "text": "easy to travel dirt road."
+  },
+  {
+    "start": 1045.36,
+    "end": 1047.88,
+    "text": "Your brain does the exact same thing with neural pathways."
+  },
+  {
+    "start": 1047.88,
+    "end": 1051.28,
+    "text": "And we can witness this structural growth happening in real time."
+  },
+  {
+    "start": 1051.84,
+    "end": 1052.48,
+    "text": "Yeah."
+  },
+  {
+    "start": 1052.52,
+    "end": 1053.6,
+    "text": "It's amazing to watch."
+  },
+  {
+    "start": 1053.6,
+    "end": 1056.6,
+    "text": "You can literally see the central nervous system reaching out,"
+  },
+  {
+    "start": 1056.68,
+    "end": 1061.48,
+    "text": "reorganizing, branching and building entirely new physical structures"
+  },
+  {
+    "start": 1061.48,
+    "end": 1063.52,
+    "text": "in response to stimuli."
+  },
+  {
+    "start": 1063.52,
+    "end": 1067.04,
+    "text": "The experiences of the fish physically shape its biology."
+  },
+  {
+    "start": 1067.16,
+    "end": 1070.24,
+    "text": "And that plasticity, that biological ability to change,"
+  },
+  {
+    "start": 1070.24,
+    "end": 1073.2,
+    "text": "Wow. And to make it even more complex, for a long time,"
+  },
+  {
+    "start": 1073.2,
+    "end": 1077.88,
+    "text": "neuroscience assumed one neuron made one type of neurotransmitter."
+  },
+  {
+    "start": 1078.08,
+    "end": 1082.44,
+    "text": "But looking at slide 21, we now know about dual neurotransmission."
+  },
+  {
+    "start": 1082.52,
+    "end": 1083.92,
+    "text": "This is fascinating."
+  },
+  {
+    "start": 1083.92,
+    "end": 1087.76,
+    "text": "A single neuron can actually co-release different neurotransmitters"
+  },
+  {
+    "start": 1087.76,
+    "end": 1089.92,
+    "text": "at the exact same time from the same terminal."
+  },
+  {
+    "start": 1090.28,
+    "end": 1093.6,
+    "text": "A single cell can shout two different messages"
+  },
+  {
+    "start": 1093.6,
+    "end": 1096.08,
+    "text": "simultaneously to fine tune the handshake."
+  },
+  {
+    "start": 1096.08,
+    "end": 1098.24,
+    "text": "On the other side of the seesaw, you have the brakes."
+  },
+  {
+    "start": 1098.84,
+    "end": 1102.76,
+    "text": "GABA is your primary calling signal telling the brain to quiet down."
+  },
+  {
+    "start": 1103.12,
+    "end": 1106.04,
+    "text": "Serotonin regulates your mood and overall well-being."
+  },
+  {
+    "start": 1106.08,
+    "end": 1108.8,
+    "text": "And in the metal acting as powerful modulators,"
+  },
+  {
+    "start": 1109.24,
+    "end": 1113.24,
+    "text": "you have dopamine, which drives pleasure, reward and motivation."
+  },
+  {
+    "start": 1113.28,
+    "end": 1114.08,
+    "text": "The famous one."
+  },
+  {
+    "start": 1114.08,
+    "end": 1115.68,
+    "text": "The famous one, exactly."
+  },
+  {
+    "start": 1115.68,
+    "end": 1119.0,
+    "text": "You also have acetylcholine, crucial for learning and muscle action."
+  },
+  {
+    "start": 1119.96,
+    "end": 1123.24,
+    "text": "And endorphins, which provide pain, relief and euphoria."
+  },
+  {
+    "start": 1123.4,
+    "end": 1126.04,
+    "text": "The brain is entirely dependent on keeping the gas"
+  },
+  {
+    "start": 1126.04,
+    "end": 1130.72,
+    "text": "pedals and the brakes in perfect harmony, like that seesaw diagram on slide 22."
+  },
+  {
+    "start": 1130.76,
+    "end": 1132.68,
+    "text": "Exactly. If you only had gas pedals,"
+  },
+  {
+    "start": 1132.68,
+    "end": 1134.8,
+    "text": "the system would just overheat and crash."
+  },
+  {
+    "start": 1135.04,
+    "end": 1137.92,
+    "text": "And we know exactly what happens when that balance fails."
+  },
+  {
+    "start": 1138.36,
+    "end": 1141.32,
+    "text": "Imagine the seesaw tipping too far toward excitation."
+  },
+  {
+    "start": 1141.48,
+    "end": 1144.68,
+    "text": "OK. If GABA binding is poor, meaning the brakes aren't working,"
+  },
+  {
+    "start": 1144.68,
+    "end": 1146.76,
+    "text": "glutamate takes over. Oh, yeah."
+  },
+  {
+    "start": 1146.76,
+    "end": 1150.4,
+    "text": "This runaway, uninhibited electrical activity across the neural network"
+  },
+  {
+    "start": 1150.4,
+    "end": 1154.44,
+    "text": "is the exact mechanical underlying cause of disorders like epilepsy."
+  },
+  {
+    "start": 1154.44,
+    "end": 1156.2,
+    "text": "So let's talk about the cargo itself."
+  },
+  {
+    "start": 1156.2,
+    "end": 1158.44,
+    "text": "The chemical is floating across that gap."
+  },
+  {
+    "start": 1158.6,
+    "end": 1160.44,
+    "text": "The neurotransmitters stuff."
+  },
+  {
+    "start": 1160.44,
+    "end": 1163.8,
+    "text": "Yeah, these are the molecules of mood, movement and memory."
+  },
+  {
+    "start": 1164.44,
+    "end": 1169.48,
+    "text": "And rather than just reciting a textbook list from the infographic on slide 23,"
+  },
+  {
+    "start": 1169.84,
+    "end": 1172.8,
+    "text": "it helps to understand them as opposing forces in the brain."
+  },
+  {
+    "start": 1172.84,
+    "end": 1174.2,
+    "text": "It's a constant balancing act."
+  },
+  {
+    "start": 1174.2,
+    "end": 1178.16,
+    "text": "Right. On one side, you have your excitatory signals, the gas pedals."
+  },
+  {
+    "start": 1178.16,
+    "end": 1181.24,
+    "text": "OK. Glutamate is the most common neurotransmitter in the brain,"
+  },
+  {
+    "start": 1181.24,
+    "end": 1183.92,
+    "text": "essential for forming memories and just getting things moving."
+  },
+  {
+    "start": 1184.24,
+    "end": 1186.56,
+    "text": "Adrenaline drives your fight or flight response,"
+  },
+  {
+    "start": 1186.56,
+    "end": 1189.16,
+    "text": "while noradrenaline zeros in your concentration."
+  },
+  {
+    "start": 1189.36,
+    "end": 1192.56,
+    "text": "Which frees up a great point about how we try to treat imbalances"
+  },
+  {
+    "start": 1192.56,
+    "end": 1194.88,
+    "text": "in this system with medication."
+  },
+  {
+    "start": 1194.88,
+    "end": 1199.0,
+    "text": "The receptors for these neurotransmitters aren't just located in one neat little spot."
+  },
+  {
+    "start": 1199.0,
+    "end": 1202.0,
+    "text": "Right. If you look at the brain maps on slide 24,"
+  },
+  {
+    "start": 1202.24,
+    "end": 1205.8,
+    "text": "they are distributed widely across different regions of the brain and the body."
+  },
+  {
+    "start": 1205.84,
+    "end": 1209.68,
+    "text": "And this wide spatial map explains a very frustrating reality"
+  },
+  {
+    "start": 1209.68,
+    "end": 1212.96,
+    "text": "for anyone who has ever taken a prescription drug, right? Side effects."
+  },
+  {
+    "start": 1213.4,
+    "end": 1216.2,
+    "text": "If you take a medication meant to increase serotonin"
+  },
+  {
+    "start": 1216.2,
+    "end": 1219.8,
+    "text": "to help balance your emotional state, that pill doesn't have a GPS system."
+  },
+  {
+    "start": 1219.8,
+    "end": 1220.48,
+    "text": "It really doesn't."
+  },
+  {
+    "start": 1220.48,
+    "end": 1223.4,
+    "text": "It doesn't know how to only target the emotional centers of your brain."
+  },
+  {
+    "start": 1223.4,
+    "end": 1224.96,
+    "text": "It travels everywhere."
+  },
+  {
+    "start": 1224.96,
+    "end": 1227.6,
+    "text": "So while the drug hits the targets you want,"
+  },
+  {
+    "start": 1227.96,
+    "end": 1231.64,
+    "text": "it inevitably hits serotonin receptors in entirely different systems."
+  },
+  {
+    "start": 1231.64,
+    "end": 1232.28,
+    "text": "Like where?"
+  },
+  {
+    "start": 1232.28,
+    "end": 1235.56,
+    "text": "Well, a massive amount of your body's serotonin receptors"
+  },
+  {
+    "start": 1235.56,
+    "end": 1237.4,
+    "text": "are actually located in your gut."
+  },
+  {
+    "start": 1237.4,
+    "end": 1238.28,
+    "text": "Oh, wow."
+  },
+  {
+    "start": 1238.28,
+    "end": 1242.28,
+    "text": "So you take a pill to adjust the chemical handshake in your brain for mood"
+  },
+  {
+    "start": 1242.6,
+    "end": 1244.96,
+    "text": "and you end up with nausea or digestive changes."
+  },
+  {
+    "start": 1245.28,
+    "end": 1247.28,
+    "text": "Because you are inadvertently shaking hands"
+  },
+  {
+    "start": 1247.28,
+    "end": 1249.16,
+    "text": "with the receptors in your stomach."
+  },
+  {
+    "start": 1249.16,
+    "end": 1252.44,
+    "text": "If we look at the final abstract illustration of regional connections,"
+  },
+  {
+    "start": 1252.44,
+    "end": 1257.8,
+    "text": "it shows massive, sweeping, colorful arcs connecting entirely different brain regions."
+  },
+  {
+    "start": 1257.8,
+    "end": 1261.4,
+    "text": "It reminds us that while the fundamental language of the brain is that microscopic"
+  },
+  {
+    "start": 1261.4,
+    "end": 1263.32,
+    "text": "electrochemical handshake we've been analyzing."
+  },
+  {
+    "start": 1263.32,
+    "end": 1264.44,
+    "text": "Right, the synapses."
+  },
+  {
+    "start": 1264.44,
+    "end": 1270.44,
+    "text": "Yeah, but the entire brain is intertwined in these massive, global neural networks."
+  },
+  {
+    "start": 1270.44,
+    "end": 1274.28,
+    "text": "It takes billions of cells, communicating perfectly across those gaps,"
+  },
+  {
+    "start": 1274.28,
+    "end": 1278.04,
+    "text": "to produce complex thoughts, to feel empathy, or to learn something new."
+  },
+  {
+    "start": 1278.04,
+    "end": 1278.92,
+    "text": "That's a symphony."
+  },
+  {
+    "start": 1278.92,
+    "end": 1281.6,
+    "text": "actually work on slides 26 through 30."
+  },
+  {
+    "start": 1281.6,
+    "end": 1282.28,
+    "text": "Exactly."
+  },
+  {
+    "start": 1282.28,
+    "end": 1286.04,
+    "text": "Because the brain relies on these chemical handshakes and can rewire itself,"
+  },
+  {
+    "start": 1286.2,
+    "end": 1289.6,
+    "text": "we have multiple ways to intervene when the system breaks down."
+  },
+  {
+    "start": 1289.6,
+    "end": 1291.32,
+    "text": "Take psychotherapy, for example."
+  },
+  {
+    "start": 1291.32,
+    "end": 1293.96,
+    "text": "Cognitive behavioral therapy, or CBT."
+  },
+  {
+    "start": 1293.96,
+    "end": 1296.44,
+    "text": "A lot of people dismiss it as just talking."
+  },
+  {
+    "start": 1296.44,
+    "end": 1301.04,
+    "text": "Right. But fundamentally, CBT is a highly structured process"
+  },
+  {
+    "start": 1301.04,
+    "end": 1302.76,
+    "text": "of unlearning and relearning."
+  },
+  {
+    "start": 1302.76,
+    "end": 1304.44,
+    "text": "How does that work mechanically?"
+  },
+  {
+    "start": 1304.44,
+    "end": 1307.64,
+    "text": "By identifying a negative thought pattern and consciously forcing yourself"
+  },
+  {
+    "start": 1307.64,
+    "end": 1309.36,
+    "text": "to adopt a different response,"
+  },
+  {
+    "start": 1309.36,
+    "end": 1313.88,
+    "text": "CBT mechanically forces you to walk a new path in that grassy field you mentioned."
+  },
+  {
+    "start": 1313.88,
+    "end": 1314.64,
+    "text": "Oh, I see."
+  },
+  {
+    "start": 1314.64,
+    "end": 1319.28,
+    "text": "Over time, through repetition, you physically wear down a healthier dirt road"
+  },
+  {
+    "start": 1319.36,
+    "end": 1322.4,
+    "text": "and the old negative pathway weakens from disuse."
+  },
+  {
+    "start": 1322.4,
+    "end": 1325.72,
+    "text": "You are literally using thought to drive physical plasticity."
+  },
+  {
+    "start": 1325.72,
+    "end": 1326.92,
+    "text": "That's incredible."
+  },
+  {
+    "start": 1326.92,
+    "end": 1331.0,
+    "text": "Then you have medications which operate right at the physical gap of the synapse,"
+  },
+  {
+    "start": 1331.0,
+    "end": 1331.8,
+    "text": "SIN-apse."
+  },
+  {
+    "start": 1331.8,
+    "end": 1334.08,
+    "text": "Yes, they manipulate the chemical handshake directly."
+  },
+  {
+    "start": 1334.08,
+    "end": 1334.76,
+    "text": "Right."
+  },
+  {
+    "start": 1334.76,
+    "end": 1338.64,
+    "text": "A psychiatrist might prescribe a medication that blocks dopamine receptors"
+  },
+  {
+    "start": 1338.64,
+    "end": 1341.32,
+    "text": "to calm the runaway signaling in psychosis,"
+  },
+  {
+    "start": 1341.32,
+    "end": 1344.6,
+    "text": "or a medication that increases the amount of serotonin left in the gap"
+  },
+  {
+    "start": 1344.6,
+    "end": 1346.08,
+    "text": "to help combat depression."
+  },
+  {
+    "start": 1346.08,
+    "end": 1349.68,
+    "text": "And then we have interventions that bypass the chemicals entirely"
+  },
+  {
+    "start": 1349.68,
+    "end": 1351.68,
+    "text": "and go straight for the electrical wave."
+  },
+  {
+    "start": 1351.68,
+    "end": 1354.88,
+    "text": "Non-invasive brain stimulation or NIBS."
+  },
+  {
+    "start": 1354.88,
+    "end": 1358.96,
+    "text": "Things like RTMS, Repetitive Transcranial Magnetic Stimulation."
+  },
+  {
+    "start": 1358.96,
+    "end": 1359.8,
+    "text": "Yes."
+  },
+  {
+    "start": 1359.8,
+    "end": 1362.24,
+    "text": "The brain is fundamentally an electrical organ,"
+  },
+  {
+    "start": 1362.24,
+    "end": 1364.52,
+    "text": "which means it is susceptible to magnetic fields."
+  },
+  {
+    "start": 1364.52,
+    "end": 1365.0,
+    "text": "Right."
+  },
+  {
+    "start": 1365.0,
+    "end": 1369.96,
+    "text": "With RTMS, a patient sits with a large wire coil placed near their scalp."
+  },
+  {
+    "start": 1369.96,
+    "end": 1372.88,
+    "text": "That coil generates rapidly changing magnetic pulses."
+  },
+  {
+    "start": 1372.88,
+    "end": 1374.4,
+    "text": "Okay, so it's magnetic pulse."
+  },
+  {
+    "start": 1374.4,
+    "end": 1375.44,
+    "text": "Exactly."
+  },
+  {
+    "start": 1375.44,
+    "end": 1378.96,
+    "text": "Those magnetic fields safely penetrate the skull"
+  },
+  {
+    "start": 1378.96,
+    "end": 1382.76,
+    "text": "and induce a localized, highly targeted electric field"
+  },
+  {
+    "start": 1382.76,
+    "end": 1384.92,
+    "text": "in the brain tissue underneath."
+  },
+  {
+    "start": 1384.92,
+    "end": 1388.84,
+    "text": "We're using the laws of physics to directly tune and modulate"
+  },
+  {
+    "start": 1388.84,
+    "end": 1392.4,
+    "text": "the cortical excitability of the brain, strengthening or weakening"
+  },
+  {
+    "start": 1392.4,
+    "end": 1396.44,
+    "text": "specific circuits without ever introducing a single chemical."
+  },
+  {
+    "start": 1396.44,
+    "end": 1398.88,
+    "text": "Okay, let's step back and look at the big picture takeaway"
+  },
+  {
+    "start": 1398.88,
+    "end": 1401.76,
+    "text": "from this deep dive into the brain's blueprint."
+  },
+  {
+    "start": 1401.76,
+    "end": 1404.24,
+    "text": "Think about the incredible microscopic journey"
+  },
+  {
+    "start": 1404.24,
+    "end": 1405.52,
+    "text": "we just mapped out today."
+  },
+  {
+    "start": 1405.52,
+    "end": 1406.44,
+    "text": "It's a journey."
+  },
+  {
+    "start": 1406.44,
+    "end": 1408.6,
+    "text": "A thought, an impulse, or an action begins"
+  },
+  {
+    "start": 1408.6,
+    "end": 1411.76,
+    "text": "as a tense electrical wave, snapping like a rubber band"
+  },
+  {
+    "start": 1411.76,
+    "end": 1415.2,
+    "text": "and racing down an axon, insulated and accelerated"
+  },
+  {
+    "start": 1415.2,
+    "end": 1417.64,
+    "text": "by a myelin, myelin sheath."
+  },
+  {
+    "start": 1417.64,
+    "end": 1421.28,
+    "text": "Then it hits the synapse, SINAPs, slamming the brakes"
+  },
+  {
+    "start": 1421.28,
+    "end": 1423.4,
+    "text": "to convert that rapid electrical current"
+  },
+  {
+    "start": 1423.4,
+    "end": 1425.6,
+    "text": "into a highly nuanced chemical messenger."
+  },
+  {
+    "start": 1425.6,
+    "end": 1427.88,
+    "text": "Those chemical cargo ships dock, unzip,"
+  },
+  {
+    "start": 1427.88,
+    "end": 1429.56,
+    "text": "and flood across the void."
+  },
+  {
+    "start": 1429.56,
+    "end": 1431.84,
+    "text": "They bind like a key in a lock on the other side,"
+  },
+  {
+    "start": 1431.84,
+    "end": 1434.6,
+    "text": "triggering a brand new electrical wave in the next cell."
+  },
+  {
+    "start": 1434.6,
+    "end": 1437.28,
+    "text": "And through the magic of neuroplasticity,"
+  },
+  {
+    "start": 1437.28,
+    "end": 1439.8,
+    "text": "every single time you fire that sequence,"
+  },
+  {
+    "start": 1439.8,
+    "end": 1442.16,
+    "text": "the physical structure of your brain becomes"
+  },
+  {
+    "start": 1442.16,
+    "end": 1444.68,
+    "text": "a little bit stronger, a little bit more efficient."
+  },
+  {
+    "start": 1444.68,
+    "end": 1447.76,
+    "text": "Which leads us with a final, slightly provocative thought"
+  },
+  {
+    "start": 1447.76,
+    "end": 1450.32,
+    "text": "to ponder as you review your notes."
+  },
+  {
+    "start": 1450.32,
+    "end": 1451.24,
+    "text": "Oh, lay it on us."
+  },
+  {
+    "start": 1451.24,
+    "end": 1452.94,
+    "text": "If every single thought you think,"
+  },
+  {
+    "start": 1452.94,
+    "end": 1456.28,
+    "text": "every behavior you repeat, and every new skill you practice"
+  },
+  {
+    "start": 1456.28,
+    "end": 1459.84,
+    "text": "physically alters the microscopic strength, structure,"
+  },
+  {
+    "start": 1459.88,
+    "end": 1462.84,
+    "text": "and chemical balance of your synaptic connections."
+  },
+  {
+    "start": 1462.84,
+    "end": 1465.4,
+    "text": "Then from a purely neurobiological standpoint,"
+  },
+  {
+    "start": 1465.4,
+    "end": 1467.4,
+    "text": "the brain you woke up with this morning"
+  },
+  {
+    "start": 1467.4,
+    "end": 1470.4,
+    "text": "is physically, structurally different from the brain"
+  },
+  {
+    "start": 1470.4,
+    "end": 1471.84,
+    "text": "you will go to sleep with tonight."
+  },
+  {
+    "start": 1471.84,
+    "end": 1475.32,
+    "text": "You are, quite literally, constantly rewiring"
+  },
+  {
+    "start": 1475.32,
+    "end": 1477.04,
+    "text": "the physical nature of your own identity."
+  },
+  {
+    "start": 1477.04,
+    "end": 1478.76,
+    "text": "What a thought to end on."
+  },
+  {
+    "start": 1478.76,
+    "end": 1480.68,
+    "text": "Keep exploring those simulations."
+  },
+  {
+    "start": 1480.68,
+    "end": 1483.4,
+    "text": "Pay attention to the tension in the resting state."
+  },
+  {
+    "start": 1483.4,
+    "end": 1485.6,
+    "text": "Watch how the chemicals bridge the gap."
+  },
+  {
+    "start": 1485.6,
+    "end": 1488.4,
+    "text": "And thank you for joining us on this deep dive."
+  }
+]

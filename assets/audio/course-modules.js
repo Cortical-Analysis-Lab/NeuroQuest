@@ -20,11 +20,11 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "title": "The psychology lens",
-        "notes": "Now let's move to The psychology lens. The main ideas to hear are Focus: behavior, thought, emotion, meaning, and context., Mind, and & behavior. Those details matter because they help distinguish Typical questions, \u2022 What did..."
+        "notes": "Now let's move to The psychology lens. The main ideas to hear are Focus: behavior, thought, emotion, meaning, and context., Mind, and & behavior. Those details matter because they help distinguish Typical questions, • What did..."
       },
       {
         "title": "The neuroscience lens",
-        "notes": "Now let's move to The neuroscience lens. The main ideas to hear are Focus: mechanisms in the nervous system., Typical questions, and \u2022 Which neurons, circuits, and brain regions are involved?. Those details matter because they..."
+        "notes": "Now let's move to The neuroscience lens. The main ideas to hear are Focus: mechanisms in the nervous system., Typical questions, and • Which neurons, circuits, and brain regions are involved?. Those details matter because they..."
       },
       {
         "title": "Core distinction: different levels of explanation",
@@ -48,7 +48,7 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "title": "Examples: fear and anxiety",
-        "notes": "Now let's move to Examples: fear and anxiety. The main ideas to hear are Threat responses have meaning, behavior, circuits, and body signals., Psychology, and \u2022 Threat appraisal. Those details matter because they help..."
+        "notes": "Now let's move to Examples: fear and anxiety. The main ideas to hear are Threat responses have meaning, behavior, circuits, and body signals., Psychology, and • Threat appraisal. Those details matter because they help..."
       },
       {
         "title": "Examples: reward, addiction, and decision-making",
@@ -70,7 +70,7 @@ window.COURSE_AUDIO_MODULES = {
     "cues": [
       {
         "slide": 1,
-        "time": 0.0
+        "time": 0
       },
       {
         "slide": 2,
@@ -175,8 +175,8 @@ window.COURSE_AUDIO_MODULES = {
         "notes": "Now let's move to Language: Organization. The main ideas to hear are An illustration of how these regions are connected to help each other function to comprehend and use language. As students look at the slide, I would point..."
       },
       {
-        "title": "Signals from Broca\u2019s area pass to:",
-        "notes": "Now let's move to Signals from Broca\u2019s area pass to:. The main ideas to hear are The angular gyrus acts as an association cortex that gathers visual, auditory, and somatosensory information. It relays this to the relevant..."
+        "title": "Signals from Broca’s area pass to:",
+        "notes": "Now let's move to Signals from Broca’s area pass to:. The main ideas to hear are The angular gyrus acts as an association cortex that gathers visual, auditory, and somatosensory information. It relays this to the relevant..."
       },
       {
         "title": "FAT was shown to have a role in speech and language functions:",
@@ -219,8 +219,8 @@ window.COURSE_AUDIO_MODULES = {
         "notes": "Now let's move to Language: Stuttering & FAT. The main ideas to hear are Typically, the right IFG stops the flow of speech, whereas the left IFG supports it., In people who stutter, these two areas are conversely activated:,..."
       },
       {
-        "title": "Language: Wernike\u2019s Area",
-        "notes": "Now let's move to Language: Wernike\u2019s Area. The main ideas to hear are Responsible for the comprehension of written and spoken language, damage to this area results in a fluent but receptive aphasia., Receptive aphasia may be..."
+        "title": "Language: Wernike’s Area",
+        "notes": "Now let's move to Language: Wernike’s Area. The main ideas to hear are Responsible for the comprehension of written and spoken language, damage to this area results in a fluent but receptive aphasia., Receptive aphasia may be..."
       },
       {
         "title": "Language: Wernicke's Aphasia",
@@ -231,16 +231,16 @@ window.COURSE_AUDIO_MODULES = {
         "notes": "Now let's move to Language: Brocas Area. The main ideas to hear are Broca aphasia is a non-fluent aphasia in which spontaneous speech output is markedly diminished, and there is a loss of normal grammatical structure.,..."
       },
       {
-        "title": "Language: Broca\u2019s Aphasia",
-        "notes": "Now let's move to Language: Broca\u2019s Aphasia. This slide appears to rely mostly on its image, diagram, or spatial layout rather than detailed text. I would describe what students should notice first, name the important..."
+        "title": "Language: Broca’s Aphasia",
+        "notes": "Now let's move to Language: Broca’s Aphasia. This slide appears to rely mostly on its image, diagram, or spatial layout rather than detailed text. I would describe what students should notice first, name the important..."
       },
       {
         "title": "What Causes Aphasia?",
-        "notes": "Now let's move to What Causes Aphasia?. The main ideas to hear are Aphasia results from damage to specific brain areas including:, Angular gyrus (parietal lobe), and Wernicke\u2019s area (temporal lobe). Those details matter..."
+        "notes": "Now let's move to What Causes Aphasia?. The main ideas to hear are Aphasia results from damage to specific brain areas including:, Angular gyrus (parietal lobe), and Wernicke’s area (temporal lobe). Those details matter..."
       },
       {
         "title": "Language: Foreign Accent Syndrome",
-        "notes": "Now let's move to Language: Foreign Accent Syndrome. The main ideas to hear are Foreign accent syndrome (FAS) is a condition where the way you talk shifts and changes in a way that\u2019s sudden and very noticeable., As the name..."
+        "notes": "Now let's move to Language: Foreign Accent Syndrome. The main ideas to hear are Foreign accent syndrome (FAS) is a condition where the way you talk shifts and changes in a way that’s sudden and very noticeable., As the name..."
       },
       {
         "title": "Language: Foreign Accent Syndrome",
@@ -250,7 +250,7 @@ window.COURSE_AUDIO_MODULES = {
     "cues": [
       {
         "slide": 1,
-        "time": 0.0
+        "time": 0
       },
       {
         "slide": 2,
@@ -318,7 +318,7 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 18,
-        "time": 503.0
+        "time": 503
       },
       {
         "slide": 19,
@@ -354,7 +354,7 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 27,
-        "time": 1014.0
+        "time": 1014
       }
     ],
     "duration": 1073.28
@@ -412,7 +412,7 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "title": "How Brain Implants work",
-        "notes": "Now let's move to How Brain Implants work. The main ideas to hear are Implants may last 12months \u2013 6 years and What are some things that keep them from lasting longer?. As students look at the slide, I would point them toward..."
+        "notes": "Now let's move to How Brain Implants work. The main ideas to hear are Implants may last 12months – 6 years and What are some things that keep them from lasting longer?. As students look at the slide, I would point them toward..."
       },
       {
         "title": "Brains response to Implant",
@@ -478,7 +478,7 @@ window.COURSE_AUDIO_MODULES = {
     "cues": [
       {
         "slide": 1,
-        "time": 0.0
+        "time": 0
       },
       {
         "slide": 2,
@@ -534,7 +534,7 @@ window.COURSE_AUDIO_MODULES = {
       },
       {
         "slide": 15,
-        "time": 588.0
+        "time": 588
       },
       {
         "slide": 16,
@@ -582,5 +582,296 @@ window.COURSE_AUDIO_MODULES = {
       }
     ],
     "duration": 889.76
+  },
+  "neurophysiology": {
+    "id": "neurophysiology",
+    "title": "Neurophysiology & Communication",
+    "shortTitle": "Neurophysiology",
+    "deckLabel": "Neurophysiology & Communication",
+    "audioOut": "neurophysiology-clean.m4a",
+    "slidesDir": "neurophysiology",
+    "slidePrefix": "neurophys-slide",
+    "assetVersion": "20260710-neurophys-manual-bridge-slides-v6",
+    "guide": "Navi and Glia trace how neurons turn electrical and chemical events into communication, plasticity, and behavior.",
+    "notes": "Use the transcript, slide notes, and media markers to connect cellular signaling to larger neural networks.",
+    "slides": [
+      {
+        "sourceSlide": 1,
+        "title": "Neurophysiology&Communication",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 2,
+        "title": "Summary",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 3,
+        "title": "86 billion neurons",
+        "notes": "85 billion non-neural cells (glia, ependymal, epithelial cells, and pericyte) Suzana Herculano-Houzel, 2009 Allen Brain Institute How are Neural signals made?"
+      },
+      {
+        "sourceSlide": 4,
+        "title": "7/9/2026",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 5,
+        "title": "Slide 5",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 6,
+        "title": "7/9/2026",
+        "notes": "Ion channels open and close along the axon to allow the signal to travel Myelination allows neural signals to travel faster. Myelination traps/insulates (+) ions around the axon creating to ensure that that are readily available Free floating (+) ions surrounding the axon flow in to transmit the positively charged signal"
+      },
+      {
+        "sourceSlide": 7,
+        "title": "Background – Neural Signaling",
+        "notes": "Synaptic Transmission: The Brain’s Handshake Think of your brain as a massive network of wires that don’t touch. To send a signal from one neuron to the next, they use a process called synaptic transmission: The Gap: Signals reach the end of one neuron and must cross a tiny space called the synapse. The Message: The first neuron releases chemical messengers called neurotransmitters (like Dopamine or Serotonin). The Connection: These chemicals \"dock\" into the next neuron, passing the electrical signal along. In short: It is the conversion of an electrical signal into a chemical one to bridge the gap between brain cells."
+      },
+      {
+        "sourceSlide": 8,
+        "title": "Slide 8",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 9,
+        "title": "Slide 9",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 10,
+        "title": "Action Potential",
+        "notes": "Visual slide; advance manually before narration resumes."
+      },
+      {
+        "sourceSlide": 11,
+        "title": "Slide 11",
+        "notes": "Visual slide; advance manually before narration resumes."
+      },
+      {
+        "sourceSlide": 12,
+        "title": "Background – Neural Signaling",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 13,
+        "title": "Vesicle Fusion via Snare proteins",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 14,
+        "title": "How Botulinum Toxin aka BOTOx works",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 15,
+        "title": "Slide 15",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 16,
+        "title": "There are over different 300 ion channels each associated with its own gene.",
+        "notes": "A single neuron might typically contain 10 kinds of ion channels or more Main types of ion channels"
+      },
+      {
+        "sourceSlide": 17,
+        "title": "What the synapse is really like",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 18,
+        "title": "Neurons are Always active",
+        "notes": "Distribution of neurotransmitters, proteins, and other molecules through microtubules"
+      },
+      {
+        "sourceSlide": 19,
+        "title": "Neural Plasticity",
+        "notes": "- the ability of the nervous system to change its activity in response to intrinsic or extrinsic stimuli by reorganizing its structure, functions, or connections after injuries"
+      },
+      {
+        "sourceSlide": 20,
+        "title": "Neural Plasticity",
+        "notes": "Neural growth in a zebra fish ->"
+      },
+      {
+        "sourceSlide": 21,
+        "title": "Dual Neurotransmission",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 22,
+        "title": "Poor GABA binding to receptors",
+        "notes": "Strong GABA binding to receptors"
+      },
+      {
+        "sourceSlide": 23,
+        "title": "Slide 23",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 24,
+        "title": "Distribution of Neurotransmitters",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 25,
+        "title": "Regional Connections in the Brain",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 26,
+        "title": "How do therapeutic Interventions influence your brain?",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 27,
+        "title": "Slide 27",
+        "notes": "Visual slide; use the exported PowerPoint image and accompanying narration for context."
+      },
+      {
+        "sourceSlide": 28,
+        "title": "How do therapeutic Interventions influence your brain?",
+        "notes": "Medications Blocking the action of dopamine Increasing the activity of the neurotransmitters serotonin, norepinephrine and dopamine modulate the activity of enzymes, ion channels, and receptors increasing dopamine and norepinephrine Stimulates GABA"
+      },
+      {
+        "sourceSlide": 29,
+        "title": "How do therapeutic Interventions influence your brain?",
+        "notes": "Alternative Treatments rTMS is a brain stimulation technique in which the patient is seated with a large wire coil positioned near to the scalp. It generates rapidly changing magnetic pulses that induce an electric field, having a modulatory effect on cortical excitability."
+      },
+      {
+        "sourceSlide": 30,
+        "title": "NIBS = Non-Invasive Brain Stimulation",
+        "notes": "transcranial magnetic stimulation (TMS) transcranial electrical stimulation (tES) Direct Alternating"
+      }
+    ],
+    "cues": [
+      {
+        "slide": 1,
+        "time": 0
+      },
+      {
+        "slide": 2,
+        "time": 104
+      },
+      {
+        "slide": 3,
+        "time": 147.24
+      },
+      {
+        "slide": 4,
+        "time": 244.08
+      },
+      {
+        "slide": 5,
+        "time": 280.04
+      },
+      {
+        "slide": 6,
+        "time": 330.8
+      },
+      {
+        "slide": 7,
+        "time": 370.16
+      },
+      {
+        "slide": 8,
+        "time": 457.64
+      },
+      {
+        "slide": 9,
+        "time": 574.28
+      },
+      {
+        "slide": 10,
+        "time": 709.08,
+        "noAudio": true,
+        "manualAdvance": true
+      },
+      {
+        "slide": 11,
+        "time": 709.08,
+        "noAudio": true,
+        "manualAdvance": true
+      },
+      {
+        "slide": 12,
+        "time": 709.08
+      },
+      {
+        "slide": 13,
+        "time": 754.76
+      },
+      {
+        "slide": 14,
+        "time": 786.08
+      },
+      {
+        "slide": 15,
+        "time": 820.48
+      },
+      {
+        "slide": 16,
+        "time": 886.8
+      },
+      {
+        "slide": 17,
+        "time": 917
+      },
+      {
+        "slide": 18,
+        "time": 934.96
+      },
+      {
+        "slide": 19,
+        "time": 967.36
+      },
+      {
+        "slide": 20,
+        "time": 1047.88
+      },
+      {
+        "slide": 21,
+        "time": 1070.24
+      },
+      {
+        "slide": 22,
+        "time": 1096.08
+      },
+      {
+        "slide": 23,
+        "time": 1154.44
+      },
+      {
+        "slide": 24,
+        "time": 1189.36
+      },
+      {
+        "slide": 25,
+        "time": 1249.16
+      },
+      {
+        "slide": 26,
+        "time": 1278.92
+      },
+      {
+        "slide": 27,
+        "time": 1289.6
+      },
+      {
+        "slide": 28,
+        "time": 1326.92
+      },
+      {
+        "slide": 29,
+        "time": 1351.68
+      },
+      {
+        "slide": 30,
+        "time": 1354.88
+      }
+    ],
+    "duration": 1488.4
   }
 };

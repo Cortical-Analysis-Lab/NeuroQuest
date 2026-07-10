@@ -1,0 +1,530 @@
+language=en probability=1.000
+
+[00:00:00 - 00:00:05] You know, when you look at a computer motherboard or like you open up a laptop,
+[00:00:05 - 00:00:08] everything makes this very rigid sort of sense.
+[00:00:08 - 00:00:09] Oh, yeah, completely. Right.
+[00:00:09 - 00:00:14] You have these clean lines of copper, these perfectly soldered pathways.
+[00:00:15 - 00:00:20] A signal goes from point A to point B, and it's just this closed unbroken loop.
+[00:00:20 - 00:00:24] It's binary, it's engineered, and you can visibly trace it.
+[00:00:24 - 00:00:26] Yeah, it's incredibly orderly.
+[00:00:26 - 00:00:29] I mean, you trace the wire, you find the exact destination.
+[00:00:29 - 00:00:31] There's no ambiguity at all.
+[00:00:31 - 00:00:35] But then as a student stepping into neurophysiology for the first time,
+[00:00:35 - 00:00:39] you look at the human brain and that entire engineering paradigm
+[00:00:39 - 00:00:40] just completely shatters.
+[00:00:40 - 00:00:41] So it falls apart immediately.
+[00:00:41 - 00:00:42] It really does.
+[00:00:42 - 00:00:46] Suddenly you're looking at this wet, messy chemical soup where the wires
+[00:00:46 - 00:00:48] and we're talking billions of them, they don't even actually touch each other.
+[00:00:48 - 00:00:51] Right. It is the ultimate biological paradox, honestly.
+[00:00:51 - 00:00:57] The most sophisticated, high speed communication network in the known universe
+[00:00:57 - 00:01:01] relies on physical gaps and floating chemicals to get its message across.
+[00:01:01 - 00:01:03] Which is just wild to wrap your head around.
+[00:01:03 - 00:01:08] And our mission today for this deep dive is to decode that exact paradox.
+[00:01:08 - 00:01:09] Exactly.
+[00:01:09 - 00:01:13] We're going to take some incredibly complex neuroscience from your lecture
+[00:01:13 - 00:01:17] slides and turn it into a clear, functioning mental map for you.
+[00:01:17 - 00:01:19] Yeah, we're going to bypass the dense jargon today.
+[00:01:19 - 00:01:23] Right. And figure out how a thought or a memory or an action
+[00:01:24 - 00:01:30] travels from a tiny spark in a single cell to a full blown physical behavior.
+[00:01:30 - 00:01:33] Because understanding how those disconnected wires actually bridge that gap,
+[00:01:33 - 00:01:36] how they truly communicate is the master key to everything.
+[00:01:36 - 00:01:37] It really is.
+[00:01:37 - 00:01:40] It unlocks the mechanics of learning, the physical nature of memory
+[00:01:40 - 00:01:44] and even the fundamental reasons why the medications we take actually work.
+[00:01:44 - 00:01:47] So let's start big and then kind of shrink down.
+[00:01:48 - 00:01:51] Picture a journey inward, starting from a satellite view and zooming
+[00:01:51 - 00:01:54] all the way down to like a single person on the street.
+[00:01:54 - 00:01:57] Gifts showing the brain from the outer gray matter, then white matter,
+[00:01:58 - 00:02:00] littered with synaptic dendritic buds.
+[00:02:00 - 00:02:03] So what you're seeing in that animation on slide two
+[00:02:03 - 00:02:06] is this beautiful descent from the gross anatomy.
+[00:02:06 - 00:02:07] It's a great visual.
+[00:02:07 - 00:02:08] It really is.
+[00:02:08 - 00:02:10] We start at the outer folds of the gray matter,
+[00:02:10 - 00:02:14] pushing down through the white matter past the ventricles down into the brainstem
+[00:02:14 - 00:02:17] and sweeping past structures like the amygdala, amygdala.
+[00:02:18 - 00:02:22] And we just keep zooming in deeper and deeper until we hit the microscopic level,
+[00:02:22 - 00:02:24] finally resting on a single individual neuron
+[00:02:25 - 00:02:27] that is absolutely covered in tiny little dendritic buds.
+[00:02:27 - 00:02:32] And when you look at those neural populations, the numbers are just staggering.
+[00:02:32 - 00:02:36] Yeah. We always hear about the 86 billion neurons in the brain, right?
+[00:02:36 - 00:02:40] They're usually treated as the undisputed rock stars of the nervous system.
+[00:02:40 - 00:02:42] The main characters. Yeah, exactly.
+[00:02:42 - 00:02:46] But research from Susana Herculon or Huzal and the Allen Brain Institute
+[00:02:46 - 00:02:49] on slide three reveals there are also
+[00:02:49 - 00:02:54] 85 billion non neural cells hanging around, which is I mean,
+[00:02:54 - 00:02:57] that is almost a one to one ratio of neurons to non neurons. Right.
+[00:02:57 - 00:03:00] But I have to push back on the biology here a little bit.
+[00:03:00 - 00:03:04] If nearly half of the brain's cellular population isn't even made up of neurons,
+[00:03:04 - 00:03:07] what are all those other cells actually doing?
+[00:03:07 - 00:03:08] That's a great question.
+[00:03:08 - 00:03:12] Because nature usually doesn't waste that much energy just, you know, taking up space.
+[00:03:12 - 00:03:14] Oh, they definitely aren't just taking up space.
+[00:03:14 - 00:03:19] Those 85 billion non neural cells are the unsung heroes of the entire system.
+[00:03:19 - 00:03:20] OK, how so?
+[00:03:20 - 00:03:24] Well, we're talking about glial cells, epinidymal cells, epithelial cells,
+[00:03:24 - 00:03:28] parasites, they do the absolutely crucial background work.
+[00:03:28 - 00:03:29] Like what? For example,
+[00:03:29 - 00:03:32] epithelial cells physically form the blood,
+[00:03:32 - 00:03:36] cerebrospinal fluid barrier, which is the ultimate defense system for the brain.
+[00:03:37 - 00:03:41] And parasites regulate blood flow in the capillaries so the brain gets oxygen.
+[00:03:42 - 00:03:44] Epinidymal cells line the ventricles.
+[00:03:44 - 00:03:47] I mean, they provide the structure, the defense and the nourishment
+[00:03:47 - 00:03:50] so that the neurons can actually do their job of communicating.
+[00:03:50 - 00:03:54] So they're like the roadies, the security and the catering for the rock band.
+[00:03:54 - 00:03:57] Yes. Without them, the stadium falls apart.
+[00:03:57 - 00:03:58] And the show simply doesn't happen.
+[00:03:58 - 00:04:00] That is a perfect way to look at it.
+[00:04:00 - 00:04:04] They completely set the stage for the true stars of communication.
+[00:04:04 - 00:04:08] And when those stars communicate, it is just a spectacular light show,
+[00:04:08 - 00:04:12] Yeah, visually, those flashing fluorescent lights pulsing like fireflies
+[00:04:12 - 00:04:17] on a dark summer night, those represent real live electrical activity
+[00:04:17 - 00:04:20] firing across a living neural network. It's beautiful.
+[00:04:20 - 00:04:23] It is every single flash is a piece of data moving.
+[00:04:23 - 00:04:25] As we make our way through this presentation,
+[00:04:25 - 00:04:28] make sure to utilize the simulation on the right.
+[00:04:28 - 00:04:32] Start with the neuron view and check the guided tutorial box
+[00:04:32 - 00:04:35] located in the top menu by clicking the dropdown arrow
+[00:04:35 - 00:04:37] in the top right where it says show.
+[00:04:37 - 00:04:40] As you learn about the synaptic signaling, use the guided tutorial
+[00:04:40 - 00:04:42] So we've seen the fireflies.
+[00:04:42 - 00:04:45] We know there's a massive amount of electrical activity happening.
+[00:04:46 - 00:04:49] But let's look at the actual wiring on slide five.
+[00:04:49 - 00:04:50] Let's do it.
+[00:04:50 - 00:04:53] The fundamental structure of a neuron is fairly distinct.
+[00:04:53 - 00:04:57] You have the dendrites, which look like the sprawling branches of a tree
+[00:04:57 - 00:04:59] reaching out to receive incoming signals.
+[00:04:59 - 00:05:01] Right. Then you have the soma,
+[00:05:01 - 00:05:03] which is the main cell body holding the nucleus.
+[00:05:03 - 00:05:08] And then you have this long single tail like structure called the axon,
+[00:05:08 - 00:05:11] which acts as the wire carrying the signal away to the next destination.
+[00:05:12 - 00:05:14] Crucially, though, wrapped around that axon,
+[00:05:15 - 00:05:17] you have the myelin and myelin sheath.
+[00:05:17 - 00:05:22] And that myelin and myelin is where the magic of biological speed actually happens.
+[00:05:22 - 00:05:26] It kind of reminds me of wrapping electrical tape around a frayed wire in your house.
+[00:05:26 - 00:05:27] Oh, totally.
+[00:05:27 - 00:05:30] It just acts as an insulator so the current doesn't leak out.
+[00:05:30 - 00:05:31] It acts as an insulator.
+[00:05:31 - 00:05:33] Yeah. But if you look at the diagram on slide six,
+[00:05:33 - 00:05:35] it also provides a massive speed upgrade.
+[00:05:35 - 00:05:37] Wait, really? How?
+[00:05:37 - 00:05:40] Well, myelination wraps around the axon in distinct segments,
+[00:05:40 - 00:05:43] trapping and insulating positively charged ions,
+[00:05:43 - 00:05:47] ensuring they're concentrated and readily available right where they are needed.
+[00:05:47 - 00:05:48] OK, I see.
+[00:05:48 - 00:05:50] Because of that myelin and myelin insulation,
+[00:05:51 - 00:05:55] the neural signal doesn't have to slowly like inch its way down
+[00:05:55 - 00:05:57] the entire length of the biological wire.
+[00:05:57 - 00:05:58] So it skips. Exactly.
+[00:05:58 - 00:06:02] It literally jumps from one uninsulated gap to the next. Wow.
+[00:06:02 - 00:06:05] This sultatory conduction allows neural signals
+[00:06:05 - 00:06:09] to travel significantly faster than they ever could in a bare,
+[00:06:09 - 00:06:10] unmyelinated axon.
+[00:06:10 - 00:06:12] So the wave has traveled down the axon.
+[00:06:12 - 00:06:17] It's moving incredibly fast, jumping along that myelin and while insulation.
+[00:06:17 - 00:06:21] But here's where we hit the major plot twist of neurophysiology on slide seven.
+[00:06:22 - 00:06:26] The electrical signal reaches the very end of the axon terminal
+[00:06:26 - 00:06:28] and the road just ends.
+[00:06:28 - 00:06:29] The wires do not touch.
+[00:06:29 - 00:06:30] They don't touch.
+[00:06:30 - 00:06:32] There is a microscopic gap.
+[00:06:32 - 00:06:33] The synapse, SINapse.
+[00:06:33 - 00:06:35] The famous gap.
+[00:06:35 - 00:06:38] And as someone trying to understand the engineering of the body,
+[00:06:39 - 00:06:42] this feels profoundly counterintuitive.
+[00:06:42 - 00:06:43] It really does.
+[00:06:43 - 00:06:46] If the electrical wave we just talked about is so fast, so efficient
+[00:06:46 - 00:06:50] and so brilliantly insulated, why on earth does the brain
+[00:06:50 - 00:06:51] purposefully break the circuit?
+[00:06:51 - 00:06:52] It seems like a flaw.
+[00:06:52 - 00:06:56] Yeah. Why rely on floating chemicals to drift across a physical gap?
+[00:06:56 - 00:06:59] Isn't that slower and like significantly more risky?
+[00:06:59 - 00:07:00] It is slightly slower.
+[00:07:00 - 00:07:02] Yeah. But the tradeoff is what makes you human.
+[00:07:02 - 00:07:03] Wow. OK.
+[00:07:03 - 00:07:06] If everything were just hardwired electrically,
+[00:07:06 - 00:07:09] the brain would be nothing more than a simple calculator.
+[00:07:09 - 00:07:11] You'd only have binary responses.
+[00:07:11 - 00:07:12] Yeah. On or off.
+[00:07:12 - 00:07:13] Like a light switch.
+[00:07:13 - 00:07:16] Exactly. By breaking the circuit and introducing the synapse,
+[00:07:16 - 00:07:21] SINapse, the brain creates an opportunity for complex variable processing.
+[00:07:22 - 00:07:24] It's what I like to call the brain's handshake.
+[00:07:24 - 00:07:26] The brain's handshake.
+[00:07:26 - 00:07:28] Because it's an agreement, not just a command.
+[00:07:28 - 00:07:29] That's it.
+[00:07:29 - 00:07:34] It's the moment where a rigid binary electrical signal
+[00:07:34 - 00:07:37] is converted into a highly nuanced chemical signal.
+[00:07:37 - 00:07:38] OK, I see.
+[00:07:38 - 00:07:40] Right, because a single neuron is covered in
+[00:07:40 - 00:07:43] thousands of those little synaptic buds we saw earlier.
+[00:07:44 - 00:07:48] So it is receiving chemical keys from thousands of different cells at once.
+[00:07:48 - 00:07:49] Constantly.
+[00:07:49 - 00:07:55] How does it mathematically decide whether or not to actually trigger its own action potential?
+[00:07:55 - 00:07:57] You're touching on a really cool concept called summation.
+[00:07:57 - 00:08:01] And if we look at the post-synaptic potentials chart on the slide,
+[00:08:01 - 00:08:05] you'll see this is essentially a very complex biological voting system.
+[00:08:05 - 00:08:06] A voting system.
+[00:08:06 - 00:08:09] Yeah, imagine the receiving neuron as a politician,
+[00:08:09 - 00:08:13] try and make a decision, taking input from thousands of different advisors.
+[00:08:13 - 00:08:19] Some of the neurotransmitters it receives are excitatory, meaning they cast a yes vote to fire.
+[00:08:19 - 00:08:21] Others are inhibitory.
+[00:08:21 - 00:08:24] They cast a no vote, basically telling the neuron to stay quiet.
+[00:08:24 - 00:08:27] So it's essentially a microscopic tug of war.
+[00:08:27 - 00:08:29] Excitatory is pulling forward toward a spike.
+[00:08:29 - 00:08:31] Inhibitory is pulling backward.
+[00:08:31 - 00:08:32] Yes.
+[00:08:32 - 00:08:36] In neurophysiology, we call these EPSPs and IPSPs.
+[00:08:36 - 00:08:40] That stands for Excitatory and Inhibitory Post-synaptic Potentials.
+[00:08:40 - 00:08:41] Got it.
+[00:08:41 - 00:08:46] The chart illustrates EPSP-IPSP cancellation beautifully.
+[00:08:46 - 00:08:52] If an excitatory yes signal and an inhibitory no signal arrive at the exact same millisecond,
+[00:08:52 - 00:08:54] they literally cancel each other out.
+[00:08:54 - 00:08:54] Oh, wow.
+[00:08:54 - 00:08:57] So the internal voltage just stays completely flat.
+[00:08:57 - 00:08:58] Completely flat.
+[00:08:58 - 00:09:01] So how does a yes vote ever actually win the tug of war?
+[00:09:01 - 00:09:05] By summing the signals together, the process of summation happens in two ways.
+[00:09:05 - 00:09:06] Okay, what's the first way?
+[00:09:06 - 00:09:07] Spatial summation.
+[00:09:07 - 00:09:12] That's when multiple different synapses on the neuron receive yes signals at the exact same moment.
+[00:09:12 - 00:09:16] It's like 10 different friends shouting go from different sides of the room all at once.
+[00:09:16 - 00:09:17] That makes sense.
+[00:09:17 - 00:09:19] And the second way, temporal summation.
+[00:09:20 - 00:09:25] That is when a single synapse is hit repeatedly and rapidly with a yes signal.
+[00:09:25 - 00:09:29] Like one friend rapidly poking you on the shoulder saying go, go, go, go.
+[00:09:29 - 00:09:30] Ah, I see.
+[00:09:30 - 00:09:30] Right.
+[00:09:30 - 00:09:34] And if these summations build up enough positive charge to hit the threshold,
+[00:09:34 - 00:09:38] Well, it relies on an electrical process called the action potential.
+[00:09:38 - 00:09:43] Basically, specialized channels open and close along the length of the neuron's outer layer,
+[00:09:43 - 00:09:45] which is called the axon.
+[00:09:45 - 00:09:48] And this opening and closing allows a signal to travel down the line.
+[00:09:49 - 00:09:54] Visually, if you look at the diagram charting membrane potential over time,
+[00:09:54 - 00:09:57] you see this very specific, beautiful sequence of events.
+[00:09:57 - 00:09:58] Oh, I see it.
+[00:09:58 - 00:10:03] I'm picturing that classic graph with the massive, sharp spike right in the middle.
+[00:10:03 - 00:10:05] Walk us through how that spike actually happens.
+[00:10:05 - 00:10:07] So it starts at what we call the resting state.
+[00:10:07 - 00:10:11] The inside of the cell sits at roughly negative 70 millivolts.
+[00:10:11 - 00:10:13] Wait, why is it negative?
+[00:10:13 - 00:10:16] Because the cell actually spends a lot of energy
+[00:10:16 - 00:10:20] pumping positively charged molecules out just to keep the inside negative.
+[00:10:20 - 00:10:23] It's quiet, but it's highly primed.
+[00:10:23 - 00:10:25] Think of it like a stretched rubber band.
+[00:10:25 - 00:10:27] It holds tension just waiting for a trigger.
+[00:10:27 - 00:10:28] Okay, I like that visual.
+[00:10:28 - 00:10:29] Right.
+[00:10:29 - 00:10:33] So when a stimulus hits the neuron and is strong enough to cross a specific press hold,
+[00:10:33 - 00:10:36] it triggers a phase called depolarization.
+[00:10:36 - 00:10:37] So the rubber band snaps.
+[00:10:37 - 00:10:39] Exactly.
+[00:10:39 - 00:10:42] Suddenly, these specialized doorways open up along the membrane,
+[00:10:42 - 00:10:46] and positively charged sodium molecules come rushing back into the cell.
+[00:10:46 - 00:10:47] Oh, wow.
+[00:10:47 - 00:10:53] Yeah, this massive, sudden influx of positive charge shoots the internal voltage way up.
+[00:10:53 - 00:10:56] And that's the big spike on our graph, the literal spark of thought.
+[00:10:56 - 00:10:57] You got it.
+[00:10:57 - 00:11:02] But wait, if all this positive charge is just aggressively flooding into the cell,
+[00:11:02 - 00:11:05] wouldn't the cell just short circuit or overload?
+[00:11:05 - 00:11:08] How does it reset for the next signal?
+[00:11:08 - 00:11:09] That's a great question.
+[00:11:09 - 00:11:13] And it's exactly why the cell immediately enters a phase called repolarization.
+[00:11:13 - 00:11:14] Repolarization, okay.
+[00:11:14 - 00:11:15] Right.
+[00:11:15 - 00:11:19] As soon as the voltage spikes, the sodium door slams shut.
+[00:11:19 - 00:11:24] Then different channels open up, and positively charged potassium molecules rush out of the cell.
+[00:11:24 - 00:11:24] Oh, I see.
+[00:11:24 - 00:11:28] So it's carrying the positive charge away to bring the internal voltage back down.
+[00:11:28 - 00:11:28] Exactly.
+[00:11:28 - 00:11:33] It actually overshoots a bit, getting slightly too negative in a phase called hyperpolarization
+[00:11:33 - 00:11:37] before it eventually settles back down to that negative 70 millivolt resting state.
+[00:11:37 - 00:11:39] Stretched and ready to fire again.
+[00:11:39 - 00:11:42] That is an incredibly elegant mechanical loop.
+[00:11:42 - 00:11:43] It really is.
+[00:11:43 - 00:11:48] And this wave of rushing positive charge travels all the way down the long arm of the neuron,
+[00:11:48 - 00:11:49] the axon.
+[00:11:49 - 00:11:52] Let's actually watch this handshake happen in the animation on slide 12.
+[00:11:53 - 00:11:56] that happen in the synaptic terminal that lead to the release of neurotransmitters
+[00:11:56 - 00:11:59] that bind to postsynaptic receptors.
+[00:11:59 - 00:12:02] So visually, you can see the action potential reaching the end of the line.
+[00:12:02 - 00:12:06] Yeah. That electrical voltage forces calcium channels to open.
+[00:12:06 - 00:12:08] Right. Calcium rushes in.
+[00:12:08 - 00:12:11] And that acts as the biological signal for these tiny membrane bound bubbles
+[00:12:11 - 00:12:15] called vesicles, which are basically tiny cargo ships loaded with chemical messengers.
+[00:12:16 - 00:12:19] Precisely. The calcium tells those cargo ships
+[00:12:19 - 00:12:23] to move to the very edge of the cell membrane, fuse with it
+[00:12:23 - 00:12:26] and dump their chemical cargo into the synaptic left of the gap.
+[00:12:26 - 00:12:27] And then they float across.
+[00:12:27 - 00:12:32] Yep. Those chemicals then float across and bind to specific receptors
+[00:12:32 - 00:12:34] on the next neuron, passing that nuanced message along.
+[00:12:35 - 00:12:38] Zooming in on exactly how those cargo ships dock with the membrane
+[00:12:38 - 00:12:41] on slides 13 and 14 is just fascinating.
+[00:12:41 - 00:12:42] It's amazing.
+[00:12:42 - 00:12:45] To get that vesicle to fuse with the cell edge,
+[00:12:45 - 00:12:49] you have these highly specific proteins called snare proteins.
+[00:12:49 - 00:12:52] They act almost exactly like the teeth of a zipper.
+[00:12:52 - 00:12:53] That's a really good visual.
+[00:12:53 - 00:12:56] Yeah. They physically grab onto each other, twist
+[00:12:56 - 00:12:58] and pull the vesicle tight against the membrane
+[00:12:58 - 00:13:00] until the pressure just pox it open.
+[00:13:00 - 00:13:03] It's mechanical perfection at a molecular level.
+[00:13:03 - 00:13:06] And the real world application of this is slightly terrifying, honestly.
+[00:13:06 - 00:13:07] Oh, with Botox.
+[00:13:07 - 00:13:13] Yes. That exact zipping mechanism is what botulinum toxin targets.
+[00:13:13 - 00:13:16] Botox. It acts like a pair of molecular scissors
+[00:13:16 - 00:13:19] that sneaks in and snips those snare proteins in half.
+[00:13:19 - 00:13:22] If the zipper is broken, the vesicle can't dock.
+[00:13:22 - 00:13:26] The chemical signal can't cross the synapse, S-I-N-X,
+[00:13:26 - 00:13:28] and the muscle is completely paralyzed.
+[00:13:29 - 00:13:31] One microscopic cut to a protein zipper
+[00:13:31 - 00:13:34] and a human muscle just stops working.
+[00:13:34 - 00:13:38] It perfectly illustrates how vital that microscopic chemical handshake
+[00:13:38 - 00:13:40] is to our gross physical movements. Absolutely.
+[00:13:40 - 00:13:42] Right, back to the receiving end.
+[00:13:42 - 00:13:43] But looking at our next visual,
+[00:13:43 - 00:13:47] it seems not all of those receiving locks, the receptors, are created equal.
+[00:13:47 - 00:13:49] They absolutely are not.
+[00:13:49 - 00:13:53] The receptor dynamic illustration contrasts two entirely different systems.
+[00:13:53 - 00:13:54] Let's break them down.
+[00:13:54 - 00:13:54] Sure.
+[00:13:54 - 00:13:58] On the left, you have the ligand-gated ion channels we discussed earlier.
+[00:13:58 - 00:14:00] These are very straightforward.
+[00:14:00 - 00:14:00] The key?
+[00:14:01 - 00:14:02] Locks.
+[00:14:02 - 00:14:02] Right.
+[00:14:02 - 00:14:05] A neurotransmitter binds to the receptor,
+[00:14:05 - 00:14:07] the channel opens like a swinging door,
+[00:14:07 - 00:14:10] and positive molecules flow directly inside.
+[00:14:10 - 00:14:13] It is fast, direct, and immediate.
+[00:14:13 - 00:14:15] But on the right side of the illustration,
+[00:14:15 - 00:14:17] there's something much more convoluted happening.
+[00:14:17 - 00:14:18] Right.
+[00:14:18 - 00:14:22] Those are G-protein-coupled receptors, or GPCRs.
+[00:14:22 - 00:14:25] The neurotransmitter binds to the outside of the receptor,
+[00:14:25 - 00:14:26] but no door opens.
+[00:14:26 - 00:14:27] Then what happens?
+[00:14:27 - 00:14:32] Instead, the binding activates a G-protein that is attached to the inside of the receptor.
+[00:14:32 - 00:14:36] This G-protein breaks off and acts as an intracellular messenger.
+[00:14:36 - 00:14:38] So it travels deeper inside the cell?
+[00:14:38 - 00:14:39] Exactly.
+[00:14:39 - 00:14:43] It travels inside the cell to set off a complex cascade of signals,
+[00:14:43 - 00:14:47] which eventually go and modulate other ion channels elsewhere on the membrane.
+[00:14:47 - 00:14:49] We mentioned ion channels earlier.
+[00:14:49 - 00:14:50] Just to give you a sense of scale,
+[00:14:50 - 00:14:54] there are over 300 different types of ion channels in the human body.
+[00:14:54 - 00:14:55] Wow, 300.
+[00:14:55 - 00:14:55] Yeah.
+[00:14:56 - 00:15:00] And a single neuron terminal might contain 10 or more different kinds,
+[00:15:00 - 00:15:04] all tightly packed alongside complex structural proteins
+[00:15:04 - 00:15:06] Now, when you look at classic textbook diagrams,
+[00:15:07 - 00:15:10] the end of a neuron, the synaptic bouton,
+[00:15:10 - 00:15:13] usually looks like an empty balloon holding a few neat little vesicle
+[00:15:13 - 00:15:15] bubbles floating in empty space.
+[00:15:15 - 00:15:17] The empty sack myth. Right.
+[00:15:17 - 00:15:20] Which, if you look at the 3D illustration on slide 17,
+[00:15:20 - 00:15:23] couldn't be further from the truth. It's so crowded.
+[00:15:23 - 00:15:26] It is. A synapse, S-I-N-X, is incredibly dense.
+[00:15:26 - 00:15:30] It's a packed molecular city completely full of thousands of complex proteins,
+[00:15:30 - 00:15:35] mitochondria, structural scaffolding and molecules that are just constantly at work.
+[00:15:35 - 00:15:39] Let's look at the proof of just how busy this microscopic city is on slide 18.
+[00:15:39 - 00:15:44] In that visualization, you can actually see microtubules acting like superhighways.
+[00:15:44 - 00:15:45] Yeah, they're moving so fast.
+[00:15:45 - 00:15:48] They're constantly transporting neurotransmitters,
+[00:15:48 - 00:15:50] proteins and cellular parts back and forth.
+[00:15:50 - 00:15:53] The key takeaway here is that neurons
+[00:15:53 - 00:15:57] are fiercely biologically active all the time.
+[00:15:57 - 00:15:58] Even at rest.
+[00:15:58 - 00:15:59] Even when they're resting.
+[00:15:59 - 00:16:03] Yeah, even when they aren't actively firing an action potential,
+[00:16:03 - 00:16:06] they're constantly maintaining their readiness and rebuilding their infrastructure.
+[00:16:07 - 00:16:11] Right. But the most incredible feature of the brain on slide 19
+[00:16:12 - 00:16:14] is that it is not static.
+[00:16:14 - 00:16:17] It changes its own hardware based on what you do.
+[00:16:17 - 00:16:18] Neuroplasticity.
+[00:16:18 - 00:16:22] It is the nervous system's ability to fundamentally reorganize its physical
+[00:16:22 - 00:16:26] structure, build new pathways and strengthen connections in response
+[00:16:26 - 00:16:29] to practice, experience or even an injury.
+[00:16:29 - 00:16:32] Think about the illustration showing a person practicing guitar.
+[00:16:32 - 00:16:35] The very first time you try to play a chord, your fingers feel clumsy.
+[00:16:36 - 00:16:37] The movement is slow.
+[00:16:37 - 00:16:39] And you have to think about every micro adjustment. Right.
+[00:16:39 - 00:16:42] Mechanically, that happens because the synaptic connection
+[00:16:42 - 00:16:45] for that specific movement is incredibly thin and weak.
+[00:16:45 - 00:16:46] It's underdeveloped.
+[00:16:46 - 00:16:47] Exactly.
+[00:16:47 - 00:16:51] But as you repeat the motion, the physical connection between the presynaptic
+[00:16:51 - 00:16:54] and postsynaptic terminals physically thickens.
+[00:16:54 - 00:16:55] It builds more receptors.
+[00:16:55 - 00:16:57] It stages more vesicles.
+[00:16:57 - 00:17:01] The hardware literally upgrades to accommodate the software of your new skill.
+[00:17:01 - 00:17:05] The more pathway fires, the stronger the chemical handshake becomes.
+[00:17:05 - 00:17:10] I always picture it like walking through a dense, overgrown grassy field.
+[00:17:10 - 00:17:11] Oh, I love this analogy.
+[00:17:11 - 00:17:14] The first time you push your way through, it is tough going, right?
+[00:17:14 - 00:17:17] The grass immediately springs back up behind you.
+[00:17:17 - 00:17:20] But if you walk that exact same path every single day,
+[00:17:20 - 00:17:23] eventually you break the grass, you compact the soil and it becomes a permanent,
+[00:17:24 - 00:17:25] easy to travel dirt road.
+[00:17:25 - 00:17:28] Your brain does the exact same thing with neural pathways.
+[00:17:28 - 00:17:31] And we can witness this structural growth happening in real time.
+[00:17:32 - 00:17:32] Yeah.
+[00:17:33 - 00:17:34] It's amazing to watch.
+[00:17:34 - 00:17:37] You can literally see the central nervous system reaching out,
+[00:17:37 - 00:17:41] reorganizing, branching and building entirely new physical structures
+[00:17:41 - 00:17:44] in response to stimuli.
+[00:17:44 - 00:17:47] The experiences of the fish physically shape its biology.
+[00:17:47 - 00:17:50] And that plasticity, that biological ability to change,
+[00:17:50 - 00:17:53] Wow. And to make it even more complex, for a long time,
+[00:17:53 - 00:17:58] neuroscience assumed one neuron made one type of neurotransmitter.
+[00:17:58 - 00:18:02] But looking at slide 21, we now know about dual neurotransmission.
+[00:18:03 - 00:18:04] This is fascinating.
+[00:18:04 - 00:18:08] A single neuron can actually co-release different neurotransmitters
+[00:18:08 - 00:18:10] at the exact same time from the same terminal.
+[00:18:10 - 00:18:14] A single cell can shout two different messages
+[00:18:14 - 00:18:16] simultaneously to fine tune the handshake.
+[00:18:16 - 00:18:18] On the other side of the seesaw, you have the brakes.
+[00:18:19 - 00:18:23] GABA is your primary calling signal telling the brain to quiet down.
+[00:18:23 - 00:18:26] Serotonin regulates your mood and overall well-being.
+[00:18:26 - 00:18:29] And in the metal acting as powerful modulators,
+[00:18:29 - 00:18:33] you have dopamine, which drives pleasure, reward and motivation.
+[00:18:33 - 00:18:34] The famous one.
+[00:18:34 - 00:18:36] The famous one, exactly.
+[00:18:36 - 00:18:39] You also have acetylcholine, crucial for learning and muscle action.
+[00:18:40 - 00:18:43] And endorphins, which provide pain, relief and euphoria.
+[00:18:43 - 00:18:46] The brain is entirely dependent on keeping the gas
+[00:18:46 - 00:18:51] pedals and the brakes in perfect harmony, like that seesaw diagram on slide 22.
+[00:18:51 - 00:18:53] Exactly. If you only had gas pedals,
+[00:18:53 - 00:18:55] the system would just overheat and crash.
+[00:18:55 - 00:18:58] And we know exactly what happens when that balance fails.
+[00:18:58 - 00:19:01] Imagine the seesaw tipping too far toward excitation.
+[00:19:01 - 00:19:05] OK. If GABA binding is poor, meaning the brakes aren't working,
+[00:19:05 - 00:19:07] glutamate takes over. Oh, yeah.
+[00:19:07 - 00:19:10] This runaway, uninhibited electrical activity across the neural network
+[00:19:10 - 00:19:14] is the exact mechanical underlying cause of disorders like epilepsy.
+[00:19:14 - 00:19:16] So let's talk about the cargo itself.
+[00:19:16 - 00:19:18] The chemical is floating across that gap.
+[00:19:19 - 00:19:20] The neurotransmitters stuff.
+[00:19:20 - 00:19:24] Yeah, these are the molecules of mood, movement and memory.
+[00:19:24 - 00:19:29] And rather than just reciting a textbook list from the infographic on slide 23,
+[00:19:30 - 00:19:33] it helps to understand them as opposing forces in the brain.
+[00:19:33 - 00:19:34] It's a constant balancing act.
+[00:19:34 - 00:19:38] Right. On one side, you have your excitatory signals, the gas pedals.
+[00:19:38 - 00:19:41] OK. Glutamate is the most common neurotransmitter in the brain,
+[00:19:41 - 00:19:44] essential for forming memories and just getting things moving.
+[00:19:44 - 00:19:47] Adrenaline drives your fight or flight response,
+[00:19:47 - 00:19:49] while noradrenaline zeros in your concentration.
+[00:19:49 - 00:19:53] Which frees up a great point about how we try to treat imbalances
+[00:19:53 - 00:19:55] in this system with medication.
+[00:19:55 - 00:19:59] The receptors for these neurotransmitters aren't just located in one neat little spot.
+[00:19:59 - 00:20:02] Right. If you look at the brain maps on slide 24,
+[00:20:02 - 00:20:06] they are distributed widely across different regions of the brain and the body.
+[00:20:06 - 00:20:10] And this wide spatial map explains a very frustrating reality
+[00:20:10 - 00:20:13] for anyone who has ever taken a prescription drug, right? Side effects.
+[00:20:13 - 00:20:16] If you take a medication meant to increase serotonin
+[00:20:16 - 00:20:20] to help balance your emotional state, that pill doesn't have a GPS system.
+[00:20:20 - 00:20:20] It really doesn't.
+[00:20:20 - 00:20:23] It doesn't know how to only target the emotional centers of your brain.
+[00:20:23 - 00:20:25] It travels everywhere.
+[00:20:25 - 00:20:28] So while the drug hits the targets you want,
+[00:20:28 - 00:20:32] it inevitably hits serotonin receptors in entirely different systems.
+[00:20:32 - 00:20:32] Like where?
+[00:20:32 - 00:20:36] Well, a massive amount of your body's serotonin receptors
+[00:20:36 - 00:20:37] are actually located in your gut.
+[00:20:37 - 00:20:38] Oh, wow.
+[00:20:38 - 00:20:42] So you take a pill to adjust the chemical handshake in your brain for mood
+[00:20:43 - 00:20:45] and you end up with nausea or digestive changes.
+[00:20:45 - 00:20:47] Because you are inadvertently shaking hands
+[00:20:47 - 00:20:49] with the receptors in your stomach.
+[00:20:49 - 00:20:52] If we look at the final abstract illustration of regional connections,
+[00:20:52 - 00:20:58] it shows massive, sweeping, colorful arcs connecting entirely different brain regions.
+[00:20:58 - 00:21:01] It reminds us that while the fundamental language of the brain is that microscopic
+[00:21:01 - 00:21:03] electrochemical handshake we've been analyzing.
+[00:21:03 - 00:21:04] Right, the synapses.
+[00:21:04 - 00:21:10] Yeah, but the entire brain is intertwined in these massive, global neural networks.
+[00:21:10 - 00:21:14] It takes billions of cells, communicating perfectly across those gaps,
+[00:21:14 - 00:21:18] to produce complex thoughts, to feel empathy, or to learn something new.
+[00:21:18 - 00:21:19] That's a symphony.
+[00:21:19 - 00:21:22] actually work on slides 26 through 30.
+[00:21:22 - 00:21:22] Exactly.
+[00:21:22 - 00:21:26] Because the brain relies on these chemical handshakes and can rewire itself,
+[00:21:26 - 00:21:30] we have multiple ways to intervene when the system breaks down.
+[00:21:30 - 00:21:31] Take psychotherapy, for example.
+[00:21:31 - 00:21:34] Cognitive behavioral therapy, or CBT.
+[00:21:34 - 00:21:36] A lot of people dismiss it as just talking.
+[00:21:36 - 00:21:41] Right. But fundamentally, CBT is a highly structured process
+[00:21:41 - 00:21:43] of unlearning and relearning.
+[00:21:43 - 00:21:44] How does that work mechanically?
+[00:21:44 - 00:21:48] By identifying a negative thought pattern and consciously forcing yourself
+[00:21:48 - 00:21:49] to adopt a different response,
+[00:21:49 - 00:21:54] CBT mechanically forces you to walk a new path in that grassy field you mentioned.
+[00:21:54 - 00:21:55] Oh, I see.
+[00:21:55 - 00:21:59] Over time, through repetition, you physically wear down a healthier dirt road
+[00:21:59 - 00:22:02] and the old negative pathway weakens from disuse.
+[00:22:02 - 00:22:06] You are literally using thought to drive physical plasticity.
+[00:22:06 - 00:22:07] That's incredible.
+[00:22:07 - 00:22:11] Then you have medications which operate right at the physical gap of the synapse,
+[00:22:11 - 00:22:12] SIN-apse.
+[00:22:12 - 00:22:14] Yes, they manipulate the chemical handshake directly.
+[00:22:14 - 00:22:15] Right.
+[00:22:15 - 00:22:19] A psychiatrist might prescribe a medication that blocks dopamine receptors
+[00:22:19 - 00:22:21] to calm the runaway signaling in psychosis,
+[00:22:21 - 00:22:25] or a medication that increases the amount of serotonin left in the gap
+[00:22:25 - 00:22:26] to help combat depression.
+[00:22:26 - 00:22:30] And then we have interventions that bypass the chemicals entirely
+[00:22:30 - 00:22:32] and go straight for the electrical wave.
+[00:22:32 - 00:22:35] Non-invasive brain stimulation or NIBS.
+[00:22:35 - 00:22:39] Things like RTMS, Repetitive Transcranial Magnetic Stimulation.
+[00:22:39 - 00:22:40] Yes.
+[00:22:40 - 00:22:42] The brain is fundamentally an electrical organ,
+[00:22:42 - 00:22:45] which means it is susceptible to magnetic fields.
+[00:22:45 - 00:22:45] Right.
+[00:22:45 - 00:22:50] With RTMS, a patient sits with a large wire coil placed near their scalp.
+[00:22:50 - 00:22:53] That coil generates rapidly changing magnetic pulses.
+[00:22:53 - 00:22:54] Okay, so it's magnetic pulse.
+[00:22:54 - 00:22:55] Exactly.
+[00:22:55 - 00:22:59] Those magnetic fields safely penetrate the skull
+[00:22:59 - 00:23:03] and induce a localized, highly targeted electric field
+[00:23:03 - 00:23:05] in the brain tissue underneath.
+[00:23:05 - 00:23:09] We're using the laws of physics to directly tune and modulate
+[00:23:09 - 00:23:12] the cortical excitability of the brain, strengthening or weakening
+[00:23:12 - 00:23:16] specific circuits without ever introducing a single chemical.
+[00:23:16 - 00:23:19] Okay, let's step back and look at the big picture takeaway
+[00:23:19 - 00:23:22] from this deep dive into the brain's blueprint.
+[00:23:22 - 00:23:24] Think about the incredible microscopic journey
+[00:23:24 - 00:23:26] we just mapped out today.
+[00:23:26 - 00:23:26] It's a journey.
+[00:23:26 - 00:23:29] A thought, an impulse, or an action begins
+[00:23:29 - 00:23:32] as a tense electrical wave, snapping like a rubber band
+[00:23:32 - 00:23:35] and racing down an axon, insulated and accelerated
+[00:23:35 - 00:23:38] by a myelin, myelin sheath.
+[00:23:38 - 00:23:41] Then it hits the synapse, SINAPs, slamming the brakes
+[00:23:41 - 00:23:43] to convert that rapid electrical current
+[00:23:43 - 00:23:46] into a highly nuanced chemical messenger.
+[00:23:46 - 00:23:48] Those chemical cargo ships dock, unzip,
+[00:23:48 - 00:23:50] and flood across the void.
+[00:23:50 - 00:23:52] They bind like a key in a lock on the other side,
+[00:23:52 - 00:23:55] triggering a brand new electrical wave in the next cell.
+[00:23:55 - 00:23:57] And through the magic of neuroplasticity,
+[00:23:57 - 00:24:00] every single time you fire that sequence,
+[00:24:00 - 00:24:02] the physical structure of your brain becomes
+[00:24:02 - 00:24:05] a little bit stronger, a little bit more efficient.
+[00:24:05 - 00:24:08] Which leads us with a final, slightly provocative thought
+[00:24:08 - 00:24:10] to ponder as you review your notes.
+[00:24:10 - 00:24:11] Oh, lay it on us.
+[00:24:11 - 00:24:13] If every single thought you think,
+[00:24:13 - 00:24:16] every behavior you repeat, and every new skill you practice
+[00:24:16 - 00:24:20] physically alters the microscopic strength, structure,
+[00:24:20 - 00:24:23] and chemical balance of your synaptic connections.
+[00:24:23 - 00:24:25] Then from a purely neurobiological standpoint,
+[00:24:25 - 00:24:27] the brain you woke up with this morning
+[00:24:27 - 00:24:30] is physically, structurally different from the brain
+[00:24:30 - 00:24:32] you will go to sleep with tonight.
+[00:24:32 - 00:24:35] You are, quite literally, constantly rewiring
+[00:24:35 - 00:24:37] the physical nature of your own identity.
+[00:24:37 - 00:24:39] What a thought to end on.
+[00:24:39 - 00:24:41] Keep exploring those simulations.
+[00:24:41 - 00:24:43] Pay attention to the tension in the resting state.
+[00:24:43 - 00:24:46] Watch how the chemicals bridge the gap.
+[00:24:46 - 00:24:48] And thank you for joining us on this deep dive.

@@ -163,7 +163,7 @@ window.COURSE_MEDIA_OVERLAYS = {
         "type": "gif",
         "src": "assets/media/anatomy/image5.gif",
         "title": "A human brain and bones\n\nDescription automatically generated with medium confidence",
-        "x": 30.0,
+        "x": 30,
         "y": 28.933,
         "w": 35.446,
         "h": 63.016
@@ -184,7 +184,7 @@ window.COURSE_MEDIA_OVERLAYS = {
     ]
   },
   "neurophysiology": {
-    "3": [
+    "2": [
       {
         "type": "video",
         "src": "assets/media/neurophysiology/media1.mp4",
@@ -195,7 +195,7 @@ window.COURSE_MEDIA_OVERLAYS = {
         "h": 83.611
       }
     ],
-    "5": [
+    "4": [
       {
         "type": "video",
         "src": "assets/media/neurophysiology/media2.mp4",

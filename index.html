@@ -1504,6 +1504,7 @@
           <div class="presentation-controls">
             <div class="control-group">
               <button class="control-btn" id="neuroPrevBtn" type="button">Previous</button>
+              <button class="control-btn primary-control" id="neuroPlayBtn" type="button">Auto play</button>
               <button class="control-btn" id="neuroNextBtn" type="button">Next slide</button>
             </div>
             <div class="control-group">
@@ -1511,6 +1512,10 @@
               <span class="chip" id="neuroCount">1 / 28</span>
             </div>
           </div>
+          <div class="audio-status" id="neuroAudioStatus">Neurophysiology narration is ready.</div>
+          <audio id="neuroAudio" preload="metadata">
+            <track id="neuroAudioTrack" kind="captions" srclang="en" label="English" src="assets/audio/neurophysiology.vtt">
+          </audio>
         </div>
       </article>
 
@@ -1652,6 +1657,7 @@
   <script src="assets/audio/neuropsych-transcript.js"></script>
   <script src="assets/audio/language-transcript.js"></script>
   <script src="assets/audio/technology-transcript.js"></script>
+  <script src="assets/audio/neurophysiology-transcript.js"></script>
   <script src="assets/audio/course-modules.js"></script>
   <script src="assets/media/media-overlays.js"></script>
   <script>
@@ -2024,42 +2030,18 @@
     const courseAudioTranscriptMap = {
       neuropsych: Array.isArray(window.NEUROPSYCH_TRANSCRIPT) ? window.NEUROPSYCH_TRANSCRIPT : [],
       language: Array.isArray(window.LANGUAGE_TRANSCRIPT) ? window.LANGUAGE_TRANSCRIPT : [],
-      technology: Array.isArray(window.TECHNOLOGY_TRANSCRIPT) ? window.TECHNOLOGY_TRANSCRIPT : []
+      technology: Array.isArray(window.TECHNOLOGY_TRANSCRIPT) ? window.TECHNOLOGY_TRANSCRIPT : [],
+      neurophysiology: Array.isArray(window.NEUROPHYSIOLOGY_TRANSCRIPT) ? window.NEUROPHYSIOLOGY_TRANSCRIPT : []
     };
     const anatomyState = { cueIndex: 0, index: anatomyCues[0].slide - 1, autoPlaying: false };
     const toolsState = { cueIndex: 0, index: toolsCues[0].slide - 1, autoPlaying: false };
-    const courseAudioState = { moduleId: "neuropsych", cueIndex: 0, index: 0, autoPlaying: false, pausedForYoutube: false };
-    const neurophysSlides = [
-      { title: "Neurophysiology & Communication", caption: "Start with the big question: how do cells turn electrical and chemical events into communication?" },
-      { title: "Neural Structure Overview", caption: "Use this slide to orient to the parts of the neuron before manipulating the simulation." },
-      { title: "Why Neuron Structure Matters", caption: "Connect dendrites, soma, axon, and terminals to information flow." },
-      { title: "86 Billion Neurons", caption: "Scale up from one cell to a network: small signaling rules can produce large system effects." },
-      { title: "Course Context", caption: "Use this as a transition into the cellular communication toolkit." },
-      { title: "Background - Neural Signaling", caption: "Pair this with Neuron View and watch how signal movement depends on membrane dynamics." },
-      { title: "Membrane and Signaling Setup", caption: "Look for inputs, thresholds, and how the cell prepares to fire." },
-      { title: "Ions and Electrical Gradients", caption: "Use the simulation to connect ion flow to voltage change." },
-      { title: "Action Potential", caption: "Use Fire AP in the simulation and track how the signal propagates." },
-      { title: "Action Potential Propagation", caption: "Compare signal movement with and without myelin when available." },
-      { title: "Vesicle Fusion via SNARE Proteins", caption: "Move into Synapse View and watch how electrical activity becomes chemical release." },
-      { title: "Botulinum Toxin", caption: "Use blockables/pathology controls to reason about what happens when vesicle release is disrupted." },
-      { title: "Communication Failure", caption: "Predict which part of the communication chain is blocked and what downstream effect follows." },
-      { title: "Ion Channel Diversity", caption: "Different channels create different signaling properties; use the simulation to test that idea." },
-      { title: "Diffusion and Pump Channels", caption: "Focus on maintenance: gradients must be restored for repeated signaling." },
-      { title: "What the Synapse Is Really Like", caption: "Use Synapse View to map presynaptic release, cleft diffusion, and postsynaptic response." },
-      { title: "Neurons Are Always Active", caption: "Look for ongoing baseline activity rather than treating neurons as simply on/off." },
-      { title: "Neural Plasticity", caption: "Use the simulation's plasticity controls to see how repeated activity changes future response." },
-      { title: "LTP and LTD", caption: "Compare strengthening and weakening as mechanisms of learning and adaptation." },
-      { title: "Dual Neurotransmission", caption: "Ask how different transmitter systems can shape the same postsynaptic target." },
-      { title: "Poor GABA Binding", caption: "Use receptor/blockable logic: weak binding changes inhibition and network balance." },
-      { title: "Excitation and Inhibition", caption: "Use the simulation to predict what happens when inhibitory signaling is reduced." },
-      { title: "Distribution of Neurotransmitters", caption: "Scale up from synapse to region: transmitter distributions shape circuit function." },
-      { title: "Regional Connections in the Brain", caption: "Connect cellular communication to larger pathways and cortical regions." },
-      { title: "Therapeutic Interventions", caption: "Ask which part of signaling a treatment changes: channels, transmitters, receptors, or plasticity." },
-      { title: "Intervention Mechanisms", caption: "Use simulation perturbations as a model for therapeutic effects and side effects." },
-      { title: "Brain Intervention Effects", caption: "Connect local cellular effects to whole-brain communication changes." },
-      { title: "Therapeutic Interventions Review", caption: "Synthesize: communication depends on electrical events, chemical release, receptors, and plasticity." }
-    ];
-    const neuroState = { index: 0 };
+    const courseAudioState = { moduleId: "neuropsych", cueIndex: 0, index: 0, autoPlaying: false, pausedForYoutube: false, pausedForManual: false };
+    const neurophysModule = courseAudioModules.neurophysiology || { slides: [], cues: [], duration: 0 };
+    const neurophysSlides = (neurophysModule.slides || []).map((slide, index) => ({
+      title: slide.title || `Slide ${index + 1}`,
+      caption: slide.notes || "Use the slide image, narration, and simulation panel together."
+    }));
+    const neuroState = { index: 0, cueIndex: 0, autoPlaying: false, pausedForManual: false };
     const simActivities = {
       column: "In the simulation, choose Cortical Column. Watch how a local population turns individual cell events into a larger circuit response.",
       neuron: "Choose Neuron View. Identify dendrites, soma, axon, and terminals, then connect each structure to signal direction.",
@@ -2160,9 +2142,13 @@
       neuroSlideTitle: document.getElementById("neuroSlideTitle"),
       neuroSlideCaption: document.getElementById("neuroSlideCaption"),
       neuroPrevBtn: document.getElementById("neuroPrevBtn"),
+      neuroPlayBtn: document.getElementById("neuroPlayBtn"),
       neuroNextBtn: document.getElementById("neuroNextBtn"),
       neuroProgress: document.getElementById("neuroProgress"),
       neuroCount: document.getElementById("neuroCount"),
+      neuroAudioStatus: document.getElementById("neuroAudioStatus"),
+      neuroAudio: document.getElementById("neuroAudio"),
+      neuroAudioTrack: document.getElementById("neuroAudioTrack"),
       ngvuFrame: document.getElementById("ngvuFrame"),
       simNote: document.getElementById("simNote"),
       openSimBtn: document.getElementById("openSimBtn"),
@@ -2322,7 +2308,9 @@
     };
 
     function segmentAudioSrc(moduleId, cueIndex) {
-      return `assets/audio/segments/${moduleId}/${moduleId}-${String(cueIndex + 1).padStart(2, "0")}.m4a`;
+      const mod = courseAudioModules[moduleId] || {};
+      const version = mod.assetVersion ? `?v=${encodeURIComponent(mod.assetVersion)}` : "";
+      return `assets/audio/segments/${moduleId}/${moduleId}-${String(cueIndex + 1).padStart(2, "0")}.m4a${version}`;
     }
 
     function setSegmentAudioSource(audio, moduleId, cueIndex) {
@@ -2342,6 +2330,7 @@
 
     function cueGlobalTime(cues, cueIndex, audio) {
       const cue = cues[cueIndex] || cues[0] || { time: 0 };
+      if (cue.noAudio || cue.manualAdvance) return cue.time || 0;
       return cue.time + (audio.currentTime || 0);
     }
 
@@ -2405,6 +2394,7 @@
       el.courseAudioView.hidden = !showCourseAudio;
       el.neurophysView.hidden = !showNeurophys;
       if (el.quizView) el.quizView.hidden = !showQuiz;
+      if (!showNeurophys) stopNeurophysAudio();
       el.homeBtn.setAttribute("aria-current", String(showHome));
       el.presentationBtn.setAttribute("aria-current", String(showPresentation));
       if (el.quizBtn) el.quizBtn.setAttribute("aria-current", String(showQuiz));
@@ -2550,7 +2540,8 @@
     }
 
     function neuroSlidePath(number) {
-      return `assets/slides/neurophysiology/neurophys-slide-${String(number).padStart(2, "0")}.png`;
+      const version = neurophysModule.assetVersion ? `?v=${encodeURIComponent(neurophysModule.assetVersion)}` : "";
+      return `assets/slides/neurophysiology/neurophys-slide-${String(number).padStart(2, "0")}.png${version}`;
     }
 
     function anatomySlidePath(number) {
@@ -2582,7 +2573,8 @@
     }
 
     function courseAudioSlidePath(mod, number) {
-      return `assets/slides/${mod.slidesDir}/${mod.slidePrefix}-${String(number).padStart(2, "0")}.png`;
+      const version = mod.assetVersion ? `?v=${encodeURIComponent(mod.assetVersion)}` : "";
+      return `assets/slides/${mod.slidesDir}/${mod.slidePrefix}-${String(number).padStart(2, "0")}.png${version}`;
     }
 
     function anatomyCaption() {
@@ -2725,10 +2717,20 @@
       return !!cue && hasYoutubeMedia(mod.id, cue.slide);
     }
 
-    function nextNonYoutubeCourseCue(index) {
+    function courseAudioCueHasNoAudio(index) {
+      const mod = currentCourseAudioModule();
+      const cue = (mod.cues || [])[index];
+      return !!cue && (cue.noAudio || cue.manualAdvance);
+    }
+
+    function courseAudioCueNeedsManualAdvance(index) {
+      return courseAudioCueHasYoutube(index) || courseAudioCueHasNoAudio(index);
+    }
+
+    function nextPlayableCourseCue(index) {
       const cues = currentCourseAudioModule().cues || [];
       let next = Math.max(0, index);
-      while (next < cues.length && courseAudioCueHasYoutube(next)) next++;
+      while (next < cues.length && courseAudioCueNeedsManualAdvance(next)) next++;
       return Math.min(next, cues.length - 1);
     }
 
@@ -2739,6 +2741,15 @@
       pauseInlineVideos(el.courseAudioInlineMedia);
       el.courseAudioPlayBtn.textContent = "Auto play";
       el.courseAudioStatus.textContent = "Narration paused for the embedded video. Use Next slide or Auto play to continue after the video slide.";
+    }
+
+    function showCourseAudioManualPause() {
+      courseAudioState.autoPlaying = false;
+      courseAudioState.pausedForManual = true;
+      if (el.courseAudio && !el.courseAudio.paused) el.courseAudio.pause();
+      pauseInlineVideos(el.courseAudioInlineMedia);
+      el.courseAudioPlayBtn.textContent = "Auto play";
+      el.courseAudioStatus.textContent = "Narration paused for this visual slide. Use Next slide or Auto play to continue.";
     }
 
     function pauseCourseAudioForYoutubeCue(moduleId, slideNumber) {
@@ -2764,7 +2775,7 @@
         container.removeAttribute("style");
         return;
       }
-      const mediaKey = `${MEDIA_RENDER_VERSION}|${mediaItems.map((item) => `${item.type}:${item.src}`).join("|")}`;
+      const mediaKey = `${MEDIA_RENDER_VERSION}|${moduleId}:${slideNumber}|${mediaItems.map((item) => `${item.type}:${item.src}:${item.x}:${item.y}:${item.w}:${item.h}`).join("|")}`;
       container.style.left = "0%";
       container.style.top = "0%";
       container.style.width = "100%";
@@ -2947,6 +2958,7 @@
     function changeCourseAudioSlide(delta) {
       stopCourseAudio();
       courseAudioState.pausedForYoutube = false;
+      courseAudioState.pausedForManual = false;
       const cues = currentCourseAudioModule().cues || [];
       goToCourseAudioCue(adjacentSlideCueIndex(cues, courseAudioState.cueIndex, delta));
     }
@@ -2986,9 +2998,13 @@
       const cue = cues[courseAudioState.cueIndex] || cues[0] || { slide: 1, time: 0 };
       courseAudioState.index = cue.slide - 1;
       if (syncAudio) {
-        if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
+        if (courseAudioCueHasNoAudio(courseAudioState.cueIndex)) {
+          showCourseAudioManualPause();
+        } else if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
           showCourseAudioYoutubePause();
         } else {
+          courseAudioState.pausedForYoutube = false;
+          courseAudioState.pausedForManual = false;
           setSegmentAudioSource(el.courseAudio, mod.id, courseAudioState.cueIndex);
           try { el.courseAudio.currentTime = 0; } catch { }
         }
@@ -3016,9 +3032,63 @@
     function stopCourseAudio() {
       courseAudioState.autoPlaying = false;
       courseAudioState.pausedForYoutube = false;
+      courseAudioState.pausedForManual = false;
       if (el.courseAudio) el.courseAudio.pause();
       if (el.courseAudioPlayBtn) el.courseAudioPlayBtn.textContent = "Auto play";
       pauseInlineVideos(el.courseAudioInlineMedia);
+    }
+
+    function neuroCueHasNoAudio(index) {
+      const cue = (neurophysModule.cues || [])[index];
+      return !!cue && (cue.noAudio || cue.manualAdvance);
+    }
+
+    function nextPlayableNeuroCue(index) {
+      const cues = neurophysModule.cues || [];
+      let next = Math.max(0, index);
+      while (next < cues.length && neuroCueHasNoAudio(next)) next++;
+      return Math.min(next, cues.length - 1);
+    }
+
+    function showNeuroManualPause() {
+      neuroState.autoPlaying = false;
+      neuroState.pausedForManual = true;
+      if (el.neuroAudio && !el.neuroAudio.paused) el.neuroAudio.pause();
+      pauseInlineVideos(el.neuroInlineMedia);
+      if (el.neuroPlayBtn) el.neuroPlayBtn.textContent = "Auto play";
+      if (el.neuroAudioStatus) {
+        el.neuroAudioStatus.textContent = "Narration paused for this visual slide. Use Next slide or Auto play to continue.";
+      }
+    }
+
+    function stopNeurophysAudio() {
+      neuroState.autoPlaying = false;
+      neuroState.pausedForManual = false;
+      if (el.neuroAudio) el.neuroAudio.pause();
+      if (el.neuroPlayBtn) el.neuroPlayBtn.textContent = "Auto play";
+      pauseInlineVideos(el.neuroInlineMedia);
+    }
+
+    function goToNeuroCue(index, syncAudio = true) {
+      const cues = neurophysModule.cues || [];
+      if (!cues.length) {
+        neuroState.index = Math.max(0, Math.min(neurophysSlides.length - 1, index));
+        goToNeuroCue(neuroState.cueIndex);
+        return;
+      }
+      neuroState.cueIndex = Math.max(0, Math.min(cues.length - 1, index));
+      const cue = cues[neuroState.cueIndex] || cues[0] || { slide: 1, time: 0 };
+      neuroState.index = Math.max(0, Math.min(neurophysSlides.length - 1, cue.slide - 1));
+      if (syncAudio) {
+        if (neuroCueHasNoAudio(neuroState.cueIndex)) {
+          showNeuroManualPause();
+        } else {
+          neuroState.pausedForManual = false;
+          setSegmentAudioSource(el.neuroAudio, "neurophysiology", neuroState.cueIndex);
+          try { el.neuroAudio.currentTime = 0; } catch { }
+        }
+      }
+      renderNeurophys();
     }
 
     function pauseInlineVideos(container) {
@@ -3084,7 +3154,7 @@
     }
 
     function renderNeurophys() {
-      const slide = neurophysSlides[neuroState.index];
+      const slide = neurophysSlides[neuroState.index] || { title: "Neurophysiology", caption: "" };
       const slideNumber = neuroState.index + 1;
       const progress = Math.round((slideNumber / neurophysSlides.length) * 100);
       el.neuroSlideImg.src = neuroSlidePath(slideNumber);
@@ -3096,12 +3166,34 @@
       el.neuroCount.textContent = `${slideNumber} / ${neurophysSlides.length}`;
       el.neuroPrevBtn.disabled = neuroState.index === 0;
       el.neuroNextBtn.disabled = neuroState.index === neurophysSlides.length - 1;
+      if (el.neuroPlayBtn) el.neuroPlayBtn.textContent = neuroState.autoPlaying ? "Pause" : "Auto play";
+      if (el.neuroAudioStatus && !neuroState.pausedForManual) {
+        const cue = (neurophysModule.cues || [])[neuroState.cueIndex];
+        el.neuroAudioStatus.textContent = cue
+          ? `Segment ${neuroState.cueIndex + 1} / ${(neurophysModule.cues || []).length}`
+          : "Neurophysiology narration is ready.";
+      }
       renderSlideMedia("neurophysiology", slideNumber, el.neuroInlineMedia, true);
     }
 
     function changeNeuroSlide(delta) {
-      neuroState.index = Math.max(0, Math.min(neurophysSlides.length - 1, neuroState.index + delta));
-      renderNeurophys();
+      const cues = neurophysModule.cues || [];
+      const shouldResume = neuroState.autoPlaying || neuroState.pausedForManual;
+      neuroState.pausedForManual = false;
+      if (cues.length) {
+        goToNeuroCue(adjacentSlideCueIndex(cues, neuroState.cueIndex, delta));
+      } else {
+        neuroState.index = Math.max(0, Math.min(neurophysSlides.length - 1, neuroState.index + delta));
+        renderNeurophys();
+      }
+      if (neuroCueHasNoAudio(neuroState.cueIndex)) {
+        showNeuroManualPause();
+      } else if (shouldResume) {
+        neuroState.autoPlaying = true;
+        el.neuroAudio.play().catch(() => {
+          el.neuroAudioStatus.textContent = "Click Auto play to resume narration. Browser autoplay rules blocked automatic audio.";
+        });
+      }
       trackProgress("neurophysiology", neuroState.index === neurophysSlides.length - 1 ? "complete" : "progress", {
         progress_percent: Math.round(((neuroState.index + 1) / neurophysSlides.length) * 100)
       });
@@ -3626,11 +3718,16 @@
     });
     el.courseAudioPrevBtn.addEventListener("click", () => changeCourseAudioSlide(-1));
     el.courseAudioNextBtn.addEventListener("click", () => {
-      const shouldResume = courseAudioState.autoPlaying || courseAudioState.pausedForYoutube;
+      const shouldResume = courseAudioState.autoPlaying || courseAudioState.pausedForYoutube || courseAudioState.pausedForManual;
       courseAudioState.pausedForYoutube = false;
+      courseAudioState.pausedForManual = false;
       const cues = currentCourseAudioModule().cues || [];
       const nextCue = adjacentSlideCueIndex(cues, courseAudioState.cueIndex, 1);
       goToCourseAudioCue(nextCue);
+      if (courseAudioCueHasNoAudio(courseAudioState.cueIndex)) {
+        showCourseAudioManualPause();
+        return;
+      }
       if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
         showCourseAudioYoutubePause();
         return;
@@ -3648,9 +3745,14 @@
         return;
       }
       courseAudioState.pausedForYoutube = false;
-      if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
-        const nextCue = nextNonYoutubeCourseCue(courseAudioState.cueIndex + 1);
+      courseAudioState.pausedForManual = false;
+      if (courseAudioCueNeedsManualAdvance(courseAudioState.cueIndex)) {
+        const nextCue = nextPlayableCourseCue(courseAudioState.cueIndex + 1);
         goToCourseAudioCue(nextCue);
+        if (courseAudioCueHasNoAudio(courseAudioState.cueIndex)) {
+          showCourseAudioManualPause();
+          return;
+        }
         if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
           showCourseAudioYoutubePause();
           return;
@@ -3677,7 +3779,7 @@
       syncMediaPlayback(el.courseAudioInlineMedia, true);
     });
     el.courseAudio.addEventListener("pause", () => {
-      if (courseAudioState.pausedForYoutube) {
+      if (courseAudioState.pausedForYoutube || courseAudioState.pausedForManual) {
         syncMediaPlayback(el.courseAudioInlineMedia, false);
         return;
       }
@@ -3689,9 +3791,13 @@
       const mod = currentCourseAudioModule();
       const cues = mod.cues || [];
       if (courseAudioState.cueIndex < cues.length - 1) {
-        const shouldResume = courseAudioState.autoPlaying && !courseAudioState.pausedForYoutube;
+        const shouldResume = courseAudioState.autoPlaying && !courseAudioState.pausedForYoutube && !courseAudioState.pausedForManual;
         const nextCue = courseAudioState.cueIndex + 1;
         goToCourseAudioCue(nextCue);
+        if (courseAudioCueHasNoAudio(courseAudioState.cueIndex)) {
+          showCourseAudioManualPause();
+          return;
+        }
         if (courseAudioCueHasYoutube(courseAudioState.cueIndex)) {
           showCourseAudioYoutubePause();
           return;
@@ -3704,7 +3810,55 @@
     });
     el.neurophysModuleBtn.addEventListener("click", () => openModule("neurophysiology"));
     el.neuroPrevBtn.addEventListener("click", () => changeNeuroSlide(-1));
+    el.neuroPlayBtn.addEventListener("click", () => {
+      if (neuroState.autoPlaying) {
+        stopNeurophysAudio();
+        return;
+      }
+      neuroState.pausedForManual = false;
+      if (neuroCueHasNoAudio(neuroState.cueIndex)) {
+        goToNeuroCue(nextPlayableNeuroCue(neuroState.cueIndex + 1));
+        if (neuroCueHasNoAudio(neuroState.cueIndex)) {
+          showNeuroManualPause();
+          return;
+        }
+      }
+      neuroState.autoPlaying = true;
+      el.neuroAudio.play().catch(() => {
+        el.neuroAudioStatus.textContent = "Click Auto play to start narration. Browser autoplay rules blocked automatic audio.";
+      });
+      renderNeurophys();
+    });
     el.neuroNextBtn.addEventListener("click", () => changeNeuroSlide(1));
+    el.neuroAudio.addEventListener("play", () => {
+      neuroState.autoPlaying = true;
+      renderNeurophys();
+      syncMediaPlayback(el.neuroInlineMedia, true);
+    });
+    el.neuroAudio.addEventListener("pause", () => {
+      if (neuroState.pausedForManual) {
+        syncMediaPlayback(el.neuroInlineMedia, false);
+        return;
+      }
+      if (!el.neuroAudio.ended) neuroState.autoPlaying = false;
+      renderNeurophys();
+      syncMediaPlayback(el.neuroInlineMedia, false);
+    });
+    el.neuroAudio.addEventListener("ended", () => {
+      const cues = neurophysModule.cues || [];
+      if (neuroState.cueIndex < cues.length - 1) {
+        const shouldResume = neuroState.autoPlaying && !neuroState.pausedForManual;
+        goToNeuroCue(neuroState.cueIndex + 1);
+        if (neuroCueHasNoAudio(neuroState.cueIndex)) {
+          showNeuroManualPause();
+          return;
+        }
+        if (shouldResume) el.neuroAudio.play().catch(() => {});
+        return;
+      }
+      trackProgress("neurophysiology", "complete", { progress_percent: 100 });
+      stopNeurophysAudio();
+    });
     document.querySelectorAll("[data-activity]").forEach((button) => {
       button.addEventListener("click", () => setSimActivity(button.dataset.activity));
     });

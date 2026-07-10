@@ -1,0 +1,2113 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.920
+You know, when you look at a computer motherboard or like you open up a laptop,
+
+2
+00:00:04.920 --> 00:00:07.520
+everything makes this very rigid sort of sense.
+
+3
+00:00:07.520 --> 00:00:08.960
+Oh, yeah, completely. Right.
+
+4
+00:00:08.960 --> 00:00:14.000
+You have these clean lines of copper, these perfectly soldered pathways.
+
+5
+00:00:14.560 --> 00:00:19.640
+A signal goes from point A to point B, and it's just this closed unbroken loop.
+
+6
+00:00:19.640 --> 00:00:23.640
+It's binary, it's engineered, and you can visibly trace it.
+
+7
+00:00:23.880 --> 00:00:25.560
+Yeah, it's incredibly orderly.
+
+8
+00:00:25.560 --> 00:00:28.760
+I mean, you trace the wire, you find the exact destination.
+
+9
+00:00:28.760 --> 00:00:31.240
+There's no ambiguity at all.
+
+10
+00:00:31.240 --> 00:00:34.760
+But then as a student stepping into neurophysiology for the first time,
+
+11
+00:00:35.040 --> 00:00:38.520
+you look at the human brain and that entire engineering paradigm
+
+12
+00:00:38.520 --> 00:00:39.960
+just completely shatters.
+
+13
+00:00:39.960 --> 00:00:41.240
+So it falls apart immediately.
+
+14
+00:00:41.240 --> 00:00:41.960
+It really does.
+
+15
+00:00:41.960 --> 00:00:45.600
+Suddenly you're looking at this wet, messy chemical soup where the wires
+
+16
+00:00:45.600 --> 00:00:48.280
+and we're talking billions of them, they don't even actually touch each other.
+
+17
+00:00:48.280 --> 00:00:51.040
+Right. It is the ultimate biological paradox, honestly.
+
+18
+00:00:51.480 --> 00:00:56.560
+The most sophisticated, high speed communication network in the known universe
+
+19
+00:00:56.880 --> 00:01:00.880
+relies on physical gaps and floating chemicals to get its message across.
+
+20
+00:01:01.120 --> 00:01:03.320
+Which is just wild to wrap your head around.
+
+21
+00:01:03.320 --> 00:01:08.440
+And our mission today for this deep dive is to decode that exact paradox.
+
+22
+00:01:08.440 --> 00:01:09.080
+Exactly.
+
+23
+00:01:09.080 --> 00:01:12.960
+We're going to take some incredibly complex neuroscience from your lecture
+
+24
+00:01:12.960 --> 00:01:17.120
+slides and turn it into a clear, functioning mental map for you.
+
+25
+00:01:17.200 --> 00:01:19.360
+Yeah, we're going to bypass the dense jargon today.
+
+26
+00:01:19.360 --> 00:01:23.440
+Right. And figure out how a thought or a memory or an action
+
+27
+00:01:23.760 --> 00:01:29.680
+travels from a tiny spark in a single cell to a full blown physical behavior.
+
+28
+00:01:29.680 --> 00:01:33.200
+Because understanding how those disconnected wires actually bridge that gap,
+
+29
+00:01:33.200 --> 00:01:36.000
+how they truly communicate is the master key to everything.
+
+30
+00:01:36.000 --> 00:01:36.760
+It really is.
+
+31
+00:01:36.760 --> 00:01:39.800
+It unlocks the mechanics of learning, the physical nature of memory
+
+32
+00:01:39.800 --> 00:01:43.720
+and even the fundamental reasons why the medications we take actually work.
+
+33
+00:01:44.000 --> 00:01:46.720
+So let's start big and then kind of shrink down.
+
+34
+00:01:47.560 --> 00:01:51.400
+Picture a journey inward, starting from a satellite view and zooming
+
+35
+00:01:51.400 --> 00:01:53.680
+all the way down to like a single person on the street.
+
+36
+00:01:54.400 --> 00:01:57.360
+Gifts showing the brain from the outer gray matter, then white matter,
+
+37
+00:01:58.000 --> 00:02:00.120
+littered with synaptic dendritic buds.
+
+38
+00:02:00.480 --> 00:02:03.040
+So what you're seeing in that animation on slide two
+
+39
+00:02:03.360 --> 00:02:05.840
+is this beautiful descent from the gross anatomy.
+
+40
+00:02:05.880 --> 00:02:06.880
+It's a great visual.
+
+41
+00:02:06.880 --> 00:02:07.720
+It really is.
+
+42
+00:02:07.720 --> 00:02:09.840
+We start at the outer folds of the gray matter,
+
+43
+00:02:09.960 --> 00:02:14.360
+pushing down through the white matter past the ventricles down into the brainstem
+
+44
+00:02:14.360 --> 00:02:17.480
+and sweeping past structures like the amygdala, amygdala.
+
+45
+00:02:18.000 --> 00:02:21.560
+And we just keep zooming in deeper and deeper until we hit the microscopic level,
+
+46
+00:02:21.760 --> 00:02:24.360
+finally resting on a single individual neuron
+
+47
+00:02:24.520 --> 00:02:27.200
+that is absolutely covered in tiny little dendritic buds.
+
+48
+00:02:27.240 --> 00:02:31.640
+And when you look at those neural populations, the numbers are just staggering.
+
+49
+00:02:31.640 --> 00:02:35.880
+Yeah. We always hear about the 86 billion neurons in the brain, right?
+
+50
+00:02:35.960 --> 00:02:39.920
+They're usually treated as the undisputed rock stars of the nervous system.
+
+51
+00:02:39.920 --> 00:02:41.960
+The main characters. Yeah, exactly.
+
+52
+00:02:41.960 --> 00:02:45.880
+But research from Susana Herculon or Huzal and the Allen Brain Institute
+
+53
+00:02:45.880 --> 00:02:49.040
+on slide three reveals there are also
+
+54
+00:02:49.240 --> 00:02:53.720
+85 billion non neural cells hanging around, which is I mean,
+
+55
+00:02:53.720 --> 00:02:57.160
+that is almost a one to one ratio of neurons to non neurons. Right.
+
+56
+00:02:57.160 --> 00:02:59.720
+But I have to push back on the biology here a little bit.
+
+57
+00:02:59.720 --> 00:03:03.960
+If nearly half of the brain's cellular population isn't even made up of neurons,
+
+58
+00:03:04.360 --> 00:03:06.680
+what are all those other cells actually doing?
+
+59
+00:03:06.680 --> 00:03:07.640
+That's a great question.
+
+60
+00:03:07.640 --> 00:03:11.680
+Because nature usually doesn't waste that much energy just, you know, taking up space.
+
+61
+00:03:11.720 --> 00:03:13.960
+Oh, they definitely aren't just taking up space.
+
+62
+00:03:13.960 --> 00:03:19.120
+Those 85 billion non neural cells are the unsung heroes of the entire system.
+
+63
+00:03:19.160 --> 00:03:20.200
+OK, how so?
+
+64
+00:03:20.200 --> 00:03:24.440
+Well, we're talking about glial cells, epinidymal cells, epithelial cells,
+
+65
+00:03:24.440 --> 00:03:27.800
+parasites, they do the absolutely crucial background work.
+
+66
+00:03:27.840 --> 00:03:29.400
+Like what? For example,
+
+67
+00:03:29.400 --> 00:03:32.080
+epithelial cells physically form the blood,
+
+68
+00:03:32.080 --> 00:03:36.120
+cerebrospinal fluid barrier, which is the ultimate defense system for the brain.
+
+69
+00:03:36.720 --> 00:03:41.480
+And parasites regulate blood flow in the capillaries so the brain gets oxygen.
+
+70
+00:03:42.120 --> 00:03:44.120
+Epinidymal cells line the ventricles.
+
+71
+00:03:44.120 --> 00:03:47.000
+I mean, they provide the structure, the defense and the nourishment
+
+72
+00:03:47.240 --> 00:03:49.960
+so that the neurons can actually do their job of communicating.
+
+73
+00:03:49.960 --> 00:03:54.280
+So they're like the roadies, the security and the catering for the rock band.
+
+74
+00:03:54.280 --> 00:03:56.720
+Yes. Without them, the stadium falls apart.
+
+75
+00:03:56.720 --> 00:03:58.440
+And the show simply doesn't happen.
+
+76
+00:03:58.440 --> 00:04:00.480
+That is a perfect way to look at it.
+
+77
+00:04:00.480 --> 00:04:03.960
+They completely set the stage for the true stars of communication.
+
+78
+00:04:04.080 --> 00:04:08.000
+And when those stars communicate, it is just a spectacular light show,
+
+79
+00:04:08.120 --> 00:04:11.960
+Yeah, visually, those flashing fluorescent lights pulsing like fireflies
+
+80
+00:04:11.960 --> 00:04:16.880
+on a dark summer night, those represent real live electrical activity
+
+81
+00:04:16.880 --> 00:04:19.600
+firing across a living neural network. It's beautiful.
+
+82
+00:04:19.600 --> 00:04:23.080
+It is every single flash is a piece of data moving.
+
+83
+00:04:23.200 --> 00:04:25.160
+As we make our way through this presentation,
+
+84
+00:04:25.160 --> 00:04:27.560
+make sure to utilize the simulation on the right.
+
+85
+00:04:28.360 --> 00:04:31.640
+Start with the neuron view and check the guided tutorial box
+
+86
+00:04:31.640 --> 00:04:34.680
+located in the top menu by clicking the dropdown arrow
+
+87
+00:04:34.680 --> 00:04:36.880
+in the top right where it says show.
+
+88
+00:04:36.880 --> 00:04:40.040
+As you learn about the synaptic signaling, use the guided tutorial
+
+89
+00:04:40.040 --> 00:04:41.960
+So we've seen the fireflies.
+
+90
+00:04:41.960 --> 00:04:45.120
+We know there's a massive amount of electrical activity happening.
+
+91
+00:04:45.600 --> 00:04:48.560
+But let's look at the actual wiring on slide five.
+
+92
+00:04:48.640 --> 00:04:49.960
+Let's do it.
+
+93
+00:04:49.960 --> 00:04:52.560
+The fundamental structure of a neuron is fairly distinct.
+
+94
+00:04:52.880 --> 00:04:57.200
+You have the dendrites, which look like the sprawling branches of a tree
+
+95
+00:04:57.200 --> 00:04:59.080
+reaching out to receive incoming signals.
+
+96
+00:04:59.080 --> 00:05:00.600
+Right. Then you have the soma,
+
+97
+00:05:00.600 --> 00:05:02.800
+which is the main cell body holding the nucleus.
+
+98
+00:05:03.200 --> 00:05:07.600
+And then you have this long single tail like structure called the axon,
+
+99
+00:05:07.880 --> 00:05:11.440
+which acts as the wire carrying the signal away to the next destination.
+
+100
+00:05:11.600 --> 00:05:14.400
+Crucially, though, wrapped around that axon,
+
+101
+00:05:14.600 --> 00:05:16.960
+you have the myelin and myelin sheath.
+
+102
+00:05:17.480 --> 00:05:22.400
+And that myelin and myelin is where the magic of biological speed actually happens.
+
+103
+00:05:22.400 --> 00:05:26.040
+It kind of reminds me of wrapping electrical tape around a frayed wire in your house.
+
+104
+00:05:26.040 --> 00:05:26.600
+Oh, totally.
+
+105
+00:05:26.600 --> 00:05:29.600
+It just acts as an insulator so the current doesn't leak out.
+
+106
+00:05:29.640 --> 00:05:30.800
+It acts as an insulator.
+
+107
+00:05:30.800 --> 00:05:33.160
+Yeah. But if you look at the diagram on slide six,
+
+108
+00:05:33.160 --> 00:05:35.160
+it also provides a massive speed upgrade.
+
+109
+00:05:35.320 --> 00:05:37.320
+Wait, really? How?
+
+110
+00:05:37.320 --> 00:05:40.280
+Well, myelination wraps around the axon in distinct segments,
+
+111
+00:05:40.360 --> 00:05:43.200
+trapping and insulating positively charged ions,
+
+112
+00:05:43.440 --> 00:05:46.920
+ensuring they're concentrated and readily available right where they are needed.
+
+113
+00:05:46.920 --> 00:05:47.720
+OK, I see.
+
+114
+00:05:47.720 --> 00:05:50.280
+Because of that myelin and myelin insulation,
+
+115
+00:05:50.840 --> 00:05:54.720
+the neural signal doesn't have to slowly like inch its way down
+
+116
+00:05:54.720 --> 00:05:56.600
+the entire length of the biological wire.
+
+117
+00:05:56.600 --> 00:05:58.320
+So it skips. Exactly.
+
+118
+00:05:58.320 --> 00:06:02.080
+It literally jumps from one uninsulated gap to the next. Wow.
+
+119
+00:06:02.280 --> 00:06:05.280
+This sultatory conduction allows neural signals
+
+120
+00:06:05.480 --> 00:06:08.720
+to travel significantly faster than they ever could in a bare,
+
+121
+00:06:08.720 --> 00:06:10.160
+unmyelinated axon.
+
+122
+00:06:10.160 --> 00:06:12.200
+So the wave has traveled down the axon.
+
+123
+00:06:12.200 --> 00:06:16.760
+It's moving incredibly fast, jumping along that myelin and while insulation.
+
+124
+00:06:17.120 --> 00:06:21.400
+But here's where we hit the major plot twist of neurophysiology on slide seven.
+
+125
+00:06:22.040 --> 00:06:25.640
+The electrical signal reaches the very end of the axon terminal
+
+126
+00:06:25.920 --> 00:06:27.560
+and the road just ends.
+
+127
+00:06:27.560 --> 00:06:28.680
+The wires do not touch.
+
+128
+00:06:28.680 --> 00:06:29.880
+They don't touch.
+
+129
+00:06:29.880 --> 00:06:31.600
+There is a microscopic gap.
+
+130
+00:06:31.600 --> 00:06:33.400
+The synapse, SINapse.
+
+131
+00:06:33.400 --> 00:06:34.520
+The famous gap.
+
+132
+00:06:34.520 --> 00:06:38.440
+And as someone trying to understand the engineering of the body,
+
+133
+00:06:38.800 --> 00:06:41.840
+this feels profoundly counterintuitive.
+
+134
+00:06:41.840 --> 00:06:42.600
+It really does.
+
+135
+00:06:42.600 --> 00:06:46.280
+If the electrical wave we just talked about is so fast, so efficient
+
+136
+00:06:46.280 --> 00:06:49.880
+and so brilliantly insulated, why on earth does the brain
+
+137
+00:06:49.880 --> 00:06:51.440
+purposefully break the circuit?
+
+138
+00:06:51.440 --> 00:06:52.440
+It seems like a flaw.
+
+139
+00:06:52.440 --> 00:06:56.280
+Yeah. Why rely on floating chemicals to drift across a physical gap?
+
+140
+00:06:56.280 --> 00:06:59.360
+Isn't that slower and like significantly more risky?
+
+141
+00:06:59.480 --> 00:07:00.440
+It is slightly slower.
+
+142
+00:07:00.440 --> 00:07:02.440
+Yeah. But the tradeoff is what makes you human.
+
+143
+00:07:02.480 --> 00:07:03.480
+Wow. OK.
+
+144
+00:07:03.480 --> 00:07:05.520
+If everything were just hardwired electrically,
+
+145
+00:07:05.880 --> 00:07:08.800
+the brain would be nothing more than a simple calculator.
+
+146
+00:07:08.800 --> 00:07:10.720
+You'd only have binary responses.
+
+147
+00:07:10.720 --> 00:07:11.760
+Yeah. On or off.
+
+148
+00:07:11.760 --> 00:07:12.640
+Like a light switch.
+
+149
+00:07:12.640 --> 00:07:16.160
+Exactly. By breaking the circuit and introducing the synapse,
+
+150
+00:07:16.280 --> 00:07:21.320
+SINapse, the brain creates an opportunity for complex variable processing.
+
+151
+00:07:21.600 --> 00:07:23.880
+It's what I like to call the brain's handshake.
+
+152
+00:07:24.080 --> 00:07:26.280
+The brain's handshake.
+
+153
+00:07:26.280 --> 00:07:28.320
+Because it's an agreement, not just a command.
+
+154
+00:07:28.320 --> 00:07:29.160
+That's it.
+
+155
+00:07:29.160 --> 00:07:33.720
+It's the moment where a rigid binary electrical signal
+
+156
+00:07:34.040 --> 00:07:36.840
+is converted into a highly nuanced chemical signal.
+
+157
+00:07:36.840 --> 00:07:37.640
+OK, I see.
+
+158
+00:07:37.640 --> 00:07:40.280
+Right, because a single neuron is covered in
+
+159
+00:07:40.280 --> 00:07:43.240
+thousands of those little synaptic buds we saw earlier.
+
+160
+00:07:44.040 --> 00:07:48.280
+So it is receiving chemical keys from thousands of different cells at once.
+
+161
+00:07:48.280 --> 00:07:49.320
+Constantly.
+
+162
+00:07:49.320 --> 00:07:54.680
+How does it mathematically decide whether or not to actually trigger its own action potential?
+
+163
+00:07:54.680 --> 00:07:57.400
+You're touching on a really cool concept called summation.
+
+164
+00:07:57.400 --> 00:08:01.000
+And if we look at the post-synaptic potentials chart on the slide,
+
+165
+00:08:01.000 --> 00:08:05.000
+you'll see this is essentially a very complex biological voting system.
+
+166
+00:08:05.000 --> 00:08:05.880
+A voting system.
+
+167
+00:08:05.880 --> 00:08:08.680
+Yeah, imagine the receiving neuron as a politician,
+
+168
+00:08:08.680 --> 00:08:12.840
+try and make a decision, taking input from thousands of different advisors.
+
+169
+00:08:12.840 --> 00:08:18.840
+Some of the neurotransmitters it receives are excitatory, meaning they cast a yes vote to fire.
+
+170
+00:08:19.400 --> 00:08:20.520
+Others are inhibitory.
+
+171
+00:08:20.520 --> 00:08:23.800
+They cast a no vote, basically telling the neuron to stay quiet.
+
+172
+00:08:23.800 --> 00:08:26.600
+So it's essentially a microscopic tug of war.
+
+173
+00:08:26.600 --> 00:08:28.840
+Excitatory is pulling forward toward a spike.
+
+174
+00:08:29.400 --> 00:08:31.160
+Inhibitory is pulling backward.
+
+175
+00:08:31.160 --> 00:08:32.040
+Yes.
+
+176
+00:08:32.040 --> 00:08:36.360
+In neurophysiology, we call these EPSPs and IPSPs.
+
+177
+00:08:36.360 --> 00:08:40.440
+That stands for Excitatory and Inhibitory Post-synaptic Potentials.
+
+178
+00:08:40.440 --> 00:08:41.000
+Got it.
+
+179
+00:08:41.000 --> 00:08:45.960
+The chart illustrates EPSP-IPSP cancellation beautifully.
+
+180
+00:08:45.960 --> 00:08:51.800
+If an excitatory yes signal and an inhibitory no signal arrive at the exact same millisecond,
+
+181
+00:08:51.800 --> 00:08:53.800
+they literally cancel each other out.
+
+182
+00:08:53.800 --> 00:08:54.360
+Oh, wow.
+
+183
+00:08:54.360 --> 00:08:56.680
+So the internal voltage just stays completely flat.
+
+184
+00:08:56.680 --> 00:08:57.560
+Completely flat.
+
+185
+00:08:57.560 --> 00:09:01.080
+So how does a yes vote ever actually win the tug of war?
+
+186
+00:09:01.080 --> 00:09:04.920
+By summing the signals together, the process of summation happens in two ways.
+
+187
+00:09:04.920 --> 00:09:05.960
+Okay, what's the first way?
+
+188
+00:09:05.960 --> 00:09:07.160
+Spatial summation.
+
+189
+00:09:07.160 --> 00:09:11.640
+That's when multiple different synapses on the neuron receive yes signals at the exact same moment.
+
+190
+00:09:11.640 --> 00:09:15.560
+It's like 10 different friends shouting go from different sides of the room all at once.
+
+191
+00:09:15.560 --> 00:09:16.760
+That makes sense.
+
+192
+00:09:16.760 --> 00:09:19.080
+And the second way, temporal summation.
+
+193
+00:09:19.640 --> 00:09:24.840
+That is when a single synapse is hit repeatedly and rapidly with a yes signal.
+
+194
+00:09:24.840 --> 00:09:28.520
+Like one friend rapidly poking you on the shoulder saying go, go, go, go.
+
+195
+00:09:28.520 --> 00:09:29.560
+Ah, I see.
+
+196
+00:09:29.560 --> 00:09:29.800
+Right.
+
+197
+00:09:29.800 --> 00:09:34.280
+And if these summations build up enough positive charge to hit the threshold,
+
+198
+00:09:34.280 --> 00:09:38.440
+Well, it relies on an electrical process called the action potential.
+
+199
+00:09:38.440 --> 00:09:43.320
+Basically, specialized channels open and close along the length of the neuron's outer layer,
+
+200
+00:09:43.320 --> 00:09:45.000
+which is called the axon.
+
+201
+00:09:45.000 --> 00:09:48.280
+And this opening and closing allows a signal to travel down the line.
+
+202
+00:09:48.920 --> 00:09:53.720
+Visually, if you look at the diagram charting membrane potential over time,
+
+203
+00:09:53.720 --> 00:09:56.920
+you see this very specific, beautiful sequence of events.
+
+204
+00:09:56.920 --> 00:09:57.880
+Oh, I see it.
+
+205
+00:09:57.880 --> 00:10:02.600
+I'm picturing that classic graph with the massive, sharp spike right in the middle.
+
+206
+00:10:02.600 --> 00:10:04.840
+Walk us through how that spike actually happens.
+
+207
+00:10:04.840 --> 00:10:06.840
+So it starts at what we call the resting state.
+
+208
+00:10:06.840 --> 00:10:11.400
+The inside of the cell sits at roughly negative 70 millivolts.
+
+209
+00:10:11.400 --> 00:10:12.600
+Wait, why is it negative?
+
+210
+00:10:13.320 --> 00:10:15.800
+Because the cell actually spends a lot of energy
+
+211
+00:10:15.800 --> 00:10:19.800
+pumping positively charged molecules out just to keep the inside negative.
+
+212
+00:10:20.440 --> 00:10:22.520
+It's quiet, but it's highly primed.
+
+213
+00:10:22.520 --> 00:10:24.520
+Think of it like a stretched rubber band.
+
+214
+00:10:24.520 --> 00:10:27.080
+It holds tension just waiting for a trigger.
+
+215
+00:10:27.080 --> 00:10:28.360
+Okay, I like that visual.
+
+216
+00:10:28.360 --> 00:10:28.600
+Right.
+
+217
+00:10:28.600 --> 00:10:33.480
+So when a stimulus hits the neuron and is strong enough to cross a specific press hold,
+
+218
+00:10:33.480 --> 00:10:35.880
+it triggers a phase called depolarization.
+
+219
+00:10:35.880 --> 00:10:37.480
+So the rubber band snaps.
+
+220
+00:10:37.480 --> 00:10:38.520
+Exactly.
+
+221
+00:10:38.520 --> 00:10:42.200
+Suddenly, these specialized doorways open up along the membrane,
+
+222
+00:10:42.200 --> 00:10:46.280
+and positively charged sodium molecules come rushing back into the cell.
+
+223
+00:10:46.280 --> 00:10:47.080
+Oh, wow.
+
+224
+00:10:47.080 --> 00:10:53.000
+Yeah, this massive, sudden influx of positive charge shoots the internal voltage way up.
+
+225
+00:10:53.000 --> 00:10:56.040
+And that's the big spike on our graph, the literal spark of thought.
+
+226
+00:10:56.040 --> 00:10:56.600
+You got it.
+
+227
+00:10:56.600 --> 00:11:01.800
+But wait, if all this positive charge is just aggressively flooding into the cell,
+
+228
+00:11:01.800 --> 00:11:05.320
+wouldn't the cell just short circuit or overload?
+
+229
+00:11:05.320 --> 00:11:07.640
+How does it reset for the next signal?
+
+230
+00:11:07.640 --> 00:11:08.600
+That's a great question.
+
+231
+00:11:08.600 --> 00:11:13.320
+And it's exactly why the cell immediately enters a phase called repolarization.
+
+232
+00:11:13.320 --> 00:11:14.360
+Repolarization, okay.
+
+233
+00:11:14.360 --> 00:11:14.760
+Right.
+
+234
+00:11:14.760 --> 00:11:18.520
+As soon as the voltage spikes, the sodium door slams shut.
+
+235
+00:11:18.520 --> 00:11:23.800
+Then different channels open up, and positively charged potassium molecules rush out of the cell.
+
+236
+00:11:23.800 --> 00:11:24.200
+Oh, I see.
+
+237
+00:11:24.200 --> 00:11:27.720
+So it's carrying the positive charge away to bring the internal voltage back down.
+
+238
+00:11:27.720 --> 00:11:28.280
+Exactly.
+
+239
+00:11:28.280 --> 00:11:33.080
+It actually overshoots a bit, getting slightly too negative in a phase called hyperpolarization
+
+240
+00:11:33.080 --> 00:11:37.160
+before it eventually settles back down to that negative 70 millivolt resting state.
+
+241
+00:11:37.160 --> 00:11:38.760
+Stretched and ready to fire again.
+
+242
+00:11:39.320 --> 00:11:41.880
+That is an incredibly elegant mechanical loop.
+
+243
+00:11:41.880 --> 00:11:42.920
+It really is.
+
+244
+00:11:42.920 --> 00:11:48.440
+And this wave of rushing positive charge travels all the way down the long arm of the neuron,
+
+245
+00:11:48.440 --> 00:11:49.080
+the axon.
+
+246
+00:11:49.080 --> 00:11:52.360
+Let's actually watch this handshake happen in the animation on slide 12.
+
+247
+00:11:52.800 --> 00:11:56.280
+that happen in the synaptic terminal that lead to the release of neurotransmitters
+
+248
+00:11:56.280 --> 00:11:58.560
+that bind to postsynaptic receptors.
+
+249
+00:11:58.600 --> 00:12:01.920
+So visually, you can see the action potential reaching the end of the line.
+
+250
+00:12:01.920 --> 00:12:05.760
+Yeah. That electrical voltage forces calcium channels to open.
+
+251
+00:12:05.760 --> 00:12:07.600
+Right. Calcium rushes in.
+
+252
+00:12:07.600 --> 00:12:11.440
+And that acts as the biological signal for these tiny membrane bound bubbles
+
+253
+00:12:11.440 --> 00:12:15.480
+called vesicles, which are basically tiny cargo ships loaded with chemical messengers.
+
+254
+00:12:15.520 --> 00:12:18.640
+Precisely. The calcium tells those cargo ships
+
+255
+00:12:18.840 --> 00:12:22.600
+to move to the very edge of the cell membrane, fuse with it
+
+256
+00:12:22.840 --> 00:12:26.080
+and dump their chemical cargo into the synaptic left of the gap.
+
+257
+00:12:26.080 --> 00:12:27.400
+And then they float across.
+
+258
+00:12:27.400 --> 00:12:31.520
+Yep. Those chemicals then float across and bind to specific receptors
+
+259
+00:12:31.520 --> 00:12:34.240
+on the next neuron, passing that nuanced message along.
+
+260
+00:12:34.760 --> 00:12:38.360
+Zooming in on exactly how those cargo ships dock with the membrane
+
+261
+00:12:38.360 --> 00:12:41.000
+on slides 13 and 14 is just fascinating.
+
+262
+00:12:41.000 --> 00:12:41.840
+It's amazing.
+
+263
+00:12:41.840 --> 00:12:44.760
+To get that vesicle to fuse with the cell edge,
+
+264
+00:12:45.040 --> 00:12:48.720
+you have these highly specific proteins called snare proteins.
+
+265
+00:12:49.240 --> 00:12:52.200
+They act almost exactly like the teeth of a zipper.
+
+266
+00:12:52.200 --> 00:12:53.360
+That's a really good visual.
+
+267
+00:12:53.360 --> 00:12:55.800
+Yeah. They physically grab onto each other, twist
+
+268
+00:12:56.040 --> 00:12:58.280
+and pull the vesicle tight against the membrane
+
+269
+00:12:58.280 --> 00:12:59.960
+until the pressure just pox it open.
+
+270
+00:12:59.960 --> 00:13:02.520
+It's mechanical perfection at a molecular level.
+
+271
+00:13:02.520 --> 00:13:06.080
+And the real world application of this is slightly terrifying, honestly.
+
+272
+00:13:06.080 --> 00:13:07.360
+Oh, with Botox.
+
+273
+00:13:07.360 --> 00:13:12.560
+Yes. That exact zipping mechanism is what botulinum toxin targets.
+
+274
+00:13:13.080 --> 00:13:16.080
+Botox. It acts like a pair of molecular scissors
+
+275
+00:13:16.080 --> 00:13:19.160
+that sneaks in and snips those snare proteins in half.
+
+276
+00:13:19.440 --> 00:13:22.160
+If the zipper is broken, the vesicle can't dock.
+
+277
+00:13:22.400 --> 00:13:26.000
+The chemical signal can't cross the synapse, S-I-N-X,
+
+278
+00:13:26.320 --> 00:13:28.360
+and the muscle is completely paralyzed.
+
+279
+00:13:28.680 --> 00:13:31.160
+One microscopic cut to a protein zipper
+
+280
+00:13:31.480 --> 00:13:33.640
+and a human muscle just stops working.
+
+281
+00:13:33.680 --> 00:13:37.520
+It perfectly illustrates how vital that microscopic chemical handshake
+
+282
+00:13:37.520 --> 00:13:40.440
+is to our gross physical movements. Absolutely.
+
+283
+00:13:40.480 --> 00:13:41.760
+Right, back to the receiving end.
+
+284
+00:13:41.760 --> 00:13:43.360
+But looking at our next visual,
+
+285
+00:13:43.360 --> 00:13:47.360
+it seems not all of those receiving locks, the receptors, are created equal.
+
+286
+00:13:47.360 --> 00:13:48.640
+They absolutely are not.
+
+287
+00:13:48.720 --> 00:13:52.720
+The receptor dynamic illustration contrasts two entirely different systems.
+
+288
+00:13:52.720 --> 00:13:53.600
+Let's break them down.
+
+289
+00:13:53.600 --> 00:13:54.240
+Sure.
+
+290
+00:13:54.240 --> 00:13:58.000
+On the left, you have the ligand-gated ion channels we discussed earlier.
+
+291
+00:13:58.000 --> 00:13:59.680
+These are very straightforward.
+
+292
+00:13:59.680 --> 00:14:00.160
+The key?
+
+293
+00:14:01.040 --> 00:14:01.840
+Locks.
+
+294
+00:14:01.840 --> 00:14:02.400
+Right.
+
+295
+00:14:02.400 --> 00:14:04.560
+A neurotransmitter binds to the receptor,
+
+296
+00:14:04.560 --> 00:14:06.720
+the channel opens like a swinging door,
+
+297
+00:14:06.720 --> 00:14:09.760
+and positive molecules flow directly inside.
+
+298
+00:14:09.760 --> 00:14:12.560
+It is fast, direct, and immediate.
+
+299
+00:14:12.560 --> 00:14:14.640
+But on the right side of the illustration,
+
+300
+00:14:14.640 --> 00:14:16.880
+there's something much more convoluted happening.
+
+301
+00:14:16.880 --> 00:14:17.600
+Right.
+
+302
+00:14:17.600 --> 00:14:21.680
+Those are G-protein-coupled receptors, or GPCRs.
+
+303
+00:14:21.680 --> 00:14:24.560
+The neurotransmitter binds to the outside of the receptor,
+
+304
+00:14:24.560 --> 00:14:26.160
+but no door opens.
+
+305
+00:14:26.160 --> 00:14:27.280
+Then what happens?
+
+306
+00:14:27.280 --> 00:14:32.480
+Instead, the binding activates a G-protein that is attached to the inside of the receptor.
+
+307
+00:14:32.480 --> 00:14:36.240
+This G-protein breaks off and acts as an intracellular messenger.
+
+308
+00:14:36.240 --> 00:14:38.320
+So it travels deeper inside the cell?
+
+309
+00:14:38.320 --> 00:14:39.040
+Exactly.
+
+310
+00:14:39.040 --> 00:14:42.880
+It travels inside the cell to set off a complex cascade of signals,
+
+311
+00:14:42.880 --> 00:14:46.800
+which eventually go and modulate other ion channels elsewhere on the membrane.
+
+312
+00:14:46.800 --> 00:14:48.560
+We mentioned ion channels earlier.
+
+313
+00:14:48.560 --> 00:14:49.840
+Just to give you a sense of scale,
+
+314
+00:14:49.840 --> 00:14:53.840
+there are over 300 different types of ion channels in the human body.
+
+315
+00:14:53.840 --> 00:14:54.960
+Wow, 300.
+
+316
+00:14:54.960 --> 00:14:55.200
+Yeah.
+
+317
+00:14:55.920 --> 00:14:59.840
+And a single neuron terminal might contain 10 or more different kinds,
+
+318
+00:14:59.840 --> 00:15:03.840
+all tightly packed alongside complex structural proteins
+
+319
+00:15:03.840 --> 00:15:06.440
+Now, when you look at classic textbook diagrams,
+
+320
+00:15:06.800 --> 00:15:09.520
+the end of a neuron, the synaptic bouton,
+
+321
+00:15:09.520 --> 00:15:12.800
+usually looks like an empty balloon holding a few neat little vesicle
+
+322
+00:15:12.800 --> 00:15:15.000
+bubbles floating in empty space.
+
+323
+00:15:15.000 --> 00:15:17.000
+The empty sack myth. Right.
+
+324
+00:15:17.000 --> 00:15:19.920
+Which, if you look at the 3D illustration on slide 17,
+
+325
+00:15:20.320 --> 00:15:22.600
+couldn't be further from the truth. It's so crowded.
+
+326
+00:15:22.680 --> 00:15:25.920
+It is. A synapse, S-I-N-X, is incredibly dense.
+
+327
+00:15:25.920 --> 00:15:30.440
+It's a packed molecular city completely full of thousands of complex proteins,
+
+328
+00:15:30.440 --> 00:15:34.840
+mitochondria, structural scaffolding and molecules that are just constantly at work.
+
+329
+00:15:34.960 --> 00:15:38.760
+Let's look at the proof of just how busy this microscopic city is on slide 18.
+
+330
+00:15:39.040 --> 00:15:43.680
+In that visualization, you can actually see microtubules acting like superhighways.
+
+331
+00:15:43.680 --> 00:15:45.240
+Yeah, they're moving so fast.
+
+332
+00:15:45.240 --> 00:15:47.640
+They're constantly transporting neurotransmitters,
+
+333
+00:15:47.640 --> 00:15:49.760
+proteins and cellular parts back and forth.
+
+334
+00:15:50.320 --> 00:15:53.240
+The key takeaway here is that neurons
+
+335
+00:15:53.480 --> 00:15:56.640
+are fiercely biologically active all the time.
+
+336
+00:15:56.960 --> 00:15:57.960
+Even at rest.
+
+337
+00:15:57.960 --> 00:15:59.200
+Even when they're resting.
+
+338
+00:15:59.200 --> 00:16:02.760
+Yeah, even when they aren't actively firing an action potential,
+
+339
+00:16:02.960 --> 00:16:06.480
+they're constantly maintaining their readiness and rebuilding their infrastructure.
+
+340
+00:16:07.360 --> 00:16:11.480
+Right. But the most incredible feature of the brain on slide 19
+
+341
+00:16:11.760 --> 00:16:13.720
+is that it is not static.
+
+342
+00:16:13.720 --> 00:16:16.960
+It changes its own hardware based on what you do.
+
+343
+00:16:16.960 --> 00:16:18.480
+Neuroplasticity.
+
+344
+00:16:18.480 --> 00:16:22.200
+It is the nervous system's ability to fundamentally reorganize its physical
+
+345
+00:16:22.200 --> 00:16:26.080
+structure, build new pathways and strengthen connections in response
+
+346
+00:16:26.080 --> 00:16:28.600
+to practice, experience or even an injury.
+
+347
+00:16:28.920 --> 00:16:32.360
+Think about the illustration showing a person practicing guitar.
+
+348
+00:16:32.360 --> 00:16:35.360
+The very first time you try to play a chord, your fingers feel clumsy.
+
+349
+00:16:35.520 --> 00:16:36.720
+The movement is slow.
+
+350
+00:16:36.720 --> 00:16:39.160
+And you have to think about every micro adjustment. Right.
+
+351
+00:16:39.400 --> 00:16:42.040
+Mechanically, that happens because the synaptic connection
+
+352
+00:16:42.040 --> 00:16:45.200
+for that specific movement is incredibly thin and weak.
+
+353
+00:16:45.200 --> 00:16:46.160
+It's underdeveloped.
+
+354
+00:16:46.160 --> 00:16:47.240
+Exactly.
+
+355
+00:16:47.240 --> 00:16:51.120
+But as you repeat the motion, the physical connection between the presynaptic
+
+356
+00:16:51.120 --> 00:16:53.600
+and postsynaptic terminals physically thickens.
+
+357
+00:16:53.920 --> 00:16:55.320
+It builds more receptors.
+
+358
+00:16:55.320 --> 00:16:57.000
+It stages more vesicles.
+
+359
+00:16:57.000 --> 00:17:00.920
+The hardware literally upgrades to accommodate the software of your new skill.
+
+360
+00:17:00.960 --> 00:17:04.720
+The more pathway fires, the stronger the chemical handshake becomes.
+
+361
+00:17:04.760 --> 00:17:09.720
+I always picture it like walking through a dense, overgrown grassy field.
+
+362
+00:17:09.720 --> 00:17:11.120
+Oh, I love this analogy.
+
+363
+00:17:11.120 --> 00:17:14.000
+The first time you push your way through, it is tough going, right?
+
+364
+00:17:14.240 --> 00:17:16.520
+The grass immediately springs back up behind you.
+
+365
+00:17:16.760 --> 00:17:19.640
+But if you walk that exact same path every single day,
+
+366
+00:17:19.840 --> 00:17:23.360
+eventually you break the grass, you compact the soil and it becomes a permanent,
+
+367
+00:17:23.560 --> 00:17:25.360
+easy to travel dirt road.
+
+368
+00:17:25.360 --> 00:17:27.880
+Your brain does the exact same thing with neural pathways.
+
+369
+00:17:27.880 --> 00:17:31.280
+And we can witness this structural growth happening in real time.
+
+370
+00:17:31.840 --> 00:17:32.480
+Yeah.
+
+371
+00:17:32.520 --> 00:17:33.600
+It's amazing to watch.
+
+372
+00:17:33.600 --> 00:17:36.600
+You can literally see the central nervous system reaching out,
+
+373
+00:17:36.680 --> 00:17:41.480
+reorganizing, branching and building entirely new physical structures
+
+374
+00:17:41.480 --> 00:17:43.520
+in response to stimuli.
+
+375
+00:17:43.520 --> 00:17:47.040
+The experiences of the fish physically shape its biology.
+
+376
+00:17:47.160 --> 00:17:50.240
+And that plasticity, that biological ability to change,
+
+377
+00:17:50.240 --> 00:17:53.200
+Wow. And to make it even more complex, for a long time,
+
+378
+00:17:53.200 --> 00:17:57.880
+neuroscience assumed one neuron made one type of neurotransmitter.
+
+379
+00:17:58.080 --> 00:18:02.440
+But looking at slide 21, we now know about dual neurotransmission.
+
+380
+00:18:02.520 --> 00:18:03.920
+This is fascinating.
+
+381
+00:18:03.920 --> 00:18:07.760
+A single neuron can actually co-release different neurotransmitters
+
+382
+00:18:07.760 --> 00:18:09.920
+at the exact same time from the same terminal.
+
+383
+00:18:10.280 --> 00:18:13.600
+A single cell can shout two different messages
+
+384
+00:18:13.600 --> 00:18:16.080
+simultaneously to fine tune the handshake.
+
+385
+00:18:16.080 --> 00:18:18.240
+On the other side of the seesaw, you have the brakes.
+
+386
+00:18:18.840 --> 00:18:22.760
+GABA is your primary calling signal telling the brain to quiet down.
+
+387
+00:18:23.120 --> 00:18:26.040
+Serotonin regulates your mood and overall well-being.
+
+388
+00:18:26.080 --> 00:18:28.800
+And in the metal acting as powerful modulators,
+
+389
+00:18:29.240 --> 00:18:33.240
+you have dopamine, which drives pleasure, reward and motivation.
+
+390
+00:18:33.280 --> 00:18:34.080
+The famous one.
+
+391
+00:18:34.080 --> 00:18:35.680
+The famous one, exactly.
+
+392
+00:18:35.680 --> 00:18:39.000
+You also have acetylcholine, crucial for learning and muscle action.
+
+393
+00:18:39.960 --> 00:18:43.240
+And endorphins, which provide pain, relief and euphoria.
+
+394
+00:18:43.400 --> 00:18:46.040
+The brain is entirely dependent on keeping the gas
+
+395
+00:18:46.040 --> 00:18:50.720
+pedals and the brakes in perfect harmony, like that seesaw diagram on slide 22.
+
+396
+00:18:50.760 --> 00:18:52.680
+Exactly. If you only had gas pedals,
+
+397
+00:18:52.680 --> 00:18:54.800
+the system would just overheat and crash.
+
+398
+00:18:55.040 --> 00:18:57.920
+And we know exactly what happens when that balance fails.
+
+399
+00:18:58.360 --> 00:19:01.320
+Imagine the seesaw tipping too far toward excitation.
+
+400
+00:19:01.480 --> 00:19:04.680
+OK. If GABA binding is poor, meaning the brakes aren't working,
+
+401
+00:19:04.680 --> 00:19:06.760
+glutamate takes over. Oh, yeah.
+
+402
+00:19:06.760 --> 00:19:10.400
+This runaway, uninhibited electrical activity across the neural network
+
+403
+00:19:10.400 --> 00:19:14.440
+is the exact mechanical underlying cause of disorders like epilepsy.
+
+404
+00:19:14.440 --> 00:19:16.200
+So let's talk about the cargo itself.
+
+405
+00:19:16.200 --> 00:19:18.440
+The chemical is floating across that gap.
+
+406
+00:19:18.600 --> 00:19:20.440
+The neurotransmitters stuff.
+
+407
+00:19:20.440 --> 00:19:23.800
+Yeah, these are the molecules of mood, movement and memory.
+
+408
+00:19:24.440 --> 00:19:29.480
+And rather than just reciting a textbook list from the infographic on slide 23,
+
+409
+00:19:29.840 --> 00:19:32.800
+it helps to understand them as opposing forces in the brain.
+
+410
+00:19:32.840 --> 00:19:34.200
+It's a constant balancing act.
+
+411
+00:19:34.200 --> 00:19:38.160
+Right. On one side, you have your excitatory signals, the gas pedals.
+
+412
+00:19:38.160 --> 00:19:41.240
+OK. Glutamate is the most common neurotransmitter in the brain,
+
+413
+00:19:41.240 --> 00:19:43.920
+essential for forming memories and just getting things moving.
+
+414
+00:19:44.240 --> 00:19:46.560
+Adrenaline drives your fight or flight response,
+
+415
+00:19:46.560 --> 00:19:49.160
+while noradrenaline zeros in your concentration.
+
+416
+00:19:49.360 --> 00:19:52.560
+Which frees up a great point about how we try to treat imbalances
+
+417
+00:19:52.560 --> 00:19:54.880
+in this system with medication.
+
+418
+00:19:54.880 --> 00:19:59.000
+The receptors for these neurotransmitters aren't just located in one neat little spot.
+
+419
+00:19:59.000 --> 00:20:02.000
+Right. If you look at the brain maps on slide 24,
+
+420
+00:20:02.240 --> 00:20:05.800
+they are distributed widely across different regions of the brain and the body.
+
+421
+00:20:05.840 --> 00:20:09.680
+And this wide spatial map explains a very frustrating reality
+
+422
+00:20:09.680 --> 00:20:12.960
+for anyone who has ever taken a prescription drug, right? Side effects.
+
+423
+00:20:13.400 --> 00:20:16.200
+If you take a medication meant to increase serotonin
+
+424
+00:20:16.200 --> 00:20:19.800
+to help balance your emotional state, that pill doesn't have a GPS system.
+
+425
+00:20:19.800 --> 00:20:20.480
+It really doesn't.
+
+426
+00:20:20.480 --> 00:20:23.400
+It doesn't know how to only target the emotional centers of your brain.
+
+427
+00:20:23.400 --> 00:20:24.960
+It travels everywhere.
+
+428
+00:20:24.960 --> 00:20:27.600
+So while the drug hits the targets you want,
+
+429
+00:20:27.960 --> 00:20:31.640
+it inevitably hits serotonin receptors in entirely different systems.
+
+430
+00:20:31.640 --> 00:20:32.280
+Like where?
+
+431
+00:20:32.280 --> 00:20:35.560
+Well, a massive amount of your body's serotonin receptors
+
+432
+00:20:35.560 --> 00:20:37.400
+are actually located in your gut.
+
+433
+00:20:37.400 --> 00:20:38.280
+Oh, wow.
+
+434
+00:20:38.280 --> 00:20:42.280
+So you take a pill to adjust the chemical handshake in your brain for mood
+
+435
+00:20:42.600 --> 00:20:44.960
+and you end up with nausea or digestive changes.
+
+436
+00:20:45.280 --> 00:20:47.280
+Because you are inadvertently shaking hands
+
+437
+00:20:47.280 --> 00:20:49.160
+with the receptors in your stomach.
+
+438
+00:20:49.160 --> 00:20:52.440
+If we look at the final abstract illustration of regional connections,
+
+439
+00:20:52.440 --> 00:20:57.800
+it shows massive, sweeping, colorful arcs connecting entirely different brain regions.
+
+440
+00:20:57.800 --> 00:21:01.400
+It reminds us that while the fundamental language of the brain is that microscopic
+
+441
+00:21:01.400 --> 00:21:03.320
+electrochemical handshake we've been analyzing.
+
+442
+00:21:03.320 --> 00:21:04.440
+Right, the synapses.
+
+443
+00:21:04.440 --> 00:21:10.440
+Yeah, but the entire brain is intertwined in these massive, global neural networks.
+
+444
+00:21:10.440 --> 00:21:14.280
+It takes billions of cells, communicating perfectly across those gaps,
+
+445
+00:21:14.280 --> 00:21:18.040
+to produce complex thoughts, to feel empathy, or to learn something new.
+
+446
+00:21:18.040 --> 00:21:18.920
+That's a symphony.
+
+447
+00:21:18.920 --> 00:21:21.600
+actually work on slides 26 through 30.
+
+448
+00:21:21.600 --> 00:21:22.280
+Exactly.
+
+449
+00:21:22.280 --> 00:21:26.040
+Because the brain relies on these chemical handshakes and can rewire itself,
+
+450
+00:21:26.200 --> 00:21:29.600
+we have multiple ways to intervene when the system breaks down.
+
+451
+00:21:29.600 --> 00:21:31.320
+Take psychotherapy, for example.
+
+452
+00:21:31.320 --> 00:21:33.960
+Cognitive behavioral therapy, or CBT.
+
+453
+00:21:33.960 --> 00:21:36.440
+A lot of people dismiss it as just talking.
+
+454
+00:21:36.440 --> 00:21:41.040
+Right. But fundamentally, CBT is a highly structured process
+
+455
+00:21:41.040 --> 00:21:42.760
+of unlearning and relearning.
+
+456
+00:21:42.760 --> 00:21:44.440
+How does that work mechanically?
+
+457
+00:21:44.440 --> 00:21:47.640
+By identifying a negative thought pattern and consciously forcing yourself
+
+458
+00:21:47.640 --> 00:21:49.360
+to adopt a different response,
+
+459
+00:21:49.360 --> 00:21:53.880
+CBT mechanically forces you to walk a new path in that grassy field you mentioned.
+
+460
+00:21:53.880 --> 00:21:54.640
+Oh, I see.
+
+461
+00:21:54.640 --> 00:21:59.280
+Over time, through repetition, you physically wear down a healthier dirt road
+
+462
+00:21:59.360 --> 00:22:02.400
+and the old negative pathway weakens from disuse.
+
+463
+00:22:02.400 --> 00:22:05.720
+You are literally using thought to drive physical plasticity.
+
+464
+00:22:05.720 --> 00:22:06.920
+That's incredible.
+
+465
+00:22:06.920 --> 00:22:11.000
+Then you have medications which operate right at the physical gap of the synapse,
+
+466
+00:22:11.000 --> 00:22:11.800
+SIN-apse.
+
+467
+00:22:11.800 --> 00:22:14.080
+Yes, they manipulate the chemical handshake directly.
+
+468
+00:22:14.080 --> 00:22:14.760
+Right.
+
+469
+00:22:14.760 --> 00:22:18.640
+A psychiatrist might prescribe a medication that blocks dopamine receptors
+
+470
+00:22:18.640 --> 00:22:21.320
+to calm the runaway signaling in psychosis,
+
+471
+00:22:21.320 --> 00:22:24.600
+or a medication that increases the amount of serotonin left in the gap
+
+472
+00:22:24.600 --> 00:22:26.080
+to help combat depression.
+
+473
+00:22:26.080 --> 00:22:29.680
+And then we have interventions that bypass the chemicals entirely
+
+474
+00:22:29.680 --> 00:22:31.680
+and go straight for the electrical wave.
+
+475
+00:22:31.680 --> 00:22:34.880
+Non-invasive brain stimulation or NIBS.
+
+476
+00:22:34.880 --> 00:22:38.960
+Things like RTMS, Repetitive Transcranial Magnetic Stimulation.
+
+477
+00:22:38.960 --> 00:22:39.800
+Yes.
+
+478
+00:22:39.800 --> 00:22:42.240
+The brain is fundamentally an electrical organ,
+
+479
+00:22:42.240 --> 00:22:44.520
+which means it is susceptible to magnetic fields.
+
+480
+00:22:44.520 --> 00:22:45.000
+Right.
+
+481
+00:22:45.000 --> 00:22:49.960
+With RTMS, a patient sits with a large wire coil placed near their scalp.
+
+482
+00:22:49.960 --> 00:22:52.880
+That coil generates rapidly changing magnetic pulses.
+
+483
+00:22:52.880 --> 00:22:54.400
+Okay, so it's magnetic pulse.
+
+484
+00:22:54.400 --> 00:22:55.440
+Exactly.
+
+485
+00:22:55.440 --> 00:22:58.960
+Those magnetic fields safely penetrate the skull
+
+486
+00:22:58.960 --> 00:23:02.760
+and induce a localized, highly targeted electric field
+
+487
+00:23:02.760 --> 00:23:04.920
+in the brain tissue underneath.
+
+488
+00:23:04.920 --> 00:23:08.840
+We're using the laws of physics to directly tune and modulate
+
+489
+00:23:08.840 --> 00:23:12.400
+the cortical excitability of the brain, strengthening or weakening
+
+490
+00:23:12.400 --> 00:23:16.440
+specific circuits without ever introducing a single chemical.
+
+491
+00:23:16.440 --> 00:23:18.880
+Okay, let's step back and look at the big picture takeaway
+
+492
+00:23:18.880 --> 00:23:21.760
+from this deep dive into the brain's blueprint.
+
+493
+00:23:21.760 --> 00:23:24.240
+Think about the incredible microscopic journey
+
+494
+00:23:24.240 --> 00:23:25.520
+we just mapped out today.
+
+495
+00:23:25.520 --> 00:23:26.440
+It's a journey.
+
+496
+00:23:26.440 --> 00:23:28.600
+A thought, an impulse, or an action begins
+
+497
+00:23:28.600 --> 00:23:31.760
+as a tense electrical wave, snapping like a rubber band
+
+498
+00:23:31.760 --> 00:23:35.200
+and racing down an axon, insulated and accelerated
+
+499
+00:23:35.200 --> 00:23:37.640
+by a myelin, myelin sheath.
+
+500
+00:23:37.640 --> 00:23:41.280
+Then it hits the synapse, SINAPs, slamming the brakes
+
+501
+00:23:41.280 --> 00:23:43.400
+to convert that rapid electrical current
+
+502
+00:23:43.400 --> 00:23:45.600
+into a highly nuanced chemical messenger.
+
+503
+00:23:45.600 --> 00:23:47.880
+Those chemical cargo ships dock, unzip,
+
+504
+00:23:47.880 --> 00:23:49.560
+and flood across the void.
+
+505
+00:23:49.560 --> 00:23:51.840
+They bind like a key in a lock on the other side,
+
+506
+00:23:51.840 --> 00:23:54.600
+triggering a brand new electrical wave in the next cell.
+
+507
+00:23:54.600 --> 00:23:57.280
+And through the magic of neuroplasticity,
+
+508
+00:23:57.280 --> 00:23:59.800
+every single time you fire that sequence,
+
+509
+00:23:59.800 --> 00:24:02.160
+the physical structure of your brain becomes
+
+510
+00:24:02.160 --> 00:24:04.680
+a little bit stronger, a little bit more efficient.
+
+511
+00:24:04.680 --> 00:24:07.760
+Which leads us with a final, slightly provocative thought
+
+512
+00:24:07.760 --> 00:24:10.320
+to ponder as you review your notes.
+
+513
+00:24:10.320 --> 00:24:11.240
+Oh, lay it on us.
+
+514
+00:24:11.240 --> 00:24:12.940
+If every single thought you think,
+
+515
+00:24:12.940 --> 00:24:16.280
+every behavior you repeat, and every new skill you practice
+
+516
+00:24:16.280 --> 00:24:19.840
+physically alters the microscopic strength, structure,
+
+517
+00:24:19.880 --> 00:24:22.840
+and chemical balance of your synaptic connections.
+
+518
+00:24:22.840 --> 00:24:25.400
+Then from a purely neurobiological standpoint,
+
+519
+00:24:25.400 --> 00:24:27.400
+the brain you woke up with this morning
+
+520
+00:24:27.400 --> 00:24:30.400
+is physically, structurally different from the brain
+
+521
+00:24:30.400 --> 00:24:31.840
+you will go to sleep with tonight.
+
+522
+00:24:31.840 --> 00:24:35.320
+You are, quite literally, constantly rewiring
+
+523
+00:24:35.320 --> 00:24:37.040
+the physical nature of your own identity.
+
+524
+00:24:37.040 --> 00:24:38.760
+What a thought to end on.
+
+525
+00:24:38.760 --> 00:24:40.680
+Keep exploring those simulations.
+
+526
+00:24:40.680 --> 00:24:43.400
+Pay attention to the tension in the resting state.
+
+527
+00:24:43.400 --> 00:24:45.600
+Watch how the chemicals bridge the gap.
+
+528
+00:24:45.600 --> 00:24:48.400
+And thank you for joining us on this deep dive.
