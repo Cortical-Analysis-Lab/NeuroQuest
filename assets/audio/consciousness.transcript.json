@@ -1,0 +1,3092 @@
+[
+  {
+    "start": 0.0,
+    "end": 2.8,
+    "text": "If I ask you to close your eyes, you know,"
+  },
+  {
+    "start": 2.8,
+    "end": 4.72,
+    "text": "and just picture a bright red apple,"
+  },
+  {
+    "start": 4.72,
+    "end": 6.56,
+    "text": "you can probably see it in your mind's eye."
+  },
+  {
+    "start": 6.56,
+    "end": 8.4,
+    "text": "Right, the classic thought experiment."
+  },
+  {
+    "start": 8.4,
+    "end": 9.24,
+    "text": "Yeah, exactly."
+  },
+  {
+    "start": 9.24,
+    "end": 11.0,
+    "text": "You know, add to the curve of it,"
+  },
+  {
+    "start": 11.0,
+    "end": 14.06,
+    "text": "maybe even like a little reflection of light on the skin."
+  },
+  {
+    "start": 14.06,
+    "end": 15.2,
+    "text": "But think about this for a second."
+  },
+  {
+    "start": 15.2,
+    "end": 16.64,
+    "text": "Where is that picture?"
+  },
+  {
+    "start": 16.64,
+    "end": 18.84,
+    "text": "Well, it's definitely not inside your physical head."
+  },
+  {
+    "start": 18.84,
+    "end": 19.88,
+    "text": "Exactly. Yeah."
+  },
+  {
+    "start": 19.88,
+    "end": 22.64,
+    "text": "If a surgeon were to open your skull right now,"
+  },
+  {
+    "start": 22.64,
+    "end": 23.88,
+    "text": "they wouldn't find an apple."
+  },
+  {
+    "start": 23.88,
+    "end": 25.78,
+    "text": "They wouldn't find a tiny movie screen"
+  },
+  {
+    "start": 25.78,
+    "end": 27.56,
+    "text": "playing back your memories."
+  },
+  {
+    "start": 27.62,
+    "end": 31.32,
+    "text": "There's just, you know, wet biological tissue"
+  },
+  {
+    "start": 31.32,
+    "end": 32.16,
+    "text": "and electricity."
+  },
+  {
+    "start": 32.16,
+    "end": 33.62,
+    "text": "Intermediate and chemical signals, yeah."
+  },
+  {
+    "start": 33.62,
+    "end": 34.46,
+    "text": "Right."
+  },
+  {
+    "start": 34.46,
+    "end": 37.62,
+    "text": "So how on earth does this lump of physical hardware"
+  },
+  {
+    "start": 37.62,
+    "end": 41.32,
+    "text": "create the incredibly rich, subjective experience"
+  },
+  {
+    "start": 41.32,
+    "end": 42.16,
+    "text": "of being you?"
+  },
+  {
+    "start": 42.16,
+    "end": 43.56,
+    "text": "It really is the ultimate puzzle."
+  },
+  {
+    "start": 43.56,
+    "end": 47.32,
+    "text": "I mean, you can map every single neuron in the human brain,"
+  },
+  {
+    "start": 47.32,
+    "end": 50.36,
+    "text": "but pointing to a cluster of firing cells"
+  },
+  {
+    "start": 50.36,
+    "end": 52.74,
+    "text": "still doesn't explain the actual feeling"
+  },
+  {
+    "start": 52.74,
+    "end": 54.72,
+    "text": "of experiencing the color red,"
+  },
+  {
+    "start": 54.72,
+    "end": 56.72,
+    "text": "or, you know, the taste of coffee"
+  },
+  {
+    "start": 56.84,
+    "end": 58.74,
+    "text": "or that sudden feeling of nostalgia."
+  },
+  {
+    "start": 58.74,
+    "end": 61.54,
+    "text": "Which is exactly what we are tackling today."
+  },
+  {
+    "start": 61.54,
+    "end": 64.4,
+    "text": "Welcome to this deep dive into a really fascinating set"
+  },
+  {
+    "start": 64.4,
+    "end": 66.54,
+    "text": "of lecture notes and slides"
+  },
+  {
+    "start": 66.54,
+    "end": 68.72,
+    "text": "on the neuroscience of consciousness."
+  },
+  {
+    "start": 68.72,
+    "end": 70.28,
+    "text": "Our mission today is to break down"
+  },
+  {
+    "start": 70.28,
+    "end": 71.64,
+    "text": "the core brain structures,"
+  },
+  {
+    "start": 71.64,
+    "end": 73.08,
+    "text": "the physiological functions,"
+  },
+  {
+    "start": 73.08,
+    "end": 75.02,
+    "text": "and the actual nuts and bolts of the mind."
+  },
+  {
+    "start": 75.02,
+    "end": 78.16,
+    "text": "And we wanna do it without drowning you in academic jargon."
+  },
+  {
+    "start": 78.16,
+    "end": 80.52,
+    "text": "We're focusing on the how and the why,"
+  },
+  {
+    "start": 80.52,
+    "end": 82.76,
+    "text": "so you can genuinely understand the machinery"
+  },
+  {
+    "start": 82.76,
+    "end": 84.04,
+    "text": "behind your own awareness."
+  },
+  {
+    "start": 84.04,
+    "end": 86.68,
+    "text": "To anchor us before we get lost in that machinery,"
+  },
+  {
+    "start": 86.76,
+    "end": 89.26,
+    "text": "the slides offer a really strong"
+  },
+  {
+    "start": 89.26,
+    "end": 91.68,
+    "text": "foundational definition of consciousness."
+  },
+  {
+    "start": 91.68,
+    "end": 93.64,
+    "text": "It defines it as our subjective awareness"
+  },
+  {
+    "start": 93.64,
+    "end": 95.6,
+    "text": "of ourselves and our environment."
+  },
+  {
+    "start": 95.6,
+    "end": 96.44,
+    "text": "Right."
+  },
+  {
+    "start": 96.44,
+    "end": 99.26,
+    "text": "It's the mechanism that allows us to assemble information"
+  },
+  {
+    "start": 99.26,
+    "end": 101.76,
+    "text": "from dozens of different sensory inputs,"
+  },
+  {
+    "start": 101.76,
+    "end": 103.92,
+    "text": "use that data to reflect on our past,"
+  },
+  {
+    "start": 103.92,
+    "end": 106.04,
+    "text": "adapt to whatever's happening right now,"
+  },
+  {
+    "start": 106.04,
+    "end": 107.68,
+    "text": "and then plan for the future."
+  },
+  {
+    "start": 107.68,
+    "end": 109.56,
+    "text": "The sources use this driving analogy"
+  },
+  {
+    "start": 109.56,
+    "end": 112.2,
+    "text": "that I think bridges that definition perfectly"
+  },
+  {
+    "start": 112.2,
+    "end": 113.54,
+    "text": "to everyday life."
+  },
+  {
+    "start": 113.54,
+    "end": 114.84,
+    "text": "Think back to the very first time"
+  },
+  {
+    "start": 114.84,
+    "end": 116.32,
+    "text": "you got behind the wheel of a car."
+  },
+  {
+    "start": 117.08,
+    "end": 118.76,
+    "text": "Oh yeah, white knuckling the steering wheel."
+  },
+  {
+    "start": 118.76,
+    "end": 119.88,
+    "text": "Exactly."
+  },
+  {
+    "start": 119.88,
+    "end": 122.56,
+    "text": "Your conscious awareness had to hyper focus"
+  },
+  {
+    "start": 122.56,
+    "end": 124.56,
+    "text": "on every single detail,"
+  },
+  {
+    "start": 124.56,
+    "end": 127.44,
+    "text": "like how hard your foot was pressing the gas pedal,"
+  },
+  {
+    "start": 127.44,
+    "end": 129.16,
+    "text": "the exact angle of the mirrors,"
+  },
+  {
+    "start": 129.16,
+    "end": 131.8,
+    "text": "scanning the intersection, the sound of the engine."
+  },
+  {
+    "start": 131.8,
+    "end": 134.68,
+    "text": "It consumes 100% of your mental bandwidth."
+  },
+  {
+    "start": 134.68,
+    "end": 136.24,
+    "text": "It's exhausting because your brain"
+  },
+  {
+    "start": 136.24,
+    "end": 140.48,
+    "text": "is actively building new neural pathways in real time."
+  },
+  {
+    "start": 140.48,
+    "end": 143.52,
+    "text": "But consider what happens after, say, 10 years of driving."
+  },
+  {
+    "start": 143.52,
+    "end": 144.92,
+    "text": "You literally pull into your driveway"
+  },
+  {
+    "start": 144.92,
+    "end": 147.68,
+    "text": "and realize you don't even remember the last five miles."
+  },
+  {
+    "start": 147.68,
+    "end": 149.28,
+    "text": "Yep, highway hypnosis."
+  },
+  {
+    "start": 149.28,
+    "end": 152.4,
+    "text": "The complex act of driving has just become semi-automatic."
+  },
+  {
+    "start": 152.4,
+    "end": 154.24,
+    "text": "Your conscious attention is suddenly freed up"
+  },
+  {
+    "start": 154.24,
+    "end": 156.16,
+    "text": "to focus on listening to a deep dive"
+  },
+  {
+    "start": 156.16,
+    "end": 157.76,
+    "text": "or planning what you're gonna make for dinner."
+  },
+  {
+    "start": 157.76,
+    "end": 160.28,
+    "text": "And that transition from hyper focused effort"
+  },
+  {
+    "start": 160.28,
+    "end": 163.52,
+    "text": "to automatic processing highlights something crucial."
+  },
+  {
+    "start": 163.52,
+    "end": 165.92,
+    "text": "Consciousness is a limited resource."
+  },
+  {
+    "start": 165.92,
+    "end": 168.2,
+    "text": "But before we get into the biological mechanics"
+  },
+  {
+    "start": 168.2,
+    "end": 170.16,
+    "text": "of how the brain manages that resource,"
+  },
+  {
+    "start": 170.16,
+    "end": 172.28,
+    "text": "there is a short piece of media from the lecture"
+  },
+  {
+    "start": 172.28,
+    "end": 174.84,
+    "text": "to set a philosophical baseline for us."
+  },
+  {
+    "start": 174.84,
+    "end": 176.96,
+    "text": "Pause for media, presenting idea"
+  },
+  {
+    "start": 176.96,
+    "end": 180.48,
+    "text": "that people are not their brains, 38 seconds long."
+  },
+  {
+    "start": 180.48,
+    "end": 182.72,
+    "text": "Okay, so what that clip is getting at"
+  },
+  {
+    "start": 182.72,
+    "end": 184.76,
+    "text": "is a pushback against reductionism."
+  },
+  {
+    "start": 185.88,
+    "end": 187.32,
+    "text": "It's challenging the assumption"
+  },
+  {
+    "start": 187.32,
+    "end": 189.68,
+    "text": "that a person is just their physical brain."
+  },
+  {
+    "start": 189.68,
+    "end": 191.08,
+    "text": "Right, it introduces the idea"
+  },
+  {
+    "start": 191.08,
+    "end": 193.84,
+    "text": "that consciousness might be an emergent property,"
+  },
+  {
+    "start": 193.84,
+    "end": 195.76,
+    "text": "something that is more than just the sum"
+  },
+  {
+    "start": 195.76,
+    "end": 197.36,
+    "text": "of its biological parts."
+  },
+  {
+    "start": 197.36,
+    "end": 199.84,
+    "text": "Which perfectly sets up the complex mechanics"
+  },
+  {
+    "start": 199.84,
+    "end": 201.4,
+    "text": "we are about to explore."
+  },
+  {
+    "start": 201.4,
+    "end": 204.24,
+    "text": "Because if we are more than just the raw biology,"
+  },
+  {
+    "start": 204.24,
+    "end": 206.2,
+    "text": "we have to understand how that biology"
+  },
+  {
+    "start": 206.2,
+    "end": 208.08,
+    "text": "actually generates the mind."
+  },
+  {
+    "start": 208.08,
+    "end": 209.08,
+    "text": "Section pause."
+  },
+  {
+    "start": 209.08,
+    "end": 212.44,
+    "text": "So if that subjective experience is so mysterious,"
+  },
+  {
+    "start": 212.44,
+    "end": 214.48,
+    "text": "you might be wondering how neuroscientists"
+  },
+  {
+    "start": 214.48,
+    "end": 217.04,
+    "text": "actually measure or categorize it in a lab."
+  },
+  {
+    "start": 217.04,
+    "end": 218.52,
+    "text": "We need some kind of map."
+  },
+  {
+    "start": 218.52,
+    "end": 221.24,
+    "text": "And looking at the diagram on this slide in the notes,"
+  },
+  {
+    "start": 221.24,
+    "end": 224.28,
+    "text": "you can visualize this as a plot on a graph."
+  },
+  {
+    "start": 224.28,
+    "end": 226.8,
+    "text": "On the vertical axis, we have level or state."
+  },
+  {
+    "start": 226.8,
+    "end": 228.68,
+    "text": "Which is simply how globally awake"
+  },
+  {
+    "start": 228.68,
+    "end": 230.8,
+    "text": "or responsive you are to the outside world."
+  },
+  {
+    "start": 230.8,
+    "end": 233.12,
+    "text": "It ranges from a deep comb at the very bottom,"
+  },
+  {
+    "start": 233.12,
+    "end": 235.08,
+    "text": "moves up through general anesthesia,"
+  },
+  {
+    "start": 235.08,
+    "end": 236.56,
+    "text": "then through the stages of sleep,"
+  },
+  {
+    "start": 236.56,
+    "end": 239.28,
+    "text": "all the way to full alert wakefulness at the top."
+  },
+  {
+    "start": 239.28,
+    "end": 242.52,
+    "text": "Then, on a horizontal axis, you have content."
+  },
+  {
+    "start": 242.52,
+    "end": 244.68,
+    "text": "This measures the vividness and complexity"
+  },
+  {
+    "start": 244.68,
+    "end": 246.56,
+    "text": "of what you are actually experiencing."
+  },
+  {
+    "start": 246.56,
+    "end": 249.24,
+    "text": "Right, the sensory inputs, the emotions,"
+  },
+  {
+    "start": 249.24,
+    "end": 251.24,
+    "text": "thoughts and memories happening in your mind"
+  },
+  {
+    "start": 251.24,
+    "end": 252.48,
+    "text": "at any given moment."
+  },
+  {
+    "start": 252.48,
+    "end": 255.04,
+    "text": "And plotting human experience on that graph"
+  },
+  {
+    "start": 255.04,
+    "end": 257.92,
+    "text": "reveals something the notes call dual processing"
+  },
+  {
+    "start": 257.92,
+    "end": 259.4,
+    "text": "or the two track mind."
+  },
+  {
+    "start": 259.4,
+    "end": 261.12,
+    "text": "This is a huge concept."
+  },
+  {
+    "start": 261.12,
+    "end": 263.64,
+    "text": "It turns out that our perception, our memory,"
+  },
+  {
+    "start": 263.64,
+    "end": 265.28,
+    "text": "our thinking, they all operate"
+  },
+  {
+    "start": 265.28,
+    "end": 268.36,
+    "text": "on two completely independent levels simultaneously."
+  },
+  {
+    "start": 268.36,
+    "end": 270.64,
+    "text": "There is a high road and a low road."
+  },
+  {
+    "start": 270.64,
+    "end": 272.48,
+    "text": "The conscious, deliberate high road"
+  },
+  {
+    "start": 272.48,
+    "end": 274.2,
+    "text": "is reflective and sequential."
+  },
+  {
+    "start": 274.2,
+    "end": 276.2,
+    "text": "It processes things one at a time."
+  },
+  {
+    "start": 276.2,
+    "end": 278.76,
+    "text": "But the unconscious, automatic low road"
+  },
+  {
+    "start": 278.76,
+    "end": 280.48,
+    "text": "is intuitive and parallel."
+  },
+  {
+    "start": 280.48,
+    "end": 282.6,
+    "text": "It can process thousands of things at once."
+  },
+  {
+    "start": 282.6,
+    "end": 285.76,
+    "text": "The slides show a visual model of this dual processing"
+  },
+  {
+    "start": 285.76,
+    "end": 288.0,
+    "text": "using the example of looking at a flying bird."
+  },
+  {
+    "start": 288.0,
+    "end": 289.84,
+    "text": "I think the easiest way to understand this"
+  },
+  {
+    "start": 289.84,
+    "end": 291.64,
+    "text": "is to imagine a theater."
+  },
+  {
+    "start": 291.64,
+    "end": 293.08,
+    "text": "The unconscious low track"
+  },
+  {
+    "start": 293.08,
+    "end": 295.92,
+    "text": "is like a massive backstage theater crew."
+  },
+  {
+    "start": 295.92,
+    "end": 298.08,
+    "text": "You have hundreds of crew members working in parallel,"
+  },
+  {
+    "start": 298.08,
+    "end": 300.4,
+    "text": "simultaneously calculating the bird's color,"
+  },
+  {
+    "start": 300.4,
+    "end": 302.92,
+    "text": "tracking its motion, defining its shape"
+  },
+  {
+    "start": 302.92,
+    "end": 304.44,
+    "text": "and judging its distance."
+  },
+  {
+    "start": 304.44,
+    "end": 306.4,
+    "text": "And they're doing this automatically,"
+  },
+  {
+    "start": 306.4,
+    "end": 309.12,
+    "text": "incredibly fast and completely out of sight."
+  },
+  {
+    "start": 309.12,
+    "end": 311.88,
+    "text": "Meanwhile, the conscious high track"
+  },
+  {
+    "start": 311.88,
+    "end": 314.2,
+    "text": "is the lead actor standing center stage"
+  },
+  {
+    "start": 314.2,
+    "end": 315.88,
+    "text": "under a spotlight."
+  },
+  {
+    "start": 315.88,
+    "end": 318.24,
+    "text": "After the crew has done all the calculations,"
+  },
+  {
+    "start": 318.24,
+    "end": 320.08,
+    "text": "the actor sequentially and deliberately"
+  },
+  {
+    "start": 320.08,
+    "end": 321.36,
+    "text": "declares to the audience,"
+  },
+  {
+    "start": 321.36,
+    "end": 323.56,
+    "text": "I saw a red bird flying toward us."
+  },
+  {
+    "start": 323.56,
+    "end": 325.0,
+    "text": "And the actor gets all the credit,"
+  },
+  {
+    "start": 325.0,
+    "end": 327.12,
+    "text": "but the crew did all the heavy lifting."
+  },
+  {
+    "start": 327.12,
+    "end": 329.72,
+    "text": "Let's push that theater metaphor even further."
+  },
+  {
+    "start": 329.72,
+    "end": 333.04,
+    "text": "If a heavy sandbag suddenly falls from the rafters,"
+  },
+  {
+    "start": 333.04,
+    "end": 335.52,
+    "text": "the backstage crew doesn't wait to tell the actor."
+  },
+  {
+    "start": 335.52,
+    "end": 337.16,
+    "text": "They just pull the actor out of the way."
+  },
+  {
+    "start": 337.16,
+    "end": 338.48,
+    "text": "Right, that's your flinch reflex."
+  },
+  {
+    "start": 338.48,
+    "end": 340.48,
+    "text": "Exactly, by the time the lead actor looks up"
+  },
+  {
+    "start": 340.48,
+    "end": 342.32,
+    "text": "and says, whoa, that was close,"
+  },
+  {
+    "start": 342.32,
+    "end": 343.8,
+    "text": "the body has already moved."
+  },
+  {
+    "start": 343.8,
+    "end": 345.48,
+    "text": "What's fascinating here is that we actually"
+  },
+  {
+    "start": 345.48,
+    "end": 347.6,
+    "text": "know more than we know we know."
+  },
+  {
+    "start": 347.64,
+    "end": 350.0,
+    "text": "That backstage crew, the parallel processing,"
+  },
+  {
+    "start": 350.0,
+    "end": 353.08,
+    "text": "has to handle the vast majority of our routine"
+  },
+  {
+    "start": 353.08,
+    "end": 354.84,
+    "text": "survival-based business."
+  },
+  {
+    "start": 354.84,
+    "end": 356.68,
+    "text": "Because sequential processing, the lead actor"
+  },
+  {
+    "start": 356.68,
+    "end": 359.92,
+    "text": "is computationally expensive and incredibly slow, right?"
+  },
+  {
+    "start": 359.92,
+    "end": 360.76,
+    "text": "Exactly."
+  },
+  {
+    "start": 360.76,
+    "end": 362.52,
+    "text": "If you had to consciously calculate"
+  },
+  {
+    "start": 362.52,
+    "end": 364.8,
+    "text": "the trajectory of a falling object,"
+  },
+  {
+    "start": 364.8,
+    "end": 367.72,
+    "text": "you would be crushed before you finish the math."
+  },
+  {
+    "start": 367.72,
+    "end": 369.68,
+    "text": "Consciousness is best saved for solving"
+  },
+  {
+    "start": 369.68,
+    "end": 372.88,
+    "text": "entirely new problems that require focused attention."
+  },
+  {
+    "start": 372.88,
+    "end": 374.2,
+    "text": "Section pause."
+  },
+  {
+    "start": 374.2,
+    "end": 376.28,
+    "text": "Let's talk about that focused attention."
+  },
+  {
+    "start": 376.28,
+    "end": 379.48,
+    "text": "Because if the lead actor is so computationally expensive,"
+  },
+  {
+    "start": 379.48,
+    "end": 381.08,
+    "text": "we have to be really careful about"
+  },
+  {
+    "start": 381.08,
+    "end": 382.68,
+    "text": "where we point the spotlight."
+  },
+  {
+    "start": 382.68,
+    "end": 385.2,
+    "text": "Yeah, the lecture notes describe selective attention"
+  },
+  {
+    "start": 385.2,
+    "end": 387.92,
+    "text": "using this flashlight analogy."
+  },
+  {
+    "start": 387.92,
+    "end": 390.68,
+    "text": "Our awareness focuses like a flashlight beam"
+  },
+  {
+    "start": 390.68,
+    "end": 394.52,
+    "text": "on a tiny, minute aspect of all that we experience."
+  },
+  {
+    "start": 394.52,
+    "end": 397.68,
+    "text": "It's an accurate metaphor because a flashlight"
+  },
+  {
+    "start": 397.68,
+    "end": 401.88,
+    "text": "only illuminates a tiny circle in a massive dark room."
+  },
+  {
+    "start": 401.88,
+    "end": 405.72,
+    "text": "Whatever is inside the beam is your conscious reality."
+  },
+  {
+    "start": 405.72,
+    "end": 407.36,
+    "text": "And everything outside that beam"
+  },
+  {
+    "start": 407.36,
+    "end": 409.56,
+    "text": "is actively suppressed by the brain."
+  },
+  {
+    "start": 409.56,
+    "end": 411.76,
+    "text": "Wait, if it's a single flashlight beam,"
+  },
+  {
+    "start": 411.76,
+    "end": 412.96,
+    "text": "what happens when I'm, say,"
+  },
+  {
+    "start": 412.96,
+    "end": 415.4,
+    "text": "sitting in a boring meeting trying to listen to the speaker"
+  },
+  {
+    "start": 415.4,
+    "end": 417.72,
+    "text": "but I'm also under the desk texting a friend?"
+  },
+  {
+    "start": 417.72,
+    "end": 420.2,
+    "text": "I always feel like I'm multitasking pretty successfully."
+  },
+  {
+    "start": 420.2,
+    "end": 422.0,
+    "text": "You're actually not multitesting at all."
+  },
+  {
+    "start": 422.0,
+    "end": 422.84,
+    "text": "I'm not."
+  },
+  {
+    "start": 422.84,
+    "end": 425.2,
+    "text": "No, the neuroscience is very clear on this."
+  },
+  {
+    "start": 425.2,
+    "end": 428.4,
+    "text": "Human consciousness focuses on exactly one thing at a time."
+  },
+  {
+    "start": 428.4,
+    "end": 430.0,
+    "text": "When you are typing that text message,"
+  },
+  {
+    "start": 430.0,
+    "end": 432.8,
+    "text": "the flashlight beam is entirely on your phone."
+  },
+  {
+    "start": 432.8,
+    "end": 434.2,
+    "text": "In that specific millisecond,"
+  },
+  {
+    "start": 434.2,
+    "end": 437.36,
+    "text": "your brain is actively suppressing the speaker's voice"
+  },
+  {
+    "start": 437.36,
+    "end": 439.4,
+    "text": "as irrelevant background noise."
+  },
+  {
+    "start": 439.4,
+    "end": 441.52,
+    "text": "So I'm just swinging the flashlight back and forth"
+  },
+  {
+    "start": 441.52,
+    "end": 442.36,
+    "text": "really fast."
+  },
+  {
+    "start": 442.36,
+    "end": 443.2,
+    "text": "Precisely."
+  },
+  {
+    "start": 443.2,
+    "end": 445.36,
+    "text": "You are rapidly task switching."
+  },
+  {
+    "start": 445.36,
+    "end": 447.12,
+    "text": "And every time you swing that flashlight,"
+  },
+  {
+    "start": 447.12,
+    "end": 448.68,
+    "text": "there is a cognitive cost."
+  },
+  {
+    "start": 448.68,
+    "end": 450.64,
+    "text": "You lose tiny pieces of information"
+  },
+  {
+    "start": 450.64,
+    "end": 452.84,
+    "text": "in the dark space between the two targets."
+  },
+  {
+    "start": 452.84,
+    "end": 454.2,
+    "text": "Which is why task switching"
+  },
+  {
+    "start": 454.2,
+    "end": 456.2,
+    "text": "is highly inefficient and draining."
+  },
+  {
+    "start": 456.2,
+    "end": 457.04,
+    "text": "Exactly."
+  },
+  {
+    "start": 457.04,
+    "end": 459.88,
+    "text": "To really prove how narrow that flashlight beam is,"
+  },
+  {
+    "start": 459.88,
+    "end": 463.92,
+    "text": "the slides include a classic psychological experiment video."
+  },
+  {
+    "start": 463.92,
+    "end": 466.0,
+    "text": "We're gonna pause so you can watch it."
+  },
+  {
+    "start": 466.0,
+    "end": 468.76,
+    "text": "Be close attention to what the video ask you to count."
+  },
+  {
+    "start": 468.76,
+    "end": 470.32,
+    "text": "Pause for media."
+  },
+  {
+    "start": 470.32,
+    "end": 473.1,
+    "text": "Video challenging the selective attention of viewers."
+  },
+  {
+    "start": 473.1,
+    "end": 475.6,
+    "text": "Stop or advance slides after three minutes."
+  },
+  {
+    "start": 475.6,
+    "end": 478.52,
+    "text": "For anyone who hasn't seen that type of experiment before,"
+  },
+  {
+    "start": 478.52,
+    "end": 480.32,
+    "text": "it is always a visceral shock."
+  },
+  {
+    "start": 480.32,
+    "end": 481.48,
+    "text": "Oh, absolutely."
+  },
+  {
+    "start": 481.48,
+    "end": 483.88,
+    "text": "You are so focused on counting the passes"
+  },
+  {
+    "start": 483.88,
+    "end": 486.84,
+    "text": "that you completely miss the bizarre, obvious thing"
+  },
+  {
+    "start": 486.84,
+    "end": 488.36,
+    "text": "walking right through the middle of the screen."
+  },
+  {
+    "start": 488.36,
+    "end": 490.96,
+    "text": "It perfectly demonstrates inattention blindness"
+  },
+  {
+    "start": 490.96,
+    "end": 493.52,
+    "text": "and its cousin, change blindness."
+  },
+  {
+    "start": 493.52,
+    "end": 495.04,
+    "text": "At the level of conscious awareness,"
+  },
+  {
+    "start": 495.04,
+    "end": 498.2,
+    "text": "we are functionally blind to all but a tiny sliver"
+  },
+  {
+    "start": 498.2,
+    "end": 499.88,
+    "text": "of visual stimuli."
+  },
+  {
+    "start": 499.88,
+    "end": 501.68,
+    "text": "We fail to see massive objects"
+  },
+  {
+    "start": 501.68,
+    "end": 503.54,
+    "text": "or huge changes in our environment"
+  },
+  {
+    "start": 503.54,
+    "end": 505.8,
+    "text": "simply because our attention is directed elsewhere."
+  },
+  {
+    "start": 505.8,
+    "end": 507.24,
+    "text": "Because the flashlight was pointed"
+  },
+  {
+    "start": 507.24,
+    "end": 509.12,
+    "text": "at the assigned counting task,"
+  },
+  {
+    "start": 509.12,
+    "end": 512.12,
+    "text": "the backstage crew just decided the unexpected event"
+  },
+  {
+    "start": 512.12,
+    "end": 515.4,
+    "text": "wasn't important enough to bother the lead actor with."
+  },
+  {
+    "start": 515.4,
+    "end": 516.72,
+    "text": "Section pause."
+  },
+  {
+    "start": 516.72,
+    "end": 519.12,
+    "text": "We've talked about the psychology and the behavior,"
+  },
+  {
+    "start": 519.12,
+    "end": 521.12,
+    "text": "but I really wanna ground this in biology."
+  },
+  {
+    "start": 521.12,
+    "end": 521.96,
+    "text": "Yeah."
+  },
+  {
+    "start": 522.0,
+    "end": 523.76,
+    "text": "It is the actual hardware."
+  },
+  {
+    "start": 523.76,
+    "end": 525.68,
+    "text": "Right, let's look at the brain."
+  },
+  {
+    "start": 525.68,
+    "end": 528.6,
+    "text": "If I look at the diagram of the brain on this slide,"
+  },
+  {
+    "start": 528.6,
+    "end": 530.84,
+    "text": "there isn't just one consciousness center."
+  },
+  {
+    "start": 530.84,
+    "end": 533.96,
+    "text": "I see arrows connecting dozens of different regions."
+  },
+  {
+    "start": 533.96,
+    "end": 536.24,
+    "text": "That's because conscious experience arises"
+  },
+  {
+    "start": 536.24,
+    "end": 539.2,
+    "text": "from synchronized activity across a whole network."
+  },
+  {
+    "start": 539.2,
+    "end": 541.0,
+    "text": "It requires different brain regions"
+  },
+  {
+    "start": 541.0,
+    "end": 542.92,
+    "text": "to fire together in rhythm."
+  },
+  {
+    "start": 542.92,
+    "end": 545.8,
+    "text": "But the notes do highlight three main"
+  },
+  {
+    "start": 545.8,
+    "end": 547.3,
+    "text": "neuroanatomical pillars"
+  },
+  {
+    "start": 547.3,
+    "end": 549.36,
+    "text": "that make this synchronization possible."
+  },
+  {
+    "start": 549.36,
+    "end": 550.2,
+    "text": "Let's walk through them."
+  },
+  {
+    "start": 550.2,
+    "end": 551.04,
+    "text": "Where does it start?"
+  },
+  {
+    "start": 551.04,
+    "end": 553.5,
+    "text": "First you have the brain stem and the hypothalamus"
+  },
+  {
+    "start": 553.5,
+    "end": 555.38,
+    "text": "located deep at the base of the brain."
+  },
+  {
+    "start": 555.38,
+    "end": 558.48,
+    "text": "These contain what we call the ascending arousal systems."
+  },
+  {
+    "start": 558.48,
+    "end": 561.32,
+    "text": "So their job is basic survival and wakefulness?"
+  },
+  {
+    "start": 561.32,
+    "end": 562.76,
+    "text": "Yes, they are the power cord."
+  },
+  {
+    "start": 562.76,
+    "end": 563.64,
+    "text": "They keep the lights on"
+  },
+  {
+    "start": 563.64,
+    "end": 565.88,
+    "text": "and regulate your baseline alertness."
+  },
+  {
+    "start": 565.88,
+    "end": 567.96,
+    "text": "Okay, so that maps to the vertical axis"
+  },
+  {
+    "start": 567.96,
+    "end": 570.04,
+    "text": "on our graph from earlier."
+  },
+  {
+    "start": 570.04,
+    "end": 572.64,
+    "text": "The level or state of wakefulness"
+  },
+  {
+    "start": 572.64,
+    "end": 574.8,
+    "text": "from coma to fully awake."
+  },
+  {
+    "start": 574.8,
+    "end": 575.64,
+    "text": "You got it."
+  },
+  {
+    "start": 575.64,
+    "end": 578.84,
+    "text": "Next, sitting just above that, you have the thalamus."
+  },
+  {
+    "start": 578.84,
+    "end": 581.48,
+    "text": "The thalamus operates via thalamus cortical loops"
+  },
+  {
+    "start": 581.48,
+    "end": 583.24,
+    "text": "sending signals back and forth"
+  },
+  {
+    "start": 583.24,
+    "end": 584.52,
+    "text": "to the surface of the brain."
+  },
+  {
+    "start": 584.52,
+    "end": 585.44,
+    "text": "Think of the thalamus"
+  },
+  {
+    "start": 585.44,
+    "end": 587.88,
+    "text": "as the ultimate gatekeeper and router, right?"
+  },
+  {
+    "start": 587.88,
+    "end": 588.72,
+    "text": "Exactly."
+  },
+  {
+    "start": 588.72,
+    "end": 591.12,
+    "text": "Almost every piece of sensory information"
+  },
+  {
+    "start": 591.12,
+    "end": 593.0,
+    "text": "from your eyes, ears, and skin"
+  },
+  {
+    "start": 593.0,
+    "end": 594.44,
+    "text": "hits the thalamus first"
+  },
+  {
+    "start": 594.44,
+    "end": 596.48,
+    "text": "and it decides what gets forwarded up the chain."
+  },
+  {
+    "start": 596.48,
+    "end": 597.92,
+    "text": "And what is at the top of the chain?"
+  },
+  {
+    "start": 597.92,
+    "end": 600.06,
+    "text": "The third pillar, the cortex."
+  },
+  {
+    "start": 600.06,
+    "end": 602.16,
+    "text": "That wrinkled outer layer of the brain."
+  },
+  {
+    "start": 602.16,
+    "end": 605.6,
+    "text": "The cortex is where the actual conscious contents,"
+  },
+  {
+    "start": 605.6,
+    "end": 607.62,
+    "text": "the vivid memories, the visual imagery,"
+  },
+  {
+    "start": 607.62,
+    "end": 609.82,
+    "text": "the complex thoughts are processed"
+  },
+  {
+    "start": 609.82,
+    "end": 612.62,
+    "text": "and integrated into that unified experience of you."
+  },
+  {
+    "start": 612.62,
+    "end": 615.7,
+    "text": "Okay, so power supply, router, and processor."
+  },
+  {
+    "start": 615.7,
+    "end": 617.84,
+    "text": "Now, how do doctors actually use"
+  },
+  {
+    "start": 617.84,
+    "end": 620.46,
+    "text": "this hardware map clinically?"
+  },
+  {
+    "start": 620.46,
+    "end": 621.54,
+    "text": "Because like we said at the beginning,"
+  },
+  {
+    "start": 621.54,
+    "end": 623.18,
+    "text": "you can't just x-ray a thought."
+  },
+  {
+    "start": 623.18,
+    "end": 625.42,
+    "text": "This leads to one of the most profound applications"
+  },
+  {
+    "start": 625.42,
+    "end": 626.26,
+    "text": "in the notes."
+  },
+  {
+    "start": 626.26,
+    "end": 628.9,
+    "text": "They describe an FMRI study involving a patient"
+  },
+  {
+    "start": 628.9,
+    "end": 630.86,
+    "text": "who had suffered severe brain trauma."
+  },
+  {
+    "start": 630.86,
+    "end": 634.72,
+    "text": "Behaviorally, this patient was entirely non-communicative."
+  },
+  {
+    "start": 634.72,
+    "end": 637.14,
+    "text": "She appeared to be in a vegetative state."
+  },
+  {
+    "start": 637.22,
+    "end": 639.58,
+    "text": "Her eyes were open, but there was no response"
+  },
+  {
+    "start": 639.58,
+    "end": 641.86,
+    "text": "to voices, pain, or movement."
+  },
+  {
+    "start": 641.86,
+    "end": 643.52,
+    "text": "So her state appeared to be awake,"
+  },
+  {
+    "start": 643.52,
+    "end": 645.02,
+    "text": "but her content appeared to be zero."
+  },
+  {
+    "start": 645.02,
+    "end": 646.3,
+    "text": "Yes, exactly."
+  },
+  {
+    "start": 646.3,
+    "end": 649.46,
+    "text": "But researchers put the patient in an FMRI scanner,"
+  },
+  {
+    "start": 649.46,
+    "end": 651.46,
+    "text": "which measures real-time blood flow"
+  },
+  {
+    "start": 651.46,
+    "end": 653.78,
+    "text": "to active areas of the brain."
+  },
+  {
+    "start": 653.78,
+    "end": 655.5,
+    "text": "Through an intercom, they asked her"
+  },
+  {
+    "start": 655.5,
+    "end": 657.18,
+    "text": "to imagine playing a game of tennis."
+  },
+  {
+    "start": 657.18,
+    "end": 658.3,
+    "text": "Wait, playing tennis?"
+  },
+  {
+    "start": 658.3,
+    "end": 660.1,
+    "text": "That requires complex motor planning."
+  },
+  {
+    "start": 660.1,
+    "end": 661.82,
+    "text": "It does, and the blood rushed"
+  },
+  {
+    "start": 661.82,
+    "end": 664.14,
+    "text": "to the exact same supplementary motor areas"
+  },
+  {
+    "start": 664.14,
+    "end": 665.98,
+    "text": "as it would in a healthy volunteer."
+  },
+  {
+    "start": 666.02,
+    "end": 666.86,
+    "text": "Oh, wow."
+  },
+  {
+    "start": 666.86,
+    "end": 669.42,
+    "text": "So her brain was firing as if she was moving."
+  },
+  {
+    "start": 669.42,
+    "end": 670.38,
+    "text": "Yes."
+  },
+  {
+    "start": 670.38,
+    "end": 672.18,
+    "text": "Then they asked her to stop,"
+  },
+  {
+    "start": 672.18,
+    "end": 675.6,
+    "text": "and instead imagine walking from room to room in her house."
+  },
+  {
+    "start": 675.6,
+    "end": 677.68,
+    "text": "This requires spatial mapping."
+  },
+  {
+    "start": 677.68,
+    "end": 679.3,
+    "text": "Instantly, the activity shifted"
+  },
+  {
+    "start": 679.3,
+    "end": 681.18,
+    "text": "to the parahippocampal gyrus,"
+  },
+  {
+    "start": 681.18,
+    "end": 683.38,
+    "text": "which is the brain's spatial navigation center."
+  },
+  {
+    "start": 683.38,
+    "end": 685.02,
+    "text": "That is wild."
+  },
+  {
+    "start": 685.02,
+    "end": 686.62,
+    "text": "So the hardware was fully intact,"
+  },
+  {
+    "start": 686.62,
+    "end": 688.38,
+    "text": "and she was entirely conscious,"
+  },
+  {
+    "start": 688.38,
+    "end": 690.34,
+    "text": "listening and following instructions,"
+  },
+  {
+    "start": 690.34,
+    "end": 692.38,
+    "text": "even though her body couldn't move a millimeter."
+  },
+  {
+    "start": 692.38,
+    "end": 694.0,
+    "text": "They basically used the brain scanner"
+  },
+  {
+    "start": 694.16,
+    "end": 696.56,
+    "text": "to establish a communication system."
+  },
+  {
+    "start": 696.56,
+    "end": 698.44,
+    "text": "Imagine tennis for yes."
+  },
+  {
+    "start": 698.44,
+    "end": 700.44,
+    "text": "Imagine your house for no."
+  },
+  {
+    "start": 700.44,
+    "end": 704.16,
+    "text": "It proved undeniably that a lack of physical responsiveness"
+  },
+  {
+    "start": 704.16,
+    "end": 707.08,
+    "text": "does not equal a lack of conscious awareness."
+  },
+  {
+    "start": 707.08,
+    "end": 709.56,
+    "text": "Moving from those hyper-focused clinical states"
+  },
+  {
+    "start": 709.56,
+    "end": 711.0,
+    "text": "to our daily lives,"
+  },
+  {
+    "start": 711.0,
+    "end": 714.24,
+    "text": "the slides introduce an incredibly interesting network"
+  },
+  {
+    "start": 714.24,
+    "end": 717.96,
+    "text": "called the Default Mode Network, or DMN."
+  },
+  {
+    "start": 717.96,
+    "end": 719.64,
+    "text": "The DMN is fascinating."
+  },
+  {
+    "start": 719.64,
+    "end": 721.32,
+    "text": "Yeah, the illustrations in the notes"
+  },
+  {
+    "start": 721.32,
+    "end": 723.64,
+    "text": "show a collection of specific brain regions"
+  },
+  {
+    "start": 723.64,
+    "end": 725.56,
+    "text": "right down the midline of the brain"
+  },
+  {
+    "start": 725.56,
+    "end": 727.48,
+    "text": "that suddenly synchronize and light up"
+  },
+  {
+    "start": 727.48,
+    "end": 729.16,
+    "text": "when an individual is not engaged"
+  },
+  {
+    "start": 729.16,
+    "end": 731.8,
+    "text": "in a specific externally focused task."
+  },
+  {
+    "start": 731.8,
+    "end": 732.64,
+    "text": "Right."
+  },
+  {
+    "start": 732.64,
+    "end": 734.36,
+    "text": "When your mental flashlight is turned on"
+  },
+  {
+    "start": 734.36,
+    "end": 736.02,
+    "text": "and focused on a math problem,"
+  },
+  {
+    "start": 736.02,
+    "end": 737.88,
+    "text": "the DMN powers down."
+  },
+  {
+    "start": 737.88,
+    "end": 739.62,
+    "text": "But the second you put the flashlight down"
+  },
+  {
+    "start": 739.62,
+    "end": 740.8,
+    "text": "and just stare at the wall,"
+  },
+  {
+    "start": 740.8,
+    "end": 742.4,
+    "text": "the DMN turns on."
+  },
+  {
+    "start": 742.4,
+    "end": 745.3,
+    "text": "It is active by default when you are at rest."
+  },
+  {
+    "start": 745.3,
+    "end": 746.16,
+    "text": "Think about the last time"
+  },
+  {
+    "start": 746.16,
+    "end": 747.52,
+    "text": "you were taking a long shower"
+  },
+  {
+    "start": 747.52,
+    "end": 749.12,
+    "text": "or staring out the window of a train,"
+  },
+  {
+    "start": 749.12,
+    "end": 750.48,
+    "text": "and suddenly a brilliant idea"
+  },
+  {
+    "start": 750.48,
+    "end": 752.48,
+    "text": "or solution to a problem just popped into your head."
+  },
+  {
+    "start": 752.52,
+    "end": 753.84,
+    "text": "That wasn't an accident."
+  },
+  {
+    "start": 753.84,
+    "end": 757.62,
+    "text": "No, that was your default mode network taking over."
+  },
+  {
+    "start": 757.62,
+    "end": 759.28,
+    "text": "When you let your mind wander,"
+  },
+  {
+    "start": 759.28,
+    "end": 761.84,
+    "text": "the DMN orchestrates self-reflection,"
+  },
+  {
+    "start": 761.84,
+    "end": 764.72,
+    "text": "it processes your social interactions from the day,"
+  },
+  {
+    "start": 764.72,
+    "end": 767.64,
+    "text": "and it connects disparate ideas to drive creativity."
+  },
+  {
+    "start": 767.64,
+    "end": 770.24,
+    "text": "Which means the relentless modern pressure"
+  },
+  {
+    "start": 770.24,
+    "end": 771.9,
+    "text": "to always be looking at a screen,"
+  },
+  {
+    "start": 771.9,
+    "end": 773.6,
+    "text": "constantly digesting content,"
+  },
+  {
+    "start": 773.6,
+    "end": 775.84,
+    "text": "actively suppresses the DMN."
+  },
+  {
+    "start": 775.84,
+    "end": 778.6,
+    "text": "Your brain physically needs you to daydream"
+  },
+  {
+    "start": 778.6,
+    "end": 781.24,
+    "text": "so it can strengthen those internal connections."
+  },
+  {
+    "start": 781.24,
+    "end": 782.28,
+    "text": "Section pause."
+  },
+  {
+    "start": 782.28,
+    "end": 784.32,
+    "text": "So the DMN is what happens when we rest,"
+  },
+  {
+    "start": 784.32,
+    "end": 786.52,
+    "text": "what happens when we go offline completely."
+  },
+  {
+    "start": 786.52,
+    "end": 789.4,
+    "text": "Let's talk about altered states, specifically sleep."
+  },
+  {
+    "start": 789.4,
+    "end": 791.74,
+    "text": "A lot of people think sleep is just a light switch."
+  },
+  {
+    "start": 791.74,
+    "end": 794.36,
+    "text": "You are either conscious or unconscious."
+  },
+  {
+    "start": 794.36,
+    "end": 797.8,
+    "text": "But the notes emphasize that sleep is a graded state."
+  },
+  {
+    "start": 797.8,
+    "end": 799.72,
+    "text": "Our plot of state versus content"
+  },
+  {
+    "start": 799.72,
+    "end": 801.16,
+    "text": "applies perfectly here, right?"
+  },
+  {
+    "start": 801.16,
+    "end": 802.12,
+    "text": "It does."
+  },
+  {
+    "start": 802.12,
+    "end": 804.84,
+    "text": "When you first fall asleep and enter non-REM sleep,"
+  },
+  {
+    "start": 804.84,
+    "end": 807.08,
+    "text": "your behavioral connection to the world drops,"
+  },
+  {
+    "start": 807.08,
+    "end": 809.36,
+    "text": "and internally, things are pretty quiet."
+  },
+  {
+    "start": 809.36,
+    "end": 810.72,
+    "text": "Dreams are infrequent."
+  },
+  {
+    "start": 810.72,
+    "end": 812.92,
+    "text": "But then, you cycle into REM sleep."
+  },
+  {
+    "start": 812.92,
+    "end": 813.88,
+    "text": "Rapid eye movement."
+  },
+  {
+    "start": 813.88,
+    "end": 814.72,
+    "text": "Yes."
+  },
+  {
+    "start": 814.72,
+    "end": 817.6,
+    "text": "During REM, your brain essentially paralyzes your body."
+  },
+  {
+    "start": 817.6,
+    "end": 819.12,
+    "text": "Muscle tone drops to near zero"
+  },
+  {
+    "start": 819.12,
+    "end": 820.84,
+    "text": "so you don't physically act out your dreams"
+  },
+  {
+    "start": 820.84,
+    "end": 821.68,
+    "text": "and hurt yourself."
+  },
+  {
+    "start": 821.68,
+    "end": 823.88,
+    "text": "So your responsiveness to the outside world"
+  },
+  {
+    "start": 823.88,
+    "end": 825.8,
+    "text": "is extremely low."
+  },
+  {
+    "start": 825.8,
+    "end": 829.76,
+    "text": "However, your internally generated conscious experience,"
+  },
+  {
+    "start": 831.16,
+    "end": 833.32,
+    "text": "the content is incredibly high."
+  },
+  {
+    "start": 833.32,
+    "end": 835.1,
+    "text": "The topographic maps in the slides"
+  },
+  {
+    "start": 835.1,
+    "end": 837.1,
+    "text": "show us exactly what parts of the brain"
+  },
+  {
+    "start": 837.1,
+    "end": 839.72,
+    "text": "are lighting up and going dark during REM"
+  },
+  {
+    "start": 839.72,
+    "end": 841.68,
+    "text": "compared to when we are awake."
+  },
+  {
+    "start": 841.68,
+    "end": 843.14,
+    "text": "And looking at this map explains"
+  },
+  {
+    "start": 843.14,
+    "end": 845.32,
+    "text": "why dreams are so deeply weird."
+  },
+  {
+    "start": 845.32,
+    "end": 847.44,
+    "text": "The mechanics of dreaming are entirely based"
+  },
+  {
+    "start": 847.44,
+    "end": 849.88,
+    "text": "on which brain regions are granted power, right?"
+  },
+  {
+    "start": 849.88,
+    "end": 850.88,
+    "text": "Exactly."
+  },
+  {
+    "start": 850.88,
+    "end": 852.56,
+    "text": "Why does a dream feel so bizarre,"
+  },
+  {
+    "start": 852.56,
+    "end": 855.48,
+    "text": "yet completely real and acceptable to you in the moment?"
+  },
+  {
+    "start": 855.48,
+    "end": 857.84,
+    "text": "It's because activity in your prefrontal cortex"
+  },
+  {
+    "start": 857.84,
+    "end": 859.08,
+    "text": "severely decreases."
+  },
+  {
+    "start": 859.08,
+    "end": 861.96,
+    "text": "And the prefrontal cortex is the brain's logic center."
+  },
+  {
+    "start": 861.96,
+    "end": 864.16,
+    "text": "It handles self-monitoring, critical thought,"
+  },
+  {
+    "start": 864.16,
+    "end": 865.36,
+    "text": "and reality checking."
+  },
+  {
+    "start": 865.36,
+    "end": 867.42,
+    "text": "So the skeptical bouncer at the door of the club"
+  },
+  {
+    "start": 867.42,
+    "end": 868.48,
+    "text": "goes home for the night."
+  },
+  {
+    "start": 868.48,
+    "end": 870.44,
+    "text": "And chaos ensues."
+  },
+  {
+    "start": 870.44,
+    "end": 872.0,
+    "text": "With a reality checker offline,"
+  },
+  {
+    "start": 872.0,
+    "end": 873.64,
+    "text": "you don't question anything."
+  },
+  {
+    "start": 873.64,
+    "end": 875.36,
+    "text": "You casually accept that you are suddenly"
+  },
+  {
+    "start": 875.36,
+    "end": 876.62,
+    "text": "grieving underwater,"
+  },
+  {
+    "start": 876.62,
+    "end": 878.88,
+    "text": "or that your living room just turned into a desert."
+  },
+  {
+    "start": 878.88,
+    "end": 880.64,
+    "text": "Or that you were late for a college exam"
+  },
+  {
+    "start": 880.64,
+    "end": 882.04,
+    "text": "you already passed 10 years ago."
+  },
+  {
+    "start": 882.04,
+    "end": 883.88,
+    "text": "Oh, I hate that one."
+  },
+  {
+    "start": 883.88,
+    "end": 886.2,
+    "text": "And while the logic center is powered down,"
+  },
+  {
+    "start": 886.2,
+    "end": 888.48,
+    "text": "the emotion centers are throwing a party."
+  },
+  {
+    "start": 888.48,
+    "end": 891.36,
+    "text": "Yes, the limbic and paralimbic structures,"
+  },
+  {
+    "start": 891.36,
+    "end": 892.98,
+    "text": "specifically the amygdala,"
+  },
+  {
+    "start": 892.98,
+    "end": 895.06,
+    "text": "which is your threat detection alarm,"
+  },
+  {
+    "start": 895.06,
+    "end": 897.28,
+    "text": "the anterior cingulate cortex,"
+  },
+  {
+    "start": 897.28,
+    "end": 899.76,
+    "text": "and the insula, they're all highly active."
+  },
+  {
+    "start": 899.76,
+    "end": 901.28,
+    "text": "Because these emotional centers"
+  },
+  {
+    "start": 901.28,
+    "end": 903.2,
+    "text": "are firing on all cylinders,"
+  },
+  {
+    "start": 903.2,
+    "end": 904.52,
+    "text": "without any supervision"
+  },
+  {
+    "start": 904.52,
+    "end": 906.98,
+    "text": "from the logical prefrontal cortex,"
+  },
+  {
+    "start": 906.98,
+    "end": 908.36,
+    "text": "dreams are often characterized"
+  },
+  {
+    "start": 908.36,
+    "end": 911.08,
+    "text": "by extreme hyper-emotionality."
+  },
+  {
+    "start": 911.08,
+    "end": 914.1,
+    "text": "You feel intense fear, joy, or anxiety."
+  },
+  {
+    "start": 914.1,
+    "end": 915.22,
+    "text": "Wait, let me jump in here,"
+  },
+  {
+    "start": 915.22,
+    "end": 917.32,
+    "text": "because this raises a huge contradiction."
+  },
+  {
+    "start": 917.32,
+    "end": 918.62,
+    "text": "If the prefrontal cortex,"
+  },
+  {
+    "start": 918.62,
+    "end": 920.42,
+    "text": "the logic and reality checking center"
+  },
+  {
+    "start": 920.42,
+    "end": 922.4,
+    "text": "is mostly offline during dreams,"
+  },
+  {
+    "start": 922.4,
+    "end": 924.04,
+    "text": "how do we explain lucid dreaming?"
+  },
+  {
+    "start": 924.04,
+    "end": 926.3,
+    "text": "I mean, I've had dreams where I suddenly realized,"
+  },
+  {
+    "start": 926.3,
+    "end": 928.92,
+    "text": "oh, I'm asleep, and I decided to start flying around."
+  },
+  {
+    "start": 928.92,
+    "end": 931.4,
+    "text": "My logic center has to be awake for me"
+  },
+  {
+    "start": 931.4,
+    "end": 932.88,
+    "text": "to realize I'm in simulation, right?"
+  },
+  {
+    "start": 932.88,
+    "end": 933.8,
+    "text": "That is a brilliant catch."
+  },
+  {
+    "start": 933.8,
+    "end": 936.16,
+    "text": "And the notes actually address this specific paradox."
+  },
+  {
+    "start": 936.16,
+    "end": 937.0,
+    "text": "Yeah."
+  },
+  {
+    "start": 937.0,
+    "end": 938.76,
+    "text": "Lucid dreaming is a highly unique,"
+  },
+  {
+    "start": 938.76,
+    "end": 940.52,
+    "text": "hybrid state of consciousness."
+  },
+  {
+    "start": 940.52,
+    "end": 941.96,
+    "text": "What's happening in the brain then?"
+  },
+  {
+    "start": 941.96,
+    "end": 944.54,
+    "text": "Neural imaging shows that during a lucid dream,"
+  },
+  {
+    "start": 944.54,
+    "end": 946.56,
+    "text": "there is increased functional connectivity"
+  },
+  {
+    "start": 946.56,
+    "end": 948.96,
+    "text": "between the anterior prefrontal cortex,"
+  },
+  {
+    "start": 948.96,
+    "end": 952.6,
+    "text": "the APFC, and the temporal parietal association areas,"
+  },
+  {
+    "start": 952.6,
+    "end": 954.6,
+    "text": "which helps situate you in space."
+  },
+  {
+    "start": 954.62,
+    "end": 958.66,
+    "text": "Wow, so a specific part of the reality checking network"
+  },
+  {
+    "start": 958.66,
+    "end": 962.1,
+    "text": "somehow manages to boot up and synchronize?"
+  },
+  {
+    "start": 962.1,
+    "end": 964.46,
+    "text": "Yes, it grants the dreamer"
+  },
+  {
+    "start": 964.46,
+    "end": 966.94,
+    "text": "waking level self-awareness and control"
+  },
+  {
+    "start": 966.94,
+    "end": 967.86,
+    "text": "while the rest of the brain"
+  },
+  {
+    "start": 967.86,
+    "end": 970.6,
+    "text": "remains fully immersed in the REM sleep state."
+  },
+  {
+    "start": 970.6,
+    "end": 972.3,
+    "text": "It's basically hacking the hardware."
+  },
+  {
+    "start": 972.3,
+    "end": 973.14,
+    "text": "Totally."
+  },
+  {
+    "start": 973.14,
+    "end": 975.58,
+    "text": "And while we are on the topic of internal visualization,"
+  },
+  {
+    "start": 975.58,
+    "end": 978.86,
+    "text": "the slides briefly touch on a condition called aphantasia."
+  },
+  {
+    "start": 978.86,
+    "end": 980.56,
+    "text": "This is a fascinating disorder"
+  },
+  {
+    "start": 980.56,
+    "end": 983.52,
+    "text": "where people completely lack the mind's eye."
+  },
+  {
+    "start": 983.54,
+    "end": 985.38,
+    "text": "If I ask them to picture that red apple"
+  },
+  {
+    "start": 985.38,
+    "end": 987.0,
+    "text": "from the beginning of the deep dive,"
+  },
+  {
+    "start": 987.0,
+    "end": 988.7,
+    "text": "they see nothing but black."
+  },
+  {
+    "start": 988.7,
+    "end": 990.58,
+    "text": "There is no visual imagery at all."
+  },
+  {
+    "start": 990.58,
+    "end": 992.9,
+    "text": "And what's crucial to understand about aphantasia"
+  },
+  {
+    "start": 992.9,
+    "end": 995.26,
+    "text": "is how the lack of visual processing"
+  },
+  {
+    "start": 995.26,
+    "end": 997.98,
+    "text": "ripples out into other cognitive systems."
+  },
+  {
+    "start": 997.98,
+    "end": 1000.74,
+    "text": "It isn't just about not being able to imagine an apple."
+  },
+  {
+    "start": 1000.74,
+    "end": 1001.9,
+    "text": "Right, the notes point out"
+  },
+  {
+    "start": 1001.9,
+    "end": 1003.66,
+    "text": "that many individuals with aphantasia"
+  },
+  {
+    "start": 1003.66,
+    "end": 1005.78,
+    "text": "report a significantly reduced ability"
+  },
+  {
+    "start": 1005.78,
+    "end": 1008.38,
+    "text": "to recall past autobiographical events,"
+  },
+  {
+    "start": 1008.38,
+    "end": 1010.94,
+    "text": "a reduced ability to imagine future scenarios,"
+  },
+  {
+    "start": 1010.94,
+    "end": 1012.42,
+    "text": "and fewer visual dreams."
+  },
+  {
+    "start": 1012.44,
+    "end": 1014.52,
+    "text": "Because if you can't generate an image,"
+  },
+  {
+    "start": 1014.52,
+    "end": 1016.8,
+    "text": "you can't mentally time travel."
+  },
+  {
+    "start": 1016.8,
+    "end": 1019.2,
+    "text": "It highlights how heavily our conscious architecture"
+  },
+  {
+    "start": 1019.2,
+    "end": 1021.36,
+    "text": "relies on visual simulation"
+  },
+  {
+    "start": 1021.36,
+    "end": 1023.88,
+    "text": "to construct our memories and our plans."
+  },
+  {
+    "start": 1023.88,
+    "end": 1025.44,
+    "text": "Section pause."
+  },
+  {
+    "start": 1025.44,
+    "end": 1027.64,
+    "text": "So is biological hardware"
+  },
+  {
+    "start": 1027.64,
+    "end": 1030.26,
+    "text": "with all its quirks and parallel processing"
+  },
+  {
+    "start": 1030.26,
+    "end": 1032.84,
+    "text": "can create this rich internal world"
+  },
+  {
+    "start": 1032.84,
+    "end": 1035.52,
+    "text": "what happens when we try to replicate it with silicon?"
+  },
+  {
+    "start": 1035.52,
+    "end": 1037.24,
+    "text": "Ah, yeah."
+  },
+  {
+    "start": 1037.24,
+    "end": 1039.32,
+    "text": "We have to talk about artificial intelligence"
+  },
+  {
+    "start": 1039.32,
+    "end": 1042.58,
+    "text": "with current chatbots seeming so incredibly advanced."
+  },
+  {
+    "start": 1042.58,
+    "end": 1045.26,
+    "text": "I mean, they can write poetry, debate philosophy,"
+  },
+  {
+    "start": 1045.26,
+    "end": 1047.14,
+    "text": "and pass the bar exam."
+  },
+  {
+    "start": 1047.14,
+    "end": 1048.1,
+    "text": "Are they conscious?"
+  },
+  {
+    "start": 1048.1,
+    "end": 1049.98,
+    "text": "If we connect this to the bigger picture"
+  },
+  {
+    "start": 1049.98,
+    "end": 1052.38,
+    "text": "to answer that using the science from these slides,"
+  },
+  {
+    "start": 1052.38,
+    "end": 1054.42,
+    "text": "we have to draw a hard unforgiving line"
+  },
+  {
+    "start": 1054.42,
+    "end": 1056.58,
+    "text": "between performance and conscious experience."
+  },
+  {
+    "start": 1056.58,
+    "end": 1058.1,
+    "text": "Okay, performance versus experience."
+  },
+  {
+    "start": 1058.1,
+    "end": 1060.32,
+    "text": "Exactly, intelligence is not the same as consciousness."
+  },
+  {
+    "start": 1060.32,
+    "end": 1062.54,
+    "text": "Performance asks, can the system use language,"
+  },
+  {
+    "start": 1062.54,
+    "end": 1064.98,
+    "text": "solve complex tasks, or predict outcomes?"
+  },
+  {
+    "start": 1064.98,
+    "end": 1066.26,
+    "text": "Conscious experience asks,"
+  },
+  {
+    "start": 1066.26,
+    "end": 1068.86,
+    "text": "is there something it is like to be the system?"
+  },
+  {
+    "start": 1068.88,
+    "end": 1070.24,
+    "text": "Does it feel anything?"
+  },
+  {
+    "start": 1070.24,
+    "end": 1072.92,
+    "text": "A good way to look at a current AI chatbot"
+  },
+  {
+    "start": 1072.92,
+    "end": 1076.44,
+    "text": "is to view it as a highly sophisticated digital parrot."
+  },
+  {
+    "start": 1076.44,
+    "end": 1079.48,
+    "text": "It clearly has massive, large-scale"
+  },
+  {
+    "start": 1079.48,
+    "end": 1081.48,
+    "text": "language prediction capabilities,"
+  },
+  {
+    "start": 1081.48,
+    "end": 1085.72,
+    "text": "it recognizes patterns, and has extreme social fluency."
+  },
+  {
+    "start": 1085.72,
+    "end": 1088.88,
+    "text": "But it completely lacks independent biological arousal."
+  },
+  {
+    "start": 1088.88,
+    "end": 1092.4,
+    "text": "It has no homeostatic drives, it doesn't get hungry,"
+  },
+  {
+    "start": 1092.4,
+    "end": 1095.08,
+    "text": "it doesn't need to sleep to clear out metabolic waste,"
+  },
+  {
+    "start": 1095.08,
+    "end": 1096.56,
+    "text": "and it doesn't feel pain."
+  },
+  {
+    "start": 1096.56,
+    "end": 1097.92,
+    "text": "And because of that,"
+  },
+  {
+    "start": 1097.92,
+    "end": 1100.3,
+    "text": "it has no grounded sensor motor experience"
+  },
+  {
+    "start": 1100.3,
+    "end": 1101.42,
+    "text": "in the physical world."
+  },
+  {
+    "start": 1101.42,
+    "end": 1104.22,
+    "text": "The scientific stance outlined in the notes is firm."
+  },
+  {
+    "start": 1104.22,
+    "end": 1106.18,
+    "text": "You cannot claim an AI as conscious"
+  },
+  {
+    "start": 1106.18,
+    "end": 1108.1,
+    "text": "based on its text behavior alone."
+  },
+  {
+    "start": 1108.1,
+    "end": 1110.24,
+    "text": "Simulating talk about an experience"
+  },
+  {
+    "start": 1110.24,
+    "end": 1112.66,
+    "text": "is not the same as having the experience."
+  },
+  {
+    "start": 1112.66,
+    "end": 1115.14,
+    "text": "The notes suggest a neuroscience-style approach"
+  },
+  {
+    "start": 1115.14,
+    "end": 1116.62,
+    "text": "to evaluating AI."
+  },
+  {
+    "start": 1116.62,
+    "end": 1118.98,
+    "text": "Basically, a checklist of biological mechanisms"
+  },
+  {
+    "start": 1118.98,
+    "end": 1120.1,
+    "text": "that a system would need"
+  },
+  {
+    "start": 1120.1,
+    "end": 1121.7,
+    "text": "before we could even entertain the idea"
+  },
+  {
+    "start": 1121.7,
+    "end": 1122.7,
+    "text": "that it might be conscious."
+  },
+  {
+    "start": 1122.7,
+    "end": 1124.82,
+    "text": "Right, there are three main criteria."
+  },
+  {
+    "start": 1124.82,
+    "end": 1126.6,
+    "text": "First, recurrent processing."
+  },
+  {
+    "start": 1126.62,
+    "end": 1129.62,
+    "text": "Current AI mostly relies on feed-forward data processing."
+  },
+  {
+    "start": 1129.62,
+    "end": 1131.3,
+    "text": "Data goes in, an answer comes out."
+  },
+  {
+    "start": 1131.3,
+    "end": 1134.4,
+    "text": "A conscious brain relies on massive feedback loops"
+  },
+  {
+    "start": 1134.4,
+    "end": 1136.86,
+    "text": "that constantly update its internal representations"
+  },
+  {
+    "start": 1136.86,
+    "end": 1137.7,
+    "text": "in real time."
+  },
+  {
+    "start": 1137.7,
+    "end": 1138.74,
+    "text": "Okay, what's the second one?"
+  },
+  {
+    "start": 1138.74,
+    "end": 1141.28,
+    "text": "Second, it needs a global workspace."
+  },
+  {
+    "start": 1141.28,
+    "end": 1143.3,
+    "text": "Like the thalmo-cortical loops we talked about."
+  },
+  {
+    "start": 1143.3,
+    "end": 1146.26,
+    "text": "Exactly, a system that broadcasts information"
+  },
+  {
+    "start": 1146.26,
+    "end": 1148.02,
+    "text": "across its entire architecture"
+  },
+  {
+    "start": 1148.02,
+    "end": 1150.98,
+    "text": "for flexible, top-down control."
+  },
+  {
+    "start": 1150.98,
+    "end": 1153.3,
+    "text": "Third, and perhaps most importantly,"
+  },
+  {
+    "start": 1153.3,
+    "end": 1155.7,
+    "text": "it needs embodied agency."
+  },
+  {
+    "start": 1155.7,
+    "end": 1158.04,
+    "text": "Meaning, it needs a body."
+  },
+  {
+    "start": 1158.04,
+    "end": 1160.72,
+    "text": "But why is that a requirement for consciousness?"
+  },
+  {
+    "start": 1160.72,
+    "end": 1162.52,
+    "text": "Because without a physical form"
+  },
+  {
+    "start": 1162.52,
+    "end": 1164.08,
+    "text": "interacting with an environment,"
+  },
+  {
+    "start": 1164.08,
+    "end": 1167.0,
+    "text": "taking actions that actively change its sensory inputs,"
+  },
+  {
+    "start": 1167.0,
+    "end": 1168.76,
+    "text": "a system has no stakes."
+  },
+  {
+    "start": 1168.76,
+    "end": 1169.9,
+    "text": "If it can't be damaged,"
+  },
+  {
+    "start": 1169.9,
+    "end": 1172.38,
+    "text": "if it doesn't need to seek out energy to survive,"
+  },
+  {
+    "start": 1172.38,
+    "end": 1174.0,
+    "text": "then nothing actually matters to it."
+  },
+  {
+    "start": 1174.0,
+    "end": 1175.52,
+    "text": "Because emotions and consciousness"
+  },
+  {
+    "start": 1175.52,
+    "end": 1178.66,
+    "text": "evolve in biological creatures to ensure survival."
+  },
+  {
+    "start": 1178.66,
+    "end": 1181.16,
+    "text": "Right, until an AI integrates perception,"
+  },
+  {
+    "start": 1181.16,
+    "end": 1183.68,
+    "text": "action, memory, and physical stakes,"
+  },
+  {
+    "start": 1183.68,
+    "end": 1187.34,
+    "text": "current systems are just highly convincing text calculators."
+  },
+  {
+    "start": 1187.34,
+    "end": 1188.18,
+    "text": "Section pause."
+  },
+  {
+    "start": 1188.18,
+    "end": 1190.38,
+    "text": "We have covered incredible ground today."
+  },
+  {
+    "start": 1190.38,
+    "end": 1191.86,
+    "text": "We started with the red apple"
+  },
+  {
+    "start": 1191.86,
+    "end": 1194.96,
+    "text": "and navigated the dual processing of our two-track mind,"
+  },
+  {
+    "start": 1194.96,
+    "end": 1197.06,
+    "text": "the backstage crew, and the lead actor."
+  },
+  {
+    "start": 1197.06,
+    "end": 1198.98,
+    "text": "We tested the incredibly narrow limits"
+  },
+  {
+    "start": 1198.98,
+    "end": 1200.5,
+    "text": "of our attention flashlight"
+  },
+  {
+    "start": 1200.5,
+    "end": 1202.46,
+    "text": "and mapped the brain's physical hardware"
+  },
+  {
+    "start": 1202.46,
+    "end": 1204.34,
+    "text": "from the wakefulness of the brainstem"
+  },
+  {
+    "start": 1204.34,
+    "end": 1206.06,
+    "text": "to the integration of the cortex."
+  },
+  {
+    "start": 1206.06,
+    "end": 1208.46,
+    "text": "We explored the quiet, creative power"
+  },
+  {
+    "start": 1208.46,
+    "end": 1210.5,
+    "text": "of the default mode network,"
+  },
+  {
+    "start": 1210.52,
+    "end": 1214.12,
+    "text": "the uninhibited hyper-emotional theater of REM sleep,"
+  },
+  {
+    "start": 1214.12,
+    "end": 1216.32,
+    "text": "and defined the stark boundaries"
+  },
+  {
+    "start": 1216.32,
+    "end": 1220.4,
+    "text": "between biological awareness and AI pattern recognition."
+  },
+  {
+    "start": 1220.4,
+    "end": 1222.8,
+    "text": "And yet, despite mapping all these mechanisms,"
+  },
+  {
+    "start": 1222.8,
+    "end": 1226.28,
+    "text": "measuring brainwaves and plotting states versus contents,"
+  },
+  {
+    "start": 1226.28,
+    "end": 1228.08,
+    "text": "we have to acknowledge what philosophers"
+  },
+  {
+    "start": 1228.08,
+    "end": 1229.96,
+    "text": "call the hard problem."
+  },
+  {
+    "start": 1229.96,
+    "end": 1232.32,
+    "text": "The hard problem remains entirely unsolved."
+  },
+  {
+    "start": 1232.32,
+    "end": 1233.4,
+    "text": "Yes."
+  },
+  {
+    "start": 1233.4,
+    "end": 1236.26,
+    "text": "Neuroscience can show us which brain areas light up"
+  },
+  {
+    "start": 1236.26,
+    "end": 1237.96,
+    "text": "when you feel love or pain,"
+  },
+  {
+    "start": 1237.96,
+    "end": 1239.8,
+    "text": "but subjective experience itself"
+  },
+  {
+    "start": 1239.8,
+    "end": 1242.12,
+    "text": "cannot be seen under a microscope."
+  },
+  {
+    "start": 1242.12,
+    "end": 1244.18,
+    "text": "There is no single consciousness meter"
+  },
+  {
+    "start": 1244.18,
+    "end": 1246.98,
+    "text": "that explains the leap from physical neurons firing"
+  },
+  {
+    "start": 1246.98,
+    "end": 1249.26,
+    "text": "to the magical feeling of being alive."
+  },
+  {
+    "start": 1249.26,
+    "end": 1251.18,
+    "text": "It is the ultimate mystery of the universe"
+  },
+  {
+    "start": 1251.18,
+    "end": 1253.22,
+    "text": "sitting right inside our own skulls."
+  },
+  {
+    "start": 1253.22,
+    "end": 1254.78,
+    "text": "And to leave you with a final thought"
+  },
+  {
+    "start": 1254.78,
+    "end": 1256.26,
+    "text": "to mull over the sources state"
+  },
+  {
+    "start": 1256.26,
+    "end": 1259.18,
+    "text": "that consciousness allows us to assemble information"
+  },
+  {
+    "start": 1259.18,
+    "end": 1261.94,
+    "text": "to reflect on our past and plan for our future."
+  },
+  {
+    "start": 1261.94,
+    "end": 1264.62,
+    "text": "But it relies entirely on real-time synchronized"
+  },
+  {
+    "start": 1264.62,
+    "end": 1266.72,
+    "text": "neural activity and physical feedback loops"
+  },
+  {
+    "start": 1266.72,
+    "end": 1267.7,
+    "text": "happening right now."
+  },
+  {
+    "start": 1267.7,
+    "end": 1270.74,
+    "text": "Which introduces a profound philosophical problem"
+  },
+  {
+    "start": 1270.74,
+    "end": 1272.84,
+    "text": "about the nature of time and identity."
+  },
+  {
+    "start": 1272.84,
+    "end": 1274.0,
+    "text": "Right."
+  },
+  {
+    "start": 1274.0,
+    "end": 1275.68,
+    "text": "Every single cell in your body,"
+  },
+  {
+    "start": 1275.68,
+    "end": 1278.34,
+    "text": "including the billions of neurons in your brain,"
+  },
+  {
+    "start": 1278.34,
+    "end": 1280.76,
+    "text": "is constantly turning over, metabolizing,"
+  },
+  {
+    "start": 1280.76,
+    "end": 1282.84,
+    "text": "changing, and rewiring."
+  },
+  {
+    "start": 1282.84,
+    "end": 1285.7,
+    "text": "The physical network of neurons firing in your head today"
+  },
+  {
+    "start": 1285.7,
+    "end": 1288.12,
+    "text": "is fundamentally made of different matter"
+  },
+  {
+    "start": 1288.12,
+    "end": 1290.08,
+    "text": "than the network that originally processed a memory"
+  },
+  {
+    "start": 1290.08,
+    "end": 1291.48,
+    "text": "from when you were 10 years old."
+  },
+  {
+    "start": 1291.48,
+    "end": 1293.24,
+    "text": "It's the ship of Theseus problem"
+  },
+  {
+    "start": 1293.24,
+    "end": 1294.56,
+    "text": "applied to the human brain."
+  },
+  {
+    "start": 1294.56,
+    "end": 1295.6,
+    "text": "Exactly."
+  },
+  {
+    "start": 1295.6,
+    "end": 1298.58,
+    "text": "So, if consciousness is just the synchronized"
+  },
+  {
+    "start": 1298.58,
+    "end": 1301.74,
+    "text": "real-time electrical activity of your current hardware,"
+  },
+  {
+    "start": 1301.74,
+    "end": 1303.86,
+    "text": "what happens to the continuity of the you"
+  },
+  {
+    "start": 1303.86,
+    "end": 1305.9,
+    "text": "who experience that childhood memory?"
+  },
+  {
+    "start": 1305.9,
+    "end": 1307.82,
+    "text": "If the physical machinery generating your mind"
+  },
+  {
+    "start": 1307.82,
+    "end": 1309.54,
+    "text": "is constantly being rebuilt from scratch"
+  },
+  {
+    "start": 1309.54,
+    "end": 1311.6,
+    "text": "day after day, year after year,"
+  },
+  {
+    "start": 1311.6,
+    "end": 1314.1,
+    "text": "where does the self live between the updates?"
+  }
+]

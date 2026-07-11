@@ -1,0 +1,2473 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.800
+If I ask you to close your eyes, you know,
+
+2
+00:00:02.800 --> 00:00:04.720
+and just picture a bright red apple,
+
+3
+00:00:04.720 --> 00:00:06.560
+you can probably see it in your mind's eye.
+
+4
+00:00:06.560 --> 00:00:08.400
+Right, the classic thought experiment.
+
+5
+00:00:08.400 --> 00:00:09.240
+Yeah, exactly.
+
+6
+00:00:09.240 --> 00:00:11.000
+You know, add to the curve of it,
+
+7
+00:00:11.000 --> 00:00:14.060
+maybe even like a little reflection of light on the skin.
+
+8
+00:00:14.060 --> 00:00:15.200
+But think about this for a second.
+
+9
+00:00:15.200 --> 00:00:16.640
+Where is that picture?
+
+10
+00:00:16.640 --> 00:00:18.840
+Well, it's definitely not inside your physical head.
+
+11
+00:00:18.840 --> 00:00:19.880
+Exactly. Yeah.
+
+12
+00:00:19.880 --> 00:00:22.640
+If a surgeon were to open your skull right now,
+
+13
+00:00:22.640 --> 00:00:23.880
+they wouldn't find an apple.
+
+14
+00:00:23.880 --> 00:00:25.780
+They wouldn't find a tiny movie screen
+
+15
+00:00:25.780 --> 00:00:27.560
+playing back your memories.
+
+16
+00:00:27.620 --> 00:00:31.320
+There's just, you know, wet biological tissue
+
+17
+00:00:31.320 --> 00:00:32.160
+and electricity.
+
+18
+00:00:32.160 --> 00:00:33.620
+Intermediate and chemical signals, yeah.
+
+19
+00:00:33.620 --> 00:00:34.460
+Right.
+
+20
+00:00:34.460 --> 00:00:37.620
+So how on earth does this lump of physical hardware
+
+21
+00:00:37.620 --> 00:00:41.320
+create the incredibly rich, subjective experience
+
+22
+00:00:41.320 --> 00:00:42.160
+of being you?
+
+23
+00:00:42.160 --> 00:00:43.560
+It really is the ultimate puzzle.
+
+24
+00:00:43.560 --> 00:00:47.320
+I mean, you can map every single neuron in the human brain,
+
+25
+00:00:47.320 --> 00:00:50.360
+but pointing to a cluster of firing cells
+
+26
+00:00:50.360 --> 00:00:52.740
+still doesn't explain the actual feeling
+
+27
+00:00:52.740 --> 00:00:54.720
+of experiencing the color red,
+
+28
+00:00:54.720 --> 00:00:56.720
+or, you know, the taste of coffee
+
+29
+00:00:56.840 --> 00:00:58.740
+or that sudden feeling of nostalgia.
+
+30
+00:00:58.740 --> 00:01:01.540
+Which is exactly what we are tackling today.
+
+31
+00:01:01.540 --> 00:01:04.400
+Welcome to this deep dive into a really fascinating set
+
+32
+00:01:04.400 --> 00:01:06.540
+of lecture notes and slides
+
+33
+00:01:06.540 --> 00:01:08.720
+on the neuroscience of consciousness.
+
+34
+00:01:08.720 --> 00:01:10.280
+Our mission today is to break down
+
+35
+00:01:10.280 --> 00:01:11.640
+the core brain structures,
+
+36
+00:01:11.640 --> 00:01:13.080
+the physiological functions,
+
+37
+00:01:13.080 --> 00:01:15.020
+and the actual nuts and bolts of the mind.
+
+38
+00:01:15.020 --> 00:01:18.160
+And we wanna do it without drowning you in academic jargon.
+
+39
+00:01:18.160 --> 00:01:20.520
+We're focusing on the how and the why,
+
+40
+00:01:20.520 --> 00:01:22.760
+so you can genuinely understand the machinery
+
+41
+00:01:22.760 --> 00:01:24.040
+behind your own awareness.
+
+42
+00:01:24.040 --> 00:01:26.680
+To anchor us before we get lost in that machinery,
+
+43
+00:01:26.760 --> 00:01:29.260
+the slides offer a really strong
+
+44
+00:01:29.260 --> 00:01:31.680
+foundational definition of consciousness.
+
+45
+00:01:31.680 --> 00:01:33.640
+It defines it as our subjective awareness
+
+46
+00:01:33.640 --> 00:01:35.600
+of ourselves and our environment.
+
+47
+00:01:35.600 --> 00:01:36.440
+Right.
+
+48
+00:01:36.440 --> 00:01:39.260
+It's the mechanism that allows us to assemble information
+
+49
+00:01:39.260 --> 00:01:41.760
+from dozens of different sensory inputs,
+
+50
+00:01:41.760 --> 00:01:43.920
+use that data to reflect on our past,
+
+51
+00:01:43.920 --> 00:01:46.040
+adapt to whatever's happening right now,
+
+52
+00:01:46.040 --> 00:01:47.680
+and then plan for the future.
+
+53
+00:01:47.680 --> 00:01:49.560
+The sources use this driving analogy
+
+54
+00:01:49.560 --> 00:01:52.200
+that I think bridges that definition perfectly
+
+55
+00:01:52.200 --> 00:01:53.540
+to everyday life.
+
+56
+00:01:53.540 --> 00:01:54.840
+Think back to the very first time
+
+57
+00:01:54.840 --> 00:01:56.320
+you got behind the wheel of a car.
+
+58
+00:01:57.080 --> 00:01:58.760
+Oh yeah, white knuckling the steering wheel.
+
+59
+00:01:58.760 --> 00:01:59.880
+Exactly.
+
+60
+00:01:59.880 --> 00:02:02.560
+Your conscious awareness had to hyper focus
+
+61
+00:02:02.560 --> 00:02:04.560
+on every single detail,
+
+62
+00:02:04.560 --> 00:02:07.440
+like how hard your foot was pressing the gas pedal,
+
+63
+00:02:07.440 --> 00:02:09.160
+the exact angle of the mirrors,
+
+64
+00:02:09.160 --> 00:02:11.800
+scanning the intersection, the sound of the engine.
+
+65
+00:02:11.800 --> 00:02:14.680
+It consumes 100% of your mental bandwidth.
+
+66
+00:02:14.680 --> 00:02:16.240
+It's exhausting because your brain
+
+67
+00:02:16.240 --> 00:02:20.480
+is actively building new neural pathways in real time.
+
+68
+00:02:20.480 --> 00:02:23.520
+But consider what happens after, say, 10 years of driving.
+
+69
+00:02:23.520 --> 00:02:24.920
+You literally pull into your driveway
+
+70
+00:02:24.920 --> 00:02:27.680
+and realize you don't even remember the last five miles.
+
+71
+00:02:27.680 --> 00:02:29.280
+Yep, highway hypnosis.
+
+72
+00:02:29.280 --> 00:02:32.400
+The complex act of driving has just become semi-automatic.
+
+73
+00:02:32.400 --> 00:02:34.240
+Your conscious attention is suddenly freed up
+
+74
+00:02:34.240 --> 00:02:36.160
+to focus on listening to a deep dive
+
+75
+00:02:36.160 --> 00:02:37.760
+or planning what you're gonna make for dinner.
+
+76
+00:02:37.760 --> 00:02:40.280
+And that transition from hyper focused effort
+
+77
+00:02:40.280 --> 00:02:43.520
+to automatic processing highlights something crucial.
+
+78
+00:02:43.520 --> 00:02:45.920
+Consciousness is a limited resource.
+
+79
+00:02:45.920 --> 00:02:48.200
+But before we get into the biological mechanics
+
+80
+00:02:48.200 --> 00:02:50.160
+of how the brain manages that resource,
+
+81
+00:02:50.160 --> 00:02:52.280
+there is a short piece of media from the lecture
+
+82
+00:02:52.280 --> 00:02:54.840
+to set a philosophical baseline for us.
+
+83
+00:02:54.840 --> 00:02:56.960
+Pause for media, presenting idea
+
+84
+00:02:56.960 --> 00:03:00.480
+that people are not their brains, 38 seconds long.
+
+85
+00:03:00.480 --> 00:03:02.720
+Okay, so what that clip is getting at
+
+86
+00:03:02.720 --> 00:03:04.760
+is a pushback against reductionism.
+
+87
+00:03:05.880 --> 00:03:07.320
+It's challenging the assumption
+
+88
+00:03:07.320 --> 00:03:09.680
+that a person is just their physical brain.
+
+89
+00:03:09.680 --> 00:03:11.080
+Right, it introduces the idea
+
+90
+00:03:11.080 --> 00:03:13.840
+that consciousness might be an emergent property,
+
+91
+00:03:13.840 --> 00:03:15.760
+something that is more than just the sum
+
+92
+00:03:15.760 --> 00:03:17.360
+of its biological parts.
+
+93
+00:03:17.360 --> 00:03:19.840
+Which perfectly sets up the complex mechanics
+
+94
+00:03:19.840 --> 00:03:21.400
+we are about to explore.
+
+95
+00:03:21.400 --> 00:03:24.240
+Because if we are more than just the raw biology,
+
+96
+00:03:24.240 --> 00:03:26.200
+we have to understand how that biology
+
+97
+00:03:26.200 --> 00:03:28.080
+actually generates the mind.
+
+98
+00:03:28.080 --> 00:03:29.080
+Section pause.
+
+99
+00:03:29.080 --> 00:03:32.440
+So if that subjective experience is so mysterious,
+
+100
+00:03:32.440 --> 00:03:34.480
+you might be wondering how neuroscientists
+
+101
+00:03:34.480 --> 00:03:37.040
+actually measure or categorize it in a lab.
+
+102
+00:03:37.040 --> 00:03:38.520
+We need some kind of map.
+
+103
+00:03:38.520 --> 00:03:41.240
+And looking at the diagram on this slide in the notes,
+
+104
+00:03:41.240 --> 00:03:44.280
+you can visualize this as a plot on a graph.
+
+105
+00:03:44.280 --> 00:03:46.800
+On the vertical axis, we have level or state.
+
+106
+00:03:46.800 --> 00:03:48.680
+Which is simply how globally awake
+
+107
+00:03:48.680 --> 00:03:50.800
+or responsive you are to the outside world.
+
+108
+00:03:50.800 --> 00:03:53.120
+It ranges from a deep comb at the very bottom,
+
+109
+00:03:53.120 --> 00:03:55.080
+moves up through general anesthesia,
+
+110
+00:03:55.080 --> 00:03:56.560
+then through the stages of sleep,
+
+111
+00:03:56.560 --> 00:03:59.280
+all the way to full alert wakefulness at the top.
+
+112
+00:03:59.280 --> 00:04:02.520
+Then, on a horizontal axis, you have content.
+
+113
+00:04:02.520 --> 00:04:04.680
+This measures the vividness and complexity
+
+114
+00:04:04.680 --> 00:04:06.560
+of what you are actually experiencing.
+
+115
+00:04:06.560 --> 00:04:09.240
+Right, the sensory inputs, the emotions,
+
+116
+00:04:09.240 --> 00:04:11.240
+thoughts and memories happening in your mind
+
+117
+00:04:11.240 --> 00:04:12.480
+at any given moment.
+
+118
+00:04:12.480 --> 00:04:15.040
+And plotting human experience on that graph
+
+119
+00:04:15.040 --> 00:04:17.920
+reveals something the notes call dual processing
+
+120
+00:04:17.920 --> 00:04:19.400
+or the two track mind.
+
+121
+00:04:19.400 --> 00:04:21.120
+This is a huge concept.
+
+122
+00:04:21.120 --> 00:04:23.640
+It turns out that our perception, our memory,
+
+123
+00:04:23.640 --> 00:04:25.280
+our thinking, they all operate
+
+124
+00:04:25.280 --> 00:04:28.360
+on two completely independent levels simultaneously.
+
+125
+00:04:28.360 --> 00:04:30.640
+There is a high road and a low road.
+
+126
+00:04:30.640 --> 00:04:32.480
+The conscious, deliberate high road
+
+127
+00:04:32.480 --> 00:04:34.200
+is reflective and sequential.
+
+128
+00:04:34.200 --> 00:04:36.200
+It processes things one at a time.
+
+129
+00:04:36.200 --> 00:04:38.760
+But the unconscious, automatic low road
+
+130
+00:04:38.760 --> 00:04:40.480
+is intuitive and parallel.
+
+131
+00:04:40.480 --> 00:04:42.600
+It can process thousands of things at once.
+
+132
+00:04:42.600 --> 00:04:45.760
+The slides show a visual model of this dual processing
+
+133
+00:04:45.760 --> 00:04:48.000
+using the example of looking at a flying bird.
+
+134
+00:04:48.000 --> 00:04:49.840
+I think the easiest way to understand this
+
+135
+00:04:49.840 --> 00:04:51.640
+is to imagine a theater.
+
+136
+00:04:51.640 --> 00:04:53.080
+The unconscious low track
+
+137
+00:04:53.080 --> 00:04:55.920
+is like a massive backstage theater crew.
+
+138
+00:04:55.920 --> 00:04:58.080
+You have hundreds of crew members working in parallel,
+
+139
+00:04:58.080 --> 00:05:00.400
+simultaneously calculating the bird's color,
+
+140
+00:05:00.400 --> 00:05:02.920
+tracking its motion, defining its shape
+
+141
+00:05:02.920 --> 00:05:04.440
+and judging its distance.
+
+142
+00:05:04.440 --> 00:05:06.400
+And they're doing this automatically,
+
+143
+00:05:06.400 --> 00:05:09.120
+incredibly fast and completely out of sight.
+
+144
+00:05:09.120 --> 00:05:11.880
+Meanwhile, the conscious high track
+
+145
+00:05:11.880 --> 00:05:14.200
+is the lead actor standing center stage
+
+146
+00:05:14.200 --> 00:05:15.880
+under a spotlight.
+
+147
+00:05:15.880 --> 00:05:18.240
+After the crew has done all the calculations,
+
+148
+00:05:18.240 --> 00:05:20.080
+the actor sequentially and deliberately
+
+149
+00:05:20.080 --> 00:05:21.360
+declares to the audience,
+
+150
+00:05:21.360 --> 00:05:23.560
+I saw a red bird flying toward us.
+
+151
+00:05:23.560 --> 00:05:25.000
+And the actor gets all the credit,
+
+152
+00:05:25.000 --> 00:05:27.120
+but the crew did all the heavy lifting.
+
+153
+00:05:27.120 --> 00:05:29.720
+Let's push that theater metaphor even further.
+
+154
+00:05:29.720 --> 00:05:33.040
+If a heavy sandbag suddenly falls from the rafters,
+
+155
+00:05:33.040 --> 00:05:35.520
+the backstage crew doesn't wait to tell the actor.
+
+156
+00:05:35.520 --> 00:05:37.160
+They just pull the actor out of the way.
+
+157
+00:05:37.160 --> 00:05:38.480
+Right, that's your flinch reflex.
+
+158
+00:05:38.480 --> 00:05:40.480
+Exactly, by the time the lead actor looks up
+
+159
+00:05:40.480 --> 00:05:42.320
+and says, whoa, that was close,
+
+160
+00:05:42.320 --> 00:05:43.800
+the body has already moved.
+
+161
+00:05:43.800 --> 00:05:45.480
+What's fascinating here is that we actually
+
+162
+00:05:45.480 --> 00:05:47.600
+know more than we know we know.
+
+163
+00:05:47.640 --> 00:05:50.000
+That backstage crew, the parallel processing,
+
+164
+00:05:50.000 --> 00:05:53.080
+has to handle the vast majority of our routine
+
+165
+00:05:53.080 --> 00:05:54.840
+survival-based business.
+
+166
+00:05:54.840 --> 00:05:56.680
+Because sequential processing, the lead actor
+
+167
+00:05:56.680 --> 00:05:59.920
+is computationally expensive and incredibly slow, right?
+
+168
+00:05:59.920 --> 00:06:00.760
+Exactly.
+
+169
+00:06:00.760 --> 00:06:02.520
+If you had to consciously calculate
+
+170
+00:06:02.520 --> 00:06:04.800
+the trajectory of a falling object,
+
+171
+00:06:04.800 --> 00:06:07.720
+you would be crushed before you finish the math.
+
+172
+00:06:07.720 --> 00:06:09.680
+Consciousness is best saved for solving
+
+173
+00:06:09.680 --> 00:06:12.880
+entirely new problems that require focused attention.
+
+174
+00:06:12.880 --> 00:06:14.200
+Section pause.
+
+175
+00:06:14.200 --> 00:06:16.280
+Let's talk about that focused attention.
+
+176
+00:06:16.280 --> 00:06:19.480
+Because if the lead actor is so computationally expensive,
+
+177
+00:06:19.480 --> 00:06:21.080
+we have to be really careful about
+
+178
+00:06:21.080 --> 00:06:22.680
+where we point the spotlight.
+
+179
+00:06:22.680 --> 00:06:25.200
+Yeah, the lecture notes describe selective attention
+
+180
+00:06:25.200 --> 00:06:27.920
+using this flashlight analogy.
+
+181
+00:06:27.920 --> 00:06:30.680
+Our awareness focuses like a flashlight beam
+
+182
+00:06:30.680 --> 00:06:34.520
+on a tiny, minute aspect of all that we experience.
+
+183
+00:06:34.520 --> 00:06:37.680
+It's an accurate metaphor because a flashlight
+
+184
+00:06:37.680 --> 00:06:41.880
+only illuminates a tiny circle in a massive dark room.
+
+185
+00:06:41.880 --> 00:06:45.720
+Whatever is inside the beam is your conscious reality.
+
+186
+00:06:45.720 --> 00:06:47.360
+And everything outside that beam
+
+187
+00:06:47.360 --> 00:06:49.560
+is actively suppressed by the brain.
+
+188
+00:06:49.560 --> 00:06:51.760
+Wait, if it's a single flashlight beam,
+
+189
+00:06:51.760 --> 00:06:52.960
+what happens when I'm, say,
+
+190
+00:06:52.960 --> 00:06:55.400
+sitting in a boring meeting trying to listen to the speaker
+
+191
+00:06:55.400 --> 00:06:57.720
+but I'm also under the desk texting a friend?
+
+192
+00:06:57.720 --> 00:07:00.200
+I always feel like I'm multitasking pretty successfully.
+
+193
+00:07:00.200 --> 00:07:02.000
+You're actually not multitesting at all.
+
+194
+00:07:02.000 --> 00:07:02.840
+I'm not.
+
+195
+00:07:02.840 --> 00:07:05.200
+No, the neuroscience is very clear on this.
+
+196
+00:07:05.200 --> 00:07:08.400
+Human consciousness focuses on exactly one thing at a time.
+
+197
+00:07:08.400 --> 00:07:10.000
+When you are typing that text message,
+
+198
+00:07:10.000 --> 00:07:12.800
+the flashlight beam is entirely on your phone.
+
+199
+00:07:12.800 --> 00:07:14.200
+In that specific millisecond,
+
+200
+00:07:14.200 --> 00:07:17.360
+your brain is actively suppressing the speaker's voice
+
+201
+00:07:17.360 --> 00:07:19.400
+as irrelevant background noise.
+
+202
+00:07:19.400 --> 00:07:21.520
+So I'm just swinging the flashlight back and forth
+
+203
+00:07:21.520 --> 00:07:22.360
+really fast.
+
+204
+00:07:22.360 --> 00:07:23.200
+Precisely.
+
+205
+00:07:23.200 --> 00:07:25.360
+You are rapidly task switching.
+
+206
+00:07:25.360 --> 00:07:27.120
+And every time you swing that flashlight,
+
+207
+00:07:27.120 --> 00:07:28.680
+there is a cognitive cost.
+
+208
+00:07:28.680 --> 00:07:30.640
+You lose tiny pieces of information
+
+209
+00:07:30.640 --> 00:07:32.840
+in the dark space between the two targets.
+
+210
+00:07:32.840 --> 00:07:34.200
+Which is why task switching
+
+211
+00:07:34.200 --> 00:07:36.200
+is highly inefficient and draining.
+
+212
+00:07:36.200 --> 00:07:37.040
+Exactly.
+
+213
+00:07:37.040 --> 00:07:39.880
+To really prove how narrow that flashlight beam is,
+
+214
+00:07:39.880 --> 00:07:43.920
+the slides include a classic psychological experiment video.
+
+215
+00:07:43.920 --> 00:07:46.000
+We're gonna pause so you can watch it.
+
+216
+00:07:46.000 --> 00:07:48.760
+Be close attention to what the video ask you to count.
+
+217
+00:07:48.760 --> 00:07:50.320
+Pause for media.
+
+218
+00:07:50.320 --> 00:07:53.100
+Video challenging the selective attention of viewers.
+
+219
+00:07:53.100 --> 00:07:55.600
+Stop or advance slides after three minutes.
+
+220
+00:07:55.600 --> 00:07:58.520
+For anyone who hasn't seen that type of experiment before,
+
+221
+00:07:58.520 --> 00:08:00.320
+it is always a visceral shock.
+
+222
+00:08:00.320 --> 00:08:01.480
+Oh, absolutely.
+
+223
+00:08:01.480 --> 00:08:03.880
+You are so focused on counting the passes
+
+224
+00:08:03.880 --> 00:08:06.840
+that you completely miss the bizarre, obvious thing
+
+225
+00:08:06.840 --> 00:08:08.360
+walking right through the middle of the screen.
+
+226
+00:08:08.360 --> 00:08:10.960
+It perfectly demonstrates inattention blindness
+
+227
+00:08:10.960 --> 00:08:13.520
+and its cousin, change blindness.
+
+228
+00:08:13.520 --> 00:08:15.040
+At the level of conscious awareness,
+
+229
+00:08:15.040 --> 00:08:18.200
+we are functionally blind to all but a tiny sliver
+
+230
+00:08:18.200 --> 00:08:19.880
+of visual stimuli.
+
+231
+00:08:19.880 --> 00:08:21.680
+We fail to see massive objects
+
+232
+00:08:21.680 --> 00:08:23.540
+or huge changes in our environment
+
+233
+00:08:23.540 --> 00:08:25.800
+simply because our attention is directed elsewhere.
+
+234
+00:08:25.800 --> 00:08:27.240
+Because the flashlight was pointed
+
+235
+00:08:27.240 --> 00:08:29.120
+at the assigned counting task,
+
+236
+00:08:29.120 --> 00:08:32.120
+the backstage crew just decided the unexpected event
+
+237
+00:08:32.120 --> 00:08:35.400
+wasn't important enough to bother the lead actor with.
+
+238
+00:08:35.400 --> 00:08:36.720
+Section pause.
+
+239
+00:08:36.720 --> 00:08:39.120
+We've talked about the psychology and the behavior,
+
+240
+00:08:39.120 --> 00:08:41.120
+but I really wanna ground this in biology.
+
+241
+00:08:41.120 --> 00:08:41.960
+Yeah.
+
+242
+00:08:42.000 --> 00:08:43.760
+It is the actual hardware.
+
+243
+00:08:43.760 --> 00:08:45.680
+Right, let's look at the brain.
+
+244
+00:08:45.680 --> 00:08:48.600
+If I look at the diagram of the brain on this slide,
+
+245
+00:08:48.600 --> 00:08:50.840
+there isn't just one consciousness center.
+
+246
+00:08:50.840 --> 00:08:53.960
+I see arrows connecting dozens of different regions.
+
+247
+00:08:53.960 --> 00:08:56.240
+That's because conscious experience arises
+
+248
+00:08:56.240 --> 00:08:59.200
+from synchronized activity across a whole network.
+
+249
+00:08:59.200 --> 00:09:01.000
+It requires different brain regions
+
+250
+00:09:01.000 --> 00:09:02.920
+to fire together in rhythm.
+
+251
+00:09:02.920 --> 00:09:05.800
+But the notes do highlight three main
+
+252
+00:09:05.800 --> 00:09:07.300
+neuroanatomical pillars
+
+253
+00:09:07.300 --> 00:09:09.360
+that make this synchronization possible.
+
+254
+00:09:09.360 --> 00:09:10.200
+Let's walk through them.
+
+255
+00:09:10.200 --> 00:09:11.040
+Where does it start?
+
+256
+00:09:11.040 --> 00:09:13.500
+First you have the brain stem and the hypothalamus
+
+257
+00:09:13.500 --> 00:09:15.380
+located deep at the base of the brain.
+
+258
+00:09:15.380 --> 00:09:18.480
+These contain what we call the ascending arousal systems.
+
+259
+00:09:18.480 --> 00:09:21.320
+So their job is basic survival and wakefulness?
+
+260
+00:09:21.320 --> 00:09:22.760
+Yes, they are the power cord.
+
+261
+00:09:22.760 --> 00:09:23.640
+They keep the lights on
+
+262
+00:09:23.640 --> 00:09:25.880
+and regulate your baseline alertness.
+
+263
+00:09:25.880 --> 00:09:27.960
+Okay, so that maps to the vertical axis
+
+264
+00:09:27.960 --> 00:09:30.040
+on our graph from earlier.
+
+265
+00:09:30.040 --> 00:09:32.640
+The level or state of wakefulness
+
+266
+00:09:32.640 --> 00:09:34.800
+from coma to fully awake.
+
+267
+00:09:34.800 --> 00:09:35.640
+You got it.
+
+268
+00:09:35.640 --> 00:09:38.840
+Next, sitting just above that, you have the thalamus.
+
+269
+00:09:38.840 --> 00:09:41.480
+The thalamus operates via thalamus cortical loops
+
+270
+00:09:41.480 --> 00:09:43.240
+sending signals back and forth
+
+271
+00:09:43.240 --> 00:09:44.520
+to the surface of the brain.
+
+272
+00:09:44.520 --> 00:09:45.440
+Think of the thalamus
+
+273
+00:09:45.440 --> 00:09:47.880
+as the ultimate gatekeeper and router, right?
+
+274
+00:09:47.880 --> 00:09:48.720
+Exactly.
+
+275
+00:09:48.720 --> 00:09:51.120
+Almost every piece of sensory information
+
+276
+00:09:51.120 --> 00:09:53.000
+from your eyes, ears, and skin
+
+277
+00:09:53.000 --> 00:09:54.440
+hits the thalamus first
+
+278
+00:09:54.440 --> 00:09:56.480
+and it decides what gets forwarded up the chain.
+
+279
+00:09:56.480 --> 00:09:57.920
+And what is at the top of the chain?
+
+280
+00:09:57.920 --> 00:10:00.060
+The third pillar, the cortex.
+
+281
+00:10:00.060 --> 00:10:02.160
+That wrinkled outer layer of the brain.
+
+282
+00:10:02.160 --> 00:10:05.600
+The cortex is where the actual conscious contents,
+
+283
+00:10:05.600 --> 00:10:07.620
+the vivid memories, the visual imagery,
+
+284
+00:10:07.620 --> 00:10:09.820
+the complex thoughts are processed
+
+285
+00:10:09.820 --> 00:10:12.620
+and integrated into that unified experience of you.
+
+286
+00:10:12.620 --> 00:10:15.700
+Okay, so power supply, router, and processor.
+
+287
+00:10:15.700 --> 00:10:17.840
+Now, how do doctors actually use
+
+288
+00:10:17.840 --> 00:10:20.460
+this hardware map clinically?
+
+289
+00:10:20.460 --> 00:10:21.540
+Because like we said at the beginning,
+
+290
+00:10:21.540 --> 00:10:23.180
+you can't just x-ray a thought.
+
+291
+00:10:23.180 --> 00:10:25.420
+This leads to one of the most profound applications
+
+292
+00:10:25.420 --> 00:10:26.260
+in the notes.
+
+293
+00:10:26.260 --> 00:10:28.900
+They describe an FMRI study involving a patient
+
+294
+00:10:28.900 --> 00:10:30.860
+who had suffered severe brain trauma.
+
+295
+00:10:30.860 --> 00:10:34.720
+Behaviorally, this patient was entirely non-communicative.
+
+296
+00:10:34.720 --> 00:10:37.140
+She appeared to be in a vegetative state.
+
+297
+00:10:37.220 --> 00:10:39.580
+Her eyes were open, but there was no response
+
+298
+00:10:39.580 --> 00:10:41.860
+to voices, pain, or movement.
+
+299
+00:10:41.860 --> 00:10:43.520
+So her state appeared to be awake,
+
+300
+00:10:43.520 --> 00:10:45.020
+but her content appeared to be zero.
+
+301
+00:10:45.020 --> 00:10:46.300
+Yes, exactly.
+
+302
+00:10:46.300 --> 00:10:49.460
+But researchers put the patient in an FMRI scanner,
+
+303
+00:10:49.460 --> 00:10:51.460
+which measures real-time blood flow
+
+304
+00:10:51.460 --> 00:10:53.780
+to active areas of the brain.
+
+305
+00:10:53.780 --> 00:10:55.500
+Through an intercom, they asked her
+
+306
+00:10:55.500 --> 00:10:57.180
+to imagine playing a game of tennis.
+
+307
+00:10:57.180 --> 00:10:58.300
+Wait, playing tennis?
+
+308
+00:10:58.300 --> 00:11:00.100
+That requires complex motor planning.
+
+309
+00:11:00.100 --> 00:11:01.820
+It does, and the blood rushed
+
+310
+00:11:01.820 --> 00:11:04.140
+to the exact same supplementary motor areas
+
+311
+00:11:04.140 --> 00:11:05.980
+as it would in a healthy volunteer.
+
+312
+00:11:06.020 --> 00:11:06.860
+Oh, wow.
+
+313
+00:11:06.860 --> 00:11:09.420
+So her brain was firing as if she was moving.
+
+314
+00:11:09.420 --> 00:11:10.380
+Yes.
+
+315
+00:11:10.380 --> 00:11:12.180
+Then they asked her to stop,
+
+316
+00:11:12.180 --> 00:11:15.600
+and instead imagine walking from room to room in her house.
+
+317
+00:11:15.600 --> 00:11:17.680
+This requires spatial mapping.
+
+318
+00:11:17.680 --> 00:11:19.300
+Instantly, the activity shifted
+
+319
+00:11:19.300 --> 00:11:21.180
+to the parahippocampal gyrus,
+
+320
+00:11:21.180 --> 00:11:23.380
+which is the brain's spatial navigation center.
+
+321
+00:11:23.380 --> 00:11:25.020
+That is wild.
+
+322
+00:11:25.020 --> 00:11:26.620
+So the hardware was fully intact,
+
+323
+00:11:26.620 --> 00:11:28.380
+and she was entirely conscious,
+
+324
+00:11:28.380 --> 00:11:30.340
+listening and following instructions,
+
+325
+00:11:30.340 --> 00:11:32.380
+even though her body couldn't move a millimeter.
+
+326
+00:11:32.380 --> 00:11:34.000
+They basically used the brain scanner
+
+327
+00:11:34.160 --> 00:11:36.560
+to establish a communication system.
+
+328
+00:11:36.560 --> 00:11:38.440
+Imagine tennis for yes.
+
+329
+00:11:38.440 --> 00:11:40.440
+Imagine your house for no.
+
+330
+00:11:40.440 --> 00:11:44.160
+It proved undeniably that a lack of physical responsiveness
+
+331
+00:11:44.160 --> 00:11:47.080
+does not equal a lack of conscious awareness.
+
+332
+00:11:47.080 --> 00:11:49.560
+Moving from those hyper-focused clinical states
+
+333
+00:11:49.560 --> 00:11:51.000
+to our daily lives,
+
+334
+00:11:51.000 --> 00:11:54.240
+the slides introduce an incredibly interesting network
+
+335
+00:11:54.240 --> 00:11:57.960
+called the Default Mode Network, or DMN.
+
+336
+00:11:57.960 --> 00:11:59.640
+The DMN is fascinating.
+
+337
+00:11:59.640 --> 00:12:01.320
+Yeah, the illustrations in the notes
+
+338
+00:12:01.320 --> 00:12:03.640
+show a collection of specific brain regions
+
+339
+00:12:03.640 --> 00:12:05.560
+right down the midline of the brain
+
+340
+00:12:05.560 --> 00:12:07.480
+that suddenly synchronize and light up
+
+341
+00:12:07.480 --> 00:12:09.160
+when an individual is not engaged
+
+342
+00:12:09.160 --> 00:12:11.800
+in a specific externally focused task.
+
+343
+00:12:11.800 --> 00:12:12.640
+Right.
+
+344
+00:12:12.640 --> 00:12:14.360
+When your mental flashlight is turned on
+
+345
+00:12:14.360 --> 00:12:16.020
+and focused on a math problem,
+
+346
+00:12:16.020 --> 00:12:17.880
+the DMN powers down.
+
+347
+00:12:17.880 --> 00:12:19.620
+But the second you put the flashlight down
+
+348
+00:12:19.620 --> 00:12:20.800
+and just stare at the wall,
+
+349
+00:12:20.800 --> 00:12:22.400
+the DMN turns on.
+
+350
+00:12:22.400 --> 00:12:25.300
+It is active by default when you are at rest.
+
+351
+00:12:25.300 --> 00:12:26.160
+Think about the last time
+
+352
+00:12:26.160 --> 00:12:27.520
+you were taking a long shower
+
+353
+00:12:27.520 --> 00:12:29.120
+or staring out the window of a train,
+
+354
+00:12:29.120 --> 00:12:30.480
+and suddenly a brilliant idea
+
+355
+00:12:30.480 --> 00:12:32.480
+or solution to a problem just popped into your head.
+
+356
+00:12:32.520 --> 00:12:33.840
+That wasn't an accident.
+
+357
+00:12:33.840 --> 00:12:37.620
+No, that was your default mode network taking over.
+
+358
+00:12:37.620 --> 00:12:39.280
+When you let your mind wander,
+
+359
+00:12:39.280 --> 00:12:41.840
+the DMN orchestrates self-reflection,
+
+360
+00:12:41.840 --> 00:12:44.720
+it processes your social interactions from the day,
+
+361
+00:12:44.720 --> 00:12:47.640
+and it connects disparate ideas to drive creativity.
+
+362
+00:12:47.640 --> 00:12:50.240
+Which means the relentless modern pressure
+
+363
+00:12:50.240 --> 00:12:51.900
+to always be looking at a screen,
+
+364
+00:12:51.900 --> 00:12:53.600
+constantly digesting content,
+
+365
+00:12:53.600 --> 00:12:55.840
+actively suppresses the DMN.
+
+366
+00:12:55.840 --> 00:12:58.600
+Your brain physically needs you to daydream
+
+367
+00:12:58.600 --> 00:13:01.240
+so it can strengthen those internal connections.
+
+368
+00:13:01.240 --> 00:13:02.280
+Section pause.
+
+369
+00:13:02.280 --> 00:13:04.320
+So the DMN is what happens when we rest,
+
+370
+00:13:04.320 --> 00:13:06.520
+what happens when we go offline completely.
+
+371
+00:13:06.520 --> 00:13:09.400
+Let's talk about altered states, specifically sleep.
+
+372
+00:13:09.400 --> 00:13:11.740
+A lot of people think sleep is just a light switch.
+
+373
+00:13:11.740 --> 00:13:14.360
+You are either conscious or unconscious.
+
+374
+00:13:14.360 --> 00:13:17.800
+But the notes emphasize that sleep is a graded state.
+
+375
+00:13:17.800 --> 00:13:19.720
+Our plot of state versus content
+
+376
+00:13:19.720 --> 00:13:21.160
+applies perfectly here, right?
+
+377
+00:13:21.160 --> 00:13:22.120
+It does.
+
+378
+00:13:22.120 --> 00:13:24.840
+When you first fall asleep and enter non-REM sleep,
+
+379
+00:13:24.840 --> 00:13:27.080
+your behavioral connection to the world drops,
+
+380
+00:13:27.080 --> 00:13:29.360
+and internally, things are pretty quiet.
+
+381
+00:13:29.360 --> 00:13:30.720
+Dreams are infrequent.
+
+382
+00:13:30.720 --> 00:13:32.920
+But then, you cycle into REM sleep.
+
+383
+00:13:32.920 --> 00:13:33.880
+Rapid eye movement.
+
+384
+00:13:33.880 --> 00:13:34.720
+Yes.
+
+385
+00:13:34.720 --> 00:13:37.600
+During REM, your brain essentially paralyzes your body.
+
+386
+00:13:37.600 --> 00:13:39.120
+Muscle tone drops to near zero
+
+387
+00:13:39.120 --> 00:13:40.840
+so you don't physically act out your dreams
+
+388
+00:13:40.840 --> 00:13:41.680
+and hurt yourself.
+
+389
+00:13:41.680 --> 00:13:43.880
+So your responsiveness to the outside world
+
+390
+00:13:43.880 --> 00:13:45.800
+is extremely low.
+
+391
+00:13:45.800 --> 00:13:49.760
+However, your internally generated conscious experience,
+
+392
+00:13:51.160 --> 00:13:53.320
+the content is incredibly high.
+
+393
+00:13:53.320 --> 00:13:55.100
+The topographic maps in the slides
+
+394
+00:13:55.100 --> 00:13:57.100
+show us exactly what parts of the brain
+
+395
+00:13:57.100 --> 00:13:59.720
+are lighting up and going dark during REM
+
+396
+00:13:59.720 --> 00:14:01.680
+compared to when we are awake.
+
+397
+00:14:01.680 --> 00:14:03.140
+And looking at this map explains
+
+398
+00:14:03.140 --> 00:14:05.320
+why dreams are so deeply weird.
+
+399
+00:14:05.320 --> 00:14:07.440
+The mechanics of dreaming are entirely based
+
+400
+00:14:07.440 --> 00:14:09.880
+on which brain regions are granted power, right?
+
+401
+00:14:09.880 --> 00:14:10.880
+Exactly.
+
+402
+00:14:10.880 --> 00:14:12.560
+Why does a dream feel so bizarre,
+
+403
+00:14:12.560 --> 00:14:15.480
+yet completely real and acceptable to you in the moment?
+
+404
+00:14:15.480 --> 00:14:17.840
+It's because activity in your prefrontal cortex
+
+405
+00:14:17.840 --> 00:14:19.080
+severely decreases.
+
+406
+00:14:19.080 --> 00:14:21.960
+And the prefrontal cortex is the brain's logic center.
+
+407
+00:14:21.960 --> 00:14:24.160
+It handles self-monitoring, critical thought,
+
+408
+00:14:24.160 --> 00:14:25.360
+and reality checking.
+
+409
+00:14:25.360 --> 00:14:27.420
+So the skeptical bouncer at the door of the club
+
+410
+00:14:27.420 --> 00:14:28.480
+goes home for the night.
+
+411
+00:14:28.480 --> 00:14:30.440
+And chaos ensues.
+
+412
+00:14:30.440 --> 00:14:32.000
+With a reality checker offline,
+
+413
+00:14:32.000 --> 00:14:33.640
+you don't question anything.
+
+414
+00:14:33.640 --> 00:14:35.360
+You casually accept that you are suddenly
+
+415
+00:14:35.360 --> 00:14:36.620
+grieving underwater,
+
+416
+00:14:36.620 --> 00:14:38.880
+or that your living room just turned into a desert.
+
+417
+00:14:38.880 --> 00:14:40.640
+Or that you were late for a college exam
+
+418
+00:14:40.640 --> 00:14:42.040
+you already passed 10 years ago.
+
+419
+00:14:42.040 --> 00:14:43.880
+Oh, I hate that one.
+
+420
+00:14:43.880 --> 00:14:46.200
+And while the logic center is powered down,
+
+421
+00:14:46.200 --> 00:14:48.480
+the emotion centers are throwing a party.
+
+422
+00:14:48.480 --> 00:14:51.360
+Yes, the limbic and paralimbic structures,
+
+423
+00:14:51.360 --> 00:14:52.980
+specifically the amygdala,
+
+424
+00:14:52.980 --> 00:14:55.060
+which is your threat detection alarm,
+
+425
+00:14:55.060 --> 00:14:57.280
+the anterior cingulate cortex,
+
+426
+00:14:57.280 --> 00:14:59.760
+and the insula, they're all highly active.
+
+427
+00:14:59.760 --> 00:15:01.280
+Because these emotional centers
+
+428
+00:15:01.280 --> 00:15:03.200
+are firing on all cylinders,
+
+429
+00:15:03.200 --> 00:15:04.520
+without any supervision
+
+430
+00:15:04.520 --> 00:15:06.980
+from the logical prefrontal cortex,
+
+431
+00:15:06.980 --> 00:15:08.360
+dreams are often characterized
+
+432
+00:15:08.360 --> 00:15:11.080
+by extreme hyper-emotionality.
+
+433
+00:15:11.080 --> 00:15:14.100
+You feel intense fear, joy, or anxiety.
+
+434
+00:15:14.100 --> 00:15:15.220
+Wait, let me jump in here,
+
+435
+00:15:15.220 --> 00:15:17.320
+because this raises a huge contradiction.
+
+436
+00:15:17.320 --> 00:15:18.620
+If the prefrontal cortex,
+
+437
+00:15:18.620 --> 00:15:20.420
+the logic and reality checking center
+
+438
+00:15:20.420 --> 00:15:22.400
+is mostly offline during dreams,
+
+439
+00:15:22.400 --> 00:15:24.040
+how do we explain lucid dreaming?
+
+440
+00:15:24.040 --> 00:15:26.300
+I mean, I've had dreams where I suddenly realized,
+
+441
+00:15:26.300 --> 00:15:28.920
+oh, I'm asleep, and I decided to start flying around.
+
+442
+00:15:28.920 --> 00:15:31.400
+My logic center has to be awake for me
+
+443
+00:15:31.400 --> 00:15:32.880
+to realize I'm in simulation, right?
+
+444
+00:15:32.880 --> 00:15:33.800
+That is a brilliant catch.
+
+445
+00:15:33.800 --> 00:15:36.160
+And the notes actually address this specific paradox.
+
+446
+00:15:36.160 --> 00:15:37.000
+Yeah.
+
+447
+00:15:37.000 --> 00:15:38.760
+Lucid dreaming is a highly unique,
+
+448
+00:15:38.760 --> 00:15:40.520
+hybrid state of consciousness.
+
+449
+00:15:40.520 --> 00:15:41.960
+What's happening in the brain then?
+
+450
+00:15:41.960 --> 00:15:44.540
+Neural imaging shows that during a lucid dream,
+
+451
+00:15:44.540 --> 00:15:46.560
+there is increased functional connectivity
+
+452
+00:15:46.560 --> 00:15:48.960
+between the anterior prefrontal cortex,
+
+453
+00:15:48.960 --> 00:15:52.600
+the APFC, and the temporal parietal association areas,
+
+454
+00:15:52.600 --> 00:15:54.600
+which helps situate you in space.
+
+455
+00:15:54.620 --> 00:15:58.660
+Wow, so a specific part of the reality checking network
+
+456
+00:15:58.660 --> 00:16:02.100
+somehow manages to boot up and synchronize?
+
+457
+00:16:02.100 --> 00:16:04.460
+Yes, it grants the dreamer
+
+458
+00:16:04.460 --> 00:16:06.940
+waking level self-awareness and control
+
+459
+00:16:06.940 --> 00:16:07.860
+while the rest of the brain
+
+460
+00:16:07.860 --> 00:16:10.600
+remains fully immersed in the REM sleep state.
+
+461
+00:16:10.600 --> 00:16:12.300
+It's basically hacking the hardware.
+
+462
+00:16:12.300 --> 00:16:13.140
+Totally.
+
+463
+00:16:13.140 --> 00:16:15.580
+And while we are on the topic of internal visualization,
+
+464
+00:16:15.580 --> 00:16:18.860
+the slides briefly touch on a condition called aphantasia.
+
+465
+00:16:18.860 --> 00:16:20.560
+This is a fascinating disorder
+
+466
+00:16:20.560 --> 00:16:23.520
+where people completely lack the mind's eye.
+
+467
+00:16:23.540 --> 00:16:25.380
+If I ask them to picture that red apple
+
+468
+00:16:25.380 --> 00:16:27.000
+from the beginning of the deep dive,
+
+469
+00:16:27.000 --> 00:16:28.700
+they see nothing but black.
+
+470
+00:16:28.700 --> 00:16:30.580
+There is no visual imagery at all.
+
+471
+00:16:30.580 --> 00:16:32.900
+And what's crucial to understand about aphantasia
+
+472
+00:16:32.900 --> 00:16:35.260
+is how the lack of visual processing
+
+473
+00:16:35.260 --> 00:16:37.980
+ripples out into other cognitive systems.
+
+474
+00:16:37.980 --> 00:16:40.740
+It isn't just about not being able to imagine an apple.
+
+475
+00:16:40.740 --> 00:16:41.900
+Right, the notes point out
+
+476
+00:16:41.900 --> 00:16:43.660
+that many individuals with aphantasia
+
+477
+00:16:43.660 --> 00:16:45.780
+report a significantly reduced ability
+
+478
+00:16:45.780 --> 00:16:48.380
+to recall past autobiographical events,
+
+479
+00:16:48.380 --> 00:16:50.940
+a reduced ability to imagine future scenarios,
+
+480
+00:16:50.940 --> 00:16:52.420
+and fewer visual dreams.
+
+481
+00:16:52.440 --> 00:16:54.520
+Because if you can't generate an image,
+
+482
+00:16:54.520 --> 00:16:56.800
+you can't mentally time travel.
+
+483
+00:16:56.800 --> 00:16:59.200
+It highlights how heavily our conscious architecture
+
+484
+00:16:59.200 --> 00:17:01.360
+relies on visual simulation
+
+485
+00:17:01.360 --> 00:17:03.880
+to construct our memories and our plans.
+
+486
+00:17:03.880 --> 00:17:05.440
+Section pause.
+
+487
+00:17:05.440 --> 00:17:07.640
+So is biological hardware
+
+488
+00:17:07.640 --> 00:17:10.260
+with all its quirks and parallel processing
+
+489
+00:17:10.260 --> 00:17:12.840
+can create this rich internal world
+
+490
+00:17:12.840 --> 00:17:15.520
+what happens when we try to replicate it with silicon?
+
+491
+00:17:15.520 --> 00:17:17.240
+Ah, yeah.
+
+492
+00:17:17.240 --> 00:17:19.320
+We have to talk about artificial intelligence
+
+493
+00:17:19.320 --> 00:17:22.580
+with current chatbots seeming so incredibly advanced.
+
+494
+00:17:22.580 --> 00:17:25.260
+I mean, they can write poetry, debate philosophy,
+
+495
+00:17:25.260 --> 00:17:27.140
+and pass the bar exam.
+
+496
+00:17:27.140 --> 00:17:28.100
+Are they conscious?
+
+497
+00:17:28.100 --> 00:17:29.980
+If we connect this to the bigger picture
+
+498
+00:17:29.980 --> 00:17:32.380
+to answer that using the science from these slides,
+
+499
+00:17:32.380 --> 00:17:34.420
+we have to draw a hard unforgiving line
+
+500
+00:17:34.420 --> 00:17:36.580
+between performance and conscious experience.
+
+501
+00:17:36.580 --> 00:17:38.100
+Okay, performance versus experience.
+
+502
+00:17:38.100 --> 00:17:40.320
+Exactly, intelligence is not the same as consciousness.
+
+503
+00:17:40.320 --> 00:17:42.540
+Performance asks, can the system use language,
+
+504
+00:17:42.540 --> 00:17:44.980
+solve complex tasks, or predict outcomes?
+
+505
+00:17:44.980 --> 00:17:46.260
+Conscious experience asks,
+
+506
+00:17:46.260 --> 00:17:48.860
+is there something it is like to be the system?
+
+507
+00:17:48.880 --> 00:17:50.240
+Does it feel anything?
+
+508
+00:17:50.240 --> 00:17:52.920
+A good way to look at a current AI chatbot
+
+509
+00:17:52.920 --> 00:17:56.440
+is to view it as a highly sophisticated digital parrot.
+
+510
+00:17:56.440 --> 00:17:59.480
+It clearly has massive, large-scale
+
+511
+00:17:59.480 --> 00:18:01.480
+language prediction capabilities,
+
+512
+00:18:01.480 --> 00:18:05.720
+it recognizes patterns, and has extreme social fluency.
+
+513
+00:18:05.720 --> 00:18:08.880
+But it completely lacks independent biological arousal.
+
+514
+00:18:08.880 --> 00:18:12.400
+It has no homeostatic drives, it doesn't get hungry,
+
+515
+00:18:12.400 --> 00:18:15.080
+it doesn't need to sleep to clear out metabolic waste,
+
+516
+00:18:15.080 --> 00:18:16.560
+and it doesn't feel pain.
+
+517
+00:18:16.560 --> 00:18:17.920
+And because of that,
+
+518
+00:18:17.920 --> 00:18:20.300
+it has no grounded sensor motor experience
+
+519
+00:18:20.300 --> 00:18:21.420
+in the physical world.
+
+520
+00:18:21.420 --> 00:18:24.220
+The scientific stance outlined in the notes is firm.
+
+521
+00:18:24.220 --> 00:18:26.180
+You cannot claim an AI as conscious
+
+522
+00:18:26.180 --> 00:18:28.100
+based on its text behavior alone.
+
+523
+00:18:28.100 --> 00:18:30.240
+Simulating talk about an experience
+
+524
+00:18:30.240 --> 00:18:32.660
+is not the same as having the experience.
+
+525
+00:18:32.660 --> 00:18:35.140
+The notes suggest a neuroscience-style approach
+
+526
+00:18:35.140 --> 00:18:36.620
+to evaluating AI.
+
+527
+00:18:36.620 --> 00:18:38.980
+Basically, a checklist of biological mechanisms
+
+528
+00:18:38.980 --> 00:18:40.100
+that a system would need
+
+529
+00:18:40.100 --> 00:18:41.700
+before we could even entertain the idea
+
+530
+00:18:41.700 --> 00:18:42.700
+that it might be conscious.
+
+531
+00:18:42.700 --> 00:18:44.820
+Right, there are three main criteria.
+
+532
+00:18:44.820 --> 00:18:46.600
+First, recurrent processing.
+
+533
+00:18:46.620 --> 00:18:49.620
+Current AI mostly relies on feed-forward data processing.
+
+534
+00:18:49.620 --> 00:18:51.300
+Data goes in, an answer comes out.
+
+535
+00:18:51.300 --> 00:18:54.400
+A conscious brain relies on massive feedback loops
+
+536
+00:18:54.400 --> 00:18:56.860
+that constantly update its internal representations
+
+537
+00:18:56.860 --> 00:18:57.700
+in real time.
+
+538
+00:18:57.700 --> 00:18:58.740
+Okay, what's the second one?
+
+539
+00:18:58.740 --> 00:19:01.280
+Second, it needs a global workspace.
+
+540
+00:19:01.280 --> 00:19:03.300
+Like the thalmo-cortical loops we talked about.
+
+541
+00:19:03.300 --> 00:19:06.260
+Exactly, a system that broadcasts information
+
+542
+00:19:06.260 --> 00:19:08.020
+across its entire architecture
+
+543
+00:19:08.020 --> 00:19:10.980
+for flexible, top-down control.
+
+544
+00:19:10.980 --> 00:19:13.300
+Third, and perhaps most importantly,
+
+545
+00:19:13.300 --> 00:19:15.700
+it needs embodied agency.
+
+546
+00:19:15.700 --> 00:19:18.040
+Meaning, it needs a body.
+
+547
+00:19:18.040 --> 00:19:20.720
+But why is that a requirement for consciousness?
+
+548
+00:19:20.720 --> 00:19:22.520
+Because without a physical form
+
+549
+00:19:22.520 --> 00:19:24.080
+interacting with an environment,
+
+550
+00:19:24.080 --> 00:19:27.000
+taking actions that actively change its sensory inputs,
+
+551
+00:19:27.000 --> 00:19:28.760
+a system has no stakes.
+
+552
+00:19:28.760 --> 00:19:29.900
+If it can't be damaged,
+
+553
+00:19:29.900 --> 00:19:32.380
+if it doesn't need to seek out energy to survive,
+
+554
+00:19:32.380 --> 00:19:34.000
+then nothing actually matters to it.
+
+555
+00:19:34.000 --> 00:19:35.520
+Because emotions and consciousness
+
+556
+00:19:35.520 --> 00:19:38.660
+evolve in biological creatures to ensure survival.
+
+557
+00:19:38.660 --> 00:19:41.160
+Right, until an AI integrates perception,
+
+558
+00:19:41.160 --> 00:19:43.680
+action, memory, and physical stakes,
+
+559
+00:19:43.680 --> 00:19:47.340
+current systems are just highly convincing text calculators.
+
+560
+00:19:47.340 --> 00:19:48.180
+Section pause.
+
+561
+00:19:48.180 --> 00:19:50.380
+We have covered incredible ground today.
+
+562
+00:19:50.380 --> 00:19:51.860
+We started with the red apple
+
+563
+00:19:51.860 --> 00:19:54.960
+and navigated the dual processing of our two-track mind,
+
+564
+00:19:54.960 --> 00:19:57.060
+the backstage crew, and the lead actor.
+
+565
+00:19:57.060 --> 00:19:58.980
+We tested the incredibly narrow limits
+
+566
+00:19:58.980 --> 00:20:00.500
+of our attention flashlight
+
+567
+00:20:00.500 --> 00:20:02.460
+and mapped the brain's physical hardware
+
+568
+00:20:02.460 --> 00:20:04.340
+from the wakefulness of the brainstem
+
+569
+00:20:04.340 --> 00:20:06.060
+to the integration of the cortex.
+
+570
+00:20:06.060 --> 00:20:08.460
+We explored the quiet, creative power
+
+571
+00:20:08.460 --> 00:20:10.500
+of the default mode network,
+
+572
+00:20:10.520 --> 00:20:14.120
+the uninhibited hyper-emotional theater of REM sleep,
+
+573
+00:20:14.120 --> 00:20:16.320
+and defined the stark boundaries
+
+574
+00:20:16.320 --> 00:20:20.400
+between biological awareness and AI pattern recognition.
+
+575
+00:20:20.400 --> 00:20:22.800
+And yet, despite mapping all these mechanisms,
+
+576
+00:20:22.800 --> 00:20:26.280
+measuring brainwaves and plotting states versus contents,
+
+577
+00:20:26.280 --> 00:20:28.080
+we have to acknowledge what philosophers
+
+578
+00:20:28.080 --> 00:20:29.960
+call the hard problem.
+
+579
+00:20:29.960 --> 00:20:32.320
+The hard problem remains entirely unsolved.
+
+580
+00:20:32.320 --> 00:20:33.400
+Yes.
+
+581
+00:20:33.400 --> 00:20:36.260
+Neuroscience can show us which brain areas light up
+
+582
+00:20:36.260 --> 00:20:37.960
+when you feel love or pain,
+
+583
+00:20:37.960 --> 00:20:39.800
+but subjective experience itself
+
+584
+00:20:39.800 --> 00:20:42.120
+cannot be seen under a microscope.
+
+585
+00:20:42.120 --> 00:20:44.180
+There is no single consciousness meter
+
+586
+00:20:44.180 --> 00:20:46.980
+that explains the leap from physical neurons firing
+
+587
+00:20:46.980 --> 00:20:49.260
+to the magical feeling of being alive.
+
+588
+00:20:49.260 --> 00:20:51.180
+It is the ultimate mystery of the universe
+
+589
+00:20:51.180 --> 00:20:53.220
+sitting right inside our own skulls.
+
+590
+00:20:53.220 --> 00:20:54.780
+And to leave you with a final thought
+
+591
+00:20:54.780 --> 00:20:56.260
+to mull over the sources state
+
+592
+00:20:56.260 --> 00:20:59.180
+that consciousness allows us to assemble information
+
+593
+00:20:59.180 --> 00:21:01.940
+to reflect on our past and plan for our future.
+
+594
+00:21:01.940 --> 00:21:04.620
+But it relies entirely on real-time synchronized
+
+595
+00:21:04.620 --> 00:21:06.720
+neural activity and physical feedback loops
+
+596
+00:21:06.720 --> 00:21:07.700
+happening right now.
+
+597
+00:21:07.700 --> 00:21:10.740
+Which introduces a profound philosophical problem
+
+598
+00:21:10.740 --> 00:21:12.840
+about the nature of time and identity.
+
+599
+00:21:12.840 --> 00:21:14.000
+Right.
+
+600
+00:21:14.000 --> 00:21:15.680
+Every single cell in your body,
+
+601
+00:21:15.680 --> 00:21:18.340
+including the billions of neurons in your brain,
+
+602
+00:21:18.340 --> 00:21:20.760
+is constantly turning over, metabolizing,
+
+603
+00:21:20.760 --> 00:21:22.840
+changing, and rewiring.
+
+604
+00:21:22.840 --> 00:21:25.700
+The physical network of neurons firing in your head today
+
+605
+00:21:25.700 --> 00:21:28.120
+is fundamentally made of different matter
+
+606
+00:21:28.120 --> 00:21:30.080
+than the network that originally processed a memory
+
+607
+00:21:30.080 --> 00:21:31.480
+from when you were 10 years old.
+
+608
+00:21:31.480 --> 00:21:33.240
+It's the ship of Theseus problem
+
+609
+00:21:33.240 --> 00:21:34.560
+applied to the human brain.
+
+610
+00:21:34.560 --> 00:21:35.600
+Exactly.
+
+611
+00:21:35.600 --> 00:21:38.580
+So, if consciousness is just the synchronized
+
+612
+00:21:38.580 --> 00:21:41.740
+real-time electrical activity of your current hardware,
+
+613
+00:21:41.740 --> 00:21:43.860
+what happens to the continuity of the you
+
+614
+00:21:43.860 --> 00:21:45.900
+who experience that childhood memory?
+
+615
+00:21:45.900 --> 00:21:47.820
+If the physical machinery generating your mind
+
+616
+00:21:47.820 --> 00:21:49.540
+is constantly being rebuilt from scratch
+
+617
+00:21:49.540 --> 00:21:51.600
+day after day, year after year,
+
+618
+00:21:51.600 --> 00:21:54.100
+where does the self live between the updates?

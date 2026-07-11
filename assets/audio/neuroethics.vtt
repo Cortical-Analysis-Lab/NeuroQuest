@@ -1,0 +1,1813 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.640
+So we generally think of our thoughts, you know, our inner monologue as this ultimate private sanctuary.
+
+2
+00:00:06.640 --> 00:00:08.880
+Yeah. Like a totally impenetrable vault.
+
+3
+00:00:08.880 --> 00:00:13.440
+Right, exactly. It's the one place that has historically been, well, entirely yours.
+
+4
+00:00:13.440 --> 00:00:16.800
+Yeah, you can be sitting in a crowded room just nodding along to a conversation,
+
+5
+00:00:17.440 --> 00:00:22.480
+but inside your head you're a million miles away and absolutely no one can prove otherwise.
+
+6
+00:00:22.480 --> 00:00:26.720
+Completely inaccessible, unless of course you give explicit permission to share what you're thinking.
+
+7
+00:00:27.600 --> 00:00:32.160
+But today, in this deep dive, we're looking at a stack of research that suggests
+
+8
+00:00:32.160 --> 00:00:35.360
+that vault door is, well, it's starting to crack open.
+
+9
+00:00:35.360 --> 00:00:36.080
+It really is.
+
+10
+00:00:36.080 --> 00:00:40.240
+We're exploring how those private biological signals inside your brain are becoming data
+
+11
+00:00:40.880 --> 00:00:45.280
+and then how that data becomes legal evidence shapes public policy and,
+
+12
+00:00:45.280 --> 00:00:47.680
+I mean, ultimately becomes a tool of power.
+
+13
+00:00:47.680 --> 00:00:52.000
+It's a profound shift. We are watching neuroscience basically escape the sterile
+
+14
+00:00:52.000 --> 00:00:54.880
+laboratory and just enter the chaotic real world.
+
+15
+00:00:54.880 --> 00:00:55.280
+Right.
+
+16
+00:00:55.440 --> 00:00:59.920
+If you look at slides one and two, there are two distinct fields trying to make sense of this.
+
+17
+00:00:59.920 --> 00:01:06.400
+First, you have neuroethics, which grapples with the practical questions of your autonomy and safety
+
+18
+00:01:07.440 --> 00:01:10.720
+when consumer devices start harvesting your brain data.
+
+19
+00:01:10.720 --> 00:01:12.000
+Like your smartwatches and stuff.
+
+20
+00:01:12.000 --> 00:01:15.440
+Exactly. And second, there's neuroforensics,
+
+21
+00:01:15.440 --> 00:01:19.840
+which looks at what happens when this brain science actually enters the legal system.
+
+22
+00:01:19.840 --> 00:01:23.920
+And while those might sound like two totally different academic textbooks,
+
+23
+00:01:23.920 --> 00:01:27.680
+the real takeaway for you listening today isn't about just memorizing definitions.
+
+24
+00:01:27.680 --> 00:01:29.440
+It's about what happens in the overlap.
+
+25
+00:01:29.440 --> 00:01:31.280
+That overlap is crucial.
+
+26
+00:01:31.280 --> 00:01:36.640
+Because brain data becomes socially powerful the exact second it moves out of a specialized lab
+
+27
+00:01:36.640 --> 00:01:40.560
+and suddenly shows up in, you know, a primary care clinic or a courtroom
+
+28
+00:01:40.560 --> 00:01:43.200
+or the smart glasses you're wearing on your commute.
+
+29
+00:01:43.200 --> 00:01:47.040
+That migration is the core issue here because understanding the shift
+
+30
+00:01:47.040 --> 00:01:51.280
+fundamentally changes how we measure and really how we judge human behavior.
+
+31
+00:01:51.920 --> 00:01:53.040
+Section pause.
+
+32
+00:01:53.040 --> 00:01:54.880
+So let's get into the why now factor.
+
+33
+00:01:54.880 --> 00:01:57.520
+Like why is this suddenly such a pressing issue?
+
+34
+00:01:57.520 --> 00:02:00.880
+It really comes down to the explosion of neurotechnology.
+
+35
+00:02:00.880 --> 00:02:05.360
+We are seeing nervous system data being collected not by doctors in white coats,
+
+36
+00:02:05.360 --> 00:02:07.760
+but by everyday consumer tools.
+
+37
+00:02:07.760 --> 00:02:12.160
+We're talking about, you know, smartwatches tracking your heart rate variability
+
+38
+00:02:12.160 --> 00:02:13.840
+to guess your stress levels.
+
+39
+00:02:13.840 --> 00:02:16.640
+Or sleep headbands monitoring your brainwaves.
+
+40
+00:02:17.280 --> 00:02:21.840
+Even virtual reality headsets that use eye tracking to see exactly what holds your attention.
+
+41
+00:02:21.840 --> 00:02:22.640
+Which is wild.
+
+42
+00:02:22.960 --> 00:02:25.680
+But I do want to push back a little and ground this.
+
+43
+00:02:25.680 --> 00:02:28.560
+Because are we actually reading minds yet?
+
+44
+00:02:29.360 --> 00:02:30.480
+Or is that just sci-fi?
+
+45
+00:02:30.480 --> 00:02:32.240
+No, no, it's not telepathy.
+
+46
+00:02:32.240 --> 00:02:36.560
+Because the way I understand it, having an AI analyze your neural signals
+
+47
+00:02:36.560 --> 00:02:38.800
+is a lot like having a smart thermostat in your house.
+
+48
+00:02:38.800 --> 00:02:40.000
+Okay, I like that analogy.
+
+49
+00:02:40.000 --> 00:02:43.600
+The thermostat isn't actually no cold for guys, right?
+
+50
+00:02:43.600 --> 00:02:44.720
+It doesn't have empathy.
+
+51
+00:02:44.720 --> 00:02:46.080
+It just recognizes a pattern.
+
+52
+00:02:46.720 --> 00:02:49.360
+Like the ambient temperature dropped below 68 degrees.
+
+53
+00:02:49.360 --> 00:02:51.280
+So a sensor triggers the heat.
+
+54
+00:02:51.280 --> 00:02:53.600
+That hits the exact mechanism at play here.
+
+55
+00:02:53.600 --> 00:02:58.000
+No one is, you know, pulling a vivid image of your childhood out of your cortex.
+
+56
+00:02:58.000 --> 00:02:58.400
+Right.
+
+57
+00:02:58.400 --> 00:03:01.440
+The real danger is that AI is now incredibly capable
+
+58
+00:03:01.440 --> 00:03:04.480
+of taking extremely weak biological signals
+
+59
+00:03:04.480 --> 00:03:06.640
+and combining them with your past behavior,
+
+60
+00:03:06.640 --> 00:03:08.960
+your other biometrics, and your environment.
+
+61
+00:03:08.960 --> 00:03:11.040
+To create these really powerful inferences.
+
+62
+00:03:11.040 --> 00:03:11.440
+Yes.
+
+63
+00:03:11.440 --> 00:03:12.960
+So the ethical question becomes,
+
+64
+00:03:13.680 --> 00:03:15.920
+what decisions will this measurement support?
+
+65
+00:03:16.480 --> 00:03:19.360
+And who bears the risk if the AI is wrong?
+
+66
+00:03:19.360 --> 00:03:21.200
+Okay, so if we look at slide five,
+
+67
+00:03:21.920 --> 00:03:24.800
+it breaks down what actually counts as neural data.
+
+68
+00:03:24.800 --> 00:03:26.400
+Because to get to that educated guess,
+
+69
+00:03:26.400 --> 00:03:28.400
+you have to start with raw biology, right?
+
+70
+00:03:28.400 --> 00:03:28.800
+Exactly.
+
+71
+00:03:28.800 --> 00:03:30.640
+You start with the raw physical measurements.
+
+72
+00:03:30.640 --> 00:03:32.080
+Things like EEG spikes,
+
+73
+00:03:32.080 --> 00:03:33.920
+where they put those electrodes on your scalp
+
+74
+00:03:33.920 --> 00:03:36.320
+to pick up the electrical chatter of your neurons firing.
+
+75
+00:03:37.040 --> 00:03:38.880
+Or local field potentials,
+
+76
+00:03:38.880 --> 00:03:44.160
+which is basically listening in on a very specific neighborhood of neurons.
+
+77
+00:03:44.160 --> 00:03:44.400
+Right.
+
+78
+00:03:44.400 --> 00:03:47.920
+At that stage, it is literally just biological plumbing and electricity.
+
+79
+00:03:47.920 --> 00:03:51.120
+But then algorithms process those raw signals
+
+80
+00:03:51.120 --> 00:03:52.800
+into recognizable features.
+
+81
+00:03:52.800 --> 00:03:54.000
+They sort through all the static
+
+82
+00:03:54.000 --> 00:03:56.000
+and find a specific rhythm in your brainwaves.
+
+83
+00:03:56.000 --> 00:03:57.360
+And that's where the jump happens.
+
+84
+00:03:58.000 --> 00:03:59.840
+Finally, that feature is translated
+
+85
+00:03:59.840 --> 00:04:02.000
+into a decoded state or an inference.
+
+86
+00:04:02.000 --> 00:04:03.760
+So the system goes from saying,
+
+87
+00:04:03.760 --> 00:04:06.480
+this area of the cortex has more blood flow
+
+88
+00:04:06.480 --> 00:04:08.880
+to declaring this person is experiencing
+
+89
+00:04:08.880 --> 00:04:10.400
+a severe craving or something.
+
+90
+00:04:10.400 --> 00:04:12.480
+And the risk skyrockets the moment you move
+
+91
+00:04:12.480 --> 00:04:15.840
+from that raw physical signal to the final inference.
+
+92
+00:04:16.560 --> 00:04:20.160
+Because an inference is fundamentally an interpretation.
+
+93
+00:04:20.160 --> 00:04:23.120
+It's a machine translating a biological reflex
+
+94
+00:04:23.120 --> 00:04:24.720
+into a psychological state.
+
+95
+00:04:24.720 --> 00:04:25.280
+Exactly.
+
+96
+00:04:25.280 --> 00:04:27.440
+And those interpretations can be deeply flawed.
+
+97
+00:04:27.440 --> 00:04:29.520
+They can be biased by the training data
+
+98
+00:04:29.520 --> 00:04:32.720
+or just completely inaccurate for the context you're in.
+
+99
+00:04:32.720 --> 00:04:36.480
+It's terrifying when you realize that interpretation could be sold.
+
+100
+00:04:37.040 --> 00:04:40.640
+But it is fascinating to see how lawmakers are finally reacting to this.
+
+101
+00:04:40.640 --> 00:04:41.360
+Oh, absolutely.
+
+102
+00:04:41.360 --> 00:04:43.440
+The regulation is just starting to catch up.
+
+103
+00:04:43.520 --> 00:04:47.440
+Yeah, the sources highlight this massive milestone from 2024,
+
+104
+00:04:47.440 --> 00:04:50.640
+where Colorado actually became the first U.S. state
+
+105
+00:04:50.640 --> 00:04:53.520
+to add neural data to its privacy protection frameworks.
+
+106
+00:04:53.520 --> 00:04:55.360
+Which is a monumental precedent.
+
+107
+00:04:55.360 --> 00:04:56.960
+Lawmakers are finally recognizing
+
+108
+00:04:56.960 --> 00:04:59.120
+that the electrical impulses from your nervous system
+
+109
+00:04:59.120 --> 00:05:01.360
+need the same, if not stricter protections,
+
+110
+00:05:01.360 --> 00:05:02.880
+than your financial records.
+
+111
+00:05:02.880 --> 00:05:04.160
+Which makes total sense.
+
+112
+00:05:04.160 --> 00:05:04.880
+Section pause.
+
+113
+00:05:05.920 --> 00:05:08.320
+But regulating an app on your phone is one thing.
+
+114
+00:05:08.320 --> 00:05:11.200
+What happens when we drag this technology into a courtroom?
+
+115
+00:05:11.200 --> 00:05:13.360
+That's where it gets really complicated.
+
+116
+00:05:13.360 --> 00:05:14.560
+Because the legal system,
+
+117
+00:05:14.560 --> 00:05:16.640
+it doesn't deal in abstract lab theories.
+
+118
+00:05:16.640 --> 00:05:17.920
+It needs practical answers.
+
+119
+00:05:18.800 --> 00:05:21.280
+Juries want to know about confidence.
+
+120
+00:05:21.280 --> 00:05:24.480
+Like, is this defendant fit to stand trial?
+
+121
+00:05:25.040 --> 00:05:26.160
+Or intent?
+
+122
+00:05:26.160 --> 00:05:27.680
+Right. Or in a civil case,
+
+123
+00:05:27.680 --> 00:05:30.560
+is someone's claim of chronic pain objectively real?
+
+124
+00:05:30.560 --> 00:05:31.920
+Or are they faking it?
+
+125
+00:05:31.920 --> 00:05:33.440
+They want definitive proof.
+
+126
+00:05:33.440 --> 00:05:36.320
+Not just impressive, colorful brain images.
+
+127
+00:05:36.320 --> 00:05:37.520
+And that's the friction.
+
+128
+00:05:37.520 --> 00:05:39.200
+The law wants black and white.
+
+129
+00:05:39.200 --> 00:05:41.280
+But neuroscience is all probabilities.
+
+130
+00:05:41.840 --> 00:05:43.040
+So to bridge that gap,
+
+131
+00:05:43.040 --> 00:05:46.080
+we have this concept on slide 8 called the evidence ladder.
+
+132
+00:05:46.080 --> 00:05:47.920
+The evidence ladder is essentially
+
+133
+00:05:47.920 --> 00:05:50.240
+this rigorous staircase you have to climb
+
+134
+00:05:50.240 --> 00:05:51.840
+to prove that scientific evidence
+
+135
+00:05:51.840 --> 00:05:53.440
+is reliable enough for a jury.
+
+136
+00:05:53.440 --> 00:05:55.280
+So visually describing this slide,
+
+137
+00:05:55.280 --> 00:05:56.160
+at the bottom of the ladder,
+
+138
+00:05:56.160 --> 00:05:58.080
+you have interesting lab science.
+
+139
+00:05:58.720 --> 00:06:00.400
+You know, a cool correlation
+
+140
+00:06:00.400 --> 00:06:02.080
+in a highly controlled environment.
+
+141
+00:06:02.080 --> 00:06:04.000
+Right. Then you step up to clinical use.
+
+142
+00:06:04.000 --> 00:06:06.640
+Meaning other scientists can replicate the experiment.
+
+143
+00:06:06.640 --> 00:06:07.680
+But the next step up
+
+144
+00:06:07.680 --> 00:06:10.880
+is where it gets tough individual-level validation.
+
+145
+00:06:10.880 --> 00:06:13.840
+That step is the graveyard for so many studies.
+
+146
+00:06:13.840 --> 00:06:16.160
+It's easy to say a brainwave pattern
+
+147
+00:06:16.160 --> 00:06:18.640
+happens in a group of 50 healthy college students.
+
+148
+00:06:18.640 --> 00:06:19.440
+Sure.
+
+149
+00:06:19.440 --> 00:06:21.280
+It is incredibly difficult to prove
+
+150
+00:06:21.280 --> 00:06:23.520
+that exact same pattern applies to,
+
+151
+00:06:24.240 --> 00:06:27.440
+say, a 45-year-old defendant with head trauma.
+
+152
+00:06:27.440 --> 00:06:30.720
+You need the error rate for that specific individual.
+
+153
+00:06:30.720 --> 00:06:32.640
+And if you somehow survive that step,
+
+154
+00:06:32.640 --> 00:06:36.320
+the very top of the ladder is legal standard fit.
+
+155
+00:06:36.320 --> 00:06:39.040
+Meaning, does the science actually answer
+
+156
+00:06:39.040 --> 00:06:40.960
+the specific legal question?
+
+157
+00:06:40.960 --> 00:06:41.280
+Yes.
+
+158
+00:06:41.280 --> 00:06:42.160
+Which sets up a question
+
+159
+00:06:42.160 --> 00:06:43.600
+I really want to push back on.
+
+160
+00:06:43.600 --> 00:06:45.120
+Let's say someone commits a crime
+
+161
+00:06:45.120 --> 00:06:46.960
+and their attorney produces an MRI
+
+162
+00:06:46.960 --> 00:06:49.280
+showing a massive structural abnormality,
+
+163
+00:06:49.280 --> 00:06:51.120
+like a giant tumor on their front lobe.
+
+164
+00:06:51.120 --> 00:06:51.840
+Okay.
+
+165
+00:06:51.840 --> 00:06:54.080
+Doesn't that visible physical brokenness
+
+166
+00:06:54.080 --> 00:06:56.080
+automatically prove they lacked intent?
+
+167
+00:06:56.080 --> 00:06:57.280
+I am so glad you brought this up
+
+168
+00:06:57.280 --> 00:06:59.280
+because it is arguably the most common
+
+169
+00:06:59.280 --> 00:07:01.040
+misconception in neuroforensics.
+
+170
+00:07:01.040 --> 00:07:02.960
+The short answer is absolutely not.
+
+171
+00:07:02.960 --> 00:07:03.520
+Wait, really?
+
+172
+00:07:03.520 --> 00:07:04.800
+Even if there is a massive tumor
+
+173
+00:07:04.800 --> 00:07:06.640
+right where their decision-making happens?
+
+174
+00:07:06.640 --> 00:07:07.200
+Even then.
+
+175
+00:07:07.840 --> 00:07:10.240
+A structural abnormality can support
+
+176
+00:07:10.240 --> 00:07:12.480
+a claim like it can corroborate
+
+177
+00:07:12.480 --> 00:07:14.080
+a history of erratic behavior,
+
+178
+00:07:14.800 --> 00:07:17.040
+but it cannot automatically prove intent.
+
+179
+00:07:17.600 --> 00:07:19.040
+Because having a compromised brain
+
+180
+00:07:19.040 --> 00:07:20.000
+doesn't mean you didn't know
+
+181
+00:07:20.000 --> 00:07:20.960
+you were breaking the law
+
+182
+00:07:20.960 --> 00:07:22.160
+in that specific moment.
+
+183
+00:07:22.160 --> 00:07:23.120
+Precisely.
+
+184
+00:07:23.120 --> 00:07:24.240
+The question isn't,
+
+185
+00:07:24.240 --> 00:07:25.520
+is the scan real?
+
+186
+00:07:26.080 --> 00:07:28.480
+It's what legal inference
+
+187
+00:07:28.480 --> 00:07:31.280
+is actually justified by this image.
+
+188
+00:07:31.280 --> 00:07:32.480
+And the science just cannot
+
+189
+00:07:32.480 --> 00:07:34.000
+make that leap on its own.
+
+190
+00:07:34.000 --> 00:07:34.640
+Section, pause.
+
+191
+00:07:35.440 --> 00:07:36.800
+So the physical brain structure
+
+192
+00:07:36.800 --> 00:07:38.880
+isn't a get-out-of-jail-free card.
+
+193
+00:07:38.880 --> 00:07:40.400
+But what about when the legal system
+
+194
+00:07:40.400 --> 00:07:41.520
+tries to look at how the brain
+
+195
+00:07:41.520 --> 00:07:42.560
+is actively functioning,
+
+196
+00:07:43.280 --> 00:07:44.960
+especially with lie detection?
+
+197
+00:07:44.960 --> 00:07:47.040
+Ah, deception detection.
+
+198
+00:07:47.040 --> 00:07:48.480
+There is a massive gap here
+
+199
+00:07:48.480 --> 00:07:50.240
+between the science and the law.
+
+200
+00:07:50.240 --> 00:07:52.160
+The sources point out that lab studies
+
+201
+00:07:52.160 --> 00:07:54.320
+where you play simple yes or no games
+
+202
+00:07:54.320 --> 00:07:55.760
+or commit a mock crime,
+
+203
+00:07:55.760 --> 00:07:57.600
+they completely fail to replicate
+
+204
+00:07:57.600 --> 00:07:59.520
+real-world legal deception.
+
+205
+00:07:59.520 --> 00:08:00.720
+Because real-world lying
+
+206
+00:08:00.720 --> 00:08:02.720
+in a legal context is retrospective.
+
+207
+00:08:02.720 --> 00:08:04.000
+It's highly emotional.
+
+208
+00:08:04.000 --> 00:08:04.880
+It's strategic.
+
+209
+00:08:04.880 --> 00:08:06.000
+It's adversarial.
+
+210
+00:08:06.000 --> 00:08:06.400
+Right.
+
+211
+00:08:06.400 --> 00:08:08.240
+Group activation patterns in a lab
+
+212
+00:08:08.240 --> 00:08:09.760
+just don't guarantee valid
+
+213
+00:08:09.760 --> 00:08:11.440
+individual classification
+
+214
+00:08:11.440 --> 00:08:12.800
+for someone sitting in a courtroom
+
+215
+00:08:12.800 --> 00:08:13.760
+whose heart is pounding
+
+216
+00:08:13.760 --> 00:08:14.800
+out of their chest.
+
+217
+00:08:14.800 --> 00:08:15.760
+To see this visually,
+
+218
+00:08:15.760 --> 00:08:16.800
+if you look at the diagram
+
+219
+00:08:16.800 --> 00:08:18.000
+on slide 12,
+
+220
+00:08:18.000 --> 00:08:19.760
+it shows this split approach
+
+221
+00:08:19.760 --> 00:08:20.640
+to lie detection.
+
+222
+00:08:21.440 --> 00:08:22.080
+On the left,
+
+223
+00:08:22.080 --> 00:08:22.960
+you have traditional
+
+224
+00:08:22.960 --> 00:08:24.080
+physiological detection.
+
+225
+00:08:24.080 --> 00:08:25.600
+Yeah, plastic, polygraph.
+
+226
+00:08:25.600 --> 00:08:26.640
+Yeah, measuring blood pressure
+
+227
+00:08:26.640 --> 00:08:28.000
+with an arm cuff,
+
+228
+00:08:28.000 --> 00:08:29.200
+sweat from finger plates,
+
+229
+00:08:29.200 --> 00:08:30.960
+and breathing from chest tubes.
+
+230
+00:08:30.960 --> 00:08:32.080
+But on the right,
+
+231
+00:08:32.080 --> 00:08:34.160
+you have an fMRI brain scan
+
+232
+00:08:34.160 --> 00:08:35.520
+showing these glowing areas
+
+233
+00:08:35.520 --> 00:08:37.680
+of activation linked to lying.
+
+234
+00:08:37.680 --> 00:08:38.080
+But again,
+
+235
+00:08:38.080 --> 00:08:39.360
+it's measuring arousal
+
+236
+00:08:39.360 --> 00:08:40.400
+and cognitive load.
+
+237
+00:08:40.400 --> 00:08:42.240
+It's not actually measuring a lie.
+
+238
+00:08:42.240 --> 00:08:42.480
+Right.
+
+239
+00:08:42.480 --> 00:08:43.680
+And if we move to the visual
+
+240
+00:08:43.680 --> 00:08:44.640
+on slide 13,
+
+241
+00:08:44.640 --> 00:08:45.520
+you can see how this tech
+
+242
+00:08:45.520 --> 00:08:46.400
+is evolving.
+
+243
+00:08:46.400 --> 00:08:47.680
+Notice how the focus shifts
+
+244
+00:08:47.680 --> 00:08:49.200
+to everyday wearables.
+
+245
+00:08:49.200 --> 00:08:50.320
+There's an image
+
+246
+00:08:50.320 --> 00:08:53.040
+of Meta's Ray-Ban smart glasses.
+
+247
+00:08:53.040 --> 00:08:54.160
+Which raises the question.
+
+248
+00:08:54.720 --> 00:08:56.000
+Could AI glasses
+
+249
+00:08:56.000 --> 00:08:57.440
+analyze micro-expressions
+
+250
+00:08:57.440 --> 00:08:59.520
+to detect lies in real time?
+
+251
+00:08:59.520 --> 00:09:01.040
+It's wild to think about.
+
+252
+00:09:01.120 --> 00:09:02.320
+And then on slide 14,
+
+253
+00:09:02.320 --> 00:09:04.000
+we get an even closer look.
+
+254
+00:09:04.000 --> 00:09:05.200
+Visually, there's a graphic
+
+255
+00:09:05.200 --> 00:09:06.560
+of faces overlaid
+
+256
+00:09:06.560 --> 00:09:07.440
+with these colorful
+
+257
+00:09:07.440 --> 00:09:09.040
+geometric tracking nodes
+
+258
+00:09:09.040 --> 00:09:10.480
+mapping all the facial landmarks
+
+259
+00:09:10.480 --> 00:09:11.440
+to show how AI
+
+260
+00:09:11.440 --> 00:09:12.960
+interprets human expression.
+
+261
+00:09:12.960 --> 00:09:14.000
+It's turning tiny
+
+262
+00:09:14.000 --> 00:09:15.920
+muscle movements into data.
+
+263
+00:09:15.920 --> 00:09:16.800
+Exactly.
+
+264
+00:09:16.800 --> 00:09:18.240
+Let's actually take a quick pause
+
+265
+00:09:18.240 --> 00:09:19.200
+to see how this video
+
+266
+00:09:19.200 --> 00:09:20.320
+based lie detection
+
+267
+00:09:20.320 --> 00:09:21.120
+works in action.
+
+268
+00:09:21.920 --> 00:09:23.360
+Pause for media.
+
+269
+00:09:23.360 --> 00:09:24.720
+Video about video
+
+270
+00:09:24.720 --> 00:09:25.760
+based lie detection.
+
+271
+00:09:26.720 --> 00:09:28.320
+Okay, so following that video,
+
+272
+00:09:28.320 --> 00:09:29.120
+you could really see
+
+273
+00:09:29.120 --> 00:09:30.560
+how the AI algorithms
+
+274
+00:09:30.560 --> 00:09:32.000
+map those facial movements
+
+275
+00:09:32.000 --> 00:09:33.360
+in real time,
+
+276
+00:09:33.360 --> 00:09:35.120
+analyzing those micro-expressions
+
+277
+00:09:35.120 --> 00:09:36.400
+for potential deception.
+
+278
+00:09:36.400 --> 00:09:37.680
+It's incredibly fast
+
+279
+00:09:37.680 --> 00:09:39.040
+at mapping those expressions.
+
+280
+00:09:39.040 --> 00:09:40.080
+But we have to connect this
+
+281
+00:09:40.080 --> 00:09:41.520
+back to our core concept.
+
+282
+00:09:41.520 --> 00:09:43.200
+Right, because we still have to ask
+
+283
+00:09:43.200 --> 00:09:45.200
+if a twitch actually equates
+
+284
+00:09:45.200 --> 00:09:46.320
+to a guilty lie.
+
+285
+00:09:46.320 --> 00:09:47.360
+Exactly. Is it a lie?
+
+286
+00:09:47.360 --> 00:09:48.720
+Or is the person just
+
+287
+00:09:48.720 --> 00:09:50.240
+experiencing high stress arousal
+
+288
+00:09:50.240 --> 00:09:51.920
+because they are being interrogated?
+
+289
+00:09:51.920 --> 00:09:52.880
+Like if I'm being questioned
+
+290
+00:09:52.880 --> 00:09:53.680
+by the police,
+
+291
+00:09:53.680 --> 00:09:55.360
+my face is probably going to twitch
+
+292
+00:09:55.360 --> 00:09:56.560
+just out of peer anxiety.
+
+293
+00:09:56.560 --> 00:09:57.360
+Precisely.
+
+294
+00:09:57.360 --> 00:09:58.560
+Section pause.
+
+295
+00:09:58.560 --> 00:09:59.280
+So we've talked about
+
+296
+00:09:59.280 --> 00:10:00.480
+detecting lies in the moment.
+
+297
+00:10:00.960 --> 00:10:02.080
+Let's move to slide 15
+
+298
+00:10:02.080 --> 00:10:03.360
+and talk about detecting memories
+
+299
+00:10:04.080 --> 00:10:04.960
+because this feels
+
+300
+00:10:04.960 --> 00:10:06.000
+even more invasive.
+
+301
+00:10:06.000 --> 00:10:06.800
+Memory detection
+
+302
+00:10:06.800 --> 00:10:07.920
+is a fascinating area,
+
+303
+00:10:07.920 --> 00:10:09.040
+specifically the concealed
+
+304
+00:10:09.040 --> 00:10:10.080
+information test.
+
+305
+00:10:10.080 --> 00:10:11.520
+Right, so visually on slide 15,
+
+306
+00:10:11.520 --> 00:10:12.240
+there's an illustration
+
+307
+00:10:12.240 --> 00:10:14.320
+of an EEG recording setup
+
+308
+00:10:14.320 --> 00:10:15.840
+and it explains how these tests
+
+309
+00:10:15.840 --> 00:10:17.520
+look for a specific brain wave
+
+310
+00:10:17.520 --> 00:10:19.440
+called a P300 spike.
+
+311
+00:10:19.440 --> 00:10:21.120
+Yes, the P300
+
+312
+00:10:21.120 --> 00:10:22.560
+event-related potential.
+
+313
+00:10:23.200 --> 00:10:24.800
+Basically, your brain produces
+
+314
+00:10:24.800 --> 00:10:26.880
+this spike when it recognizes
+
+315
+00:10:26.880 --> 00:10:28.720
+rare, meaningful stimuli.
+
+316
+00:10:28.720 --> 00:10:30.320
+So like if they show a suspect
+
+317
+00:10:30.320 --> 00:10:31.920
+a picture of a murder weapon
+
+318
+00:10:31.920 --> 00:10:32.960
+and their brain spikes,
+
+319
+00:10:32.960 --> 00:10:34.320
+that means they recognize it.
+
+320
+00:10:34.320 --> 00:10:35.760
+Yes, but this is where I have to
+
+321
+00:10:35.760 --> 00:10:37.680
+offer some major pushback.
+
+322
+00:10:37.680 --> 00:10:38.960
+There is a massive
+
+323
+00:10:38.960 --> 00:10:40.400
+contamination risk here.
+
+324
+00:10:40.400 --> 00:10:42.480
+Because recognition isn't guilt.
+
+325
+00:10:42.480 --> 00:10:43.680
+Exactly.
+
+326
+00:10:43.680 --> 00:10:44.720
+The brain might spike
+
+327
+00:10:44.720 --> 00:10:45.600
+because the suspect
+
+328
+00:10:45.600 --> 00:10:47.440
+saw the weapon on the evening news
+
+329
+00:10:47.440 --> 00:10:48.560
+or maybe a detective
+
+330
+00:10:48.560 --> 00:10:49.840
+left a photo on the table
+
+331
+00:10:49.840 --> 00:10:51.520
+during a messy interrogation.
+
+332
+00:10:51.520 --> 00:10:52.240
+Oh wow.
+
+333
+00:10:52.240 --> 00:10:53.200
+Yeah, that makes sense.
+
+334
+00:10:53.200 --> 00:10:55.280
+Familiarity does not equal action
+
+335
+00:10:55.280 --> 00:10:56.160
+and it certainly doesn't
+
+336
+00:10:56.160 --> 00:10:57.760
+equal moral responsibility.
+
+337
+00:10:57.760 --> 00:10:59.440
+That's a huge distinction,
+
+338
+00:10:59.440 --> 00:11:01.680
+but as scary as mining the past is,
+
+339
+00:11:01.680 --> 00:11:03.360
+introducing predictive risk
+
+340
+00:11:03.360 --> 00:11:04.560
+might be the most dangerous
+
+341
+00:11:04.560 --> 00:11:05.760
+use case we look at today.
+
+342
+00:11:05.760 --> 00:11:06.640
+Without a doubt,
+
+343
+00:11:06.640 --> 00:11:08.080
+using brain-based data
+
+344
+00:11:08.080 --> 00:11:09.680
+to predict future behavior.
+
+345
+00:11:09.680 --> 00:11:10.480
+Like asking,
+
+346
+00:11:10.480 --> 00:11:12.640
+is this person likely to re-offend?
+
+347
+00:11:13.680 --> 00:11:14.960
+If you look at the visual evidence
+
+348
+00:11:14.960 --> 00:11:16.240
+on slide 17,
+
+349
+00:11:16.240 --> 00:11:17.200
+there's a screenshot
+
+350
+00:11:17.200 --> 00:11:18.640
+of a Business Insider headline.
+
+351
+00:11:18.640 --> 00:11:20.160
+It's a very sobering example.
+
+352
+00:11:20.160 --> 00:11:21.680
+It reports on a sheriff's office
+
+353
+00:11:21.680 --> 00:11:23.440
+that launched an algorithm
+
+354
+00:11:23.440 --> 00:11:24.960
+to basically predict
+
+355
+00:11:24.960 --> 00:11:26.160
+who might commit a crime.
+
+356
+00:11:26.720 --> 00:11:28.240
+And it just resulted in
+
+357
+00:11:28.240 --> 00:11:29.360
+deputies harassing
+
+358
+00:11:29.360 --> 00:11:31.120
+dozens of totally innocent people.
+
+359
+00:11:31.120 --> 00:11:32.560
+That article perfectly
+
+360
+00:11:32.560 --> 00:11:33.920
+illustrates the danger.
+
+361
+00:11:33.920 --> 00:11:35.040
+These risk models
+
+362
+00:11:35.040 --> 00:11:37.360
+can quietly encode social bias,
+
+363
+00:11:37.360 --> 00:11:38.880
+historical policing patterns,
+
+364
+00:11:38.880 --> 00:11:40.160
+and prior records.
+
+365
+00:11:40.160 --> 00:11:41.440
+So they're punishing biology
+
+366
+00:11:41.440 --> 00:11:42.240
+and demographics
+
+367
+00:11:42.240 --> 00:11:44.000
+rather than proven conduct.
+
+368
+00:11:44.000 --> 00:11:44.720
+Exactly.
+
+369
+00:11:44.720 --> 00:11:46.800
+It's a fundamental threat to justice
+
+370
+00:11:46.800 --> 00:11:48.800
+when we stop judging past actions
+
+371
+00:11:48.800 --> 00:11:49.680
+and start penalizing
+
+372
+00:11:49.680 --> 00:11:50.960
+predictive risk.
+
+373
+00:11:50.960 --> 00:11:52.000
+Section pause.
+
+374
+00:11:52.000 --> 00:11:53.360
+So on slide 18,
+
+375
+00:11:53.360 --> 00:11:54.160
+we really see
+
+376
+00:11:54.160 --> 00:11:55.440
+where all these fields collide.
+
+377
+00:11:55.440 --> 00:11:55.920
+Yeah.
+
+378
+00:11:55.920 --> 00:11:57.200
+The exact same neural data
+
+379
+00:11:57.200 --> 00:11:58.800
+could be used for medical care.
+
+380
+00:11:59.360 --> 00:12:00.480
+Or legal evidence.
+
+381
+00:12:00.480 --> 00:12:01.760
+Or corporate surveillance.
+
+382
+00:12:01.760 --> 00:12:02.960
+It creates immense tension.
+
+383
+00:12:02.960 --> 00:12:03.680
+We have to ask about
+
+384
+00:12:03.680 --> 00:12:05.040
+the limits of compelled testing.
+
+385
+00:12:05.040 --> 00:12:06.400
+Like can a court subpoena
+
+386
+00:12:06.400 --> 00:12:08.080
+your consumer EEG app data?
+
+387
+00:12:08.080 --> 00:12:09.040
+Which is why the sources
+
+388
+00:12:09.040 --> 00:12:10.160
+give us this incredibly
+
+389
+00:12:10.160 --> 00:12:12.400
+practical tool on slide 19.
+
+390
+00:12:12.400 --> 00:12:13.600
+The PAILs checklist.
+
+391
+00:12:13.600 --> 00:12:13.920
+Yes.
+
+392
+00:12:13.920 --> 00:12:14.880
+The PAILs framework
+
+393
+00:12:14.880 --> 00:12:15.920
+is a mental checklist
+
+394
+00:12:15.920 --> 00:12:16.400
+you should use
+
+395
+00:12:16.400 --> 00:12:17.200
+before trusting
+
+396
+00:12:17.200 --> 00:12:18.240
+any neuroethical
+
+397
+00:12:18.240 --> 00:12:19.600
+or neuro forensic claims.
+
+398
+00:12:19.600 --> 00:12:20.960
+So let's walk through it.
+
+399
+00:12:20.960 --> 00:12:22.160
+P is for purpose.
+
+400
+00:12:22.160 --> 00:12:22.720
+Right.
+
+401
+00:12:22.720 --> 00:12:24.160
+What decision will the data
+
+402
+00:12:24.160 --> 00:12:25.040
+actually influence
+
+403
+00:12:25.040 --> 00:12:26.240
+and is that justified?
+
+404
+00:12:26.240 --> 00:12:28.320
+Then A is for accuracy.
+
+405
+00:12:28.320 --> 00:12:30.800
+What is the known error rate
+
+406
+00:12:30.800 --> 00:12:32.640
+for this specific population?
+
+407
+00:12:32.640 --> 00:12:34.400
+And that leads right into I,
+
+408
+00:12:34.400 --> 00:12:36.880
+which is individualization.
+
+409
+00:12:36.880 --> 00:12:38.000
+Can we apply
+
+410
+00:12:38.000 --> 00:12:39.440
+this group level science
+
+411
+00:12:39.440 --> 00:12:41.120
+to one specific person?
+
+412
+00:12:41.120 --> 00:12:42.000
+Which connects directly
+
+413
+00:12:42.000 --> 00:12:43.200
+to what we talked about earlier
+
+414
+00:12:43.200 --> 00:12:44.640
+with the evidence ladder.
+
+415
+00:12:44.640 --> 00:12:46.080
+And the rest of the acronym,
+
+416
+00:12:46.080 --> 00:12:47.360
+L for legal standard fit
+
+417
+00:12:47.360 --> 00:12:49.440
+and S for scientific validity.
+
+418
+00:12:49.440 --> 00:12:50.800
+They do the exact same thing.
+
+419
+00:12:50.800 --> 00:12:52.320
+They force us to be rigorous.
+
+420
+00:12:52.320 --> 00:12:54.080
+It's a necessary defense mechanism.
+
+421
+00:12:54.080 --> 00:12:55.040
+It really is.
+
+422
+00:12:55.040 --> 00:12:55.760
+Well we want to thank
+
+423
+00:12:55.760 --> 00:12:56.560
+you the listener
+
+424
+00:12:56.560 --> 00:12:58.000
+for taking this journey with us
+
+425
+00:12:58.000 --> 00:12:58.960
+through the mechanics
+
+426
+00:12:58.960 --> 00:12:59.680
+and the ethics
+
+427
+00:12:59.680 --> 00:13:00.960
+of your own nervous system.
+
+428
+00:13:00.960 --> 00:13:02.320
+It's a lot to process, I know.
+
+429
+00:13:02.320 --> 00:13:03.280
+But we want to leave you
+
+430
+00:13:03.280 --> 00:13:04.640
+with a final slightly
+
+431
+00:13:04.640 --> 00:13:05.520
+provocative thought
+
+432
+00:13:05.520 --> 00:13:07.200
+to mull over on your own.
+
+433
+00:13:07.200 --> 00:13:08.400
+Think about this.
+
+434
+00:13:08.400 --> 00:13:10.000
+We have spent centuries
+
+435
+00:13:10.000 --> 00:13:11.280
+building legal walls
+
+436
+00:13:11.280 --> 00:13:13.040
+to protect our private property
+
+437
+00:13:13.040 --> 00:13:14.240
+and our physical bodies.
+
+438
+00:13:14.240 --> 00:13:14.640
+Right.
+
+439
+00:13:14.640 --> 00:13:16.800
+But if your brain data,
+
+440
+00:13:16.800 --> 00:13:18.240
+your most intimate
+
+441
+00:13:18.240 --> 00:13:19.600
+physiological reactions
+
+442
+00:13:19.600 --> 00:13:20.160
+and memories
+
+443
+00:13:20.160 --> 00:13:21.520
+can be continuously logged
+
+444
+00:13:21.520 --> 00:13:22.800
+by the glasses on your face
+
+445
+00:13:22.800 --> 00:13:24.560
+or the watch on your wrist.
+
+446
+00:13:24.560 --> 00:13:25.440
+At what point
+
+447
+00:13:25.440 --> 00:13:26.560
+does your inner monologue
+
+448
+00:13:26.560 --> 00:13:27.440
+become a matter
+
+449
+00:13:27.520 --> 00:13:28.960
+of public record?
+
+450
+00:13:28.960 --> 00:13:29.840
+Definitely something to think
+
+451
+00:13:29.840 --> 00:13:30.320
+about.
+
+452
+00:13:30.320 --> 00:13:31.040
+Catch you next time
+
+453
+00:13:31.040 --> 00:13:31.760
+on the Deep Dive.

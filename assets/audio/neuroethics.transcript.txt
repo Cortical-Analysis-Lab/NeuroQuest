@@ -1,0 +1,453 @@
+[0.00 - 6.64] So we generally think of our thoughts, you know, our inner monologue as this ultimate private sanctuary.
+[6.64 - 8.88] Yeah. Like a totally impenetrable vault.
+[8.88 - 13.44] Right, exactly. It's the one place that has historically been, well, entirely yours.
+[13.44 - 16.80] Yeah, you can be sitting in a crowded room just nodding along to a conversation,
+[17.44 - 22.48] but inside your head you're a million miles away and absolutely no one can prove otherwise.
+[22.48 - 26.72] Completely inaccessible, unless of course you give explicit permission to share what you're thinking.
+[27.60 - 32.16] But today, in this deep dive, we're looking at a stack of research that suggests
+[32.16 - 35.36] that vault door is, well, it's starting to crack open.
+[35.36 - 36.08] It really is.
+[36.08 - 40.24] We're exploring how those private biological signals inside your brain are becoming data
+[40.88 - 45.28] and then how that data becomes legal evidence shapes public policy and,
+[45.28 - 47.68] I mean, ultimately becomes a tool of power.
+[47.68 - 52.00] It's a profound shift. We are watching neuroscience basically escape the sterile
+[52.00 - 54.88] laboratory and just enter the chaotic real world.
+[54.88 - 55.28] Right.
+[55.44 - 59.92] If you look at slides one and two, there are two distinct fields trying to make sense of this.
+[59.92 - 66.40] First, you have neuroethics, which grapples with the practical questions of your autonomy and safety
+[67.44 - 70.72] when consumer devices start harvesting your brain data.
+[70.72 - 72.00] Like your smartwatches and stuff.
+[72.00 - 75.44] Exactly. And second, there's neuroforensics,
+[75.44 - 79.84] which looks at what happens when this brain science actually enters the legal system.
+[79.84 - 83.92] And while those might sound like two totally different academic textbooks,
+[83.92 - 87.68] the real takeaway for you listening today isn't about just memorizing definitions.
+[87.68 - 89.44] It's about what happens in the overlap.
+[89.44 - 91.28] That overlap is crucial.
+[91.28 - 96.64] Because brain data becomes socially powerful the exact second it moves out of a specialized lab
+[96.64 - 100.56] and suddenly shows up in, you know, a primary care clinic or a courtroom
+[100.56 - 103.20] or the smart glasses you're wearing on your commute.
+[103.20 - 107.04] That migration is the core issue here because understanding the shift
+[107.04 - 111.28] fundamentally changes how we measure and really how we judge human behavior.
+[111.92 - 113.04] Section pause.
+[113.04 - 114.88] So let's get into the why now factor.
+[114.88 - 117.52] Like why is this suddenly such a pressing issue?
+[117.52 - 120.88] It really comes down to the explosion of neurotechnology.
+[120.88 - 125.36] We are seeing nervous system data being collected not by doctors in white coats,
+[125.36 - 127.76] but by everyday consumer tools.
+[127.76 - 132.16] We're talking about, you know, smartwatches tracking your heart rate variability
+[132.16 - 133.84] to guess your stress levels.
+[133.84 - 136.64] Or sleep headbands monitoring your brainwaves.
+[137.28 - 141.84] Even virtual reality headsets that use eye tracking to see exactly what holds your attention.
+[141.84 - 142.64] Which is wild.
+[142.96 - 145.68] But I do want to push back a little and ground this.
+[145.68 - 148.56] Because are we actually reading minds yet?
+[149.36 - 150.48] Or is that just sci-fi?
+[150.48 - 152.24] No, no, it's not telepathy.
+[152.24 - 156.56] Because the way I understand it, having an AI analyze your neural signals
+[156.56 - 158.80] is a lot like having a smart thermostat in your house.
+[158.80 - 160.00] Okay, I like that analogy.
+[160.00 - 163.60] The thermostat isn't actually no cold for guys, right?
+[163.60 - 164.72] It doesn't have empathy.
+[164.72 - 166.08] It just recognizes a pattern.
+[166.72 - 169.36] Like the ambient temperature dropped below 68 degrees.
+[169.36 - 171.28] So a sensor triggers the heat.
+[171.28 - 173.60] That hits the exact mechanism at play here.
+[173.60 - 178.00] No one is, you know, pulling a vivid image of your childhood out of your cortex.
+[178.00 - 178.40] Right.
+[178.40 - 181.44] The real danger is that AI is now incredibly capable
+[181.44 - 184.48] of taking extremely weak biological signals
+[184.48 - 186.64] and combining them with your past behavior,
+[186.64 - 188.96] your other biometrics, and your environment.
+[188.96 - 191.04] To create these really powerful inferences.
+[191.04 - 191.44] Yes.
+[191.44 - 192.96] So the ethical question becomes,
+[193.68 - 195.92] what decisions will this measurement support?
+[196.48 - 199.36] And who bears the risk if the AI is wrong?
+[199.36 - 201.20] Okay, so if we look at slide five,
+[201.92 - 204.80] it breaks down what actually counts as neural data.
+[204.80 - 206.40] Because to get to that educated guess,
+[206.40 - 208.40] you have to start with raw biology, right?
+[208.40 - 208.80] Exactly.
+[208.80 - 210.64] You start with the raw physical measurements.
+[210.64 - 212.08] Things like EEG spikes,
+[212.08 - 213.92] where they put those electrodes on your scalp
+[213.92 - 216.32] to pick up the electrical chatter of your neurons firing.
+[217.04 - 218.88] Or local field potentials,
+[218.88 - 224.16] which is basically listening in on a very specific neighborhood of neurons.
+[224.16 - 224.40] Right.
+[224.40 - 227.92] At that stage, it is literally just biological plumbing and electricity.
+[227.92 - 231.12] But then algorithms process those raw signals
+[231.12 - 232.80] into recognizable features.
+[232.80 - 234.00] They sort through all the static
+[234.00 - 236.00] and find a specific rhythm in your brainwaves.
+[236.00 - 237.36] And that's where the jump happens.
+[238.00 - 239.84] Finally, that feature is translated
+[239.84 - 242.00] into a decoded state or an inference.
+[242.00 - 243.76] So the system goes from saying,
+[243.76 - 246.48] this area of the cortex has more blood flow
+[246.48 - 248.88] to declaring this person is experiencing
+[248.88 - 250.40] a severe craving or something.
+[250.40 - 252.48] And the risk skyrockets the moment you move
+[252.48 - 255.84] from that raw physical signal to the final inference.
+[256.56 - 260.16] Because an inference is fundamentally an interpretation.
+[260.16 - 263.12] It's a machine translating a biological reflex
+[263.12 - 264.72] into a psychological state.
+[264.72 - 265.28] Exactly.
+[265.28 - 267.44] And those interpretations can be deeply flawed.
+[267.44 - 269.52] They can be biased by the training data
+[269.52 - 272.72] or just completely inaccurate for the context you're in.
+[272.72 - 276.48] It's terrifying when you realize that interpretation could be sold.
+[277.04 - 280.64] But it is fascinating to see how lawmakers are finally reacting to this.
+[280.64 - 281.36] Oh, absolutely.
+[281.36 - 283.44] The regulation is just starting to catch up.
+[283.52 - 287.44] Yeah, the sources highlight this massive milestone from 2024,
+[287.44 - 290.64] where Colorado actually became the first U.S. state
+[290.64 - 293.52] to add neural data to its privacy protection frameworks.
+[293.52 - 295.36] Which is a monumental precedent.
+[295.36 - 296.96] Lawmakers are finally recognizing
+[296.96 - 299.12] that the electrical impulses from your nervous system
+[299.12 - 301.36] need the same, if not stricter protections,
+[301.36 - 302.88] than your financial records.
+[302.88 - 304.16] Which makes total sense.
+[304.16 - 304.88] Section pause.
+[305.92 - 308.32] But regulating an app on your phone is one thing.
+[308.32 - 311.20] What happens when we drag this technology into a courtroom?
+[311.20 - 313.36] That's where it gets really complicated.
+[313.36 - 314.56] Because the legal system,
+[314.56 - 316.64] it doesn't deal in abstract lab theories.
+[316.64 - 317.92] It needs practical answers.
+[318.80 - 321.28] Juries want to know about confidence.
+[321.28 - 324.48] Like, is this defendant fit to stand trial?
+[325.04 - 326.16] Or intent?
+[326.16 - 327.68] Right. Or in a civil case,
+[327.68 - 330.56] is someone's claim of chronic pain objectively real?
+[330.56 - 331.92] Or are they faking it?
+[331.92 - 333.44] They want definitive proof.
+[333.44 - 336.32] Not just impressive, colorful brain images.
+[336.32 - 337.52] And that's the friction.
+[337.52 - 339.20] The law wants black and white.
+[339.20 - 341.28] But neuroscience is all probabilities.
+[341.84 - 343.04] So to bridge that gap,
+[343.04 - 346.08] we have this concept on slide 8 called the evidence ladder.
+[346.08 - 347.92] The evidence ladder is essentially
+[347.92 - 350.24] this rigorous staircase you have to climb
+[350.24 - 351.84] to prove that scientific evidence
+[351.84 - 353.44] is reliable enough for a jury.
+[353.44 - 355.28] So visually describing this slide,
+[355.28 - 356.16] at the bottom of the ladder,
+[356.16 - 358.08] you have interesting lab science.
+[358.72 - 360.40] You know, a cool correlation
+[360.40 - 362.08] in a highly controlled environment.
+[362.08 - 364.00] Right. Then you step up to clinical use.
+[364.00 - 366.64] Meaning other scientists can replicate the experiment.
+[366.64 - 367.68] But the next step up
+[367.68 - 370.88] is where it gets tough individual-level validation.
+[370.88 - 373.84] That step is the graveyard for so many studies.
+[373.84 - 376.16] It's easy to say a brainwave pattern
+[376.16 - 378.64] happens in a group of 50 healthy college students.
+[378.64 - 379.44] Sure.
+[379.44 - 381.28] It is incredibly difficult to prove
+[381.28 - 383.52] that exact same pattern applies to,
+[384.24 - 387.44] say, a 45-year-old defendant with head trauma.
+[387.44 - 390.72] You need the error rate for that specific individual.
+[390.72 - 392.64] And if you somehow survive that step,
+[392.64 - 396.32] the very top of the ladder is legal standard fit.
+[396.32 - 399.04] Meaning, does the science actually answer
+[399.04 - 400.96] the specific legal question?
+[400.96 - 401.28] Yes.
+[401.28 - 402.16] Which sets up a question
+[402.16 - 403.60] I really want to push back on.
+[403.60 - 405.12] Let's say someone commits a crime
+[405.12 - 406.96] and their attorney produces an MRI
+[406.96 - 409.28] showing a massive structural abnormality,
+[409.28 - 411.12] like a giant tumor on their front lobe.
+[411.12 - 411.84] Okay.
+[411.84 - 414.08] Doesn't that visible physical brokenness
+[414.08 - 416.08] automatically prove they lacked intent?
+[416.08 - 417.28] I am so glad you brought this up
+[417.28 - 419.28] because it is arguably the most common
+[419.28 - 421.04] misconception in neuroforensics.
+[421.04 - 422.96] The short answer is absolutely not.
+[422.96 - 423.52] Wait, really?
+[423.52 - 424.80] Even if there is a massive tumor
+[424.80 - 426.64] right where their decision-making happens?
+[426.64 - 427.20] Even then.
+[427.84 - 430.24] A structural abnormality can support
+[430.24 - 432.48] a claim like it can corroborate
+[432.48 - 434.08] a history of erratic behavior,
+[434.80 - 437.04] but it cannot automatically prove intent.
+[437.60 - 439.04] Because having a compromised brain
+[439.04 - 440.00] doesn't mean you didn't know
+[440.00 - 440.96] you were breaking the law
+[440.96 - 442.16] in that specific moment.
+[442.16 - 443.12] Precisely.
+[443.12 - 444.24] The question isn't,
+[444.24 - 445.52] is the scan real?
+[446.08 - 448.48] It's what legal inference
+[448.48 - 451.28] is actually justified by this image.
+[451.28 - 452.48] And the science just cannot
+[452.48 - 454.00] make that leap on its own.
+[454.00 - 454.64] Section, pause.
+[455.44 - 456.80] So the physical brain structure
+[456.80 - 458.88] isn't a get-out-of-jail-free card.
+[458.88 - 460.40] But what about when the legal system
+[460.40 - 461.52] tries to look at how the brain
+[461.52 - 462.56] is actively functioning,
+[463.28 - 464.96] especially with lie detection?
+[464.96 - 467.04] Ah, deception detection.
+[467.04 - 468.48] There is a massive gap here
+[468.48 - 470.24] between the science and the law.
+[470.24 - 472.16] The sources point out that lab studies
+[472.16 - 474.32] where you play simple yes or no games
+[474.32 - 475.76] or commit a mock crime,
+[475.76 - 477.60] they completely fail to replicate
+[477.60 - 479.52] real-world legal deception.
+[479.52 - 480.72] Because real-world lying
+[480.72 - 482.72] in a legal context is retrospective.
+[482.72 - 484.00] It's highly emotional.
+[484.00 - 484.88] It's strategic.
+[484.88 - 486.00] It's adversarial.
+[486.00 - 486.40] Right.
+[486.40 - 488.24] Group activation patterns in a lab
+[488.24 - 489.76] just don't guarantee valid
+[489.76 - 491.44] individual classification
+[491.44 - 492.80] for someone sitting in a courtroom
+[492.80 - 493.76] whose heart is pounding
+[493.76 - 494.80] out of their chest.
+[494.80 - 495.76] To see this visually,
+[495.76 - 496.80] if you look at the diagram
+[496.80 - 498.00] on slide 12,
+[498.00 - 499.76] it shows this split approach
+[499.76 - 500.64] to lie detection.
+[501.44 - 502.08] On the left,
+[502.08 - 502.96] you have traditional
+[502.96 - 504.08] physiological detection.
+[504.08 - 505.60] Yeah, plastic, polygraph.
+[505.60 - 506.64] Yeah, measuring blood pressure
+[506.64 - 508.00] with an arm cuff,
+[508.00 - 509.20] sweat from finger plates,
+[509.20 - 510.96] and breathing from chest tubes.
+[510.96 - 512.08] But on the right,
+[512.08 - 514.16] you have an fMRI brain scan
+[514.16 - 515.52] showing these glowing areas
+[515.52 - 517.68] of activation linked to lying.
+[517.68 - 518.08] But again,
+[518.08 - 519.36] it's measuring arousal
+[519.36 - 520.40] and cognitive load.
+[520.40 - 522.24] It's not actually measuring a lie.
+[522.24 - 522.48] Right.
+[522.48 - 523.68] And if we move to the visual
+[523.68 - 524.64] on slide 13,
+[524.64 - 525.52] you can see how this tech
+[525.52 - 526.40] is evolving.
+[526.40 - 527.68] Notice how the focus shifts
+[527.68 - 529.20] to everyday wearables.
+[529.20 - 530.32] There's an image
+[530.32 - 533.04] of Meta's Ray-Ban smart glasses.
+[533.04 - 534.16] Which raises the question.
+[534.72 - 536.00] Could AI glasses
+[536.00 - 537.44] analyze micro-expressions
+[537.44 - 539.52] to detect lies in real time?
+[539.52 - 541.04] It's wild to think about.
+[541.12 - 542.32] And then on slide 14,
+[542.32 - 544.00] we get an even closer look.
+[544.00 - 545.20] Visually, there's a graphic
+[545.20 - 546.56] of faces overlaid
+[546.56 - 547.44] with these colorful
+[547.44 - 549.04] geometric tracking nodes
+[549.04 - 550.48] mapping all the facial landmarks
+[550.48 - 551.44] to show how AI
+[551.44 - 552.96] interprets human expression.
+[552.96 - 554.00] It's turning tiny
+[554.00 - 555.92] muscle movements into data.
+[555.92 - 556.80] Exactly.
+[556.80 - 558.24] Let's actually take a quick pause
+[558.24 - 559.20] to see how this video
+[559.20 - 560.32] based lie detection
+[560.32 - 561.12] works in action.
+[561.92 - 563.36] Pause for media.
+[563.36 - 564.72] Video about video
+[564.72 - 565.76] based lie detection.
+[566.72 - 568.32] Okay, so following that video,
+[568.32 - 569.12] you could really see
+[569.12 - 570.56] how the AI algorithms
+[570.56 - 572.00] map those facial movements
+[572.00 - 573.36] in real time,
+[573.36 - 575.12] analyzing those micro-expressions
+[575.12 - 576.40] for potential deception.
+[576.40 - 577.68] It's incredibly fast
+[577.68 - 579.04] at mapping those expressions.
+[579.04 - 580.08] But we have to connect this
+[580.08 - 581.52] back to our core concept.
+[581.52 - 583.20] Right, because we still have to ask
+[583.20 - 585.20] if a twitch actually equates
+[585.20 - 586.32] to a guilty lie.
+[586.32 - 587.36] Exactly. Is it a lie?
+[587.36 - 588.72] Or is the person just
+[588.72 - 590.24] experiencing high stress arousal
+[590.24 - 591.92] because they are being interrogated?
+[591.92 - 592.88] Like if I'm being questioned
+[592.88 - 593.68] by the police,
+[593.68 - 595.36] my face is probably going to twitch
+[595.36 - 596.56] just out of peer anxiety.
+[596.56 - 597.36] Precisely.
+[597.36 - 598.56] Section pause.
+[598.56 - 599.28] So we've talked about
+[599.28 - 600.48] detecting lies in the moment.
+[600.96 - 602.08] Let's move to slide 15
+[602.08 - 603.36] and talk about detecting memories
+[604.08 - 604.96] because this feels
+[604.96 - 606.00] even more invasive.
+[606.00 - 606.80] Memory detection
+[606.80 - 607.92] is a fascinating area,
+[607.92 - 609.04] specifically the concealed
+[609.04 - 610.08] information test.
+[610.08 - 611.52] Right, so visually on slide 15,
+[611.52 - 612.24] there's an illustration
+[612.24 - 614.32] of an EEG recording setup
+[614.32 - 615.84] and it explains how these tests
+[615.84 - 617.52] look for a specific brain wave
+[617.52 - 619.44] called a P300 spike.
+[619.44 - 621.12] Yes, the P300
+[621.12 - 622.56] event-related potential.
+[623.20 - 624.80] Basically, your brain produces
+[624.80 - 626.88] this spike when it recognizes
+[626.88 - 628.72] rare, meaningful stimuli.
+[628.72 - 630.32] So like if they show a suspect
+[630.32 - 631.92] a picture of a murder weapon
+[631.92 - 632.96] and their brain spikes,
+[632.96 - 634.32] that means they recognize it.
+[634.32 - 635.76] Yes, but this is where I have to
+[635.76 - 637.68] offer some major pushback.
+[637.68 - 638.96] There is a massive
+[638.96 - 640.40] contamination risk here.
+[640.40 - 642.48] Because recognition isn't guilt.
+[642.48 - 643.68] Exactly.
+[643.68 - 644.72] The brain might spike
+[644.72 - 645.60] because the suspect
+[645.60 - 647.44] saw the weapon on the evening news
+[647.44 - 648.56] or maybe a detective
+[648.56 - 649.84] left a photo on the table
+[649.84 - 651.52] during a messy interrogation.
+[651.52 - 652.24] Oh wow.
+[652.24 - 653.20] Yeah, that makes sense.
+[653.20 - 655.28] Familiarity does not equal action
+[655.28 - 656.16] and it certainly doesn't
+[656.16 - 657.76] equal moral responsibility.
+[657.76 - 659.44] That's a huge distinction,
+[659.44 - 661.68] but as scary as mining the past is,
+[661.68 - 663.36] introducing predictive risk
+[663.36 - 664.56] might be the most dangerous
+[664.56 - 665.76] use case we look at today.
+[665.76 - 666.64] Without a doubt,
+[666.64 - 668.08] using brain-based data
+[668.08 - 669.68] to predict future behavior.
+[669.68 - 670.48] Like asking,
+[670.48 - 672.64] is this person likely to re-offend?
+[673.68 - 674.96] If you look at the visual evidence
+[674.96 - 676.24] on slide 17,
+[676.24 - 677.20] there's a screenshot
+[677.20 - 678.64] of a Business Insider headline.
+[678.64 - 680.16] It's a very sobering example.
+[680.16 - 681.68] It reports on a sheriff's office
+[681.68 - 683.44] that launched an algorithm
+[683.44 - 684.96] to basically predict
+[684.96 - 686.16] who might commit a crime.
+[686.72 - 688.24] And it just resulted in
+[688.24 - 689.36] deputies harassing
+[689.36 - 691.12] dozens of totally innocent people.
+[691.12 - 692.56] That article perfectly
+[692.56 - 693.92] illustrates the danger.
+[693.92 - 695.04] These risk models
+[695.04 - 697.36] can quietly encode social bias,
+[697.36 - 698.88] historical policing patterns,
+[698.88 - 700.16] and prior records.
+[700.16 - 701.44] So they're punishing biology
+[701.44 - 702.24] and demographics
+[702.24 - 704.00] rather than proven conduct.
+[704.00 - 704.72] Exactly.
+[704.72 - 706.80] It's a fundamental threat to justice
+[706.80 - 708.80] when we stop judging past actions
+[708.80 - 709.68] and start penalizing
+[709.68 - 710.96] predictive risk.
+[710.96 - 712.00] Section pause.
+[712.00 - 713.36] So on slide 18,
+[713.36 - 714.16] we really see
+[714.16 - 715.44] where all these fields collide.
+[715.44 - 715.92] Yeah.
+[715.92 - 717.20] The exact same neural data
+[717.20 - 718.80] could be used for medical care.
+[719.36 - 720.48] Or legal evidence.
+[720.48 - 721.76] Or corporate surveillance.
+[721.76 - 722.96] It creates immense tension.
+[722.96 - 723.68] We have to ask about
+[723.68 - 725.04] the limits of compelled testing.
+[725.04 - 726.40] Like can a court subpoena
+[726.40 - 728.08] your consumer EEG app data?
+[728.08 - 729.04] Which is why the sources
+[729.04 - 730.16] give us this incredibly
+[730.16 - 732.40] practical tool on slide 19.
+[732.40 - 733.60] The PAILs checklist.
+[733.60 - 733.92] Yes.
+[733.92 - 734.88] The PAILs framework
+[734.88 - 735.92] is a mental checklist
+[735.92 - 736.40] you should use
+[736.40 - 737.20] before trusting
+[737.20 - 738.24] any neuroethical
+[738.24 - 739.60] or neuro forensic claims.
+[739.60 - 740.96] So let's walk through it.
+[740.96 - 742.16] P is for purpose.
+[742.16 - 742.72] Right.
+[742.72 - 744.16] What decision will the data
+[744.16 - 745.04] actually influence
+[745.04 - 746.24] and is that justified?
+[746.24 - 748.32] Then A is for accuracy.
+[748.32 - 750.80] What is the known error rate
+[750.80 - 752.64] for this specific population?
+[752.64 - 754.40] And that leads right into I,
+[754.40 - 756.88] which is individualization.
+[756.88 - 758.00] Can we apply
+[758.00 - 759.44] this group level science
+[759.44 - 761.12] to one specific person?
+[761.12 - 762.00] Which connects directly
+[762.00 - 763.20] to what we talked about earlier
+[763.20 - 764.64] with the evidence ladder.
+[764.64 - 766.08] And the rest of the acronym,
+[766.08 - 767.36] L for legal standard fit
+[767.36 - 769.44] and S for scientific validity.
+[769.44 - 770.80] They do the exact same thing.
+[770.80 - 772.32] They force us to be rigorous.
+[772.32 - 774.08] It's a necessary defense mechanism.
+[774.08 - 775.04] It really is.
+[775.04 - 775.76] Well we want to thank
+[775.76 - 776.56] you the listener
+[776.56 - 778.00] for taking this journey with us
+[778.00 - 778.96] through the mechanics
+[778.96 - 779.68] and the ethics
+[779.68 - 780.96] of your own nervous system.
+[780.96 - 782.32] It's a lot to process, I know.
+[782.32 - 783.28] But we want to leave you
+[783.28 - 784.64] with a final slightly
+[784.64 - 785.52] provocative thought
+[785.52 - 787.20] to mull over on your own.
+[787.20 - 788.40] Think about this.
+[788.40 - 790.00] We have spent centuries
+[790.00 - 791.28] building legal walls
+[791.28 - 793.04] to protect our private property
+[793.04 - 794.24] and our physical bodies.
+[794.24 - 794.64] Right.
+[794.64 - 796.80] But if your brain data,
+[796.80 - 798.24] your most intimate
+[798.24 - 799.60] physiological reactions
+[799.60 - 800.16] and memories
+[800.16 - 801.52] can be continuously logged
+[801.52 - 802.80] by the glasses on your face
+[802.80 - 804.56] or the watch on your wrist.
+[804.56 - 805.44] At what point
+[805.44 - 806.56] does your inner monologue
+[806.56 - 807.44] become a matter
+[807.52 - 808.96] of public record?
+[808.96 - 809.84] Definitely something to think
+[809.84 - 810.32] about.
+[810.32 - 811.04] Catch you next time
+[811.04 - 811.76] on the Deep Dive.

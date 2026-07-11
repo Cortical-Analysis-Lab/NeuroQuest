@@ -1284,24 +1284,36 @@
           </div>
           <span class="module-action">Open module</span>
         </button>
-        <div class="module-card locked">
-          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-08</span></div>
-          <h3>Module 8</h3>
-          <p>Presentation module not built yet.</p>
-          <span class="module-action">Coming soon</span>
-        </div>
-        <div class="module-card locked">
-          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-09</span></div>
-          <h3>Neuroethics & Neuro Forensics</h3>
-          <p>Presentation module not built yet.</p>
-          <span class="module-action">Coming soon</span>
-        </div>
-        <div class="module-card locked">
-          <div class="module-top"><span class="module-badge">Locked</span><span>NQ-10</span></div>
-          <h3>Module 10</h3>
-          <p>Presentation module not built yet.</p>
-          <span class="module-action">Coming soon</span>
-        </div>
+        <button class="module-card" id="consciousnessModuleBtn" type="button" data-module-card="consciousness">
+          <div class="module-top"><span class="module-badge">Review</span><span>NQ-08</span></div>
+          <h3>Consciousness</h3>
+          <p>Audio-guided review build for the consciousness presentation and alignment pass.</p>
+          <div class="module-progress" aria-label="Consciousness progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="consciousness">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="consciousness"></div></div>
+          </div>
+          <span class="module-action">Review module</span>
+        </button>
+        <button class="module-card" id="neuroethicsModuleBtn" type="button" data-module-card="neuroethics">
+          <div class="module-top"><span class="module-badge">Review</span><span>NQ-09</span></div>
+          <h3>Neuroethics & Neuroforensics</h3>
+          <p>Audio-guided review build for brain data, evidence, ethics, and forensic questions.</p>
+          <div class="module-progress" aria-label="Neuroethics progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="neuroethics">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="neuroethics"></div></div>
+          </div>
+          <span class="module-action">Review module</span>
+        </button>
+        <button class="module-card" id="educationAiModuleBtn" type="button" data-module-card="education_ai">
+          <div class="module-top"><span class="module-badge">Review</span><span>NQ-10</span></div>
+          <h3>Education & AI</h3>
+          <p>Audio-guided review build for AI use, cognition, effort, and learning design.</p>
+          <div class="module-progress" aria-label="Education and AI progress">
+            <div class="module-progress-row"><span>Complete</span><span data-progress-label="education_ai">0%</span></div>
+            <div class="module-progress-track"><div class="module-progress-fill" data-progress-fill="education_ai"></div></div>
+          </div>
+          <span class="module-action">Review module</span>
+        </button>
       </div>
     </section>
 
@@ -1619,6 +1631,9 @@
   <script src="assets/audio/language-transcript.js"></script>
   <script src="assets/audio/technology-transcript.js"></script>
   <script src="assets/audio/neurophysiology-transcript.js"></script>
+  <script src="assets/audio/consciousness-transcript.js"></script>
+  <script src="assets/audio/neuroethics-transcript.js"></script>
+  <script src="assets/audio/education_ai-transcript.js"></script>
   <script src="assets/audio/course-modules.js"></script>
   <script src="assets/media/media-overlays.js"></script>
   <script>
@@ -1992,7 +2007,10 @@
       neuropsych: Array.isArray(window.NEUROPSYCH_TRANSCRIPT) ? window.NEUROPSYCH_TRANSCRIPT : [],
       language: Array.isArray(window.LANGUAGE_TRANSCRIPT) ? window.LANGUAGE_TRANSCRIPT : [],
       technology: Array.isArray(window.TECHNOLOGY_TRANSCRIPT) ? window.TECHNOLOGY_TRANSCRIPT : [],
-      neurophysiology: Array.isArray(window.NEUROPHYSIOLOGY_TRANSCRIPT) ? window.NEUROPHYSIOLOGY_TRANSCRIPT : []
+      neurophysiology: Array.isArray(window.NEUROPHYSIOLOGY_TRANSCRIPT) ? window.NEUROPHYSIOLOGY_TRANSCRIPT : [],
+      consciousness: Array.isArray(window.CONSCIOUSNESS_TRANSCRIPT) ? window.CONSCIOUSNESS_TRANSCRIPT : [],
+      neuroethics: Array.isArray(window.NEUROETHICS_TRANSCRIPT) ? window.NEUROETHICS_TRANSCRIPT : [],
+      education_ai: Array.isArray(window.EDUCATION_AI_TRANSCRIPT) ? window.EDUCATION_AI_TRANSCRIPT : []
     };
     const anatomyState = { cueIndex: 0, index: anatomyCues[0].slide - 1, autoPlaying: false };
     const toolsState = { cueIndex: 0, index: toolsCues[0].slide - 1, autoPlaying: false };
@@ -2031,6 +2049,9 @@
       languageModuleBtn: document.getElementById("languageModuleBtn"),
       technologyModuleBtn: document.getElementById("technologyModuleBtn"),
       agingModuleBtn: document.getElementById("agingModuleBtn"),
+      consciousnessModuleBtn: document.getElementById("consciousnessModuleBtn"),
+      neuroethicsModuleBtn: document.getElementById("neuroethicsModuleBtn"),
+      educationAiModuleBtn: document.getElementById("educationAiModuleBtn"),
       previewBanner: document.getElementById("previewBanner"),
       exitPreviewLink: document.getElementById("exitPreviewLink"),
       anatomyModuleBtn: document.getElementById("anatomyModuleBtn"),
@@ -3533,7 +3554,17 @@
         languageandcommunication: "language",
         technology: "technology",
         technologybrain: "technology",
-        technologyandthebrain: "technology"
+        technologyandthebrain: "technology",
+        consciousness: "consciousness",
+        conciousness: "consciousness",
+        conscious: "consciousness",
+        neuroethics: "neuroethics",
+        neuroforensics: "neuroethics",
+        neuroethicsneuroforensics: "neuroethics",
+        neuroethicsandneuroforensics: "neuroethics",
+        educationai: "education_ai",
+        educationandai: "education_ai",
+        education_ai: "education_ai"
       };
 
       const canonicalModuleId = moduleAliases[normalizedModuleId];
@@ -3575,6 +3606,9 @@
     el.neuropsychModuleBtn.addEventListener("click", () => openModule("neuropsych"));
     el.languageModuleBtn.addEventListener("click", () => openModule("language"));
     el.technologyModuleBtn.addEventListener("click", () => openModule("technology"));
+    el.consciousnessModuleBtn.addEventListener("click", () => openModule("consciousness"));
+    el.neuroethicsModuleBtn.addEventListener("click", () => openModule("neuroethics"));
+    el.educationAiModuleBtn.addEventListener("click", () => openModule("education_ai"));
     el.agingModuleBtn.addEventListener("click", () => openModule("aging"));
     el.anatomyModuleBtn.addEventListener("click", () => openModule("anatomy"));
     el.anatomyPrevBtn.addEventListener("click", () => changeAnatomySlide(-1));
