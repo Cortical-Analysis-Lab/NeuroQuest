@@ -101,6 +101,45 @@ https://cortical-analysis-lab.github.io/NeuroQuest/
 </iframe>
 ```
 
+### Consciousness
+
+```html
+<iframe
+  title="NeuroQuest Consciousness"
+  src="https://cortical-analysis-lab.github.io/NeuroQuest/index.html?module=consciousness"
+  width="100%"
+  height="850"
+  style="border:0; width:100%; min-height:850px;"
+  allow="autoplay; fullscreen">
+</iframe>
+```
+
+### Neuroethics & Neuroforensics
+
+```html
+<iframe
+  title="NeuroQuest Neuroethics and Neuroforensics"
+  src="https://cortical-analysis-lab.github.io/NeuroQuest/index.html?module=neuroethics"
+  width="100%"
+  height="850"
+  style="border:0; width:100%; min-height:850px;"
+  allow="autoplay; fullscreen">
+</iframe>
+```
+
+### Education & AI
+
+```html
+<iframe
+  title="NeuroQuest Education and AI"
+  src="https://cortical-analysis-lab.github.io/NeuroQuest/index.html?module=education_ai"
+  width="100%"
+  height="850"
+  style="border:0; width:100%; min-height:850px;"
+  allow="autoplay; fullscreen">
+</iframe>
+```
+
 ## Future Module Template
 
 Add the module ID to `index.html`'s `openModule()` alias map, then use this pattern.
